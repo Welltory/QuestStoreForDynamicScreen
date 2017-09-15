@@ -123,7 +123,7 @@
               },
               "text": "Complete",
               "type": "status",
-              "style": "status_fullscreen"
+              "style": "status_preview"
             }
           ],
           "action": {
