@@ -5,7 +5,7 @@ module.exports = {
             require("./status_complete.js")
         ],
         "content": [{
-            "style": "title",
+            "style": "text_title",
             "text": "Make yourself happier in 2 weeks",
             "type": "text"
         }, {
@@ -24,14 +24,14 @@ module.exports = {
             "height": 26,
             "type": "spacer"
         }, {
-            "style": "header1",
+            "style": "text_header1",
             "text": "About the quest",
             "type": "text"
         }, {
             "height": 10,
             "type": "spacer"
         }, {
-            "style": "text",
+            "style": "text_default",
             "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
             "type": "text"
         }]

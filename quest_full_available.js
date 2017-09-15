@@ -7,7 +7,7 @@ model.exports = {
             "url": "https://ucarecdn.com/b6508341-35f6-4671-81ba-93bfe7010d19/"
         },
         "text": "Start playing",
-        "style": "green",
+        "style": "button_green",
         "type": "button",
         "action": {
             "method": "POST",
@@ -16,7 +16,7 @@ model.exports = {
         }
     }],
     "content": [{
-        "style": "title",
+        "style": "text_title",
         "text": "OnboardingFree (no user)",
         "type": "text"
     }, {
@@ -29,12 +29,12 @@ model.exports = {
             "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/"
         }
     }, {
-        "style": "header1",
+        "style": "text_header1",
         "text": "About the quest",
         "type": "text"
     }, {
         "text": "Бла бла бла \r\nЕще одна строчка с бла бла бла",
-        "style": "text",
+        "style": "text_default",
         "type": "text"
     }]
 }
