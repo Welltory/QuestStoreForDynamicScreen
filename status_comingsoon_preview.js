@@ -6,5 +6,6 @@ module.exports = {
         "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
     },
     "text": "Coming Soon",
-    "type": "status"
+    "type": "status",
+    "style": "status_preview"
 }

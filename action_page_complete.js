@@ -2,7 +2,7 @@ module.exports = {
     "variant": "push",
     "page": {
         "footer": [
-            require("./status_complete.js")
+            require("./status_complete_fullscreen.js")
         ],
         "content": [{
             "style": "text_title",

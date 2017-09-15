@@ -6,5 +6,6 @@ module.exports = {
         "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
     },
     "text": "Complete",
-    "type": "status"
+    "type": "status",
+    "style": "status_preview"
 }
