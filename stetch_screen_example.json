@@ -1,0 +1,38 @@
+{
+    "title": "Act",
+    "content": [
+        {
+            "type": "spacer",
+            "height": 25
+        },
+        {
+            "style": "text_header1",
+            "text": "1/4 of whole view",
+            "type": "text",
+            "height": "25%"
+        },
+        {
+            "style": "text_header1",
+            "text": "40 points",
+            "type": "text",
+            "height": "40pt"
+        },
+        {
+            "style": "text_header1",
+            "text": "Wegiht 1",
+            "type": "text",
+            "height": "1"
+        },
+        {
+            "style": "text_header1",
+            "text": "No size",
+            "type": "text"
+        },
+        {
+            "style": "text_header1",
+            "text": "Wegiht 3",
+            "type": "text",
+            "height": "3"
+        }
+    ]
+}
