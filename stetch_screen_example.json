@@ -2,37 +2,37 @@
     "title": "Act",
     "content": [
         {
+            "style": "text_title",
+            "text": "Name of the quest\nin 2 rows",
+            "type": "text",
+            "height": 100
+        },
+        {
             "type": "spacer",
-            "height": 25
+            "weight": 140
+        },
+        {
+            "align": "center",
+            "type": "image",
+            "url": {
+                "url": "https://ucarecdn.com/3278728c-9d40-4a79-9bb8-c3a3f3e16548",
+                "uploadcare_id" : "3278728c-9d40-4a79-9bb8-c3a3f3e16548",
+                "width": 100,
+                "height": 100
+            }
+        },
+        {
+            "type": "spacer",
+            "weight": 48
         },
         {
             "style": "text_header1",
-            "text": "1/4 of whole view",
-            "type": "text",
-            "height": "25%"
-        },
-        {
-            "style": "text_header1",
-            "text": "40 points",
-            "type": "text",
-            "height": "40pt"
-        },
-        {
-            "style": "text_header1",
-            "text": "Wegiht 1",
-            "type": "text",
-            "height": "1"
-        },
-        {
-            "style": "text_header1",
-            "text": "No size",
+            "text": "Learn how relax in the right way",
             "type": "text"
         },
         {
-            "style": "text_header1",
-            "text": "Wegiht 3",
-            "type": "text",
-            "height": "3"
+            "type": "spacer",
+            "weight": 140
         }
     ]
 }
