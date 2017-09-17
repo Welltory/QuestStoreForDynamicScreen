@@ -5,11 +5,10 @@
             "style": "text_title",
             "text": "Name of the quest\nin 2 rows",
             "type": "text",
-            "height": 100
         },
         {
             "type": "spacer",
-            "weight": 140
+            "weight": 40
         },
         {
             "align": "center",
@@ -27,7 +26,7 @@
         },
         {
             "style": "text_default",
-            "text": "Learn how relax in the right way",
+            "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
             "type": "text"
         },
         {
