@@ -14,7 +14,7 @@
         {
             "align": "center",
             "type": "image",
-            "url": {
+            "image": {
                 "url": "https://ucarecdn.com/3278728c-9d40-4a79-9bb8-c3a3f3e16548",
                 "uploadcare_id" : "3278728c-9d40-4a79-9bb8-c3a3f3e16548",
                 "width": 100,
@@ -26,7 +26,7 @@
             "weight": 48
         },
         {
-            "style": "text_header1",
+            "style": "text_default",
             "text": "Learn how relax in the right way",
             "type": "text"
         },
