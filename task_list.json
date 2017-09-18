@@ -2,7 +2,7 @@
     "title": "Tasks list example",
     "content": [
         {
-            "type": "space",
+            "type": "spacer",
             "height": 18
         },
         {
