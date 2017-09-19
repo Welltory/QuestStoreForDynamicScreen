@@ -43,7 +43,7 @@
                           "style": "button_orange_cell",
                           "text": "Начать",
                           "type": "button",
-                          "ratio": 30
+                          "ratio": 50
                         },
                         {
                             "type": "spacer"
