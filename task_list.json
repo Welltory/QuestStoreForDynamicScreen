@@ -37,10 +37,19 @@
                     "type": "text"
                 },
                 {
-                  "style": "button_orange_preview",
-                  "text": "Начать",
-                  "type": "button"
-                }                
+                    "type": "hbox",
+                    "items": [
+                        {
+                          "style": "button_orange_cell",
+                          "text": "Начать",
+                          "type": "button",
+                          "ratio": 30
+                        },
+                        {
+                            "type": "spacer"
+                        }
+                    ]
+                }
             ]
         },
         {
