@@ -24,6 +24,10 @@
                                 "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
                             },
                             "type": "image"
+                        },
+                        {
+                            "type": "spacer",
+                            "height": 20
                         }
                     ]
                 },
