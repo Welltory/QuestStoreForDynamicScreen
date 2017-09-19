@@ -7,62 +7,36 @@
         },
         {
             "type": "cell",
-            "background": {
-                "height": 24,
-                "url": "https://ucarecdn.com/cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb/",
-                "width": 25,
-                "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
-            },
             "items": [
-                {
-                    "style": "text_default",
-                    "text": "Прочитать статью о проф. выгорании",
-                    "type": "text"
-                },
-                {
-                    "style": "text_default",
-                    "text": "Прочитать статью о проф. выгорании",
-                    "type": "text"
-                },
-                {
-                    "style": "text_default",
-                    "text": "Прочитать статью о проф. выгорании",
-                    "type": "text"
-                },
                 {
                     "type": "hbox",
                     "items": [
                         {
                             "style": "text_default",
-                            "text": "Прочитать статью о проф. выгорании",
+                            "text": "Пройти опрос об уровне физического стресса",
                             "type": "text"
                         },
                         {
                             "image": {
-                                "height": 24,
+                                "height": 25,
                                 "url": "https://ucarecdn.com/cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb/",
                                 "width": 25,
                                 "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
                             },
                             "type": "image"
-                        },
-                        {
-                            "type": "spacer",
-                            "width": 20
                         }
                     ]
                 },
                 {
-                    "image": {
-                        "height": 24,
-                        "url": "https://ucarecdn.com/cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb/",
-                        "width": 25,
-                        "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
-                    },
-                    "text": "Coming Soon",
-                    "type": "status",
-                    "style": "status_preview"
-                }
+                    "style": "text_default",
+                    "text": "25 вопросов",
+                    "type": "text"
+                },
+                {
+                  "style": "button_orange_preview",
+                  "text": "Начать",
+                  "type": "button"
+                }                
             ]
         },
         {
