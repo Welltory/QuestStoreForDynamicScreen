@@ -18,9 +18,9 @@
                         },
                         {
                             "image": {
-                                "height": 25,
+                                "height": 32,
                                 "url": "https://ucarecdn.com/cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb/",
-                                "width": 25,
+                                "width": 32,
                                 "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
                             },
                             "type": "image"
@@ -40,17 +40,30 @@
                     "type": "hbox",
                     "items": [
                         {
-                          "style": "button_orange_cell",
-                          "text": "Начать",
-                          "type": "button",
-                          "ratio": 50
+                            "style": "button_orange_cell",
+                            "text": "Начать",
+                            "type": "button",
+                            "ratio": 50,
+                            "icon": {
+                                "height": 14,
+                                "url": "https://ucarecdn.com/b6508341-35f6-4671-81ba-93bfe7010d19/",
+                                "width": 14,
+                                "uploadcare_id": "b6508341-35f6-4671-81ba-93bfe7010d19"
+                            }
                         },
                         {
                             "type": "spacer"
                         }
                     ]
                 }
-            ]
+            ],
+            "action": {
+                "method": "POST",
+                "progress_text": "Активация программы..",
+                "success_text": "Программа активирована",
+                "url": "https://stage-api.welltory.com/api/v2/todo/v4/user/data/quests/1/unpause/",
+                "type": "request"
+            }
         },
         {
             "type": "cell",
