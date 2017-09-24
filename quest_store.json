@@ -72,15 +72,15 @@
                   "height": 10,
                   "type": "spacer"
                 },
-                
                 {
                   "align": "center",
                   "image": {
-                    "height": 258,
-                    "url": "https://www.wired.com/wp-content/uploads/images_blogs/design/2013/09/tumblr_inline_mjx5ioXh8l1qz4rgp.gif",
-                    "width": 141
-                     },                 
-                   "type": "image"
+                    "height": 38,
+                    "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/",
+                    "width": 136,
+                    "uploadcare_id": "d96fae25-17bc-4de2-8e35-0d6030c2b55b"
+                  },
+                  "type": "image"
                 },
                 {
                   "height": 26,
@@ -219,7 +219,13 @@
                 "type": "request"
               },
               "text": "Continue",
-              "type": "button"
+              "type": "button",
+              "margin": {
+                "left": 6,
+                "top": 5,
+                "right": 6,
+                "bottom": 5
+              }
             }
           ],
           "action": {

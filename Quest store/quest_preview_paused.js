@@ -5,7 +5,13 @@ module.exports = {
         "style": "button_orange_preview",
         "action": require("./action_unpause.js"),
         "text": "Continue",
-        "type": "button"
+        "type": "button",
+        "margin": {
+            "left": 6,
+            "top": 5,
+            "right": 6,
+            "bottom": 5
+        },
     }],
     "action": require("./action_page_unpause.js")
 }
