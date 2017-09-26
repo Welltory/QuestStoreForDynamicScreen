@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var x = {
-    "resutl": {
+    "result": {
         "title": "Tasks list example",
         "refresh_url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/task_list.json",
         "content": [
