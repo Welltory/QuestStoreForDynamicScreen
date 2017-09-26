@@ -1,37 +1,40 @@
 {
-    "title": "Act",
-    "content": [
-        {
-            "style": "text_title",
-            "text": "Name of the quest\nin 2 rows",
-            "type": "text",
-        },
-        {
-            "type": "spacer",
-            "weight": 40
-        },
-        {
-            "align": "center",
-            "type": "image",
-            "image": {
-                "url": "https://ucarecdn.com/3278728c-9d40-4a79-9bb8-c3a3f3e16548",
-                "uploadcare_id" : "3278728c-9d40-4a79-9bb8-c3a3f3e16548",
-                "width": 100,
-                "height": 100
+    "result": {
+        "title": "Act",
+        "content": [
+            {
+                "style": "text_title",
+                "text": "Name of the quest\nin 2 rows",
+                "type": "text"
+            },
+            {
+                "type": "spacer",
+                "weight": 40
+            },
+            {
+                "align": "center",
+                "type": "image",
+                "image": {
+                    "url": "https://ucarecdn.com/3278728c-9d40-4a79-9bb8-c3a3f3e16548",
+                    "uploadcare_id": "3278728c-9d40-4a79-9bb8-c3a3f3e16548",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            {
+                "type": "spacer",
+                "weight": 48
+            },
+            {
+                "style": "text_default",
+                "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
+                "type": "text"
+            },
+            {
+                "type": "spacer",
+                "weight": 140
             }
-        },
-        {
-            "type": "spacer",
-            "weight": 48
-        },
-        {
-            "style": "text_default",
-            "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
-            "type": "text"
-        },
-        {
-            "type": "spacer",
-            "weight": 140
-        }
-    ]
+        ]
+    },
+    "success": true
 }
