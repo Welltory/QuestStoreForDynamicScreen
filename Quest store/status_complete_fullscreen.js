@@ -23,7 +23,7 @@ module.exports = {
         {
             "text": "Complete",
             "type": "text",
-            "style": "status_fullscreen"
+            "style": "text_status_fullscreen"
         }
     ]
 }

@@ -39,7 +39,7 @@ module.exports = [
             {
                 "text": "Coming Soon",
                 "type": "text",
-                "style": "status_preview"
+                "style": "text_status_preview"
             }
         ]
     }
