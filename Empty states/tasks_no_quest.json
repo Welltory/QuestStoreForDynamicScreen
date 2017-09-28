@@ -1,0 +1,45 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "spacer",
+                "weight": 1
+            },
+            {
+                "type": "text",
+                "style": "text_title_grey",
+                "text": "No tasks yet.",
+                "margin": {
+                    "bottom": 11
+                }
+            },
+            {
+                "type": "text",
+                "style": "text_default_center",
+                "text": "Choose your program first to\nbegin working on tasks."
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            }
+        ],
+        "footer": [
+            {
+                "style": "button_orange",
+                "action": {
+                    "type": "redirect",
+                    "url": "welltory://branch/Quests"
+                },
+                "margin": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "top": 10
+                },
+                "text": "Select new program",
+                "type": "button"
+            }
+        ]
+    },
+    "success": true
+}
