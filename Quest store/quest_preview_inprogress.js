@@ -1,5 +1,4 @@
 module.exports = {
-    "title": "In progress",
     "background": require("./image_preview_background.js"),
     "items": [
         {
