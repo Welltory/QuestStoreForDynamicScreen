@@ -1,7 +1,16 @@
 module.exports = {
-    "footer": [
-        require("./status_complete_fullscreen.js")
-    ],
+    "footer": [{
+        "style": "button_orange",
+        "action": require("./action_unpause.js"),
+        "margin": {
+            "left": 10,
+            "right": 10,
+            "bottom": 10,
+            "top": 10
+        },
+        "text": "Continue",
+        "type": "button"
+    }],
     "content": [{
         "margin": {
             "left": 36,

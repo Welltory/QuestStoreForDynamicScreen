@@ -1,4 +1,4 @@
-model.exports = {
+module.exports = {
     "footer": [{
         "icon": {
             "width": 23,
@@ -53,10 +53,22 @@ model.exports = {
     {
         "style": "text_header1",
         "text": "About the quest",
-        "type": "text"
+        "type": "text",
+        "margin": {
+            "left": 36,
+            "right": 36,
+            "top": 0,
+            "bottom": 0
+        }
     }, {
         "text": "Бла бла бла \r\nЕще одна строчка с бла бла бла",
         "style": "text_default",
-        "type": "text"
+        "type": "text",
+        "margin": {
+            "left": 36,
+            "right": 36,
+            "top": 0,
+            "bottom": 0
+        }
     }]
 }
