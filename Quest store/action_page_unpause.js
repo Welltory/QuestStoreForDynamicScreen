@@ -4,15 +4,27 @@ module.exports = {
         "footer": [{
             "style": "button_orange",
             "action": require("./action_unpause.js"),
+            "margin":{
+                "left": 10,
+                "right": 10,
+                "bottom": 10,
+                "top": 10
+            },
             "text": "Continue",
             "type": "button"
         }],
         "content": [{
+            "margin":{
+                "left": 36,
+                "right": 36,
+                "top": 7,
+                "bottom": 0
+            },
             "style": "text_title",
             "text": "Make yourself happier in 2 weeks",
             "type": "text"
         }, {
-            "height": 10,
+            "height": 20,
             "type": "spacer"
         }, {
             "align": "center",
@@ -24,9 +36,15 @@ module.exports = {
             },
             "type": "image"
         }, {
-            "height": 26,
+            "height": 20,
             "type": "spacer"
         }, {
+            "margin":{
+                "left": 36,
+                "right": 36,
+                "top": 0,
+                "bottom": 0
+            },
             "style": "text_header1",
             "text": "About the quest",
             "type": "text"
@@ -34,6 +52,12 @@ module.exports = {
             "height": 10,
             "type": "spacer"
         }, {
+            "margin":{
+                "left": 36,
+                "right": 36,
+                "top": 0,
+                "bottom": 0
+            },
             "style": "text_default",
             "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
             "type": "text"
