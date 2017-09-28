@@ -197,25 +197,49 @@
               "page": {
                 "footer": [
                   {
-                    "image": {
-                      "height": 24,
-                      "url": "https://ucarecdn.com/540782ee-d38a-4464-80c3-18539c1f7af7/",
-                      "width": 25,
-                      "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
+                    "type": "hbox",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 24,
+                      "bottom": 24
                     },
-                    "text": "Complete",
-                    "type": "status",
-                    "style": "status_fullscreen"
+                    "items": [
+                      {
+                        "image": {
+                          "height": 24,
+                          "url": "https://ucarecdn.com/540782ee-d38a-4464-80c3-18539c1f7af7/",
+                          "width": 25,
+                          "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
+                        },
+                        "type": "image"
+                      },
+                      {
+                        "type": "spacer",
+                        "width": 18
+                      },
+                      {
+                        "text": "Complete",
+                        "type": "text",
+                        "style": "status_fullscreen"
+                      }
+                    ]
                   }
                 ],
                 "content": [
                   {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 7,
+                      "bottom": 0
+                    },
                     "style": "text_title",
                     "text": "Make yourself happier in 2 weeks",
                     "type": "text"
                   },
                   {
-                    "height": 10,
+                    "height": 20,
                     "type": "spacer"
                   },
                   {
@@ -229,10 +253,16 @@
                     "type": "image"
                   },
                   {
-                    "height": 26,
+                    "height": 20,
                     "type": "spacer"
                   },
                   {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
                     "style": "text_header1",
                     "text": "About the quest",
                     "type": "text"
@@ -242,6 +272,12 @@
                     "type": "spacer"
                   },
                   {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
                     "style": "text_default",
                     "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
                     "type": "text"

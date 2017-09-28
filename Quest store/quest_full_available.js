@@ -8,6 +8,12 @@ model.exports = {
         },
         "text": "Start playing",
         "style": "button_green",
+        "margin": {
+            "left": 10,
+            "right": 10,
+            "bottom": 10,
+            "top": 10
+        },
         "type": "button",
         "action": {
             "method": "POST",
@@ -18,8 +24,19 @@ model.exports = {
     "content": [{
         "style": "text_title",
         "text": "OnboardingFree (no user)",
-        "type": "text"
-    }, {
+        "type": "text",
+        "margin": {
+            "top": 7,
+            "left": 38,
+            "right": 38,
+            "bottom":0
+        }
+    }, 
+    {
+        "type": "spacer",
+        "height": 20
+    },
+    {
         "align": "center",
         "type": "image",
         "url": {
@@ -28,7 +45,12 @@ model.exports = {
             "height": 38,
             "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/"
         }
-    }, {
+    },
+    {
+        "type": "spacer",
+        "height": 20
+    },
+    {
         "style": "text_header1",
         "text": "About the quest",
         "type": "text"
