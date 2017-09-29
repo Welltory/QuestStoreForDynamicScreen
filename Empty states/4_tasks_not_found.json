@@ -3,10 +3,13 @@
         "content": [
             {
                 "type": "text",
-                "style": "text_title_grey",
-                "text": "No tasks yet.",
+                "style": "text_title_fullscreen_header1",
+                "text": "Make blood pressure measurement",
                 "margin": {
-                    "bottom": 11
+                    "top": 0,
+                    "right": 28,
+                    "bottom": 11,
+                    "left": 28
                 }
             },
             {
@@ -15,8 +18,16 @@
             },
             {
                 "type": "text",
+                "style": "text_title_grey",
+                "text": "Not the right time",
+                "margin": {
+                    "bottom": 11
+                }
+            },
+            {
+                "type": "text",
                 "style": "text_default_center",
-                "text": "Choose your program first to\nbegin working on tasks."
+                "text": "Oops, this task has time\nconstraints.\n\nPlease double-check the\ninstructions."
             },
             {
                 "type": "spacer",
@@ -46,6 +57,10 @@
                 },
                 "items": [
                     {
+                        "type": "spacer",
+                        "ratio": 1
+                    },
+                    {
                         "image": {
                             "height": 32,
                             "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_status_history.png",
@@ -61,6 +76,10 @@
                         "text": "Complete",
                         "type": "text",
                         "style": "text_status_fullscreen"
+                    },
+                    {
+                        "type": "spacer",
+                        "ratio": 1
                     }
                 ]
             }
