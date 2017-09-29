@@ -58,7 +58,7 @@
                 "items": [
                     {
                         "type": "spacer",
-                        "ratio": 1
+                        "weight": 1
                     },
                     {
                         "image": {
@@ -79,7 +79,7 @@
                     },
                     {
                         "type": "spacer",
-                        "ratio": 1
+                        "weight": 1
                     }
                 ]
             }
