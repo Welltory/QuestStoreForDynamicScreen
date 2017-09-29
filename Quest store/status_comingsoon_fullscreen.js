@@ -9,9 +9,10 @@ module.exports = {
     "items": [
         {
             "image": {
-                "height": 32,
-                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_status_history.png",
-                "width": 32
+                "height": 24,
+                "url": "https://ucarecdn.com/540782ee-d38a-4464-80c3-18539c1f7af7/",
+                "width": 25,
+                "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
             },
             "type": "image"
         },

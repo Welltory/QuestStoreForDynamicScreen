@@ -1,0 +1,70 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "text",
+                "style": "text_title_grey",
+                "text": "No tasks yet.",
+                "margin": {
+                    "bottom": 11
+                }
+            },
+            {
+                "type": "spacer",
+                "weight": 1.5
+            },
+            {
+                "type": "text",
+                "style": "text_default_center",
+                "text": "Choose your program first to\nbegin working on tasks."
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            },
+            {
+                "image": {
+                    "height": 60,
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_image_lock.png",
+                    "width": 60
+                },
+                "type": "image"
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            }
+        ],
+        "footer": [
+            {
+                "type":"hbox",
+                "margin": {
+                    "left": 36,
+                    "right": 36,
+                    "top": 24,
+                    "bottom": 24
+                },
+                "items": [
+                    {
+                        "image": {
+                            "height": 32,
+                            "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_status_history.png",
+                            "width": 32
+                        },
+                        "type": "image"
+                    },
+                    {
+                        "type": "spacer",
+                        "width": 18
+                    },
+                    {
+                        "text": "Complete",
+                        "type": "text",
+                        "style": "text_status_fullscreen"
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
