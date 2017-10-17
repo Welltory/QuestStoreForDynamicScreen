@@ -11,6 +11,7 @@ module.exports =
             "title": "HEALTH (ru)",
             "icon": require("./image_category.js"),
             "items": [
+                require("./quest_preview_available.js"),
                 require("./quest_preview_comingsoon.js"),
                 require("./quest_preview_complete.js"),
                 require("./quest_preview_inprogress.js"),

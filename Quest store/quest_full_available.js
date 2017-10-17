@@ -1,4 +1,4 @@
-model.exports = {
+module.exports = {
     "footer": [{
         "icon": {
             "width": 23,
@@ -37,13 +37,11 @@ model.exports = {
         "height": 20
     },
     {
-        "align": "center",
         "type": "image",
-        "url": {
-            "width": 136,
-            "uploadcare_id": "d96fae25-17bc-4de2-8e35-0d6030c2b55b",
-            "height": 38,
-            "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/"
+        "image": {
+            "height": 258,
+            "url": "https://www.wired.com/wp-content/uploads/images_blogs/design/2013/09/tumblr_inline_mjx5ioXh8l1qz4rgp.gif",
+            "width": 141
         }
     },
     {
@@ -53,10 +51,22 @@ model.exports = {
     {
         "style": "text_header1",
         "text": "About the quest",
-        "type": "text"
+        "type": "text",
+        "margin": {
+            "left": 36,
+            "right": 36,
+            "top": 0,
+            "bottom": 0
+        }
     }, {
         "text": "Бла бла бла \r\nЕще одна строчка с бла бла бла",
         "style": "text_default",
-        "type": "text"
+        "type": "text",
+        "margin": {
+            "left": 36,
+            "right": 36,
+            "top": 0,
+            "bottom": 0
+        }
     }]
 }

@@ -23,16 +23,122 @@
               "width": 104,
               "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
             },
+            "action": {
+              "variant": "push",
+              "page": {
+                "footer": [
+                  {
+                    "icon": {
+                      "width": 23,
+                      "uploadcare_id": "b6508341-35f6-4671-81ba-93bfe7010d19",
+                      "height": 29,
+                      "url": "https://ucarecdn.com/b6508341-35f6-4671-81ba-93bfe7010d19/"
+                    },
+                    "text": "Start playing",
+                    "style": "button_green",
+                    "margin": {
+                      "left": 10,
+                      "right": 10,
+                      "bottom": 10,
+                      "top": 10
+                    },
+                    "type": "button",
+                    "action": {
+                      "method": "POST",
+                      "type": "request",
+                      "url": "https://stage-api.welltory.com/api/v2/todo/v4/user/data/quests/1/activate/"
+                    }
+                  }
+                ],
+                "content": [
+                  {
+                    "style": "text_title",
+                    "text": "OnboardingFree (no user)",
+                    "type": "text",
+                    "margin": {
+                      "top": 7,
+                      "left": 38,
+                      "right": 38,
+                      "bottom": 0
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 20
+                  },
+                  {
+                    "type": "image",
+                    "image": {
+                      "height": 258,
+                      "url": "https://www.wired.com/wp-content/uploads/images_blogs/design/2013/09/tumblr_inline_mjx5ioXh8l1qz4rgp.gif",
+                      "width": 141
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 20
+                  },
+                  {
+                    "style": "text_header1",
+                    "text": "About the quest",
+                    "type": "text",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    }
+                  },
+                  {
+                    "text": "Бла бла бла \r\nЕще одна строчка с бла бла бла",
+                    "style": "text_default",
+                    "type": "text",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    }
+                  }
+                ]
+              },
+              "type": "open"
+            },
             "items": [
               {
                 "type": "text",
-                "text": "Complete",
                 "margin": {
                   "left": 21,
                   "top": 21,
                   "right": 21,
                   "bottom": 0
                 },
+                "text": "Available quest",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "Coming soon",
                 "style": "text_title_preview"
               },
               {
@@ -41,12 +147,6 @@
               },
               {
                 "type": "hbox",
-                "margin": {
-                  "left": 21,
-                  "top": 18,
-                  "right": 21,
-                  "bottom": 18
-                },
                 "items": [
                   {
                     "image": {
@@ -59,14 +159,24 @@
                   },
                   {
                     "type": "spacer",
-                    "width": 7
-                  },
-                  {
-                    "text": "Coming Soon",
-                    "type": "text",
-                    "style": "text_status_preview"
+                    "weight": 1
                   }
-                ]
+                ],
+                "margin": {
+                  "left": 21,
+                  "bottom": 8,
+                  "right": 21
+                }
+              },
+              {
+                "text": "Coming Soon",
+                "type": "text",
+                "style": "text_status_preview",
+                "margin": {
+                  "left": 21,
+                  "bottom": 18,
+                  "right": 21
+                }
               }
             ]
           },
@@ -138,10 +248,9 @@
                     "items": [
                       {
                         "image": {
-                          "height": 24,
-                          "url": "https://ucarecdn.com/540782ee-d38a-4464-80c3-18539c1f7af7/",
-                          "width": 25,
-                          "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
+                          "height": 32,
+                          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_status_history.png",
+                          "width": 32
                         },
                         "type": "image"
                       },
