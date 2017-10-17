@@ -44,7 +44,7 @@ module.exports = function(params){
                 "items": [
                     {
                         "type": "button",
-                        "style": "button_orange_preview",
+                        "style": "button_orange_cell",
                         "text": params.buttonText,
                         "margin": {
                             "left": 24,

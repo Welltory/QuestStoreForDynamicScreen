@@ -595,7 +595,7 @@
             "items": [
               {
                 "type": "button",
-                "style": "button_orange_preview",
+                "style": "button_orange_cell",
                 "text": "Take measurement",
                 "margin": {
                   "left": 24,
