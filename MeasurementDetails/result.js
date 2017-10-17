@@ -102,10 +102,7 @@
               {
                 "type": "text",
                 "text": "Pulse",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -173,10 +170,7 @@
               {
                 "type": "text",
                 "text": "Systolic pressure",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -244,10 +238,7 @@
               {
                 "type": "text",
                 "text": "Diastolic pressure",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -315,10 +306,7 @@
               {
                 "type": "text",
                 "text": "SDNN",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -413,10 +401,7 @@
               {
                 "type": "text",
                 "text": "HF",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -484,10 +469,7 @@
               {
                 "type": "text",
                 "text": "HF",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",
@@ -582,10 +564,7 @@
               {
                 "type": "text",
                 "text": "rMSSD",
-                "style": "text_title_cell",
-                "margin": {
-                  "left": 8
-                }
+                "style": "text_title_cell"
               },
               {
                 "type": "spacer",

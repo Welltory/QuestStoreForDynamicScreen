@@ -13,10 +13,7 @@ module.exports = function(params){
                     {
                         "type": "text",
                         "text": params.titleText,
-                        "style": "text_title_cell",
-                        "margin": {
-                            "left": 8
-                        }
+                        "style": "text_title_cell"
                     },
                     {
                         "type": "spacer",
