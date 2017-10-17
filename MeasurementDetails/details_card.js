@@ -37,7 +37,7 @@ module.exports = function(params){
                             },
                             {
                                 "type": "text",
-                                "style": "text_value_bold_white",
+                                "style": params.blackFont?"text_value_bold_black":"text_value_bold_white",
                                 "text": params.value,
                             },
                             {
@@ -46,7 +46,7 @@ module.exports = function(params){
                             },
                             {
                                 "type": "text",
-                                "style": "text_value_white",
+                                "style": params.blackFont?"text_value_black":"text_value_white",
                                 "text": params.valuePercent,
                             },
                             {
