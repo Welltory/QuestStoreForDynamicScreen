@@ -170,21 +170,16 @@
                 "type": "hbox",
                 "items": [
                     {
-                        "type": "vbox",
-                        "items": [
-                            {
-                                "id": "comment_1",
-                                "type": "text",
-                                "style": "text_default",
-                                "text": "Rate this quest"
-                            }
-                        ],
-                        "margin": {
-                            "left": 35,
-                            "right": 35
-                        }
+                        "id": "comment_1",
+                        "type": "text",
+                        "style": "text_default",
+                        "text": "Rate this quest",
                     }
                 ],
+                "margin": {
+                    "left": 35,
+                    "right": 35
+                },
                 "height": 60
             },
             {
