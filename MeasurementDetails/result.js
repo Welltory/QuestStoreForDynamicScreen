@@ -32,11 +32,12 @@
           }
         ]
       },
+        {
+            "type": "spacer",
+            "height": 27
+        }, 
       {
         "type": "cell",
-        "margin": {
-          "top": 27
-        },
         "items": [
           {
             "type": "text",
