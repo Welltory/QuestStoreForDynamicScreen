@@ -56,8 +56,8 @@
             {
                 "type": "image",
                 "image": {
-                    "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/raw/master/images/styles_sample",
-                    "width": 160,
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/styles_sample.png",
+                    "width": 320,
                     "height": 160
                 }
             }
