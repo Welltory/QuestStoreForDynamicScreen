@@ -1,0 +1,64 @@
+{
+    "measurements": [
+        {
+            "time": "17:00",
+            "tags": [
+                "Gym",
+                "Walking"
+            ],
+            "recomendation": "Your measuring perfomance is ok, but you can become a bit better",
+            "performance": 3,
+            "mood": 5,
+            "energy": 60,
+            "stress": 30,
+            "identifier": 123456
+        },
+        {
+            "time": "09:13",
+            "tags": [
+                "After",
+                "Eat"
+            ],
+            "recomendation": "Your measuring perfomance is good! Try to reach 5 stars one!",
+            "performance": 4,
+            "mood": 4,
+            "energy": 10,
+            "stress": 30,
+            "identifier": 543216
+        }
+    ],
+    "performance": 3,
+    "performance_diff": -50,
+    "performance_graph": [
+        {
+            "date": "170719831300",
+            "value": 3
+        },
+        {
+            "date": "170719831500",
+            "value": 4
+        },
+        {
+            "date": "180719831300",
+            "value": 5
+        },
+        {
+            "date": "190719831300",
+            "value": 3
+        },
+        {
+            "date": "190719831500",
+            "value": 2
+        },
+        {
+            "date": "200719830913",
+            "value": 4
+        },
+        {
+            "date": "200719831700",
+            "value": 3
+        }
+    ],
+    "recomendation": "You should pay attention to your recover abilities and have a rest today.",
+    "identifier": "20jul1983"
+}

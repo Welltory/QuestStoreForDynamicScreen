@@ -8,20 +8,13 @@ module.exports = function(params){
             "bottom": 18
         },
         "items": [
-            {
-                "type": "image",
-                "image": {
-                    "url": params.url,
-                    "width": 24,
-                    "height": 24
-                }
-            },
+            require("./image.js")({"name": params.name, "width": 24, "height": 24}),
             {
                 "type": "text",
                 "text": params.text,
                 "style": "text_default",
                 "margin": {
-                    "left": 8
+                    "left": 50
                 }
             }
         ]
