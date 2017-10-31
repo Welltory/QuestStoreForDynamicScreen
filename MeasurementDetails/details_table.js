@@ -7,7 +7,8 @@ module.exports = function(params){
                 "margin": {
                     "top": 14,
                     "left": 18,
-                    "right": 18
+                    "right": 18,
+                    "bottom": 16
                 },
                 "items": [
                     {
@@ -16,6 +17,9 @@ module.exports = function(params){
                             "url": params.iconUrl,
                             "width": 16,
                             "height": 16
+                        },
+                        "margin": {
+                            "top": 3
                         }
                     },
                     {

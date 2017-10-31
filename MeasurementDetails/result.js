@@ -690,7 +690,8 @@
             "margin": {
               "top": 14,
               "left": 18,
-              "right": 18
+              "right": 18,
+              "bottom": 16
             },
             "items": [
               {
@@ -699,6 +700,9 @@
                   "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
                   "width": 16,
                   "height": 16
+                },
+                "margin": {
+                  "top": 3
                 }
               },
               {
