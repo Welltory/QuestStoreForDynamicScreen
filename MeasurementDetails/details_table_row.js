@@ -2,9 +2,6 @@ module.exports = function(params){
     return {
         "type": "hbox",
         "items": [
-            {
-                "type": "hbox",
-                "items": [
                     {
                         "type": "spacer",
                         "width": 1,
@@ -51,7 +48,5 @@ module.exports = function(params){
                         }
                     },
                 ]
-            }
-        ]
     };
 }

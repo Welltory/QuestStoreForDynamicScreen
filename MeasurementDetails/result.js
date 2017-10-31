@@ -74,7 +74,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
               "width": 24,
               "height": 24
             }
@@ -373,7 +372,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_nervous.png?raw=true",
               "width": 24,
               "height": 24
             }
@@ -536,7 +534,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_sleep.png?raw=true",
               "width": 24,
               "height": 24
             }
@@ -629,7 +626,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion.png?raw=true",
               "width": 24,
               "height": 24
             }
@@ -672,7 +668,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_links.png?raw=true",
               "width": 24,
               "height": 24
             }
@@ -727,103 +722,98 @@
             "type": "hbox",
             "items": [
               {
-                "type": "hbox",
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 175,
                 "items": [
                   {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_title",
+                    "text": "Parameter"
                   },
                   {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 175,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title",
-                        "text": "Parameter"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value",
-                        "text": "Pulse"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Units"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "Bpm"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Value"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "61"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_value",
+                    "text": "Pulse"
                   }
                 ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Units"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "Bpm"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Value"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "61"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
               }
             ]
           },
@@ -838,103 +828,98 @@
             "type": "hbox",
             "items": [
               {
-                "type": "hbox",
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 175,
                 "items": [
                   {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_title",
+                    "text": "Parameter"
                   },
                   {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 175,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title",
-                        "text": "Parameter"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value",
-                        "text": "Systolic pressure"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Units"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "mm Hg"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Value"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "-"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_value",
+                    "text": "Systolic pressure"
                   }
                 ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Units"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "mm Hg"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Value"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "-"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
               }
             ]
           },
@@ -949,103 +934,98 @@
             "type": "hbox",
             "items": [
               {
-                "type": "hbox",
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 175,
                 "items": [
                   {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_title",
+                    "text": "Parameter"
                   },
                   {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 175,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title",
-                        "text": "Parameter"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value",
-                        "text": "Diastolic pressure"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Units"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "mm Hg"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
-                  },
-                  {
-                    "type": "vbox",
-                    "margin": {
-                      "top": 6,
-                      "bottom": 14,
-                      "left": 16,
-                      "right": 16
-                    },
-                    "weight": 88,
-                    "items": [
-                      {
-                        "type": "text",
-                        "style": "text_table_title_center",
-                        "text": "Value"
-                      },
-                      {
-                        "type": "text",
-                        "style": "text_table_value_center",
-                        "text": "-"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer",
-                    "width": 1,
-                    "component_style": {
-                      "background_color": "#F0F1F4"
-                    }
+                    "type": "text",
+                    "style": "text_table_value",
+                    "text": "Diastolic pressure"
                   }
                 ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Units"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "mm Hg"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "top": 6,
+                  "bottom": 14,
+                  "left": 16,
+                  "right": 16
+                },
+                "weight": 88,
+                "items": [
+                  {
+                    "type": "text",
+                    "style": "text_table_title_center",
+                    "text": "Value"
+                  },
+                  {
+                    "type": "text",
+                    "style": "text_table_value_center",
+                    "text": "-"
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
               }
             ]
           },
@@ -1070,7 +1050,6 @@
           {
             "type": "image",
             "image": {
-              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_links.png?raw=true",
               "width": 24,
               "height": 24
             }
