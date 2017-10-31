@@ -152,6 +152,8 @@ module.exports =
                 }
             ]
         },
+        require("./details_group_title.js")({imageUrl:"https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_links.png?raw=true", text:"Приложение"}),
+        require("./details_table.js")({iconUrl: "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true", title: "Базовые витальные показатели"}),
         require("./details_group_title.js")({imageUrl:"https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_links.png?raw=true", text:"Links"}),
         require("./details_link.js")({title: "Buy new gadget"}),
         require("./details_link.js")({title: "Buy new gadget"}),
