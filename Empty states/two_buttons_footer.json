@@ -1,0 +1,79 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "text",
+                "style": "text_title_fullscreen_header1",
+                "text": "Make blood pressure measurement",
+                "margin": {
+                    "top": 0,
+                    "right": 28,
+                    "bottom": 11,
+                    "left": 28
+                }
+            },
+            {
+                "type": "spacer",
+                "weight": 1.5
+            },
+            {
+                "type": "text",
+                "style": "text_title_grey",
+                "text": "Not the right time",
+                "margin": {
+                    "bottom": 11
+                }
+            },
+            {
+                "type": "text",
+                "style": "text_default_center",
+                "text": "Oops, this task has time\nconstraints.\n\nPlease double-check the\ninstructions."
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            },
+            {
+                "image": {
+                    "height": 60,
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_image_lock.png",
+                    "width": 60
+                },
+                "type": "image"
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            }
+        ],
+        "footer": [
+            {
+                "type":"hbox",
+                "margin": {
+                    "left": 10,
+                    "right": 10,
+                    "top": 10,
+                    "bottom": 10
+                },
+                "items": [
+                    {
+                        "type": "button",
+                        "text": "Fix problem",
+                        "style": "button_orange",
+                        "weight": 1
+                    },
+                    {
+                        "type": "button",
+                        "text": "Need help?",
+                        "style": "button_grey",
+                        "weight": 1,
+                        "margin": {
+                            "left": 8
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
