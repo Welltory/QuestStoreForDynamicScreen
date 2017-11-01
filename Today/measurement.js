@@ -24,15 +24,18 @@ module.exports = function(params) {
 
     var header = {
         "type": "hbox",
-        "items": [{
-            "type": "text",
-            "text": title,
-            "weight": 1
-        }, require("../Templates/image.js")({
+        "items": [require("../Templates/image.js")({
             "name": "ic_heart.png",
             "width": 32,
             "height": 32
-        })],
+        }), {
+            "type": "text",
+            "text": title,
+            "weight": 1,
+            "margin": {
+                "left": 16
+            }
+        }],
         margin: {
             top: 16,
             bottom: 16,
@@ -50,7 +53,7 @@ module.exports = function(params) {
                 "weight": 1
             },
             require("../Templates/image.js")({
-                "name": "ic_conclusion.png",
+                "name": "ic_conclusion_orange.png",
                 "width": 32,
                 "height": 32
             })
@@ -139,6 +142,29 @@ module.exports = function(params) {
             "bottom": 8,
         }
     });
+    
+    items.push({
+        "type": "hbox",
+        "items": [
+            {
+                "type": "spacer",
+                "weight": 1
+            },
+            {
+                "type": "button",
+                "ratio": 80,
+                "text": "Параметры замера",
+                "style": "button_orange_cell"
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            }
+        ],
+        margin: {
+            "top": 24
+        }
+    });
 
     items.push({
         type: "hbox",
@@ -163,7 +189,10 @@ module.exports = function(params) {
                 type: "spacer",
                 weight: 1
             },
-        ]
+        ],
+        margin: {
+            "top": 16
+        }
     });
 
     return {
@@ -189,153 +218,81 @@ function performanceIndicator(performance) {
         color = green;
     }
 
-
-    var title = {
-        "type": "text",
-        "text": "Mood",
-        "style": "text_default_center"
-    };
-
-
-    return {
-        "type": "vbox",
-        "items": [{
-            "margin": {
-                "top": 16
-            },
-            "type": "circle_progress",
-            "progress": performance,
-            "total": 5,
-            "progress_color": color
-        }, {
-            "type": "text",
-            "text": "Performance",
-            "style": "text_default_center",
-            "margin": {
-                "top": 11
-            }
-        }]
-    };
+    return cell({
+        "margin": {
+            "top": 16
+        },
+        "type": "circle_progress",
+        "progress": performance,
+        "total": 5,
+        "progress_color": color,
+        "height": 71
+    }, "Ok", color, "Performance");
 }
 
-function moodIndicator(mood) {
-
-    var image = require("../Templates/image.js")({
-        "name": "measurement_state_focused.png",
-        "width": 100,
-        "height": 80
-    });
-    image.margin = {
-        "top": 9
-    };
-
-    var star = {
-        "type": "hbox",
-        "margin": {
-            "top": 7
-        },
-        "items": [{
-                "type": "spacer",
-                "weight": 1
-            }, {
-                "type": "text",
-                "style": "text_value_black",
-                "text": "" + mood,
-                "margin": {
-                    "right": 7
-                }
-            },
-            require("../Templates/image.js")({
-                "name": "star_20_" + mood + ".png",
-                "width": 20,
-                "height": 20
-            }), {
-                "type": "spacer",
-                "weight": 1
-            }
-        ]
-    }
-
-    star.items[2].margin = {
-        "top": 3
-    };
-
-    var title = {
-        "type": "text",
-        "text": "Mood",
-        "style": "text_default_center"
-    };
-
-    var result = {
-        "type": "vbox",
-        "items": [image, star, title]
-    };
-
-    return result;
+function moodIndicator(mood, feel) {
+    var mood_index = Math.max(Math.min(mood, 5), 1)
+    var feel_index = Math.max(Math.min(feel, 5), 1)
+    return cell(require("../Templates/image.js")({
+        "name": "meaasurement_indicator_mood_" + mood_index + "_" + feel_index + ".png",
+        "width": 91,
+        "height": 91
+    }), "Good / Super", "#F0F1F4", "Feel / Mood");
 }
 
 function stressIndicator(stress) {
-
     step = Math.max(Math.min(Math.floor(stress / 100 * 3 + 1), 3), 1);
-
-    var image = require("../Templates/image.js")({
+    return cell(require("../Templates/image.js")({
         "name": "measurement_stress_" + step + ".png",
         "width": 100,
         "height": 80
-    });
-    image.margin = {
-        "top": 9
-    };
-
-    var texts = ["Underload", "Optimum", "Overload", "Distructive"];
-    var index = Math.max(Math.min(Math.round(stress / 100 * texts.length), texts.length - 1), 0);
-
-    var tag = require("../Templates/tag_small.js")({
-        "text": texts[index],
-        "value": stress / 100
-    })
-
-    var title = {
-        "type": "text",
-        "text": "Stress",
-        "style": "text_default_center"
-    };
-
-    var result = {
-        "type": "vbox",
-        "items": [image, tag, title]
-    };
-
-    return result;
+    }), "Optimum", null, "Stress");
 }
 
 function energyIndicator(energy) {
-
     step = Math.max(Math.min(Math.floor(energy / 100 * 5 + 1), 6), 1);
-
-    var image = require("../Templates/image.js")({
+    return cell(require("../Templates/image.js")({
         "name": "measurement_energy_" + step + ".png",
         "width": 100,
         "height": 80
-    });
-    image.margin = {
-        "top": 9
+    }), "Recover", null, "Energy");
+}
+
+function cell(icon, tag_text, color, title) {
+    icon.margin = {
+        "top": 4
     };
+    icon.width = 90;
+    icon.height = 90;
 
     var tag = require("../Templates/tag_small.js")({
-        "text": "Recover"
-    })
+        "text": tag_text,
+        "color": color
+    });
+    tag.width = 100;
 
-    var title = {
+    var title_component = {
         "type": "text",
-        "text": "Energy",
-        "style": "text_default_center"
+        "text": title,
+        "style": "text_default_center",
+        "margin": {
+            "top": 8
+        }
     };
 
-    var result = {
+    return {
         "type": "vbox",
-        "items": [image, tag, title]
+        "items": [icon, {
+            type: "hbox",
+            items: [{
+                    type: "spacer",
+                    weight: 1
+                },
+                tag, {
+                    type: "spacer",
+                    weight: 1
+                },
+            ]
+        }, title_component]
     };
-
-    return result;
 }

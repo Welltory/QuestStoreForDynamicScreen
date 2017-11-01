@@ -35,16 +35,19 @@
             "type": "hbox",
             "items": [
               {
-                "type": "text",
-                "text": "17:00, Gym, Walking",
-                "weight": 1
-              },
-              {
                 "type": "image",
                 "image": {
                   "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
                   "width": 32,
                   "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "17:00, Gym, Walking",
+                "weight": 1,
+                "margin": {
+                  "left": 16
                 }
               }
             ],
@@ -73,7 +76,7 @@
               {
                 "type": "image",
                 "image": {
-                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion.png?raw=true",
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion_orange.png?raw=true",
                   "width": 32,
                   "height": 32
                 }
@@ -115,19 +118,69 @@
                     "items": [
                       {
                         "margin": {
-                          "top": 16
+                          "top": 4
                         },
                         "type": "circle_progress",
                         "progress": 3,
                         "total": 5,
-                        "progress_color": "#FFF46E"
+                        "progress_color": "#FFF46E",
+                        "height": 90,
+                        "width": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_black",
+                                    "text": "Ok",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#FFF46E",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
                       },
                       {
                         "type": "text",
                         "text": "Performance",
                         "style": "text_default_center",
                         "margin": {
-                          "top": 11
+                          "top": 8
                         }
                       }
                     ]
@@ -151,42 +204,57 @@
                       {
                         "type": "image",
                         "image": {
-                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_state_focused.png?raw=true",
-                          "width": 100,
-                          "height": 80
+                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/meaasurement_indicator_mood_5_NaN.png?raw=true",
+                          "width": 91,
+                          "height": 91
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
-                        "margin": {
-                          "top": 7
-                        },
                         "items": [
                           {
                             "type": "spacer",
                             "weight": 1
                           },
                           {
-                            "type": "text",
-                            "style": "text_value_black",
-                            "text": "5",
-                            "margin": {
-                              "right": 7
-                            }
-                          },
-                          {
-                            "type": "image",
-                            "image": {
-                              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/star_20_5.png?raw=true",
-                              "width": 20,
-                              "height": 20
-                            },
-                            "margin": {
-                              "top": 3
-                            }
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_black",
+                                    "text": "Good / Super",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#F0F1F4",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -196,8 +264,11 @@
                       },
                       {
                         "type": "text",
-                        "text": "Mood",
-                        "style": "text_default_center"
+                        "text": "Feel / Mood",
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -231,8 +302,10 @@
                           "height": 80
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
@@ -245,21 +318,36 @@
                             "type": "hbox",
                             "items": [
                               {
-                                "type": "text",
-                                "style": "text_value_bold_white",
-                                "text": "Recover",
-                                "margin": {
-                                  "top": 2,
-                                  "left": 7,
-                                  "bottom": 2,
-                                  "right": 7
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Recover",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
                                 }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
                               }
                             ],
-                            "component_style": {
-                              "background_color": "#29DB7B",
-                              "corner_radius": 100
-                            }
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -270,7 +358,10 @@
                       {
                         "type": "text",
                         "text": "Energy",
-                        "style": "text_default_center"
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -298,8 +389,10 @@
                           "height": 80
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
@@ -312,21 +405,36 @@
                             "type": "hbox",
                             "items": [
                               {
-                                "type": "text",
-                                "style": "text_value_bold_black",
-                                "text": "Optimum",
-                                "margin": {
-                                  "top": 2,
-                                  "left": 7,
-                                  "bottom": 2,
-                                  "right": 7
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Optimum",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
                                 }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
                               }
                             ],
-                            "component_style": {
-                              "background_color": "#FFF46E",
-                              "corner_radius": 100
-                            }
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -337,7 +445,10 @@
                       {
                         "type": "text",
                         "text": "Stress",
-                        "style": "text_default_center"
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -354,7 +465,31 @@
           },
           {
             "type": "hbox",
-            "margin": {},
+            "items": [
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "button",
+                "ratio": 80,
+                "text": "Параметры замера",
+                "style": "button_orange_cell"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ],
+            "margin": {
+              "top": 24
+            }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 16
+            },
             "items": [
               {
                 "type": "spacer",
@@ -435,16 +570,19 @@
             "type": "hbox",
             "items": [
               {
-                "type": "text",
-                "text": "09:13, After, Eat",
-                "weight": 1
-              },
-              {
                 "type": "image",
                 "image": {
                   "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
                   "width": 32,
                   "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "09:13, After, Eat",
+                "weight": 1,
+                "margin": {
+                  "left": 16
                 }
               }
             ],
@@ -473,7 +611,7 @@
               {
                 "type": "image",
                 "image": {
-                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion.png?raw=true",
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion_orange.png?raw=true",
                   "width": 32,
                   "height": 32
                 }
@@ -515,19 +653,69 @@
                     "items": [
                       {
                         "margin": {
-                          "top": 16
+                          "top": 4
                         },
                         "type": "circle_progress",
                         "progress": 4,
                         "total": 5,
-                        "progress_color": "#4BFD9D"
+                        "progress_color": "#4BFD9D",
+                        "height": 90,
+                        "width": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Ok",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#4BFD9D",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
                       },
                       {
                         "type": "text",
                         "text": "Performance",
                         "style": "text_default_center",
                         "margin": {
-                          "top": 11
+                          "top": 8
                         }
                       }
                     ]
@@ -551,42 +739,57 @@
                       {
                         "type": "image",
                         "image": {
-                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_state_focused.png?raw=true",
-                          "width": 100,
-                          "height": 80
+                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/meaasurement_indicator_mood_4_NaN.png?raw=true",
+                          "width": 91,
+                          "height": 91
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
-                        "margin": {
-                          "top": 7
-                        },
                         "items": [
                           {
                             "type": "spacer",
                             "weight": 1
                           },
                           {
-                            "type": "text",
-                            "style": "text_value_black",
-                            "text": "4",
-                            "margin": {
-                              "right": 7
-                            }
-                          },
-                          {
-                            "type": "image",
-                            "image": {
-                              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/star_20_4.png?raw=true",
-                              "width": 20,
-                              "height": 20
-                            },
-                            "margin": {
-                              "top": 3
-                            }
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_black",
+                                    "text": "Good / Super",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#F0F1F4",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -596,8 +799,11 @@
                       },
                       {
                         "type": "text",
-                        "text": "Mood",
-                        "style": "text_default_center"
+                        "text": "Feel / Mood",
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -631,8 +837,10 @@
                           "height": 80
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
@@ -645,21 +853,36 @@
                             "type": "hbox",
                             "items": [
                               {
-                                "type": "text",
-                                "style": "text_value_bold_white",
-                                "text": "Recover",
-                                "margin": {
-                                  "top": 2,
-                                  "left": 7,
-                                  "bottom": 2,
-                                  "right": 7
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Recover",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
                                 }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
                               }
                             ],
-                            "component_style": {
-                              "background_color": "#29DB7B",
-                              "corner_radius": 100
-                            }
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -670,7 +893,10 @@
                       {
                         "type": "text",
                         "text": "Energy",
-                        "style": "text_default_center"
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -698,8 +924,10 @@
                           "height": 80
                         },
                         "margin": {
-                          "top": 9
-                        }
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
                       },
                       {
                         "type": "hbox",
@@ -712,21 +940,36 @@
                             "type": "hbox",
                             "items": [
                               {
-                                "type": "text",
-                                "style": "text_value_bold_white",
-                                "text": "Overload",
-                                "margin": {
-                                  "top": 2,
-                                  "left": 7,
-                                  "bottom": 2,
-                                  "right": 7
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Optimum",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
                                 }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
                               }
                             ],
-                            "component_style": {
-                              "background_color": "#FD666F",
-                              "corner_radius": 100
-                            }
+                            "width": 100
                           },
                           {
                             "type": "spacer",
@@ -737,7 +980,10 @@
                       {
                         "type": "text",
                         "text": "Stress",
-                        "style": "text_default_center"
+                        "style": "text_default_center",
+                        "margin": {
+                          "top": 8
+                        }
                       }
                     ]
                   }
@@ -754,7 +1000,31 @@
           },
           {
             "type": "hbox",
-            "margin": {},
+            "items": [
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "button",
+                "ratio": 80,
+                "text": "Параметры замера",
+                "style": "button_orange_cell"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ],
+            "margin": {
+              "top": 24
+            }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 16
+            },
             "items": [
               {
                 "type": "spacer",
@@ -907,6 +1177,8 @@
               }
             ],
             "margin": {
+              "left": 24,
+              "right": 24,
               "top": 16,
               "bottom": 25
             }

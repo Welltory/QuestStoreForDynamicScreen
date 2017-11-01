@@ -57,6 +57,8 @@ module.exports = function(data) {
                 }
             ],
             "margin": {
+                left: 24,
+                right: 24,
                 "top": 16,
                 "bottom": 25
             }
