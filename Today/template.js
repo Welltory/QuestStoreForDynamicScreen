@@ -23,19 +23,17 @@ module.exports = function(data) {
                     "type": "text",
                     "text": "Rate your day",
                     "weight": 1
-                }, {
-                    "type": "image",
-                    "image": require("../Templates/image.js")({
-                        "name": "star_20_1.png",
-                        "width": 32,
-                        "height": 32
-                    })
-                }
+                },
+                require("../Templates/image.js")({
+                    "name": "star_20_1.png",
+                    "width": 32,
+                    "height": 32
+                })
             ],
             "margin": {
                 top: 20,
                 left: 24,
-                right: 24                
+                right: 24
             }
         }, {
             "type": "text",
@@ -47,7 +45,17 @@ module.exports = function(data) {
             }
         }, {
             "type": "hbox",
-            "items": [],
+            "items": [
+                require("../Templates/image.js")({
+                    "name": "measurement_five_empty_stars.png",
+                    "width": 198,
+                    "height": 28
+                }),
+                {
+                    "type": "spacer",
+                    "weight": 1
+                }
+            ],
             "margin": {
                 "top": 16,
                 "bottom": 25

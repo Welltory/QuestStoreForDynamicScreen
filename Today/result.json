@@ -73,7 +73,7 @@
               {
                 "type": "image",
                 "image": {
-                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion.png?raw=true",
                   "width": 32,
                   "height": 32
                 }
@@ -473,7 +473,7 @@
               {
                 "type": "image",
                 "image": {
-                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion.png?raw=true",
                   "width": 32,
                   "height": 32
                 }
@@ -869,12 +869,9 @@
               {
                 "type": "image",
                 "image": {
-                  "type": "image",
-                  "image": {
-                    "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/star_20_1.png?raw=true",
-                    "width": 32,
-                    "height": 32
-                  }
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/star_20_1.png?raw=true",
+                  "width": 32,
+                  "height": 32
                 }
               }
             ],
@@ -895,7 +892,20 @@
           },
           {
             "type": "hbox",
-            "items": [],
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_five_empty_stars.png?raw=true",
+                  "width": 198,
+                  "height": 28
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ],
             "margin": {
               "top": 16,
               "bottom": 25

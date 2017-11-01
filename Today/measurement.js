@@ -50,7 +50,7 @@ module.exports = function(params) {
                 "weight": 1
             },
             require("../Templates/image.js")({
-                "name": "ic_heart.png",
+                "name": "ic_conclusion.png",
                 "width": 32,
                 "height": 32
             })
