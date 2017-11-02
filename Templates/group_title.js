@@ -12,7 +12,7 @@ module.exports = function(params){
             {
                 "type": "text",
                 "text": params.text,
-                "style": "text_default",
+                "style": "text_header__value",
                 "margin": {
                     "left": 8
                 }

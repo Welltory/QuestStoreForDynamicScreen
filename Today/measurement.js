@@ -31,6 +31,7 @@ module.exports = function(params) {
         }), {
             "type": "text",
             "text": title,
+            "style": "text_card_20_title",
             "weight": 1,
             "margin": {
                 "left": 16
@@ -49,6 +50,7 @@ module.exports = function(params) {
         "type": "hbox",
         "items": [{
                 "type": "text",
+                "style": "text_card_title",
                 "text": "Recommendation",
                 "weight": 1
             },
@@ -67,6 +69,7 @@ module.exports = function(params) {
 
     items.push({
         "type": "text",
+        "style": "text_card_description",
         "text": params.recomendation,
         margin: {
             top: 12,
@@ -233,19 +236,23 @@ function performanceIndicator(measurement) {
             "type": "vbox",
             "items": [{
                 "type": "hbox",
-                "items": [
-                    { "type": "spacer", "weight": 1},
+                "items": [{
+                        "type": "spacer",
+                        "weight": 1
+                    },
                     require("../Templates/image.js")({
                         "name": "fullscreen_image_lock.png",
                         "width": 32,
                         "height": 32
                     }), {
                         "type": "text",
-                        "style": "text_title",
+                        "style": "text_card_lock_counter",
                         "text": step + "/" + toGo,
                         "height": 32
-                    },
-                    { "type": "spacer", "weight": 1}
+                    }, {
+                        "type": "spacer",
+                        "weight": 1
+                    }
                 ],
                 "margin": {
                     "top": 15
@@ -255,12 +262,12 @@ function performanceIndicator(measurement) {
                 "value": step / toGo
             }, {
                 "type": "text",
-                "style": "text_table_title",
-                "text": left>1 ? "1 measurement left" : left + " measurements left"
+                "style": "text_card_desc_label",
+                "text": left > 1 ? "1 measurement left" : left + " measurements left"
             }, {
                 "type": "text",
                 "text": "Performance",
-                "style": "text_default_center",
+                "style": "text_card_label_text",
                 "margin": {
                     "top": 8
                 }
@@ -347,7 +354,7 @@ function cell(icon, tag_text, color, title) {
     var title_component = {
         "type": "text",
         "text": title,
-        "style": "text_default_center",
+        "style": "text_card_label_text",
         "margin": {
             "top": 8
         }

@@ -22,6 +22,7 @@ module.exports = function(data) {
             "items": [{
                     "type": "text",
                     "text": "Rate your day",
+                    "style": "text_card_title",
                     "weight": 1
                 },
                 require("../Templates/image.js")({
@@ -37,6 +38,7 @@ module.exports = function(data) {
             }
         }, {
             "type": "text",
+            "style": "text_card_description",
             "text": "Please, rate your day as you feel and then you can competite it with Welltory score",
             "margin": {
                 left: 24,
