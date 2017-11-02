@@ -21,7 +21,7 @@
           {
             "type": "text",
             "text": "Today measurements",
-            "style": "text_default",
+            "style": "text_header__value",
             "margin": {
               "left": 8
             }
@@ -45,6 +45,7 @@
               {
                 "type": "text",
                 "text": "17:00, Gym, Walking",
+                "style": "text_card_20_title",
                 "weight": 1,
                 "margin": {
                   "left": 16
@@ -70,6 +71,7 @@
             "items": [
               {
                 "type": "text",
+                "style": "text_card_title",
                 "text": "Recommendation",
                 "weight": 1
               },
@@ -90,6 +92,7 @@
           },
           {
             "type": "text",
+            "style": "text_card_description",
             "text": "Your measuring perfomance is ok, but you can become a bit better",
             "margin": {
               "top": 12,
@@ -178,7 +181,7 @@
                       {
                         "type": "text",
                         "text": "Performance",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -265,7 +268,7 @@
                       {
                         "type": "text",
                         "text": "Feel / Mood",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -358,7 +361,7 @@
                       {
                         "type": "text",
                         "text": "Energy",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -445,7 +448,7 @@
                       {
                         "type": "text",
                         "text": "Stress",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -600,6 +603,7 @@
               {
                 "type": "text",
                 "text": "09:13, After, Eat",
+                "style": "text_card_20_title",
                 "weight": 1,
                 "margin": {
                   "left": 16
@@ -625,6 +629,7 @@
             "items": [
               {
                 "type": "text",
+                "style": "text_card_title",
                 "text": "Recommendation",
                 "weight": 1
               },
@@ -645,6 +650,7 @@
           },
           {
             "type": "text",
+            "style": "text_card_description",
             "text": "Your measuring perfomance is good! Try to reach 5 stars one!",
             "margin": {
               "top": 12,
@@ -733,7 +739,7 @@
                       {
                         "type": "text",
                         "text": "Performance",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -820,7 +826,7 @@
                       {
                         "type": "text",
                         "text": "Feel / Mood",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -913,7 +919,7 @@
                       {
                         "type": "text",
                         "text": "Energy",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1000,7 +1006,7 @@
                       {
                         "type": "text",
                         "text": "Stress",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1155,6 +1161,7 @@
               {
                 "type": "text",
                 "text": "07:40, Wakeup",
+                "style": "text_card_20_title",
                 "weight": 1,
                 "margin": {
                   "left": 16
@@ -1180,6 +1187,7 @@
             "items": [
               {
                 "type": "text",
+                "style": "text_card_title",
                 "text": "Recommendation",
                 "weight": 1
               },
@@ -1200,6 +1208,7 @@
           },
           {
             "type": "text",
+            "style": "text_card_description",
             "text": "Your measuring perfomance is good! Try to reach 5 stars one!",
             "margin": {
               "top": 12,
@@ -1243,7 +1252,7 @@
                           },
                           {
                             "type": "text",
-                            "style": "text_title",
+                            "style": "text_card_lock_counter",
                             "text": "4/5",
                             "height": 32
                           },
@@ -1262,13 +1271,13 @@
                       },
                       {
                         "type": "text",
-                        "style": "text_table_title",
+                        "style": "text_card_desc_label",
                         "text": "1 measurements left"
                       },
                       {
                         "type": "text",
                         "text": "Performance",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1359,7 +1368,7 @@
                       {
                         "type": "text",
                         "text": "Feel / Mood",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1452,7 +1461,7 @@
                       {
                         "type": "text",
                         "text": "Energy",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1539,7 +1548,7 @@
                       {
                         "type": "text",
                         "text": "Stress",
-                        "style": "text_default_center",
+                        "style": "text_card_label_text",
                         "margin": {
                           "top": 8
                         }
@@ -1697,7 +1706,7 @@
           {
             "type": "text",
             "text": "Data summary",
-            "style": "text_default",
+            "style": "text_header__value",
             "margin": {
               "left": 8
             }
@@ -1713,6 +1722,7 @@
               {
                 "type": "text",
                 "text": "Rate your day",
+                "style": "text_card_title",
                 "weight": 1
               },
               {
@@ -1732,6 +1742,7 @@
           },
           {
             "type": "text",
+            "style": "text_card_description",
             "text": "Please, rate your day as you feel and then you can competite it with Welltory score",
             "margin": {
               "left": 24,
