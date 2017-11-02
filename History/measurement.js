@@ -90,7 +90,7 @@ function createSingleRow(params) {
 
 function createHorizontalDivider() {
     return {
-        type: "sapcer",
+        type: "spacer",
         height: 1,
         component_style: {
             background_color: "#F0F1F4"
@@ -100,7 +100,7 @@ function createHorizontalDivider() {
 
 function createVerticalDivider() {
     return {
-        type: "sapcer",
+        type: "spacer",
         width: 1,
         component_style: {
             background_color: "#F0F1F4"
