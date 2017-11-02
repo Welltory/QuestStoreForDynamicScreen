@@ -1,0 +1,90 @@
+{
+  "days": [
+    {
+      "date": "Today",
+      "measurements": [
+        {
+          "time": "5:00 AM",
+          "label": {
+            "text": "Recover",
+            "type": "positive"
+          },
+          "readiness": 4,
+          "readiness_max": 5,
+          "feel": 4,
+          "mood": 5,
+          "energy": 65,
+          "stress": 14,
+          "heart_rate": 65,
+          "details": 9,
+          "details_max": 15,
+          "pressure_systolic": 120,
+          "pressure_diastolic": 80,
+          "accuracy": 87,
+          "tags": [
+            "after",
+            "walking",
+            "gym"
+          ]
+        },
+        {
+          "time": "11:00 PM",
+          "label": {
+            "text": "Worse",
+            "type": "negative"
+          },
+          "readiness": 3,
+          "readiness_max": 5,
+          "feel": 3,
+          "mood": 5,
+          "energy": 24,
+          "stress": 65,
+          "heart_rate": 65,
+          "details": 9,
+          "details_max": 15,
+          "pressure_systolic": 120,
+          "pressure_diastolic": 80,
+          "accuracy": 99,
+          "tags": [
+            "after",
+            "alcohol"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Yesterday",
+      "measurements": [
+        {
+          "time": "5:00 PM",
+          "label": {
+            "text": "Same",
+            "type": "neutral"
+          },
+          "readiness": 4,
+          "readiness_max": 5,
+          "feel": 4,
+          "mood": 5,
+          "energy": 65,
+          "stress": 14,
+          "heart_rate": 65,
+          "details": 9,
+          "details_max": 15,
+          "pressure_systolic": 120,
+          "pressure_diastolic": 80,
+          "accuracy": 87
+        },
+        {
+          "time": "5:00 PM",
+          "label": {
+            "text": "Same",
+            "type": "neutral"
+          },
+          "energy": 65,
+          "stress": 14,
+          "heart_rate": 65
+        }
+      ]
+    }
+  ]
+}
