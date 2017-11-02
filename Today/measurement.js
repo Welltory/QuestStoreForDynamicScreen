@@ -84,12 +84,12 @@ module.exports = function(params) {
         "items": [{
                 type: "vbox",
                 weight: 1,
-                items: [performanceIndicator(params.performance)]
+                items: [performanceIndicator(params)]
             },
             vr, {
                 "type": "vbox",
                 weight: 1,
-                items: [moodIndicator(params.mood)]
+                items: [moodIndicator(params.mood, params.feel)]
             }
         ]
     });
@@ -118,21 +118,41 @@ module.exports = function(params) {
             "name": "measurement_button_pressure.png",
             "width": 65,
             "height": 65
+        }, {
+            "action": {
+                "type": "open",
+                "url": "123"
+            }
         }),
         require("../Templates/image.js")({
             "name": "measurement_button_details.png",
             "width": 65,
             "height": 65
+        }, {
+            "action": {
+                "type": "open",
+                "url": "123"
+            }
         }),
         require("../Templates/image.js")({
             "name": "measurement_button_remove.png",
             "width": 65,
             "height": 65
+        }, {
+            "action": {
+                "type": "open",
+                "url": "123"
+            }
         }),
         require("../Templates/image.js")({
             "name": "measurement_button_share.png",
             "width": 65,
             "height": 65
+        }, {
+            "action": {
+                "type": "open",
+                "url": "123"
+            }
         })
     ];
 
@@ -142,25 +162,25 @@ module.exports = function(params) {
             "bottom": 8,
         }
     });
-    
+
     items.push({
         "type": "hbox",
-        "items": [
-            {
-                "type": "spacer",
-                "weight": 1
-            },
-            {
-                "type": "button",
-                "ratio": 80,
-                "text": "Параметры замера",
-                "style": "button_orange_cell"
-            },
-            {
-                "type": "spacer",
-                "weight": 1
+        "items": [{
+            "type": "spacer",
+            "weight": 1
+        }, {
+            "type": "button",
+            "ratio": 80,
+            "text": "Параметры замера",
+            "style": "button_CTA_button",
+            "action": {
+                "type": "open",
+                "url": "123"
             }
-        ],
+        }, {
+            "type": "spacer",
+            "weight": 1
+        }],
         margin: {
             "top": 24
         }
@@ -201,7 +221,58 @@ module.exports = function(params) {
     };
 }
 
-function performanceIndicator(performance) {
+function performanceIndicator(measurement) {
+
+    if (measurement.hasOwnProperty("performance_minimum_not_reached")) {
+        var step = measurement.performance_minimum_not_reached[0];
+        var toGo = measurement.performance_minimum_not_reached[1];
+
+        var left = toGo - step;
+
+        return {
+            "type": "vbox",
+            "items": [{
+                "type": "hbox",
+                "items": [
+                    { "type": "spacer", "weight": 1},
+                    require("../Templates/image.js")({
+                        "name": "fullscreen_image_lock.png",
+                        "width": 32,
+                        "height": 32
+                    }), {
+                        "type": "text",
+                        "style": "text_title",
+                        "text": step + "/" + toGo,
+                        "height": 32
+                    },
+                    { "type": "spacer", "weight": 1}
+                ],
+                "margin": {
+                    "top": 15
+                }
+            }, {
+                "type": "progress",
+                "value": step / toGo
+            }, {
+                "type": "text",
+                "style": "text_table_title",
+                "text": left>1 ? "1 measurement left" : left + " measurements left"
+            }, {
+                "type": "text",
+                "text": "Performance",
+                "style": "text_default_center",
+                "margin": {
+                    "top": 8
+                }
+            }],
+            margin: {
+                left: 20,
+                right: 20
+            }
+        }
+    }
+
+    var performance = measurement.performance;
 
     var red = "#FD666F";
     var yellow = "#FFF46E";
@@ -233,8 +304,10 @@ function performanceIndicator(performance) {
 function moodIndicator(mood, feel) {
     var mood_index = Math.max(Math.min(mood, 5), 1)
     var feel_index = Math.max(Math.min(feel, 5), 1)
+    var fileName = mood_index || feel_index ? "meaasurement_indicator_mood_" + mood_index + "_" + feel_index + ".png" : "meaasurement_indicator_mood_error.png";
+
     return cell(require("../Templates/image.js")({
-        "name": "meaasurement_indicator_mood_" + mood_index + "_" + feel_index + ".png",
+        "name": fileName,
         "width": 91,
         "height": 91
     }), "Good / Super", "#F0F1F4", "Feel / Mood");
