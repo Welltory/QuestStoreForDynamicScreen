@@ -69,7 +69,9 @@ function createPersonRow(params) {
                 width: 64,
                 height: 64
             }, {
-                    round: true
+                    component_style: {
+                        corner_radius: 64
+                    }
                 }),
             {
                 type: "vbox",
