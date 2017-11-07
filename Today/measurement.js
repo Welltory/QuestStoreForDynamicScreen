@@ -282,6 +282,8 @@ function performanceIndicator(measurement) {
                             }
                         }, {
                             "type": "progress",
+                            "progress_color": "#FD666F",
+                            "show_percentage": false,
                             "margin": {
                                 "top": 12
                             },
