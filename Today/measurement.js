@@ -1,4 +1,4 @@
-module.exports = function(params) {
+module.exports = function (params) {
 
     var hr = {
         "type": "spacer",
@@ -18,7 +18,7 @@ module.exports = function(params) {
 
     var title = params.time;
 
-    params.tags.forEach(function(tag) {
+    params.tags.forEach(function (tag) {
         title += ", " + tag;
     });
 
@@ -49,16 +49,16 @@ module.exports = function(params) {
     items.push({
         "type": "hbox",
         "items": [{
-                "type": "text",
-                "style": "text_card_title",
-                "text": "Recommendation",
-                "weight": 1
-            },
-            require("../Templates/image.js")({
-                "name": "ic_conclusion_orange.png",
-                "width": 32,
-                "height": 32
-            })
+            "type": "text",
+            "style": "text_card_title",
+            "text": "Recommendation",
+            "weight": 1
+        },
+        require("../Templates/image.js")({
+            "name": "ic_conclusion_orange.png",
+            "width": 32,
+            "height": 32
+        })
         ],
         margin: {
             top: 16,
@@ -85,15 +85,15 @@ module.exports = function(params) {
         "type": "hbox",
         "height": 160,
         "items": [{
-                type: "vbox",
-                weight: 1,
-                items: [performanceIndicator(params)]
-            },
+            type: "vbox",
+            weight: 1,
+            items: [performanceIndicator(params)]
+        },
             vr, {
-                "type": "vbox",
-                weight: 1,
-                items: [moodIndicator(params.mood, params.feel)]
-            }
+            "type": "vbox",
+            weight: 1,
+            items: [moodIndicator(params.mood, params.feel)]
+        }
         ]
     });
 
@@ -103,55 +103,55 @@ module.exports = function(params) {
         "type": "hbox",
         "height": 160,
         "items": [{
-                type: "vbox",
-                weight: 1,
-                items: [energyIndicator(params.energy)]
-            },
+            type: "vbox",
+            weight: 1,
+            items: [energyIndicator(params.energy)]
+        },
             vr, {
-                type: "vbox",
-                weight: 1,
-                items: [stressIndicator(params.stress)]
-            }
+            type: "vbox",
+            weight: 1,
+            items: [stressIndicator(params.stress)]
+        }
         ]
     });
 
     items.push(hr);
 
     var buttons = [require("../Templates/image.js")({
-            "name": "measurement_button_pressure.png",
-            "width": 65,
-            "height": 65
-        }, {
+        "name": "measurement_button_pressure.png",
+        "width": 65,
+        "height": 65
+    }, {
             "action": {
                 "type": "open",
                 "url": "123"
             }
         }),
-        require("../Templates/image.js")({
-            "name": "measurement_button_details.png",
-            "width": 65,
-            "height": 65
-        }, {
+    require("../Templates/image.js")({
+        "name": "measurement_button_details.png",
+        "width": 65,
+        "height": 65
+    }, {
             "action": {
                 "type": "open",
                 "url": "123"
             }
         }),
-        require("../Templates/image.js")({
-            "name": "measurement_button_remove.png",
-            "width": 65,
-            "height": 65
-        }, {
+    require("../Templates/image.js")({
+        "name": "measurement_button_remove.png",
+        "width": 65,
+        "height": 65
+    }, {
             "action": {
                 "type": "open",
                 "url": "123"
             }
         }),
-        require("../Templates/image.js")({
-            "name": "measurement_button_share.png",
-            "width": 65,
-            "height": 65
-        }, {
+    require("../Templates/image.js")({
+        "name": "measurement_button_share.png",
+        "width": 65,
+        "height": 65
+    }, {
             "action": {
                 "type": "open",
                 "url": "123"
@@ -159,7 +159,7 @@ module.exports = function(params) {
         })
     ];
 
-    buttons.forEach(function(item, index, array) {
+    buttons.forEach(function (item, index, array) {
         item.margin = {
             "top": 8,
             "bottom": 8,
@@ -193,25 +193,25 @@ module.exports = function(params) {
         type: "hbox",
         margin: {},
         items: [{
-                type: "spacer",
-                weight: 1
-            },
-            buttons[0], {
-                type: "spacer",
-                weight: 1
-            },
-            buttons[1], {
-                type: "spacer",
-                weight: 1
-            },
-            buttons[2], {
-                type: "spacer",
-                weight: 1
-            },
-            buttons[3], {
-                type: "spacer",
-                weight: 1
-            },
+            type: "spacer",
+            weight: 1
+        },
+        buttons[0], {
+            type: "spacer",
+            weight: 1
+        },
+        buttons[1], {
+            type: "spacer",
+            weight: 1
+        },
+        buttons[2], {
+            type: "spacer",
+            weight: 1
+        },
+        buttons[3], {
+            type: "spacer",
+            weight: 1
+        },
         ],
         margin: {
             "top": 16
@@ -234,44 +234,58 @@ function performanceIndicator(measurement) {
 
         return {
             "type": "vbox",
-            "items": [{
-                "type": "hbox",
-                "items": [{
-                        "type": "spacer",
-                        "weight": 1
-                    },
-                    require("../Templates/image.js")({
-                        "name": "fullscreen_image_lock.png",
-                        "width": 32,
-                        "height": 32
-                    }), {
-                        "type": "text",
-                        "style": "text_card_lock_counter",
-                        "text": step + "/" + toGo,
-                        "height": 32
-                    }, {
-                        "type": "spacer",
-                        "weight": 1
+            "items": [
+                {
+                    "type": "vbox",
+                    "height": 120,
+                    "items": [
+                        {
+                            "type": "hbox",
+                            "items": [{
+                                "type": "spacer",
+                                "weight": 1
+                            },
+                            require("../Templates/image.js")({
+                                "name": "fullscreen_image_lock.png",
+                                "width": 32,
+                                "height": 32
+                            }), {
+                                "type": "text",
+                                "style": "text_card_lock_counter",
+                                "text": step + "/" + toGo,
+                                "height": 32,
+                                "margin": {
+                                    "left": 15
+                                }
+                            }, {
+                                "type": "spacer",
+                                "weight": 1
+                            }
+                            ],
+                            "margin": {
+                                "top": 15
+                            }
+                        }, {
+                            "type": "progress",
+                            "margin": {
+                                "top": 12
+                            },
+                            "value": step / toGo
+                        }, {
+                            "type": "text",
+                            "style": "text_card_desc_label",
+                            "weight": 1,
+                            "text": left > 1 ? "1 measurement left" : left + " measurements left"
+                        }
+                    ]
+                }, {
+                    "type": "text",
+                    "text": "Performance",
+                    "style": "text_card_label_text",
+                    "margin": {
+                        "top": 8
                     }
-                ],
-                "margin": {
-                    "top": 15
-                }
-            }, {
-                "type": "progress",
-                "value": step / toGo
-            }, {
-                "type": "text",
-                "style": "text_card_desc_label",
-                "text": left > 1 ? "1 measurement left" : left + " measurements left"
-            }, {
-                "type": "text",
-                "text": "Performance",
-                "style": "text_card_label_text",
-                "margin": {
-                    "top": 8
-                }
-            }],
+                }],
             margin: {
                 left: 20,
                 right: 20
@@ -298,13 +312,14 @@ function performanceIndicator(measurement) {
 
     return cell({
         "margin": {
-            "top": 16
+            "top": 14,
+            "bottom": 9
         },
         "type": "circle_progress",
         "progress": performance,
+        "height": 71,
         "total": 5,
         "progress_color": color,
-        "height": 71
     }, "Ok", color, "Performance");
 }
 
@@ -339,11 +354,11 @@ function energyIndicator(energy) {
 }
 
 function cell(icon, tag_text, color, title) {
-    icon.margin = {
+    icon.margin = icon.margin || {
         "top": 4
     };
-    icon.width = 90;
-    icon.height = 90;
+    icon.width = icon.width || 90;
+    icon.height = icon.height || 90;
 
     var tag = require("../Templates/tag_small.js")({
         "text": tag_text,
@@ -362,17 +377,25 @@ function cell(icon, tag_text, color, title) {
 
     return {
         "type": "vbox",
-        "items": [icon, {
-            type: "hbox",
-            items: [{
-                    type: "spacer",
-                    weight: 1
-                },
-                tag, {
-                    type: "spacer",
-                    weight: 1
-                },
-            ]
-        }, title_component]
+        "items": [
+            {
+                "type": "vbox",
+                "height": 120,
+                "items": [
+                    icon, {
+                        type: "hbox",
+                        items: [{
+                            type: "spacer",
+                            weight: 1
+                        },
+                            tag, {
+                            type: "spacer",
+                            weight: 1
+                        },
+                        ]
+                    }
+                ]
+            }
+            , title_component]
     };
 }
