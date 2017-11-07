@@ -24,8 +24,8 @@ module.exports = function (data) {
                 "top": 10
             },
             "icon": {
-                "width": 48,
-                "height": 48,
+                "width": 33,
+                "height": 38,
                 "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_share.png?raw=true"
             },
             "text": "Share results",
