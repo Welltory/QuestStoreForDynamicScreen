@@ -1,0 +1,29 @@
+{
+  "measurement": {
+    "time": "5:00 AM",
+    "label": {
+      "text": "Recover",
+      "type": "positive"
+    },
+    "readiness": 4,
+    "readiness_max": 5,
+    "feel": 4,
+    "mood": 5,
+    "energy": 65,
+    "stress": 14,
+    "heart_rate": 65,
+    "details": 9,
+    "details_max": 15,
+    "pressure_systolic": 120,
+    "pressure_diastolic": 80,
+    "accuracy": 87,
+    "tags": [
+      "after",
+      "walking",
+      "gym"
+    ]
+  },
+  "person": {
+    "photo": "user_photo.png"
+  }
+}

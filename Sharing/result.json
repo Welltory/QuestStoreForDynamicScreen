@@ -1,0 +1,313 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "spacer",
+        "weight": 112
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "margin": {
+              "left": 27,
+              "right": 27,
+              "top": 31,
+              "bottom": 31
+            },
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/user_photo.png?raw=true",
+                  "width": 64,
+                  "height": 64
+                },
+                "round": true
+              },
+              {
+                "type": "vbox",
+                "margin": {
+                  "left": 20
+                },
+                "items": [
+                  {
+                    "type": "hbox",
+                    "items": [
+                      {
+                        "type": "text",
+                        "style": "text_group_title",
+                        "text": "Performance",
+                        "margin": {
+                          "right": 10
+                        }
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "text",
+                                "style": "text_tag_white",
+                                "text": "Super",
+                                "weight": 1,
+                                "margin": {
+                                  "top": 2,
+                                  "left": 7,
+                                  "bottom": 2,
+                                  "right": 7
+                                }
+                              }
+                            ],
+                            "component_style": {
+                              "background_color": "#33E686",
+                              "corner_radius": 100
+                            }
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "margin": {
+                      "top": 10
+                    },
+                    "type": "text",
+                    "style": "text_default",
+                    "text": "Ready to win the day + 2 строчки текста"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "margin": {
+                  "bottom": 24
+                },
+                "items": [
+                  {
+                    "type": "vbox",
+                    "height": 120,
+                    "items": [
+                      {
+                        "type": "image",
+                        "image": {
+                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_energy_1.png?raw=true",
+                          "width": 91,
+                          "height": 91
+                        },
+                        "margin": {
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Recover",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#33E686",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "Energy",
+                    "style": "text_card_label_text",
+                    "margin": {
+                      "top": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "margin": {
+                  "bottom": 24
+                },
+                "items": [
+                  {
+                    "type": "vbox",
+                    "height": 120,
+                    "items": [
+                      {
+                        "type": "image",
+                        "image": {
+                          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_stress_2.png?raw=true",
+                          "width": 91,
+                          "height": 91
+                        },
+                        "margin": {
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Low",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#33E686",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "Stress",
+                    "style": "text_card_label_text",
+                    "margin": {
+                      "top": 8
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "spacer",
+        "weight": 101
+      }
+    ],
+    "footer": [
+      {
+        "style": "button_orange",
+        "action": {
+          "type": "redirect",
+          "url": "welltory://modal/ShareMeasurement/1"
+        },
+        "margin": {
+          "left": 10,
+          "right": 10,
+          "bottom": 10,
+          "top": 10
+        },
+        "icon": {
+          "width": 48,
+          "height": 48,
+          "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_share.png?raw=true"
+        },
+        "text": "Share results",
+        "type": "button"
+      }
+    ],
+    "title": "Share results"
+  },
+  "success": true
+}
