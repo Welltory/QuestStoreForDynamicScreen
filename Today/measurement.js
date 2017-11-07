@@ -123,8 +123,11 @@ module.exports = function (params) {
         "height": 65
     }, {
             "action": {
-                "type": "open",
-                "url": "123"
+                "type": "redirect",
+                "url": "welltory://modal/AddPressure/1",
+                "on_close": {
+                    "type": "refresh"
+                }
             }
         }),
     require("../Templates/image.js")({
@@ -133,8 +136,11 @@ module.exports = function (params) {
         "height": 65
     }, {
             "action": {
-                "type": "open",
-                "url": "123"
+                "type": "redirect",
+                "url": "welltory://modal/FeelDifferent/1",
+                "on_close": {
+                    "type": "refresh"
+                }
             }
         }),
     require("../Templates/image.js")({
@@ -143,8 +149,11 @@ module.exports = function (params) {
         "height": 65
     }, {
             "action": {
-                "type": "open",
-                "url": "123"
+                "type": "redirect",
+                "url": "welltory://modal/RemoveMeasurement/1",
+                "on_close": {
+                    "type": "refresh"
+                }
             }
         }),
     require("../Templates/image.js")({
@@ -153,8 +162,11 @@ module.exports = function (params) {
         "height": 65
     }, {
             "action": {
-                "type": "open",
-                "url": "123"
+                "type": "redirect",
+                "url": "welltory://modal/ShareMeasurement/1",
+                "on_close": {
+                    "type": "refresh"
+                }
             }
         })
     ];
@@ -177,8 +189,11 @@ module.exports = function (params) {
             "text": "Параметры замера",
             "style": "button_CTA_button",
             "action": {
-                "type": "open",
-                "url": "123"
+                "type": "redirect",
+                "url": "welltory://modal/Details/1",
+                "on_close": {
+                    "type": "refresh"
+                }
             }
         }, {
             "type": "spacer",
