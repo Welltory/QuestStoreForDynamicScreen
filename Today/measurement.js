@@ -1,20 +1,7 @@
 module.exports = function (params) {
 
-    var hr = {
-        "type": "spacer",
-        "height": 1,
-        "component_style": {
-            "background_color": "#F0F1F4"
-        }
-    };
-
-    var vr = {
-        "type": "spacer",
-        "width": 1,
-        "component_style": {
-            "background_color": "#F0F1F4"
-        }
-    };
+    var hr = require("../Templates/hr.js")();
+    var vr = require("../Templates/vr.js")();
 
     var title = params.time;
 

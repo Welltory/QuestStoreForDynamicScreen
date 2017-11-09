@@ -1,0 +1,350 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "Measure now!",
+                "style": "text_card_20_title",
+                "weight": 1,
+                "margin": {
+                  "left": 16
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "margin": {
+                  "bottom": 24
+                },
+                "items": [
+                  {
+                    "type": "vbox",
+                    "height": 120,
+                    "items": [
+                      {
+                        "margin": {
+                          "top": 14,
+                          "bottom": 9
+                        },
+                        "type": "circle_progress",
+                        "progress": 5,
+                        "height": 71,
+                        "total": 5,
+                        "progress_color": "#4BFD9D",
+                        "width": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "High",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "Customized",
+                    "style": "text_card_label_text",
+                    "margin": {
+                      "top": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "margin": {
+                  "bottom": 24
+                },
+                "items": [
+                  {
+                    "type": "vbox",
+                    "height": 120,
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "4",
+                        "style": "text_indicator_green",
+                        "margin": {
+                          "top": 4
+                        },
+                        "width": 90,
+                        "height": 90
+                      },
+                      {
+                        "type": "hbox",
+                        "items": [
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Streak",
+                                    "weight": 1,
+                                    "margin": {
+                                      "top": 2,
+                                      "left": 7,
+                                      "bottom": 2,
+                                      "right": 7
+                                    }
+                                  }
+                                ],
+                                "component_style": {
+                                  "background_color": "#29DB7B",
+                                  "corner_radius": 100
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "width": 100
+                          },
+                          {
+                            "type": "spacer",
+                            "weight": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "Days",
+                    "style": "text_card_label_text",
+                    "margin": {
+                      "top": 8
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "29",
+                "style": "text_counter",
+                "width": 39
+              },
+              {
+                "type": "text",
+                "text": "measurements left to start changing your life effortlessly, measurements left to start changing your life effortlessly",
+                "style": "text_card_desription",
+                "weight": 1,
+                "margin": {
+                  "left": 26
+                }
+              }
+            ],
+            "margin": {
+              "left": 24,
+              "right": 18,
+              "top": 14,
+              "bottom": 14
+            }
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "Last measured: Oct 27, 2017",
+                "style": "text_card_title",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/icon_cell_chevron_right.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            ],
+            "height": 65,
+            "margin": {
+              "left": 24,
+              "right": 18
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "Tags: ",
+                "style": "text_card_desription"
+              },
+              {
+                "type": "text",
+                "text": "after meal, sport",
+                "style": "text_card_desription",
+                "weight": 1
+              },
+              {
+                "type": "hbox",
+                "items": [
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  },
+                  {
+                    "type": "hbox",
+                    "items": [
+                      {
+                        "type": "text",
+                        "style": "text_tag_white",
+                        "text": "Good",
+                        "weight": 1,
+                        "margin": {
+                          "top": 2,
+                          "left": 7,
+                          "bottom": 2,
+                          "right": 7
+                        }
+                      }
+                    ],
+                    "component_style": {
+                      "background_color": "#29DB7B",
+                      "corner_radius": 100
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  }
+                ],
+                "width": 72
+              }
+            ],
+            "height": 21,
+            "margin": {
+              "left": 24,
+              "right": 18,
+              "top": 14,
+              "bottom": 14
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}

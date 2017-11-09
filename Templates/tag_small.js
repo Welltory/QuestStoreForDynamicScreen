@@ -2,18 +2,18 @@
     
 */
 
-module.exports = function(params) {
+var colors = require("../Templates/pallete.js");
 
-    var pallete = ["#33E686", "#FFF46E", "#FD666F"];
+module.exports = function(params, extend) {
+    var pallete = [colors["tag_green"], colors["tag_yellow"], colors["tag_red"]];
     
-    var textStyles = {
-        "#33E686": "text_tag_white",
-        "#FFF46E": "text_tag_black",
-        "#FD666F": "text_tag_white",
-        "#F0F1F4": "text_tag_black"
-    }
+    var textStyles = {};
+    textStyles[colors.tag_green]  = "text_tag_white";
+    textStyles[colors.tag_yellow] = "text_tag_black";
+    textStyles[colors.tag_red]    = "text_tag_white";
+    textStyles[colors.tag_grey]   = "text_tag_black";
 
-    var color = "#29DB7B";
+    var color = colors["tag_green"];
     var text_style = "text_tag_white";
     if (params.color) {
         color      = params.color;
@@ -24,7 +24,7 @@ module.exports = function(params) {
         text_style = textStyles[color]||text_style;
     }
 
-    return {
+    var result = {
         "type": "hbox",
         "items": [{
             "type": "spacer",
@@ -51,5 +51,13 @@ module.exports = function(params) {
             "type": "spacer",
             "weight": 1
         }]
+    };
+    
+    if (extend) {
+        for (var key in extend) {
+            result[key] = extend[key];
+        }
     }
+    
+    return result;
 };
