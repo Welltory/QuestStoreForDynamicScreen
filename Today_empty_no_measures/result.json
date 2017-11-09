@@ -271,10 +271,11 @@
                 }
               }
             ],
-            "height": 65,
             "margin": {
               "left": 24,
-              "right": 18
+              "right": 18,
+              "top": 18,
+              "bottom": 15
             }
           },
           {

@@ -80,7 +80,6 @@ module.exports = function(data) {
                 }
             }
         ],
-        // height: 21,
         "margin": {
             left: 24,
             right: 18,
@@ -110,10 +109,11 @@ module.exports = function(data) {
                     "height": 32
                 })
             ],
-            height: 65,
             "margin": {
                 left: 24,
-                right: 18
+                right: 18,
+                top: 18,
+                bottom: 15
             }
         }, hr, {
             "type": "hbox",
