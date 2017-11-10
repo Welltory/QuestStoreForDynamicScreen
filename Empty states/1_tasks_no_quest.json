@@ -1,1 +1,45 @@
-{"result":{"content":[{"type":"cell","items":[{"type":"image","image":{"uploadcare_id":"f58875df-fd0c-45d2-babb-b1c1dfdf76f2","width":64,"url":"https://ucarecdn.com/f58875df-fd0c-45d2-babb-b1c1dfdf76f2/","height":64},"align":"center"},{"type":"text","text":"Восстановление","style":"text_value_bold_white","align":"center","component_style":{"corner_radius":3,"background_color":"#29DB7B"}},{"type":"text","text":"Энергия","style":"text_default_center"}],"action":{"type":"open","page":{"content":[{"type":"spacer","height":18},{"type":"image","image":{"uploadcare_id":"f58875df-fd0c-45d2-babb-b1c1dfdf76f2","width":128,"url":"https://ucarecdn.com/f58875df-fd0c-45d2-babb-b1c1dfdf76f2/","height":128},"align":"center"},{"type":"spacer","height":30},{"type":"cell","items":[{"type":"text","text":"Введение","style":"text_title_cell","margin":{"top":24,"left":20,"right":20}},{"type":"text","text":"Что-то про энергию","style":"text_default","margin":{"bottom":24,"top":8,"left":20,"right":20}}]},{"type":"cell","items":[{"type":"hbox","items":[{"type":"text","text":"Уровень энергии","style":"text_title_cell"},{"type":"spacer","weight":1},{"type":"hbox","items":[{"type":"spacer","weight":1},{"type":"text","text":"3","style":"text_value_bold_white"},{"type":"spacer","weight":2},{"type":"text","text":"0%","style":"text_value_white"},{"type":"spacer","weight":1}],"height":38,"width":115,"component_style":{"corner_radius":3,"background_color":"#29DB7B"}}],"margin":{"top":16,"left":24,"right":16}},{"type":"text","text":"Бла бла бла","style":"text_default","margin":{"bottom":17,"top":21,"left":24,"right":18}}]},{"type":"cell","items":[{"type":"hbox","items":[{"type":"text","text":"Трата и накопление энергии","style":"text_title_cell"},{"type":"spacer","weight":1},{"height":38,"width":115,"style":"text_value_bold_white","type":"text","text":"Восстановление","component_style":{"corner_radius":3,"background_color":"#29DB7B"}}],"margin":{"top":16,"left":24,"right":16}},{"type":"text","text":"павипыва","style":"text_default","margin":{"bottom":17,"top":21,"left":24,"right":18}}]},{"type":"spacer","height":18}]},"variant":"push"}},{"type":"cell","items":[{"type":"image","image":{"uploadcare_id":"bc2b240c-ac72-4afc-bbab-1255b2da1f94","width":64,"url":"https://ucarecdn.com/bc2b240c-ac72-4afc-bbab-1255b2da1f94/","height":64},"align":"center"},{"type":"text","text":"отсутствует","style":"text_value_bold_white","align":"center","component_style":{"corner_radius":3,"background_color":"#29DB7B"}},{"type":"text","text":"Стресс","style":"text_default_center"}],"action":{"type":"open","page":{"content":[{"type":"spacer","height":18},{"type":"image","image":{"uploadcare_id":"bc2b240c-ac72-4afc-bbab-1255b2da1f94","width":128,"url":"https://ucarecdn.com/bc2b240c-ac72-4afc-bbab-1255b2da1f94/","height":128},"align":"center"},{"type":"spacer","height":30},{"type":"cell","items":[{"type":"text","text":"Введение","style":"text_title_cell","margin":{"top":24,"left":20,"right":20}},{"type":"text","text":"Стресс - это уровень напряжения организма, который определяется активностью симпатической системы. Полное отсутствие стресса - это \"растечься какашкой по стулу\". Перебор со стрессом - ведет к тому, чтобы сломаться.","style":"text_default","margin":{"bottom":24,"top":8,"left":20,"right":20}}]},{"type":"cell","items":[{"type":"hbox","items":[{"type":"text","text":"Стресс","style":"text_title_cell"},{"type":"spacer","weight":1},{"height":38,"width":115,"style":"text_value_bold_white","type":"text","text":"отсутствует","component_style":{"corner_radius":3,"background_color":"#29DB7B"}}],"margin":{"top":16,"left":24,"right":16}},{"type":"text","text":"[низкий уровень напряжения, человек расслаблен]","style":"text_default","margin":{"bottom":17,"top":21,"left":24,"right":18}}]},{"type":"spacer","height":18}]},"variant":"push"}},{"type":"spacer","height":18}],"title":"Мой день"},"success":true}
+{
+    "result": {
+        "content": [
+            {
+                "type": "spacer",
+                "weight": 1
+            },
+            {
+                "type": "text",
+                "style": "text_title_grey",
+                "text": "No tasks yet.",
+                "margin": {
+                    "bottom": 11
+                }
+            },
+            {
+                "type": "text",
+                "style": "text_default_center",
+                "text": "Choose your program first to\nbegin working on tasks."
+            },
+            {
+                "type": "spacer",
+                "weight": 1
+            }
+        ],
+        "footer": [
+            {
+                "style": "button_orange",
+                "action": {
+                    "type": "redirect",
+                    "url": "welltory://branch/Quests"
+                },
+                "margin": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "top": 10
+                },
+                "text": "Select new program",
+                "type": "button"
+            }
+        ]
+    },
+    "success": true
+}
