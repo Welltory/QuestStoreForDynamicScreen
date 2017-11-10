@@ -62,8 +62,7 @@
                         "progress": 5,
                         "height": 71,
                         "total": 5,
-                        "progress_color": "#4BFD9D",
-                        "width": 90
+                        "progress_color": "#4BFD9D"
                       },
                       {
                         "type": "hbox",
@@ -150,7 +149,6 @@
                         "margin": {
                           "top": 4
                         },
-                        "width": 90,
                         "height": 90
                       },
                       {
