@@ -35,7 +35,6 @@ module.exports = function(params, extend) {
                 "type": "text",
                 "style": text_style,
                 "text": params.text,
-                "weight": 1,
                 "margin": {
                     "top": 2,
                     "left": 7,

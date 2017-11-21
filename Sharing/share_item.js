@@ -33,6 +33,7 @@ function createVerticalDivider() {
 function createEnergyStressRow(params) {
     return {
         type: "hbox",
+        weight: 1,
         items: [
             require("../Templates/cell.js")({
                 icon: require("../Templates/image.js")({
@@ -40,7 +41,7 @@ function createEnergyStressRow(params) {
                     "width": 91,
                     "height": 91
                 }), tag_text: "Recover", color: "#33E686", title: "Energy"
-            }),
+            },{weight:1}),
             createVerticalDivider(),
             require("../Templates/cell.js")({
                 icon: require("../Templates/image.js")({
@@ -48,7 +49,7 @@ function createEnergyStressRow(params) {
                     "width": 91,
                     "height": 91
                 }), tag_text: "Low", color: "#33E686", title: "Stress"
-            })
+            },{weight:1})
         ]
     }
 }
@@ -57,6 +58,7 @@ function createEnergyStressRow(params) {
 function createPersonRow(params) {
     return {
         type: "hbox",
+        weight: 1,
         margin: {
             left: 27,
             right: 27,
@@ -69,6 +71,8 @@ function createPersonRow(params) {
                 width: 64,
                 height: 64
             }, {
+                    width: 64,
+                    height: 64,
                     component_style: {
                         corner_radius: 64
                     }
@@ -76,23 +80,46 @@ function createPersonRow(params) {
             {
                 type: "vbox",
                 margin: {
-                    left: 20
+                    left: 20,
+                    right: 20
                 },
                 items: [
                     {
-                        type: "hbox",
-                        items: [
+                        type: "text",
+                        style: "text_group_title",
+                        text: "Performance",
+                        margin: {
+                            bottom: 10
+                        }
+                    },
+                    {
+                        "type": "hbox",
+                        "items": [
                             {
-                                type: "text",
-                                style: "text_group_title",
-                                text: "Performance",
-                                margin: {
-                                    right: 10
+                                "type": "hbox",
+                                "items": [{
+                                    "type": "text",
+                                    "style": "text_tag_white",
+                                    "text": "Super",
+                                    "margin": {
+                                        "top": 2,
+                                        "left": 7,
+                                        "bottom": 2,
+                                        "right": 7
+                                    }
+                                }],
+                                "component_style": {
+                                    "background_color": "#33E686",
+                                    "corner_radius": 100
                                 }
                             },
-                            require("../Templates/tag_small.js")({ color: "#33E686", text: "Super" })
+                            {
+                                "type": "spacer",
+                                "weight": 1
+                            }
                         ]
                     },
+
                     {
                         margin: {
                             top: 10

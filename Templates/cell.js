@@ -11,7 +11,7 @@ module.exports = function (params) {
         "text": tag_text,
         "color": color
     });
-    tag.width = 100;
+    
 
     var title_component = {
         "type": "text",
@@ -33,18 +33,7 @@ module.exports = function (params) {
                 "type": "vbox",
                 "height": 120,
                 "items": [
-                    icon, {
-                        type: "hbox",
-                        items: [{
-                            type: "spacer",
-                            weight: 1
-                        },
-                            tag, {
-                            type: "spacer",
-                            weight: 1
-                        },
-                        ]
-                    }
+                    icon, tag
                 ]
             }
             , title_component]
