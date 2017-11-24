@@ -164,33 +164,38 @@ module.exports = function (params) {
             "bottom": 8,
         }
     });
-
     items.push({
         "type": "hbox",
+        "action": {
+            "type": "redirect",
+            "url": "welltory://modal/Details/1",
+            "on_close": {
+                "type": "refresh"
+            }
+        },
         "items": [{
-            "type": "spacer",
-            "weight": 1
-        }, {
-            "type": "button",
-            "ratio": 80,
+            "type": "text",
             "text": "Параметры замера",
-            "style": "button_CTA_button",
-            "action": {
-                "type": "redirect",
-                "url": "welltory://modal/Details/1",
-                "on_close": {
-                    "type": "refresh"
-                }
+            "style": "text_card_nested_item",
+            "margin": {
+                "top": 17,
+                "bottom": 17,
+                "left": 27
             }
         }, {
             "type": "spacer",
             "weight": 1
-        }],
-        margin: {
-            "top": 24
-        }
+        }, require("../Templates/image.js")({
+                                "name": "icon_cell_chevron_right.png",
+                                "width": 13,
+                                "height": 22
+                            },{
+                                margin: {
+                                    right: 20
+                                }
+                            })]
     });
-
+    items.push(hr);
     items.push({
         type: "hbox",
         margin: {},
@@ -386,7 +391,21 @@ function cell(icon, tag_text, color, title) {
                 "type": "vbox",
                 "height": 120,
                 "items": [
-                    icon, {
+                    {
+                        "type": "hbox",
+                        "items": [
+                            {
+                                type: "spacer",
+                                weight: 1
+                            },
+                            icon,
+                            {
+                                type: "spacer",
+                                weight: 1
+                            }
+                        ]
+                    },
+                    {
                         type: "hbox",
                         items: [{
                             type: "spacer",
