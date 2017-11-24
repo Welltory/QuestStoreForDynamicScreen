@@ -176,7 +176,7 @@ module.exports = function (params) {
         "items": [{
             "type": "text",
             "text": "Параметры замера",
-            "style": "text_card_nested_item",
+            "style": "text_card_title",
             "margin": {
                 "top": 17,
                 "bottom": 17,
