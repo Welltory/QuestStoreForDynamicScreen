@@ -5,6 +5,46 @@ var image = require("../Templates/image.js");
 var tag_small = require("../Templates/tag_small.js");
 var cell = require("../Templates/cell.js");
 
+function createCell(title, value) {
+    return {
+        type: "vbox",
+        weight: 1,
+        margin: {
+            top: 6,
+            bottom: 6
+        },
+        items: [
+            {
+                "type": "text",
+                "style": "text_table_title_center",
+                "text": title
+            },
+            {
+                margin: {
+                    top: 4
+                },
+                "type": "text",
+                "style": "text_table_value_center",
+                "text": value ? value : "-"
+            }
+        ]
+    }
+};
+function createSingleRow(params) {
+    return {
+        type: "hbox",
+        ratio: 100,
+        items: [
+            createCell("Energy", params.energy + "%"),
+            vr,
+            createCell("Stress", params.stress + "%"),
+            vr,
+            createCell("Heart rate", params.heart_rate),
+            vr,
+            createCell("BP", params.pressure_systolic?(params.pressure_systolic + "/" + params.pressure_diastolic):"-"),
+        ]
+    }
+};
 module.exports = function(data) {
     var content = [];
 
@@ -115,7 +155,13 @@ module.exports = function(data) {
                 top: 18,
                 bottom: 15
             }
-        }, hr, {
+        }, hr, 
+        createSingleRow({
+            energy: 50,
+            stress: 12,
+            heart_rate: 63
+        }), hr,
+        {
             "type": "hbox",
             "items": [{
                     "type": "text",
