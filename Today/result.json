@@ -1,0 +1,2086 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "hbox",
+        "margin": {
+          "top": 32,
+          "left": 25,
+          "right": 25,
+          "bottom": 18
+        },
+        "items": [
+          {
+            "type": "image",
+            "image": {
+              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_diamond.png?raw=true",
+              "width": 24,
+              "height": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Today measurements",
+            "style": "text_header__value",
+            "margin": {
+              "left": 8
+            }
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "17:00, Gym, Walking",
+                "style": "text_card_20_title",
+                "weight": 1,
+                "margin": {
+                  "left": 16
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "style": "text_card_title",
+                "text": "Recommendation",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion_orange.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "text",
+            "style": "text_card_description",
+            "text": "Your measuring perfomance is ok, but you can become a bit better",
+            "margin": {
+              "top": 12,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "margin": {
+                                  "top": 14,
+                                  "bottom": 9
+                                },
+                                "type": "circle_progress",
+                                "progress": 3,
+                                "height": 71,
+                                "total": 5,
+                                "progress_color": "#FFF46E",
+                                "width": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_black",
+                                        "text": "Ok",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#FFF46E",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Performance",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/meaasurement_indicator_mood_2_3.png?raw=true",
+                                  "width": 91,
+                                  "height": 91
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_black",
+                                        "text": "Good / Super",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#F0F1F4",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Feel / Mood",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_energy_4.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Recover",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Energy",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_stress_1.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Optimum",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Stress",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "action": {
+              "type": "redirect",
+              "url": "welltory://modal/Details/1",
+              "on_close": {
+                "type": "refresh"
+              }
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Параметры замера",
+                "style": "text_card_title",
+                "margin": {
+                  "top": 17,
+                  "bottom": 17,
+                  "left": 27
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/icon_cell_chevron_right.png?raw=true",
+                  "width": 13,
+                  "height": 22
+                },
+                "margin": {
+                  "right": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 16
+            },
+            "items": [
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_pressure.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/AddPressure/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_details.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/FeelDifferent/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_remove.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/RemoveMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_share.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/ShareMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "09:13, After, Eat",
+                "style": "text_card_20_title",
+                "weight": 1,
+                "margin": {
+                  "left": 16
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "style": "text_card_title",
+                "text": "Recommendation",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion_orange.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "text",
+            "style": "text_card_description",
+            "text": "Your measuring perfomance is good! Try to reach 5 stars one!",
+            "margin": {
+              "top": 12,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "margin": {
+                                  "top": 14,
+                                  "bottom": 9
+                                },
+                                "type": "circle_progress",
+                                "progress": 4,
+                                "height": 71,
+                                "total": 5,
+                                "progress_color": "#4BFD9D",
+                                "width": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Ok",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#4BFD9D",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Performance",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/meaasurement_indicator_mood_4_2.png?raw=true",
+                                  "width": 91,
+                                  "height": 91
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_black",
+                                        "text": "Good / Super",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#F0F1F4",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Feel / Mood",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_energy_1.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Recover",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Energy",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_stress_2.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Optimum",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Stress",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "action": {
+              "type": "redirect",
+              "url": "welltory://modal/Details/1",
+              "on_close": {
+                "type": "refresh"
+              }
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Параметры замера",
+                "style": "text_card_title",
+                "margin": {
+                  "top": 17,
+                  "bottom": 17,
+                  "left": 27
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/icon_cell_chevron_right.png?raw=true",
+                  "width": 13,
+                  "height": 22
+                },
+                "margin": {
+                  "right": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 16
+            },
+            "items": [
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_pressure.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/AddPressure/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_details.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/FeelDifferent/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_remove.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/RemoveMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_share.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/ShareMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_heart.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              {
+                "type": "text",
+                "text": "07:40, Wakeup",
+                "style": "text_card_20_title",
+                "weight": 1,
+                "margin": {
+                  "left": 16
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "style": "text_card_title",
+                "text": "Recommendation",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_conclusion_orange.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            ],
+            "margin": {
+              "top": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "text",
+            "style": "text_card_description",
+            "text": "Your measuring perfomance is good! Try to reach 5 stars one!",
+            "margin": {
+              "top": 12,
+              "bottom": 16,
+              "left": 26,
+              "right": 26
+            }
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/fullscreen_image_lock.png?raw=true",
+                                  "width": 32,
+                                  "height": 32
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "style": "text_card_lock_counter",
+                                "text": "4/5",
+                                "height": 32,
+                                "margin": {
+                                  "left": 15
+                                }
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ],
+                            "margin": {
+                              "top": 15
+                            }
+                          },
+                          {
+                            "type": "progress",
+                            "progress_color": "#FD666F",
+                            "show_percentage": false,
+                            "margin": {
+                              "top": 12
+                            },
+                            "value": 0.8
+                          },
+                          {
+                            "type": "text",
+                            "style": "text_card_desc_label",
+                            "weight": 1,
+                            "text": "1 measurements left"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Performance",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ],
+                    "margin": {
+                      "left": 20,
+                      "right": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/meaasurement_indicator_mood_4_2.png?raw=true",
+                                  "width": 91,
+                                  "height": 91
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_black",
+                                        "text": "Good / Super",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#F0F1F4",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Feel / Mood",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "height": 160,
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_energy_1.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Recover",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Energy",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "width": 1,
+                "component_style": {
+                  "background_color": "#F0F1F4"
+                }
+              },
+              {
+                "type": "vbox",
+                "weight": 1,
+                "items": [
+                  {
+                    "type": "vbox",
+                    "items": [
+                      {
+                        "type": "vbox",
+                        "height": 120,
+                        "items": [
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "image",
+                                "image": {
+                                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_stress_3.png?raw=true",
+                                  "width": 100,
+                                  "height": 80
+                                },
+                                "margin": {
+                                  "top": 4
+                                },
+                                "width": 90,
+                                "height": 90
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "hbox",
+                            "items": [
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              },
+                              {
+                                "type": "hbox",
+                                "items": [
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  },
+                                  {
+                                    "type": "hbox",
+                                    "items": [
+                                      {
+                                        "type": "text",
+                                        "style": "text_tag_white",
+                                        "text": "Optimum",
+                                        "margin": {
+                                          "top": 2,
+                                          "left": 7,
+                                          "bottom": 2,
+                                          "right": 7
+                                        }
+                                      }
+                                    ],
+                                    "component_style": {
+                                      "background_color": "#29DB7B",
+                                      "corner_radius": 100
+                                    }
+                                  },
+                                  {
+                                    "type": "spacer",
+                                    "weight": 1
+                                  }
+                                ],
+                                "width": 100
+                              },
+                              {
+                                "type": "spacer",
+                                "weight": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Stress",
+                        "style": "text_card_label_text",
+                        "margin": {
+                          "top": 8
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "action": {
+              "type": "redirect",
+              "url": "welltory://modal/Details/1",
+              "on_close": {
+                "type": "refresh"
+              }
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Параметры замера",
+                "style": "text_card_title",
+                "margin": {
+                  "top": 17,
+                  "bottom": 17,
+                  "left": 27
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/icon_cell_chevron_right.png?raw=true",
+                  "width": 13,
+                  "height": 22
+                },
+                "margin": {
+                  "right": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#F0F1F4"
+            }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 16
+            },
+            "items": [
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_pressure.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/AddPressure/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_details.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/FeelDifferent/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_remove.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/RemoveMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_button_share.png?raw=true",
+                  "width": 65,
+                  "height": 65
+                },
+                "action": {
+                  "type": "redirect",
+                  "url": "welltory://modal/ShareMeasurement/1",
+                  "on_close": {
+                    "type": "refresh"
+                  }
+                },
+                "margin": {
+                  "top": 8,
+                  "bottom": 8
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "hbox",
+        "margin": {
+          "top": 32,
+          "left": 25,
+          "right": 25,
+          "bottom": 18
+        },
+        "items": [
+          {
+            "type": "image",
+            "image": {
+              "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_chart.png?raw=true",
+              "width": 24,
+              "height": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Data summary",
+            "style": "text_header__value",
+            "margin": {
+              "left": 8
+            }
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "Rate your day",
+                "style": "text_card_title",
+                "weight": 1
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/star_20_1.png?raw=true",
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            ],
+            "margin": {
+              "top": 20,
+              "left": 24,
+              "right": 24
+            }
+          },
+          {
+            "type": "text",
+            "style": "text_card_description",
+            "text": "Please, rate your day as you feel and then you can competite it with Welltory score",
+            "margin": {
+              "left": 24,
+              "right": 24,
+              "top": 10
+            }
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/measurement_five_empty_stars.png?raw=true",
+                  "width": 198,
+                  "height": 28
+                }
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ],
+            "margin": {
+              "left": 24,
+              "right": 24,
+              "top": 16,
+              "bottom": 25
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}
