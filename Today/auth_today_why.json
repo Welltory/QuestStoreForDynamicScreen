@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "result": {
+    "refresh_url": "https://stage-api.welltory.com/card_api/1/screen/v1/measurement/history/",
+    "title": "History",
+    "help_path": "http://support.welltory.com/article/show/37746-how-to-use-measurement-history-in-android-new",
+    "content": [
+      {
+        "type": "hbox",
+        "margin": {
+          "top": 38
+        },
+        "items": [
+          {
+            "weight": 69,
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#D3D4DA"
+            }
+          },
+          {
+            "margin": {
+              "top": 4
+            },
+            "weight": 202,
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "Why sign up?",
+                "style": "text_normal_center"
+              },
+              {
+                "type": "image",
+                "image": {
+                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_chevron_down.png.png?raw=true",
+                  "width": 11,
+                  "height": 7
+                },
+                "width": 11,
+                "height": 7,
+                "margin": {
+                  "top": 7
+                }
+              }
+            ]
+          },
+          {
+            "weight": 69,
+            "type": "spacer",
+            "height": 1,
+            "component_style": {
+              "background_color": "#D3D4DA"
+            }
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "margin": {
+          "top": 16
+        },
+        "items": [
+          {
+            "type": "text",
+            "text": "Welltory Pro members will unlock full version of the app. Pro is available with monthly & annual subscriptions.<br/><br/>You can subscribe and pay through your iTunes account. Payment will be charged to iTunes Account at confirmation of purchase.<br/><br/>Subscriptions will automatically renew within 24-hours prior to the end of the current period.<br/><br/>Auto-renew may be turned off by going to your <a href=\"http://itunes.com\">iTunes Account Settings</a>.<br/><br/>If you cancel the auto-renewal, access to the Pro features will expire at the end of the current payment period.<br/><br/>By subscribing you agree to the <a href=\"https://app.welltory.com/terms\">Terms of use</a> and <a href=\"https://app.welltory.com/privacy-policy\">Privacy policy</a>.",
+            "margin": {
+              "left": 20,
+              "top": 20,
+              "bottom": 20,
+              "right": 20
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
