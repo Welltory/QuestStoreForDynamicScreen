@@ -8,7 +8,9 @@
       {
         "type": "hbox",
         "margin": {
-          "top": 38
+          "top": 38,
+          "left": 12,
+          "right": 12
         },
         "items": [
           {
@@ -32,17 +34,30 @@
                 "style": "text_normal_center"
               },
               {
-                "type": "image",
-                "image": {
-                  "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_chevron_down.png.png?raw=true",
-                  "width": 11,
-                  "height": 7
-                },
-                "width": 11,
-                "height": 7,
-                "margin": {
-                  "top": 7
-                }
+                "type": "hbox",
+                "items": [
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  },
+                  {
+                    "type": "image",
+                    "image": {
+                      "url": "https://github.com/lazarev/QuestStoreForDynamicScreen/blob/master/images/ic_chevron_down.png?raw=true",
+                      "width": 11,
+                      "height": 7
+                    },
+                    "width": 11,
+                    "height": 7,
+                    "margin": {
+                      "top": 7
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  }
+                ]
               }
             ]
           },
