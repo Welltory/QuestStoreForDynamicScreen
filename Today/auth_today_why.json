@@ -6,11 +6,24 @@
     "help_path": "http://support.welltory.com/article/show/37746-how-to-use-measurement-history-in-android-new",
     "content": [
       {
+        "margin": {
+          "left": 13,
+          "right": 13,
+          "top": 23
+        },
+        "type": "button",
+        "style": "button_orange",
+        "text": "Sign up to start your program",
+        "action": {
+          "type": "signup"
+        }
+      },
+      {
         "type": "hbox",
         "margin": {
           "top": 38,
-          "left": 12,
-          "right": 12
+          "left": 13,
+          "right": 13
         },
         "items": [
           {
@@ -79,7 +92,7 @@
         "items": [
           {
             "type": "text",
-            "text": "Welltory Pro members will unlock full version of the app. Pro is available with monthly & annual subscriptions.<br/><br/>You can subscribe and pay through your iTunes account. Payment will be charged to iTunes Account at confirmation of purchase.<br/><br/>Subscriptions will automatically renew within 24-hours prior to the end of the current period.<br/><br/>Auto-renew may be turned off by going to your <a href=\"http://itunes.com\">iTunes Account Settings</a>.<br/><br/>If you cancel the auto-renewal, access to the Pro features will expire at the end of the current payment period.<br/><br/>By subscribing you agree to the <a href=\"https://app.welltory.com/terms\">Terms of use</a> and <a href=\"https://app.welltory.com/privacy-policy\">Privacy policy</a>.",
+            "text": "Welltory Pro members will unlock full version of the app. Pro is available with monthly & annual subscriptions.<br/><br/>You can subscribe and pay through your iTunes account. Payment will be charged to iTunes Account at confirmation of purchase.<br/><br/>Subscriptions will automatically renew within 24-hours prior to the end of the current period.<br/><br/>Auto-renew may be turned off by going to your <a href=\"https://play.google.com/store/account/subscriptions\">iTunes Account Settings</a>.<br/><br/>If you cancel the auto-renewal, access to the Pro features will expire at the end of the current payment period.<br/><br/>By subscribing you agree to the <a href=\"https://app.welltory.com/terms\">Terms of use</a> and <a href=\"https://app.welltory.com/privacy-policy\">Privacy policy</a>.",
             "margin": {
               "left": 20,
               "top": 20,
