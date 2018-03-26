@@ -1,0 +1,134 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "text",
+                "text": "Small circle progress",
+                "style": "text_title",
+                "margin": {
+                    "top": 40,
+                    "bottom": 20
+                }
+            },
+            {
+                "type": "vbox",
+                "items": [
+                    {
+                        "type": "hbox",
+                        "items": [
+                            {
+                                "type": "spacer",
+                                "weight": 1
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#FD666F",
+                                "text_color": "#FD666F",
+                                "total": 4,
+                                "progress": 1,
+                                "percent": true,
+                                "reverse": false,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#FFF46E",
+                                "total": 30,
+                                "progress": 15,
+                                "percent": true,
+                                "reverse": true,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#33E686",
+                                "text_color": "#33E686",
+                                "progress": 100,
+                                "total": 100,
+                                "percent": true,
+                                "reverse": false,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "spacer",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    {
+                        "type": "hbox",
+                        "items": [
+                            {
+                                "type": "spacer",
+                                "weight": 1
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#FD666F",
+                                "text_color": "#FD666F",
+                                "total": 100,
+                                "progress": 25,
+                                "percent": false,
+                                "reverse": true,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#FFF46E",
+                                "total": 100,
+                                "progress": 50,
+                                "percent": false,
+                                "reverse": false,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "small_circle_progress",
+                                "progress_color": "#33E686",
+                                "text_color": "#33E686",
+                                "progress": 100,
+                                "total": 100,
+                                "percent": false,
+                                "reverse": true,
+                                "margin": {
+                                    "left": 5,
+                                    "right": 5,
+                                    "top": 12,
+                                    "bottom": 12
+                                }
+                            },
+                            {
+                                "type": "spacer",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

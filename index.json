@@ -1,0 +1,58 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "text",
+                "text": "Dynamic screen Kitchen Sink",
+                "style": "text_title",
+                "margin": {
+                    "top": 40,
+                    "bottom": 20
+                }
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Alert actions",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type" :"alert",
+                    "title": "Title here",
+                    "message": "Message here",
+                    "options":[
+                        {"text": "Default", "ios_type": "default"},
+                        {"text": "Destructive", "ios_type": "destructive"},
+                        {"text": "Cancel", "ios_type": "cancel"}
+                    ]
+                }
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Small circle progress",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type" :"open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/small_circle_progress.json"
+                }
+            }
+        ]
+    }
+}
