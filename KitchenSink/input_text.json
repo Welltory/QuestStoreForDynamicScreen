@@ -1,0 +1,125 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Input Text",
+        "style": "text_title",
+        "margin": {
+          "top": 40,
+          "bottom": 20
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "input_text",
+            "margin": {
+              "left": 20,
+              "right": 20,
+              "top": 20
+            },
+            "id": "search_email",
+            "style": "text_default_fullscreen_center",
+            "regex": ".+@.+",
+            "hint": "email",
+            "input_type": "email",
+            "component_style": {
+              "border": {
+                "color": "#000000",
+                "width": 1
+              },
+              "corner_radius": 3
+            }
+          },
+          {
+            "type": "input_text",
+            "margin": {
+              "left": 20,
+              "right": 20,
+              "top": 20
+            },
+            "id": "search_string",
+            "style": "text_default_fullscreen_center",
+            "regex": "\\d.*",
+            "allow_letters": true,
+            "allow_digits": true,
+            "allowed_chars": "-,_",
+            "hint": "\\d.* letters, digits and -,_",
+            "component_style": {
+              "border": {
+                "color": "#000000",
+                "width": 1
+              },
+              "corner_radius": 3
+            }
+          },
+          {
+            "type": "input_text",
+            "margin": {
+              "left": 20,
+              "right": 20,
+              "top": 20
+            },
+            "min_length": 1,
+            "max_length": 10,
+            "id": "search_number_decimal",
+            "style": "text_default_fullscreen_center",
+            "hint": "Decimal, minlen=1, maxlen=10",
+            "input_type": "number_decimal",
+            "component_style": {
+              "border": {
+                "color": "#000000",
+                "width": 1
+              },
+              "corner_radius": 3
+            }
+          },
+          {
+            "type": "input_text",
+            "margin": {
+              "left": 20,
+              "right": 20,
+              "top": 20
+            },
+            "id": "search_read_only",
+            "style": "text_default_fullscreen_center",
+            "read_only": true,
+            "text": "read_only",
+            "component_style": {
+              "border": {
+                "color": "#000000",
+                "width": 1
+              },
+              "corner_radius": 3
+            }
+          },
+          {
+            "type": "button",
+            "text": "Submit",
+            "margin": {
+              "left": 20,
+              "right": 20,
+              "top": 20,
+              "bottom": 20
+            },
+            "action": {
+              "type": "request",
+              "url": "https://yandex.ru/search/",
+              "method": "GET",
+              "input_parameters": {
+                "text": "search_string",
+                "read_only": "search_read_only",
+                "email": "search_email",
+                "number_decimal": "search_number_decimal"
+              },
+              "success_text": "Submit completed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}
