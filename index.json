@@ -28,9 +28,9 @@
                     "title": "Title here",
                     "message": "Message here",
                     "options":[
-                        {"text": "Default", "ios_type": "default"},
-                        {"text": "Destructive", "ios_type": "destructive"},
-                        {"text": "Cancel", "ios_type": "cancel"}
+                        {"text": "Default", "ios_type": "default", "android_type": "positive"},
+                        {"text": "Destructive", "ios_type": "destructive", "android_type": "negative"},
+                        {"text": "Cancel", "ios_type": "cancel", "android_type": "neutral"}
                     ]
                 }
             },
