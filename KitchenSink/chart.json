@@ -1,0 +1,536 @@
+{
+    "success": true,
+    "result": {
+      "title": "Charts",
+      "content": [
+        {
+          "type": "cell",
+          "items": [
+            {
+              "type": "text",
+              "text": "Performance",
+              "style": "text_header1",
+              "margin": {
+                "top": 20,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "margin": {
+                "top": 17
+              },
+              "height": 93,
+              "type": "chart",
+              "show_grid_x": true,
+              "show_grid_y": false,
+              "show_label_x": true,
+              "show_label_y": false,
+              "data": {
+                "title": "Performance",
+                "data": [
+                  {
+                    "type_data_flow": 3,
+                    "type_chart": 1,
+                    "slug": "rr_stress",
+                    "title": "Стресс",
+                    "suffix": "%",
+                    "y_step": 10.0,
+                    "x_label": null,
+                    "y_label": "Проценты",
+                    "y_min": 0.0,
+                    "y_max": 100.0,
+                    "order": 99,
+                    "data": [
+                      {
+                        "y_value": 30,
+                        "x_value": [
+                          "06.01",
+                          "СБ"
+                        ]
+                      },
+                      {
+                        "y_value": 15,
+                        "x_value": [
+                          "07.01",
+                          "ВС"
+                        ]
+                      },
+                      {
+                        "y_value": 45,
+                        "x_value": [
+                          "08.01",
+                          "ПН"
+                        ]
+                      },
+                      {
+                        "y_value": 70,
+                        "x_value": [
+                          "09.01",
+                          "ВТ"
+                        ]
+                      },
+                      {
+                        "y_value": 45,
+                        "x_value": [
+                          "10.01",
+                          "СР"
+                        ]
+                      },
+                      {
+                        "y_value": 55,
+                        "x_value": [
+                          "11.01",
+                          "ЧТ"
+                        ]
+                      },
+                      {
+                        "y_value": 60,
+                        "x_value": [
+                          "12.01",
+                          "ПТ"
+                        ]
+                      }
+                    ],
+                    "main_color": "#1AE879",
+                    "color_indication": false,
+                    "min_of_good": null,
+                    "min_of_average": null,
+                    "min_of_bad": null,
+                    "color_of_good": null,
+                    "color_of_average": null,
+                    "color_of_bad": null,
+                    "labels_data": null,
+                    "fill": true,
+                    "fill_opacity": 16,
+                    "max_by_all_data_flow": false,
+                    "norm": null
+                  },
+                  {
+                    "type_data_flow": 1,
+                    "type_chart": 3,
+                    "slug": "computer_productivity_productive",
+                    "title": "Продуктивно",
+                    "suffix": "%",
+                    "y_step": 10.0,
+                    "x_label": null,
+                    "y_label": "",
+                    "y_min": 0.0,
+                    "y_max": 100.0,
+                    "order": 100,
+                    "data": [
+                      {
+                        "y_value": 40,
+                        "x_value": [
+                          "06.01",
+                          "СБ"
+                        ]
+                      },
+                      {
+                        "y_value": 70,
+                        "x_value": [
+                          "07.01",
+                          "ВС"
+                        ]
+                      },
+                      {
+                        "y_value": 80,
+                        "x_value": [
+                          "08.01",
+                          "ПН"
+                        ]
+                      },
+                      {
+                        "y_value": 35,
+                        "x_value": [
+                          "09.01",
+                          "ВТ"
+                        ]
+                      },
+                      {
+                        "y_value": 10,
+                        "x_value": [
+                          "10.01",
+                          "СР"
+                        ]
+                      },
+                      {
+                        "y_value": 60,
+                        "x_value": [
+                          "11.01",
+                          "ЧТ"
+                        ]
+                      },
+                      {
+                        "y_value": 70,
+                        "x_value": [
+                          "12.01",
+                          "ПТ"
+                        ]
+                      }
+                    ],
+                    "main_color": "#85FEBD",
+                    "color_indication": false,
+                    "min_of_good": 60,
+                    "min_of_average": 30,
+                    "min_of_bad": 0,
+                    "color_of_good": "#85FEBD",
+                    "color_of_average": "#FFF899",
+                    "color_of_bad": "#FD666F",
+                    "fill": true,
+                    "fill_opacity": 100,
+                    "max_by_all_data_flow": false,
+                    "norm": null,
+                    "average_value": 99.0,
+                    "diff_from_norm": null
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spacer",
+              "margin": {
+                "top": 10
+              },
+              "height": 1,
+              "component_style": {
+                "background_color": "#F0F1F4"
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "margin": {
+                    "top": 14,
+                    "bottom": 16
+                  },
+                  "items": [
+                    {
+                      "type": "text",
+                      "style": "text_header_center_value",
+                      "text": "3.84"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_increase_bold_small",
+                      "text": "+11%"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_table_title_center",
+                      "text": "Average"
+                    }
+                  ]
+                },
+                {
+                  "width": 1,
+                  "type": "spacer",
+                  "component_style": {
+                    "background_color": "#F0F1F4"
+                  }
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "margin": {
+                    "top": 14,
+                    "bottom": 16
+                  },
+                  "items": [
+                    {
+                      "type": "text",
+                      "style": "text_table_value_center",
+                      "text": "Grow"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_increase_bold_small",
+                      "text": "+4%"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_table_title_center",
+                      "text": "Trend"
+                    }
+                  ]
+                },
+                {
+                  "type": "spacer",
+                  "width": 1,
+                  "component_style": {
+                    "background_color": "#F0F1F4"
+                  }
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "margin": {
+                    "top": 14,
+                    "bottom": 16
+                  },
+                  "items": [
+                    {
+                      "type": "text",
+                      "style": "text_table_value_center",
+                      "text": "11"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_decrease_bold_small",
+                      "text": "-1"
+                    },
+                    {
+                      "type": "text",
+                      "style": "text_table_title_center",
+                      "text": "Measurements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cell",
+          "items": [
+            {
+              "type": "hbox",
+              "margin": {
+                "top": 20,
+                "left": 20,
+                "right": 20
+              },
+              "items": [
+                {
+                  "type": "text",
+                  "text": "Weekdays stats",
+                  "style": "text_header1",
+                  "weight": 1
+                },
+                {
+                  "type": "vbox",
+                  "items": [
+                    {
+                      "type": "spacer",
+                      "weight": 1
+                    },
+                    {
+                      "type": "hbox",
+                      "items": [
+                        {
+                          "type": "spacer",
+                          "margin": {
+                            "top": 2,
+                            "right": 5
+                          },
+                          "width": 9,
+                          "height": 9,
+                          "component_style": {
+                            "background_color": "#4BFD9D",
+                            "corner_radius": 9
+                          }
+                        },
+                        {
+                          "text": "Energy",
+                          "type": "text",
+                          "style": "text_chart_legend"
+                        },
+                        {
+                          "type": "spacer",
+                          "margin": {
+                            "top": 2,
+                            "left": 19,
+                            "right": 5
+                          },
+                          "width": 9,
+                          "height": 9,
+                          "component_style": {
+                            "background_color": "#FD666F",
+                            "corner_radius": 9
+                          }
+                        },
+                        {
+                          "text": "Stress",
+                          "type": "text",
+                          "style": "text_chart_legend"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "spacer",
+                      "weight": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "margin": {
+                "top": 17,
+                "left": 19,
+                "right": 19
+              },
+              "height": 93,
+              "type": "chart",
+              "show_grid_x": false,
+              "show_grid_y": true,
+              "show_label_x": true,
+              "show_label_y": true,
+              "data": {
+                "title": "Performance",
+                "data": [
+                  {
+                    "type_data_flow": 1,
+                    "type_chart": 3,
+                    "slug": "computer_productivity_productive",
+                    "title": "Продуктивно",
+                    "suffix": "%",
+                    "y_step": 20,
+                    "x_label": null,
+                    "y_label": "",
+                    "y_min": 0.0,
+                    "y_max": 100.0,
+                    "order": 100,
+                    "data": [
+                      {
+                        "y_value": 100,
+                        "x_value": [
+                          "06.01",
+                          "СБ"
+                        ]
+                      },
+                      {
+                        "y_value": 57,
+                        "x_value": [
+                          "07.01",
+                          "ВС"
+                        ]
+                      },
+                      {
+                        "y_value": 40,
+                        "x_value": [
+                          "08.01",
+                          "ПН"
+                        ]
+                      },
+                      {
+                        "y_value": 90,
+                        "x_value": [
+                          "09.01",
+                          "ВТ"
+                        ]
+                      },
+                      {
+                        "y_value": 35,
+                        "x_value": [
+                          "10.01",
+                          "СР"
+                        ]
+                      },
+                      {
+                        "y_value": 10,
+                        "x_value": [
+                          "11.01",
+                          "ЧТ"
+                        ]
+                      },
+                      {
+                        "y_value": 0,
+                        "x_value": [
+                          "12.01",
+                          "ПТ"
+                        ]
+                      }
+                    ],
+                    "main_color": "#4BFD9D",
+                    "color_indication": false,
+                    "fill": true,
+                    "fill_opacity": 100,
+                    "max_by_all_data_flow": false,
+                    "norm": null,
+                    "average_value": 99.0,
+                    "diff_from_norm": null
+                  },
+                  {
+                    "type_data_flow": 1,
+                    "type_chart": 3,
+                    "slug": "computer_productivity_productive",
+                    "title": "Продуктивно",
+                    "suffix": "%",
+                    "y_step": 33,
+                    "x_label": null,
+                    "y_label": "",
+                    "y_min": 0.0,
+                    "y_max": 100.0,
+                    "order": 100,
+                    "data": [
+                      {
+                        "y_value": 70,
+                        "x_value": [
+                          "06.01",
+                          "СБ"
+                        ]
+                      },
+                      {
+                        "y_value": 25,
+                        "x_value": [
+                          "07.01",
+                          "ВС"
+                        ]
+                      },
+                      {
+                        "y_value": 13,
+                        "x_value": [
+                          "08.01",
+                          "ПН"
+                        ]
+                      },
+                      {
+                        "y_value": 47,
+                        "x_value": [
+                          "09.01",
+                          "ВТ"
+                        ]
+                      },
+                      {
+                        "y_value": 90,
+                        "x_value": [
+                          "10.01",
+                          "СР"
+                        ]
+                      },
+                      {
+                        "y_value": 35,
+                        "x_value": [
+                          "11.01",
+                          "ЧТ"
+                        ]
+                      },
+                      {
+                        "y_value": 75,
+                        "x_value": [
+                          "12.01",
+                          "ПТ"
+                        ]
+                      }
+                    ],
+                    "main_color": "#FD666F",
+                    "color_indication": false,
+                    "fill": true,
+                    "fill_opacity": 100,
+                    "max_by_all_data_flow": false,
+                    "norm": null,
+                    "average_value": 99.0,
+                    "diff_from_norm": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
