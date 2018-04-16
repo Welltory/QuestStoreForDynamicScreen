@@ -3,6 +3,8 @@
     "result": {
         
             "title": "Next Page",
+            "prev_page": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/chart_next_page.json",
+            "next_page": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/chart_next_page.json",
             "data": [
               {
                 "type_data_flow": 3,
