@@ -18,7 +18,9 @@
             },
             {
               "margin": {
-                "top": 17
+                "top": 17,
+                "left": 20,
+                "right": 20
               },
               "height": 93,
               "type": "chart",
@@ -170,7 +172,7 @@
                       }
                     ],
                     "main_color": "#85FEBD",
-                    "color_indication": false,
+                    "color_indication": true,
                     "min_of_good": 60,
                     "min_of_average": 30,
                     "min_of_bad": 0,
@@ -190,7 +192,7 @@
             {
               "type": "spacer",
               "margin": {
-                "top": 10
+                "top": 25
               },
               "height": 1,
               "component_style": {
@@ -204,7 +206,7 @@
                   "type": "vbox",
                   "weight": 1,
                   "margin": {
-                    "top": 14,
+                    "top": 17,
                     "bottom": 16
                   },
                   "items": [
@@ -370,8 +372,9 @@
             {
               "margin": {
                 "top": 17,
-                "left": 19,
-                "right": 19
+                "left": 20,
+                "right": 20,
+                "bottom": 15
               },
               "height": 93,
               "type": "chart",
