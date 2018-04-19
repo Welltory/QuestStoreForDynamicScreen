@@ -1,0 +1,203 @@
+{
+    "success": true,
+    "result": {
+      "title": "Progress",
+      "content": [
+        {
+          "type": "cell",
+          "items": [
+            {
+              "type": "text",
+              "text": "Your uplifts",
+              "style": "text_header1_bold",
+              "margin": {
+                "top": 20,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "Training (3)",
+                  "style": "text_card_title",
+                  "weight": 1
+                },
+                {
+                  "type": "text",
+                  "text": "+19%",
+                  "style": "text_increase_large"
+                }
+              ],
+              "margin": {
+                "top": 19,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "progress",
+              "show_percentage": false,
+              "progress_color": "#4BFD9D",
+              "value": 0.8,
+              "margin": {
+                "left": 20,
+                "right": 20,
+                "top": 8
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "Walking (2)",
+                  "style": "text_card_title",
+                  "weight": 1
+                },
+                {
+                  "type": "text",
+                  "text": "+14%",
+                  "style": "text_increase_large"
+                }
+              ],
+              "margin": {
+                "top": 16,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "progress",
+              "progress_color": "#4BFD9D",
+              "show_percentage": false,
+              "value": 0.55,
+              "margin": {
+                "left": 20,
+                "right": 20,
+                "top": 8,
+                "bottom": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "cell",
+          "items": [
+            {
+              "type": "text",
+              "text": "Your hassles",
+              "style": "text_header1_bold",
+              "margin": {
+                "top": 20,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "-18%",
+                  "style": "text_decrease_large",
+                  "weight": 1
+                },
+                {
+                  "type": "text",
+                  "text": "Conflict (5)",
+                  "style": "text_card_title"
+                }
+              ],
+              "margin": {
+                "top": 19,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "progress",
+              "show_percentage": false,
+              "progress_color": "#FD666F",
+              "value": 1,
+              "reverse": true,
+              "margin": {
+                "left": 20,
+                "right": 20,
+                "top": 8
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "-12%",
+                  "style": "text_decrease_large",
+                  "weight": 1
+                },
+                {
+                  "type": "text",
+                  "text": "Coffee (5)",
+                  "style": "text_card_title"
+                }
+              ],
+              "margin": {
+                "top": 16,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "progress",
+              "show_percentage": false,
+              "progress_color": "#FD666F",
+              "reverse": true,
+              "value": 0.75,
+              "margin": {
+                "left": 20,
+                "right": 20,
+                "top": 8
+              }
+            },
+            {
+              "type": "hbox",
+              "items": [
+                {
+                  "type": "text",
+                  "text": "-4%",
+                  "style": "text_decrease_large",
+                  "weight": 1
+                },
+                {
+                  "type": "text",
+                  "text": "Working hard (10)",
+                  "style": "text_card_title"
+                }
+              ],
+              "margin": {
+                "top": 16,
+                "left": 20,
+                "right": 20
+              }
+            },
+            {
+              "type": "progress",
+              "show_percentage": false,
+              "progress_color": "#FD666F",
+              "reverse": true,
+              "value": 0.25,
+              "margin": {
+                "left": 20,
+                "right": 20,
+                "top": 8,
+                "bottom": 32
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
