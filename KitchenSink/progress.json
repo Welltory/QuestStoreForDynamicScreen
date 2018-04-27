@@ -21,7 +21,7 @@
               "items": [
                 {
                   "type": "text",
-                  "text": "Training (3)",
+                  "text": "Training (3) and a lot of other healthy things",
                   "style": "text_card_title",
                   "weight": 1
                 },
@@ -102,13 +102,16 @@
                 {
                   "type": "text",
                   "text": "-18%",
-                  "style": "text_decrease_large",
+                  "style": "text_decrease_large"
+                },
+                {
+                  "type": "spacer",
                   "weight": 1
                 },
                 {
                   "type": "text",
                   "text": "Conflict (5)",
-                  "style": "text_card_title"
+                  "style": "text_card_title_right"
                 }
               ],
               "margin": {
@@ -135,13 +138,16 @@
                 {
                   "type": "text",
                   "text": "-12%",
-                  "style": "text_decrease_large",
+                  "style": "text_decrease_large"
+                },
+                {
+                  "type": "spacer",
                   "weight": 1
                 },
                 {
                   "type": "text",
                   "text": "Coffee (5)",
-                  "style": "text_card_title"
+                  "style": "text_card_title_right"
                 }
               ],
               "margin": {
@@ -168,13 +174,16 @@
                 {
                   "type": "text",
                   "text": "-4%",
-                  "style": "text_decrease_large",
+                  "style": "text_decrease_large"
+                },
+                {
+                  "type": "spacer",
                   "weight": 1
                 },
                 {
                   "type": "text",
-                  "text": "Working hard (10)",
-                  "style": "text_card_title"
+                  "text": "Working hard (10), and a lot of other bad things",
+                  "style": "text_card_title_right"
                 }
               ],
               "margin": {
