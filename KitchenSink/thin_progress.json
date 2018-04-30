@@ -57,8 +57,7 @@
           },
           {
             "margin": {
-              "top": 20,
-              "bottom": 20
+              "top": 20
             },
             "type": "thin_progress",
             "value": 0.35,
@@ -66,6 +65,60 @@
             "left_label": "Activity",
             "right_label": "35%",
             "reverse": true
+          },
+          {
+            "type": "text",
+            "text": "No left label",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            }
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "type": "thin_progress",
+            "value": 0.35,
+            "progress_color": "#FFF46E",
+            "right_label": "35%"
+          },
+          {
+            "type": "text",
+            "text": "No right label",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            }
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "type": "thin_progress",
+            "value": 0.35,
+            "progress_color": "#FFF46E",
+            "left_label": "No right label"
+          },
+          {
+            "type": "text",
+            "text": "No labels",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            }
+          },
+          {
+            "margin": {
+              "top": 20,
+              "bottom": 20
+            },
+            "type": "thin_progress",
+            "value": 0.35,
+            "progress_color": "#FFF46E"
           }
         ]
       }
