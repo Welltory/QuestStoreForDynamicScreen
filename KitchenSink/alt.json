@@ -1,0 +1,18 @@
+{
+    "result": {
+        "title": "Components alternative",
+        "content": [
+            {
+                "type": "ComponentIsNotSupportedAndHasNoReplacements"
+            },
+            {
+                "type": "ComponentIsNotSupported",
+                "alt": {
+                    "type": "text",
+                    "text": "This component is not supported but we have something to replace it"
+                }
+            }
+        ]
+    },
+    "success": true
+}
