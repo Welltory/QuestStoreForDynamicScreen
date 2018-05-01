@@ -3,6 +3,16 @@
         "title": "Components alternative",
         "content": [
             {
+                "margin": {
+                  "top": 10,
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 50
+                },
+                "type": "text",
+                "text": "You can provide replacement item for compoment not supported by old clients with <b>alt</b> property. \n\nThis replacement component could be replaced for event older client apps. Length of replacement chain is not limited.\n\nRead more: <a href=\"https://welltory.atlassian.net/wiki/spaces/DEV/pages/129303740\">Components</a>\n\nExample:\n\n{\n    \"title\": \"Components alternative\",\n    \"content\": [\n        {\n            \"type\": \"ComponentIsNotSupportedAndHasNoReplacements\"\n        },\n        {\n            \"type\": \"ComponentIsNotSupported\",\n            \"alt\": {\n                \"type\": \"text\",\n                \"text\": \"This component is not supported but we have something to replace it\"\n            }\n        }\n    ]\n}\n\nResult:\n"
+            },
+            {
                 "type": "ComponentIsNotSupportedAndHasNoReplacements"
             },
             {
