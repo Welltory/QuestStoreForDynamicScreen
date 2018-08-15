@@ -1,0 +1,261 @@
+{
+    "title": "Act",
+    "content": [
+        {
+            "type":"text",
+            "text": "My packs",
+            "style": "ns_text_20_bold_left",
+            "height": 32,
+            "margin": {
+                "top": 4,
+                "left": 16,
+                "right": 16
+            }            
+        },
+        {
+            "type":"text",
+            "text": "There are no active packs",
+            "style": "ns_text_24_light_center",
+            "margin": {
+                "top": 48,
+                "left": 16,
+                "right": 16
+            }
+        },
+        {
+            "type":"text",
+            "text": "Please select a pack in order to find out<br/>all about your condition and health",
+            "style": "ns_text_14_regular_center",
+            "height": 56,
+            "margin": {
+                "top": 16,
+                "bottom": 134,
+                "left": 16,
+                "right": 16
+            }
+        },
+        {
+            "type": "carousel",
+            "cell_size": {
+                "width": 320,
+                "height": 272
+            },
+            "horisontal_spacing": 16,
+            "title": "My courses",
+            "items": [
+                {
+                    "items": [
+                        {
+                            "type": "image",
+                            "image": {
+                                "url": "https://vignette.wikia.nocookie.net/starwars/images/8/8a/Good_boy_Boogie.png/revision/latest/scale-to-width-down/320?cb=20120921223146",
+                                "width": 320,
+                                "height": 136
+                            },
+                            "width": 320,
+                            "height": 136
+                        },
+                        {
+                            "type": "text",
+                            "margin": {
+                                "left": 16,
+                                "top": 16,
+                                "right": 16,
+                                "bottom": 0
+                            },
+                            "height": 16,
+                            "text": "Memory",
+                            "style": "ns_text_16_bold_left"
+                        },
+                        {
+                            "type": "text",
+                            "margin": {
+                                "left": 16,
+                                "top": 6,
+                                "right": 16,
+                                "bottom": 0
+                            },
+                            "height": 36,
+                            "text": "Brief description of the program. Just a few<br/>lines, but the user understands everything!",
+                            "style": "ns_text_14_regular_left"
+                        },
+                        {
+                            "type": "hbox",
+                            "items": [
+                                {
+                                    "style": "ns_button_blue_28",
+                                    "text": "  Continue  ",
+                                    "type": "button"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "progress",
+                                    "progress_color": "green_performance_success",
+                                    "value": 0.56,
+                                    "width": 104,
+                                    "height": 28
+                                }
+                            ],
+                            "height": 28,
+                            "margin": {
+                                "left": 16,
+                                "top": 16,
+                                "right": 16,
+                                "bottom": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "type": "image",
+                            "image": {
+                                "url": "https://vignette.wikia.nocookie.net/starwars/images/8/8a/Good_boy_Boogie.png/revision/latest/scale-to-width-down/320?cb=20120921223146",
+                                "width": 320,
+                                "height": 136
+                            },
+                            "width": 320,
+                            "height": 136
+                        },
+                        {
+                            "type": "text",
+                            "margin": {
+                                "left": 16,
+                                "top": 16,
+                                "right": 16,
+                                "bottom": 0
+                            },
+                            "height": 16,
+                            "text": "Memory",
+                            "style": "ns_text_16_bold_left"
+                        },
+                        {
+                            "type": "text",
+                            "margin": {
+                                "left": 16,
+                                "top": 6,
+                                "right": 16,
+                                "bottom": 0
+                            },
+                            "height": 36,
+                            "text": "Brief description of the program. Just a few<br/>lines, but the user understands everything!",
+                            "style": "ns_text_14_regular_left"
+                        },
+                        {
+                            "type": "hbox",
+                            "items": [
+                                {
+                                    "style": "ns_button_blue_28",
+                                    "text": "  Continue  ",
+                                    "type": "button"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "progress",
+                                    "progress_color": "green_performance_success",
+                                    "value": 0.56,
+                                    "width": 104,
+                                    "height": 28
+                                }
+                            ],
+                            "height": 28,
+                            "margin": {
+                                "left": 16,
+                                "top": 16,
+                                "right": 16,
+                                "bottom": 20
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "vbox",
+            "component_style": {
+                "corner_radius": 4,
+                "shadow": {
+                    "color": "#203A3F4A",
+                    "radius": 20,
+                    "y": 10
+                }
+            },
+            "margin": {
+                "left": 16,
+                "right": 16,
+                "bottom": 30
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "scale_type": "fi",
+                    "image": {
+                        "url": "https://vignette.wikia.nocookie.net/starwars/images/8/8a/Good_boy_Boogie.png/revision/latest/scale-to-width-down/320?cb=20120921223146",
+                        "width": 320,
+                        "height": 136
+                    },
+                    "height": 136
+                },
+                {
+                    "type": "text",
+                    "margin": {
+                        "left": 16,
+                        "top": 16,
+                        "right": 16,
+                        "bottom": 0
+                    },
+                    "height": 16,
+                    "text": "Memory",
+                    "style": "ns_text_16_bold_left"
+                },
+                {
+                    "type": "text",
+                    "margin": {
+                        "left": 16,
+                        "top": 6,
+                        "right": 16,
+                        "bottom": 0
+                    },
+                    "height": 36,
+                    "text": "Brief description of the program. Just a few<br/>lines, but the user understands everything!",
+                    "style": "ns_text_14_regular_left"
+                },
+                {
+                    "type": "hbox",
+                    "items": [
+                        {
+                            "style": "ns_button_blue_28",
+                            "text": "  Continue  ",
+                            "type": "button"
+                        },
+                        {
+                            "type": "spacer",
+                            "weight": 1
+                        },
+                        {
+                            "type": "progress",
+                            "progress_color": "green_performance_success",
+                            "value": 0.56,
+                            "width": 104,
+                            "height": 28
+                        }
+                    ],
+                    "height": 28,
+                    "margin": {
+                        "left": 16,
+                        "top": 16,
+                        "right": 16,
+                        "bottom": 20
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,447 @@
+{
+	"result": {
+		"refresh_url": "https://api.welltory.com/card_api/1/screen/v1/day/?date=2018-08-15",
+		"content": [{
+			"type": "cell",
+			"id": "today_4501819",
+			"items": [{
+				"type": "hbox",
+				"margin": {
+					"left": 26,
+					"bottom": 16,
+					"top": 16,
+					"right": 26
+				},
+				"items": [{
+					"type": "image",
+					"image": {
+						"width": 24,
+						"height": 24,
+						"url": "https://ucarecdn.com/a0ef8f98-94a6-4fa8-a247-62d93572a1db/",
+						"uploadcare_id": "a0ef8f98-94a6-4fa8-a247-62d93572a1db"
+					}
+				}, {
+					"type": "text",
+					"weight": 1,
+					"style": "text_card_20_title",
+					"text": "06:16 PM",
+					"margin": {
+						"left": 16
+					}
+				}]
+			}, {
+				"type": "spacer",
+				"height": 1,
+				"component_style": {
+					"background_color": "#ECEDF0"
+				}
+			}, {
+				"type": "hbox",
+				"height": 174,
+				"items": [{
+					"type": "vbox",
+					"weight": 1,
+					"id": "rr_performance_4501819",
+					"items": [{
+						"type": "vbox",
+						"items": [{
+							"type": "vbox",
+							"height": 124,
+							"items": [{
+								"margin": {
+									"bottom": 8,
+									"top": 14
+								},
+								"type": "circle_progress",
+								"progress": 1,
+								"height": 80,
+								"total": 8,
+                                "item": {
+                                    "type": "text",
+                                    "style": "ns_text_24_light_center",
+                                    "text": "1/8"
+                                },
+								"progress_color": "#FFBF00"
+							}, {
+								"type": "hbox",
+								"items": [{
+									"type": "spacer",
+									"weight": 1
+								}, {
+									"type": "hbox",
+									"items": [{
+										"type": "spacer",
+										"weight": 1
+									}, {
+										"type": "hbox",
+										"component_style": {
+											"background_color": "#FFBF00",
+											"corner_radius": 100
+										},
+										"items": [{
+											"type": "text",
+											"margin": {
+												"left": 16,
+												"bottom": 2,
+												"top": 2,
+												"right": 16
+											},
+											"style": "ns_text_14_bold_center_white",
+											"text": "OK"
+										}]
+									}, {
+										"type": "spacer",
+										"weight": 1
+									}]
+								}, {
+									"type": "spacer",
+									"weight": 1
+								}]
+							}]
+						}, {
+							"type": "text",
+							"margin": {
+								"top": 8
+							},
+							"style": "ns_text_11_bold_center",
+							"text": "PERFORMANCE"
+						}]
+					}]
+				}, {
+					"type": "spacer",
+					"width": 1,
+					"component_style": {
+						"background_color": "#ECEDF0"
+					}
+				}, {
+					"type": "vbox",
+					"weight": 1,
+					"id": "rr_mood_4501819",
+					"items": [{
+						"type": "vbox",
+						"items": [{
+							"type": "vbox",
+							"height": 124,
+							"items": [{
+								"type": "image",
+								"margin": {
+									"top": 17
+								},
+								"image": {
+									"width": 72,
+									"height": 72,
+									"url": "https://ucarecdn.com/e7a2d1dd-049e-4bfe-94a1-890fd52c69d6/",
+									"uploadcare_id": "e7a2d1dd-049e-4bfe-94a1-890fd52c69d6"
+								},
+								"height": 72
+							}, {
+								"type": "hbox",
+                                "margin": {
+                                    "top": 13
+                                },
+								"items": [{
+									"type": "spacer",
+									"weight": 1
+								}, {
+									"type": "hbox",
+									"width": 110,
+									"items": [{
+										"type": "spacer",
+										"weight": 1
+									}, {
+										"type": "hbox",
+										"component_style": {
+											"background_color": "#DEE0E5",
+											"corner_radius": 100
+										},
+										"items": [{
+											"type": "text",
+											"margin": {
+												"left": 16,
+												"bottom": 2,
+												"top": 2,
+												"right": 16
+											},
+											"style": "text_tag_black",
+											"text": "Good/Ok"
+										}]
+									}, {
+										"type": "spacer",
+										"weight"    : 1
+									}]
+								}, {
+									"type": "spacer",
+									"weight": 1
+								}]
+							}]
+						}, {
+							"type": "text",
+							"margin": {
+								"top": 8
+							},
+							"style": "ns_text_11_bold_center",
+							"text": "FEEL / MOOD"
+						}]
+					}]
+				}]
+			}, {
+				"type": "spacer",
+				"component_style": {
+					"background_color": "#ECEDF0"
+				},
+				"height": 1
+			}, {
+				"type": "hbox",
+				"height": 214,
+				"items": [{
+					"type": "vbox",
+					"weight": 1,
+					"id": "rr_energy_4501819",
+					"items": [{
+						"type": "vbox",
+						"items": [{
+							"type": "vbox",
+							"height": 114,
+							"items": [{
+								"type": "image",
+								"margin": {
+									"top": 20
+								},
+								"image": {
+									"width": 72,
+									"height": 72,
+									"url": "https://ucarecdn.com/a8c51a36-0c53-452b-8636-0ff8a4061e17/",
+									"uploadcare_id": "a8c51a36-0c53-452b-8636-0ff8a4061e17"
+								},
+								"height": 72
+							}, {
+								"type": "hbox",
+								"items": [{
+									"type": "spacer",
+									"weight": 1
+								}, {
+									"type": "hbox",
+									"items": [{
+										"type": "spacer",
+										"weight": 1
+									}, {
+										"type": "hbox",
+										"component_style": {
+											"background_color": "#FF003F",
+											"corner_radius": 100
+										},
+										"items": [{
+											"type": "text",
+											"margin": {
+												"left": 16,
+												"bottom": 2,
+												"top": 2,
+												"right": 16
+											},
+											"style": "ns_text_14_bold_center_white",
+											"text": "Unknown"
+										}]
+									}, {
+										"type": "spacer",
+										"weight": 1
+									}]
+								}, {
+									"type": "spacer",
+									"weight": 1
+								}]
+							}]
+						}, {
+							"type": "text",
+							"margin": {
+								"top": 8
+							},
+							"style": "ns_text_11_bold_center",
+							"text": "ENERGY"
+						}]
+					}]
+				}, {
+					"type": "spacer",
+					"width": 1,
+					"component_style": {
+						"background_color": "#ECEDF0"
+					}
+				}, {
+					"type": "vbox",
+					"weight": 1,
+					"id": "rr_stress_4501819",
+					"items": [{
+						"type": "vbox",
+						"items": [{
+							"type": "vbox",
+							"height": 114,
+							"items": [{
+								"type": "image",
+								"margin": {
+									"top": 20
+								},
+								"image": {
+									"width": 72,
+									"height": 72,
+									"url": "https://ucarecdn.com/5b7e5a0a-efd5-4423-99ab-925e9f110cf9/",
+									"uploadcare_id": "5b7e5a0a-efd5-4423-99ab-925e9f110cf9"
+								},
+								"height": 72
+							}, {
+								"type": "hbox",
+								"items": [{
+									"type": "spacer",
+									"weight": 1
+								}, {
+									"type": "hbox",
+									"width": 110,
+									"items": [{
+										"type": "spacer",
+										"weight": 1
+									}, {
+										"type": "hbox",
+										"component_style": {
+											"background_color": "#03CB34",
+											"corner_radius": 100
+										},
+										"items": [{
+											"type": "text",
+											"margin": {
+												"left": 16,
+												"bottom": 2,
+												"top": 2,
+												"right": 16
+											},
+											"style": "ns_text_14_bold_center_white",
+											"text": "Optimal"
+										}]
+									}, {
+										"type": "spacer",
+										"weight": 1
+									}]
+								}, {
+									"type": "spacer",
+									"weight": 1
+								}]
+							}]
+						}, {
+							"type": "text",
+							"margin": {
+								"top": 8
+							},
+							"style": "ns_text_11_bold_center",
+							"text": "STRESS"
+						},
+                        {
+                            "type": "hbox",
+                            "height": 40,
+                            "margin": {
+                                "top": 7
+                            },
+                            "items": [
+                                {"type":"spacer", "weight": 1},
+                                {"type":"text", "text": "12%", "style": "ns_text_32_bold_center"},
+                                {"type":"text", "text": "12%", "style": "ns_text_16_regular_left"},
+                                {"type":"spacer", "weight": 1}
+                            ]
+                        }
+                    ]
+					}]
+				}]
+			}, {
+				"type": "spacer",
+				"component_style": {
+					"background_color": "#ECEDF0"
+				},
+				"height": 1
+			}, {
+				"type": "hbox",
+				"height": 72,
+				"items": [{
+					"type": "image",
+					"weight": 88,
+					"image": {
+						"width": 44,
+						"height": 44,
+						"url": "https://ucarecdn.com/1bbcbc1b-60eb-44a5-a6bc-167e50fe49db/",
+						"uploadcare_id": "1bbcbc1b-60eb-44a5-a6bc-167e50fe49db"
+					},
+					"margin": {
+						"left": 20,
+						"bottom": 14,
+						"top": 13,
+						"right": 23
+					}
+				}, {
+					"type": "spacer",
+					"width": 1,
+					"component_style": {
+						"background_color": "#ECEDF0"
+					}
+				}, {
+					"type": "image",
+					"weight": 88,
+					"image": {
+						"width": 47,
+						"height": 47,
+						"url": "https://ucarecdn.com/6190d375-d2d9-4754-851b-5bedd97c1eb9/",
+						"uploadcare_id": "6190d375-d2d9-4754-851b-5bedd97c1eb9"
+					},
+					"margin": {
+						"left": 21,
+						"bottom": 12,
+						"top": 13,
+						"right": 19
+					}
+				}, {
+					"type": "spacer",
+					"width": 1,
+					"component_style": {
+						"background_color": "#ECEDF0"
+					}
+				}, {
+					"type": "image",
+					"weight": 88,
+					"image": {
+						"width": 47,
+						"height": 47,
+						"url": "https://ucarecdn.com/437eeb6b-774f-4776-a745-4e9783305635/",
+						"uploadcare_id": "437eeb6b-774f-4776-a745-4e9783305635"
+					},
+					"margin": {
+						"left": 21,
+						"bottom": 12,
+						"top": 13,
+						"right": 20
+					}
+				}, {
+					"type": "spacer",
+					"width": 1,
+					"component_style": {
+						"background_color": "#ECEDF0"
+					}
+				}, {
+					"type": "image",
+					"weight": 88,
+					"image": {
+						"width": 48,
+						"height": 48,
+						"url": "https://ucarecdn.com/e6606b76-edb4-40a0-a5d1-f1e3ca748695/",
+						"uploadcare_id": "e6606b76-edb4-40a0-a5d1-f1e3ca748695"
+					},
+					"margin": {
+						"left": 19,
+						"bottom": 11,
+						"top": 13,
+						"right": 21
+					}
+				}]
+			}]
+		}, {
+			"type": "spacer",
+			"height": 18
+		}],
+		"title": "August 15 - 2018",
+		"help_path": "https://support.welltory.com/article/show/68986"
+	},
+	"success": true
+}

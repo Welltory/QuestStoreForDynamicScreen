@@ -1,0 +1,16 @@
+{
+    "content": [
+        {
+            "type": "Text",
+            "text": "Original style",
+            "style": "ns_text_14_bold_center_dark_main_text"
+        },
+        {
+            "type": "Text",
+            "text": "Same text style, but red and left aligned",
+            "style": "ns_text_14_bold_center_dark_main_text",
+            "text_alignment": "left",
+            "color": "#FF0000"
+        }
+    ]
+}

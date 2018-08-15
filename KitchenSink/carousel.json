@@ -1,0 +1,501 @@
+{
+  "result": {
+    "title": "Act",
+    "content": [
+      {
+        "type": "spacer",
+        "height": 25
+      },
+      {
+        "type": "carousel",
+        "cell_size": {
+            "width": 320,
+            "height": 272
+        },
+        "horisontal_spacing": 16,
+        "title": "HEALTH (ru)",
+        "icon": {
+          "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+          "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e",
+          "width": 25,
+          "height": 25
+        },
+        "items": [
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "action": {
+              "variant": "push",
+              "page": {
+                "footer": [
+                  {
+                    "icon": {
+                      "width": 23,
+                      "uploadcare_id": "b6508341-35f6-4671-81ba-93bfe7010d19",
+                      "height": 29,
+                      "url": "https://ucarecdn.com/b6508341-35f6-4671-81ba-93bfe7010d19/"
+                    },
+                    "text": "Start playing",
+                    "style": "button_green",
+                    "margin": {
+                      "left": 10,
+                      "right": 10,
+                      "bottom": 10,
+                      "top": 10
+                    },
+                    "type": "button",
+                    "action": {
+                      "method": "POST",
+                      "type": "request",
+                      "url": "https://stage-api.welltory.com/api/v2/todo/v4/user/data/quests/1/activate/"
+                    }
+                  }
+                ],
+                "content": [
+                  {
+                    "style": "text_title",
+                    "text": "OnboardingFree (no user)",
+                    "type": "text",
+                    "margin": {
+                      "top": 7,
+                      "left": 38,
+                      "right": 38,
+                      "bottom": 0
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 20
+                  },
+                  {
+                    "type": "image",
+                    "image": {
+                      "height": 258,
+                      "url": "https://www.wired.com/wp-content/uploads/images_blogs/design/2013/09/tumblr_inline_mjx5ioXh8l1qz4rgp.gif",
+                      "width": 141
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 20
+                  },
+                  {
+                    "style": "text_header1",
+                    "text": "About the quest",
+                    "type": "text",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    }
+                  },
+                  {
+                    "text": "Бла бла бла \r\nЕще одна строчка с бла бла бла",
+                    "style": "text_default",
+                    "type": "text",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    }
+                  }
+                ]
+              },
+              "type": "open"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "Available quest",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "Coming soon",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "hbox",
+                "items": [
+                  {
+                    "image": {
+                      "height": 24,
+                      "url": "https://ucarecdn.com/cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb/",
+                      "width": 25,
+                      "uploadcare_id": "cf23f44d-e8f7-4e06-9dd9-d2117fbd13cb"
+                    },
+                    "type": "image"
+                  },
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  }
+                ],
+                "margin": {
+                  "left": 21,
+                  "bottom": 8,
+                  "right": 21
+                }
+              },
+              {
+                "text": "Coming Soon",
+                "type": "text",
+                "style": "text_status_preview",
+                "margin": {
+                  "left": 21,
+                  "bottom": 18,
+                  "right": 21
+                }
+              }
+            ]
+          },
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "Complete",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "hbox",
+                "margin": {
+                  "left": 21,
+                  "top": 18,
+                  "right": 21,
+                  "bottom": 18
+                },
+                "items": [
+                  {
+                    "image": {
+                      "height": 24,
+                      "url": "https://ucarecdn.com/540782ee-d38a-4464-80c3-18539c1f7af7/",
+                      "width": 25,
+                      "uploadcare_id": "540782ee-d38a-4464-80c3-18539c1f7af7"
+                    },
+                    "type": "image"
+                  },
+                  {
+                    "type": "spacer",
+                    "width": 7
+                  },
+                  {
+                    "text": "Complete",
+                    "type": "text",
+                    "style": "text_status_preview"
+                  }
+                ]
+              }
+            ],
+            "action": {
+              "variant": "push",
+              "page": {
+                "footer": [
+                  {
+                    "type": "hbox",
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 24,
+                      "bottom": 24
+                    },
+                    "items": [
+                      {
+                        "image": {
+                          "height": 32,
+                          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/images/fullscreen_status_history.png",
+                          "width": 32
+                        },
+                        "type": "image"
+                      },
+                      {
+                        "type": "spacer",
+                        "width": 18
+                      },
+                      {
+                        "text": "Complete",
+                        "type": "text",
+                        "style": "text_status_fullscreen"
+                      }
+                    ]
+                  }
+                ],
+                "content": [
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 7,
+                      "bottom": 0
+                    },
+                    "style": "text_title",
+                    "text": "Make yourself happier in 2 weeks",
+                    "type": "text"
+                  },
+                  {
+                    "height": 20,
+                    "type": "spacer"
+                  },
+                  {
+                    "align": "center",
+                    "image": {
+                      "height": 38,
+                      "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/",
+                      "width": 136,
+                      "uploadcare_id": "d96fae25-17bc-4de2-8e35-0d6030c2b55b"
+                    },
+                    "type": "image"
+                  },
+                  {
+                    "height": 20,
+                    "type": "spacer"
+                  },
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "style": "text_header1",
+                    "text": "About the quest",
+                    "type": "text"
+                  },
+                  {
+                    "height": 10,
+                    "type": "spacer"
+                  },
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "style": "text_default",
+                    "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
+                    "type": "text"
+                  }
+                ]
+              },
+              "type": "open"
+            }
+          },
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "In progress",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "type": "progress",
+                "value": 0.2,
+                "margin": {
+                  "left": 21,
+                  "top": 18,
+                  "right": 21,
+                  "bottom": 18
+                }
+              }
+            ]
+          },
+          {
+            "background": {
+              "height": 104,
+              "url": "https://ucarecdn.com/e7832fdb-8b4e-4178-9a24-c35bb4856a5e/",
+              "width": 104,
+              "uploadcare_id": "e7832fdb-8b4e-4178-9a24-c35bb4856a5e"
+            },
+            "items": [
+              {
+                "type": "text",
+                "margin": {
+                  "left": 21,
+                  "top": 21,
+                  "right": 21,
+                  "bottom": 0
+                },
+                "text": "Paused",
+                "style": "text_title_preview"
+              },
+              {
+                "type": "spacer",
+                "weight": 1
+              },
+              {
+                "style": "button_orange_preview",
+                "action": {
+                  "method": "POST",
+                  "progress_text": "Switching your program...",
+                  "success_text": "You are switched to new program!",
+                  "url": "https://stage-api.welltory.com/api/v2/todo/v4/user/data/quests/2/activate/",
+                  "type": "request"
+                },
+                "text": "Continue",
+                "type": "button",
+                "margin": {
+                  "left": 6,
+                  "top": 5,
+                  "right": 6,
+                  "bottom": 5
+                }
+              }
+            ],
+            "action": {
+              "variant": "push",
+              "page": {
+                "footer": [
+                  {
+                    "style": "button_orange",
+                    "action": {
+                      "method": "POST",
+                      "progress_text": "Switching your program...",
+                      "success_text": "You are switched to new program!",
+                      "url": "https://stage-api.welltory.com/api/v2/todo/v4/user/data/quests/2/activate/",
+                      "type": "request"
+                    },
+                    "margin": {
+                      "left": 10,
+                      "right": 10,
+                      "bottom": 10,
+                      "top": 10
+                    },
+                    "text": "Continue",
+                    "type": "button"
+                  }
+                ],
+                "content": [
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 7,
+                      "bottom": 0
+                    },
+                    "style": "text_title",
+                    "text": "Make yourself happier in 2 weeks",
+                    "type": "text"
+                  },
+                  {
+                    "height": 20,
+                    "type": "spacer"
+                  },
+                  {
+                    "align": "center",
+                    "image": {
+                      "height": 38,
+                      "url": "https://ucarecdn.com/d96fae25-17bc-4de2-8e35-0d6030c2b55b/",
+                      "width": 136,
+                      "uploadcare_id": "d96fae25-17bc-4de2-8e35-0d6030c2b55b"
+                    },
+                    "type": "image"
+                  },
+                  {
+                    "height": 20,
+                    "type": "spacer"
+                  },
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "style": "text_header1",
+                    "text": "About the quest",
+                    "type": "text"
+                  },
+                  {
+                    "height": 10,
+                    "type": "spacer"
+                  },
+                  {
+                    "margin": {
+                      "left": 36,
+                      "right": 36,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "style": "text_default",
+                    "text": "Learn to correctly spend and restore energy, to feel cheerful every day.\n\nWithin 7 days you will learn to rest properly.\n\nEvery day is a new occupation to restore physical, emotional and intellectual energy.",
+                    "type": "text"
+                  }
+                ]
+              },
+              "type": "open"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}
