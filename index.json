@@ -204,6 +204,25 @@
                      "variant": "push",
                      "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/styles.json"
                  }
+             },
+             {
+                 "type": "cell",
+                 "items": [
+                     {
+                         "type": "text",
+                         "text": "Actions",
+                         "height": 80,
+                         "margin": {
+                             "left": 20,
+                             "right": 10
+                         }
+                     }
+                 ],
+                 "action": {
+                     "type" :"open",
+                     "variant": "push",
+                     "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/actions.json"
+                 }
              }
         ]
     },
