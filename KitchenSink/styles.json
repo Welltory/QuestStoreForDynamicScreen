@@ -39,6 +39,54 @@
             "items":[{"text":"button_grey_bordered_cell","style":"button_grey_bordered_cell","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_orange_cell","style":"button_orange_cell","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_orange","style":"button_orange","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_orange_bordered","style":"button_orange_bordered","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_orange_preview","style":"button_orange_preview","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_CTA_button","style":"button_CTA_button","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_grey","style":"button_grey","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_grey_cell","style":"button_grey_cell","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_white","style":"button_white","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_green","style":"button_green","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}},{"text":"button_grey_bordered","style":"button_grey_bordered","type":"button", "margin": {"left": 12, "right":12, "top":8, "bottom":8}}]
           }
         ]
+      },
+      {
+        "type": "text", "text": "Style overrides",
+        "style": "text_header_center_value",
+        "margin": {
+          "top": 24,
+          "bottom": 12
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "text": "text_positive_bold_large text",
+            "style": "text_positive_bold_large",
+            "type": "text",
+            "margin": {
+              "left": 12,
+              "right": 12,
+              "top": 8,
+              "bottom": 8
+            }
+          },
+          {
+            "text": "text_positive_bold_large text, override color",
+            "style": "text_positive_bold_large",
+            "type": "text",
+            "color": "ns_graph_style1_2",
+            "margin": {
+              "left": 12,
+              "right": 12,
+              "top": 8,
+              "bottom": 8
+            }
+          },
+          {
+            "text": "text_positive_bold_large text, override text_alignment=end",
+            "style": "text_positive_bold_large",
+            "type": "text",
+            "text_alignment": "right",
+            "margin": {
+              "left": 12,
+              "right": 12,
+              "top": 8,
+              "bottom": 8
+            }
+          }
+        ]
       }
     ]
   }
