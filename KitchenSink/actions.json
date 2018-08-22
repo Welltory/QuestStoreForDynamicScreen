@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "result": {
+    "title": "Actions",
+    "content": [
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Push",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type" :"open",
+          "variant": "push",
+          "page": {
+            "title": "PUSH",
+            "content": [
+              {
+                "type": "cell",
+                "items":[
+                  {
+                    "type": "text",
+                    "text": "Inner page",
+                    "height": 80,
+                    "margin": {
+                      "left": 20,
+                      "right": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Modal",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type" :"open",
+          "variant": "modal",
+          "page": {
+            "title": "MODAL",
+            "content": [
+              {
+                "type": "cell",
+                "items":[
+                  {
+                    "type": "text",
+                    "text": "Inner page",
+                    "height": 80,
+                    "margin": {
+                      "left": 20,
+                      "right": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Replace",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type" :"open",
+          "variant": "replace",
+          "page": {
+            "title": "REPLACE",
+            "content": [
+              {
+                "type": "cell",
+                "items":[
+                  {
+                    "type": "text",
+                    "text": "Inner page",
+                    "height": 80,
+                    "margin": {
+                      "left": 20,
+                      "right": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
