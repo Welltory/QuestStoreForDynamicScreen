@@ -195,7 +195,7 @@
             "items": [
                 {
                     "type": "image",
-                    "scale_type": "fi",
+                    "scale_type": "fill",
                     "image": {
                         "url": "https://vignette.wikia.nocookie.net/starwars/images/8/8a/Good_boy_Boogie.png/revision/latest/scale-to-width-down/320?cb=20120921223146",
                         "width": 320,

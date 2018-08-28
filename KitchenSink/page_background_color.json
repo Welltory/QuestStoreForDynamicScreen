@@ -1,0 +1,72 @@
+{
+    "background_color": "grey_5",
+    "content": [
+        {
+            "type": "Text",
+            "text": "This page is grey_5",
+            "text_alignment": "center",
+            "margin": {
+                "top": 16
+            }
+        },
+        {
+            "type": "hbox",
+            "height": 100,
+            "component_style": {
+                "border": {
+                    "color": "dark_grey",
+                    "width": 1
+                },
+                "shadow": {
+                    "color": "dark_grey",
+                    "radius": 5,
+                    "y": 5
+                },
+                "corner_radius": 4
+            },
+            "margin": {
+                "top": 16,
+                "left": 16,
+                "right": 16
+            },
+            "items": [
+                {
+                    "type": "Text",
+                    "text": "This hbox is same as page color",
+                    "text_alignment": "center",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "type": "hbox",
+            "height": 100,
+            "component_style": {
+                "border": {
+                    "color": "dark_grey",
+                    "width": 1
+                },
+                "background_color": "cold_2",
+                "shadow": {
+                    "color": "dark_grey",
+                    "radius": 5,
+                    "y": 5
+                },
+                "corner_radius": 4
+            },
+            "margin": {
+                "top": 16,
+                "left": 16,
+                "right": 16
+            },
+            "items": [
+                {
+                    "type": "Text",
+                    "text": "This hbox is blue",
+                    "text_alignment": "center",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
