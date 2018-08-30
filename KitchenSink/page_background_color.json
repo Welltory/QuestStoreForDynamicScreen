@@ -1,137 +1,139 @@
 {
-    "background_color": "grey_5",
-    "content": [
-        {
-            "type": "Text",
-            "text": "This page is grey_5",
-            "text_alignment": "center",
-            "margin": {
-                "top": 16
-            }
-        },
-        {
-            "type": "hbox",
-            "component_style": {
-                "border": {
-                    "color": "dark_grey",
-                    "width": 1
-                },
-                "shadow": {
-                    "color": "dark_grey",
-                    "radius": 5,
-                    "y": 5
-                },
-                "corner_radius": 4
-            },
-            "margin": {
-                "top": 16,
-                "left": 16,
-                "right": 16
-            },
-            "items": [
-                {
-                    "type": "Text",
-                    "text": "This hbox is same as page color",
-                    "text_alignment": "center",
-                    "weight": 1
+    "result": {
+        "background_color": "grey_5",
+        "content": [
+            {
+                "type": "Text",
+                "text": "This page is grey_5",
+                "text_alignment": "center",
+                "margin": {
+                    "top": 16
                 }
-            ]
-        },
-        {
-            "type": "vbox",
-            "component_style": {
-                "border": {
-                    "color": "dark_grey",
-                    "width": 1
-                },
-                "background_color": "cold_2",
-                "shadow": {
-                    "color": "dark_grey",
-                    "radius": 5,
-                    "y": 5
-                },
-                "corner_radius": 4
             },
-            "margin": {
-                "top": 16,
-                "left": 16,
-                "right": 16,
-                "bottom": 16
-            },
-            "items": [
-                {
-                    "type": "Text",
-                    "text": "This box is blue",
-                    "text_alignment": "center",
-                    "weight": 1,
-                    "margin": {
-                        "top": 16
+            {
+                "type": "hbox",
+                "component_style": {
+                    "border": {
+                        "color": "dark_grey",
+                        "width": 1
+                    },
+                    "shadow": {
+                        "color": "dark_grey",
+                        "radius": 5,
+                        "y": 5
+                    },
+                    "corner_radius": 4
+                },
+                "margin": {
+                    "top": 16,
+                    "left": 16,
+                    "right": 16
+                },
+                "items": [
+                    {
+                        "type": "Text",
+                        "text": "This hbox is same as page color",
+                        "text_alignment": "center",
+                        "weight": 1
                     }
+                ]
+            },
+            {
+                "type": "vbox",
+                "component_style": {
+                    "border": {
+                        "color": "dark_grey",
+                        "width": 1
+                    },
+                    "background_color": "cold_2",
+                    "shadow": {
+                        "color": "dark_grey",
+                        "radius": 5,
+                        "y": 5
+                    },
+                    "corner_radius": 4
                 },
-                {
-                    "type": "hbox",
-                    "component_style": {
-                        "border": {
-                            "color": "dark_grey",
-                            "width": 1
+                "margin": {
+                    "top": 16,
+                    "left": 16,
+                    "right": 16,
+                    "bottom": 16
+                },
+                "items": [
+                    {
+                        "type": "Text",
+                        "text": "This box is blue",
+                        "text_alignment": "center",
+                        "weight": 1,
+                        "margin": {
+                            "top": 16
+                        }
+                    },
+                    {
+                        "type": "hbox",
+                        "component_style": {
+                            "border": {
+                                "color": "dark_grey",
+                                "width": 1
+                            },
+                            "corner_radius": 4,
+                            "shadow": {
+                                "color": "dark_grey",
+                                "radius": 5,
+                                "y": 5
+                            }
                         },
-                        "corner_radius": 4,
-                        "shadow": {
-                            "color": "dark_grey",
-                            "radius": 5,
-                            "y": 5
-                        }
-                    },
-                    "margin": {
-                        "top": 16,
-                        "left": 16,
-                        "right": 16,
-                        "bottom": 16
-                    },
-                    "items": [
-                        {
-                            "type": "Text",
-                            "text": "This hbox should inherit parent container color (blue)",
-                            "text_alignment": "center",
-                            "weight": 1
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "cell",
-            "items": [
-                {
-                    "type": "hbox",
-                    "component_style": {
-                        "border": {
-                            "color": "dark_grey",
-                            "width": 1
+                        "margin": {
+                            "top": 16,
+                            "left": 16,
+                            "right": 16,
+                            "bottom": 16
                         },
-                        "corner_radius": 4,
-                        "shadow": {
-                            "color": "dark_grey",
-                            "radius": 5,
-                            "y": 5
-                        }
-                    },
-                    "margin": {
-                        "top": 16,
-                        "left": 16,
-                        "right": 16,
-                        "bottom": 16
-                    },
-                    "items": [
-                        {
-                            "type": "Text",
-                            "text": "This hbox should inherit color of parent cell (white)",
-                            "text_alignment": "center",
-                            "weight": 1
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+                        "items": [
+                            {
+                                "type": "Text",
+                                "text": "This hbox should inherit parent container color (blue)",
+                                "text_alignment": "center",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "hbox",
+                        "component_style": {
+                            "border": {
+                                "color": "dark_grey",
+                                "width": 1
+                            },
+                            "corner_radius": 4,
+                            "shadow": {
+                                "color": "dark_grey",
+                                "radius": 5,
+                                "y": 5
+                            }
+                        },
+                        "margin": {
+                            "top": 16,
+                            "left": 16,
+                            "right": 16,
+                            "bottom": 16
+                        },
+                        "items": [
+                            {
+                                "type": "Text",
+                                "text": "This hbox should inherit color of parent cell (white)",
+                                "text_alignment": "center",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 }
