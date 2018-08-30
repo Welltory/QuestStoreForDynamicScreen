@@ -252,7 +252,7 @@
                 "action": {
                     "type": "open",
                     "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/page_background_color"
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/page_background_color.json"
                 }
             }
         ]
