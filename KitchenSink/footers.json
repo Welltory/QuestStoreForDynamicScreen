@@ -1,0 +1,74 @@
+{
+    "result": {
+        "content": [
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Footer without shadow",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "page": {
+                        "content": [],
+                        "footer_color": "#F8F8F8",
+                        "footer": [
+                            {
+                                "type": "text",
+                                "text": "Footer text",
+                                "style": "text_title",
+                                "margin": {
+                                    "top": 40,
+                                    "bottom": 20
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Footer with shadow",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "page": {
+                        "content": [],
+                        "footer_color": "#F8F8F8",
+                        "footer_has_shadow": true,
+                        "footer": [
+                            {
+                                "type": "text",
+                                "text": "Footer text",
+                                "style": "text_title",
+                                "margin": {
+                                    "top": 40,
+                                    "bottom": 20
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "success": true
+}
