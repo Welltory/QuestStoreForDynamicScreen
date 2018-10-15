@@ -260,7 +260,7 @@
                 "items": [
                     {
                         "type": "text",
-                        "text": "Small circle progress",
+                        "text": "Footers",
                         "height": 80,
                         "margin": {
                             "left": 20,
