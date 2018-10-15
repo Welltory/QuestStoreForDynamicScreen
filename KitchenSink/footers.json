@@ -18,8 +18,9 @@
                     "type": "open",
                     "variant": "push",
                     "page": {
+                        "background_color": "cold_2",
                         "content": [],
-                        "footer_color": "#F8F8F8",
+                        "footer_color": "grey_5",
                         "footer": [
                             {
                                 "type": "text",
@@ -51,8 +52,9 @@
                     "type": "open",
                     "variant": "push",
                     "page": {
+                        "background_color": "warm_1",
                         "content": [],
-                        "footer_color": "#F8F8F8",
+                        "footer_color": "grey_5",
                         "footer_has_shadow": true,
                         "footer": [
                             {
