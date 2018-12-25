@@ -1,0 +1,249 @@
+{
+    "background_color": "#151A22",
+    "content": [
+        {
+            "type": "hbox",
+            "items": [
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ],
+                    "width": 134
+                },
+                {
+                    "type": "spacer"
+                }
+            ],
+            "margin": {
+                "top": 40,
+                "left": 16,
+                "right": 16
+            }
+        },
+        {
+            "type": "hbox",
+            "items": [
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ],
+                    "width": 180
+                },
+                {
+                    "type": "spacer"
+                }
+            ],
+            "margin": {
+                "top": 40,
+                "left": 16,
+                "right": 16
+            }
+        },
+        {
+            "type": "hbox",
+            "items": [
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ]
+                }
+            ],
+            "margin": {
+                "top": 40,
+                "left": 16,
+                "right": 16
+            }
+        },
+        {
+            "type": "hbox",
+            "items": [
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "weight": 1,
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ],
+                    "margin": {
+                        "right": 8
+                    }
+                },
+                {
+                    "type": "spacer",
+                    "component_style": {
+                        "background_color": "#19FFFFFF"
+                    },
+                    "width": 1
+                },
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "weight": 1,
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ],
+                    "margin": {
+                        "left": 8,
+                        "right": 8
+                    }
+                },
+                {
+                    "type": "spacer",
+                    "component_style": {
+                        "background_color": "#19FFFFFF"
+                    },
+                    "width": 1
+                },
+                {
+                    "type": "horizontal_bars",
+                    "label": "min",
+                    "title_color": "#66C0C3CD",
+                    "value_color": "#FFFFFF",
+                    "weight": 1,
+                    "bars": [
+                        {
+                            "title": "PEAK",
+                            "value": 2,
+                            "color": "#FF003F"
+                        },
+                        {
+                            "title": "CARDIO",
+                            "value": 35,
+                            "color": "#EFDD36"
+                        },
+                        {
+                            "title": "FAT_BURN",
+                            "value": 22,
+                            "color": "#A7DB38"
+                        },
+                        {
+                            "title": "AEROBIC",
+                            "value": 12,
+                            "color": "#1957F5"
+                        }
+                    ],
+                    "margin": {
+                        "left": 8
+                    }
+                }
+            ],
+            "margin": {
+                "top": 40,
+                "left": 16,
+                "right": 16,
+                "bottom": 40
+            }
+        }
+    ]
+}
