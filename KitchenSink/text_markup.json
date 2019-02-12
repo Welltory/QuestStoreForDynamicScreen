@@ -1,0 +1,33 @@
+{
+    "success": true,
+    "result": {
+        "title": "Styles",
+        "content": [
+            {
+                "type": "text",
+                "text": "Markup",
+                "style": "text_header_center_value",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "text": "Example text with <a href=\"http://www.welltory.com\">web page anchor</a>",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "text": "Example text with <a href=\"welltory://modal/Profile\">deeplink anchor</a>",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            }   
+        ]
+    }
+}
