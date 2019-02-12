@@ -14,7 +14,7 @@
             },
             {
                 "type": "text",
-                "text": "Example text with <a href=\"http://www.welltory.com\">web page anchor</a>",
+                "text": "Example text with <a href=\"http://www.google.com\">web page anchor</a>",
                 "margin": {
                     "top": 24,
                     "bottom": 12
