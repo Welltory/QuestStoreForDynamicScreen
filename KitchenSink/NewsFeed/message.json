@@ -1,0 +1,49 @@
+{
+    "result": {
+        "title": "NewsFeed Message",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "message.white.cold_3_title",
+                "title": "ТЕСТЫ",
+                "date": "2019-06-13 10:30:45+0500",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "type": "title.text_align_right",
+                        "text": "Не по себе, когда смартфона\nнет рядом?"
+                    },
+                    {
+                        "type": "text.body.text_align_right",
+                        "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+                    },
+                    {
+                        "type": "button.subhead",
+                        "text": "Пройти тест"
+                    }
+                ],
+                "share_button": {},
+                "like_button": {},
+                "details_button": {}
+            },
+            {
+                "type": "message",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "type": "title",
+                        "text": "Привет, сегодня вы в отличной форме!"
+                    },
+                    {
+                        "type": "text.body",
+                        "text": "Скорее сделаем замер начнем день полный созидания"
+                    }
+                ],
+                "share_button": {},
+                "like_button": {},
+                "details_button": {}
+            }
+        ]
+    },
+    "success": true
+}
