@@ -347,7 +347,7 @@
                 "action": {
                     "type": "open",
                     "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/thin_progress.json"
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/placeholders.json"
                 }
             }
         ]
