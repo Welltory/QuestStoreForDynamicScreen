@@ -1,72 +1,73 @@
 {
-    "title": "Placeholders",
-    "content": [
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "Text in dynamic strings allows to use placeholders as part of text.",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 24,
-                "bottom": 12
+    "result": {
+        "title": "Placeholders",
+        "content": [
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "Text in dynamic strings allows to use placeholders as part of text.",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "Placeholders is an expressions inside special character sequence:",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "\\\\(expression)",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "Expression adress some information accessible in local evironment. Like app version, application name or product price.",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "Expression: StoreKit.product[84].text_total_price<br/>Result: \\(StoreKit.product[84].text_total_price)",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                }
+            },
+            {
+                "type": "text",
+                "style": "ns_text_16_bold_left",
+                "text": "Expression: StoreKit.product[is_trial=true].text_total_price<br/>Result: \\(StoreKit.product[is_trial=true].text_total_price)",
+                "margin": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                }
             }
-        },
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "Placeholders is an expressions inside special character sequence:",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 24,
-                "bottom": 12
-            }
-        },
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "\\\\(expression)",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 24,
-                "bottom": 12
-            }
-        },
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "Expression adress some information accessible in local evironment. Like app version, application name or product price.",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 24,
-                "bottom": 12
-            }
-        },
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "Expression: StoreKit.product[84].text_total_price<br/>Result: \\(StoreKit.product[84].text_total_price)",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 8,
-                "bottom": 8
-            }
-        },
-        {
-            "type": "text",
-            "style": "ns_text_16_bold_left",
-            "text": "Expression: StoreKit.product[is_trial=true].text_total_price<br/>Result: \\(StoreKit.product[is_trial=true].text_total_price)",
-            "margin": {
-                "left": 8,
-                "right": 8,
-                "top": 8,
-                "bottom": 8
-            }
-        }
-    ]
+        ]
+    }
 }
-
