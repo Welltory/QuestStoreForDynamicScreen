@@ -1,0 +1,37 @@
+{
+    "result": {
+        "title": "Today",
+        "page_type": "newsfeed",
+        "content": [
+            {
+                "type": "smart_header",
+                "text": "Жирная закуска\nне поможет избежать\n🍗опьянения",
+                "colors": [
+                    "green",
+                    "red"
+                ],
+                "align": "right",
+                "margin": {
+                    "top": 10,  
+                    "right": 10,
+                    "bottom": 10,
+                    "left": 10
+                },
+                "component_style": {
+                    "background_color": "white",
+                    "corner_radius" : 5,
+                    "border": {
+                        "color": "black",
+                        "width": 3
+                    },
+                    "shadow": {
+                        "radius": 5,
+                        "color": "red",
+                        "y": 10
+                    }
+                }
+            }
+        ],
+        "background_color": "#151A22"
+    }
+}

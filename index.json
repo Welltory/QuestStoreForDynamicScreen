@@ -336,7 +336,7 @@
                 "items": [
                     {
                         "type": "text",
-                        "text": "Text markup",
+                        "text": "Placeholders",
                         "height": 80,
                         "margin": {
                             "left": 20,
@@ -348,6 +348,25 @@
                     "type": "open",
                     "variant": "push",
                     "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/placeholders.json"
+                }
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Smart Headers",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/smart_headers.json"
                 }
             }
         ]
