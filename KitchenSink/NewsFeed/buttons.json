@@ -1,0 +1,83 @@
+{
+    "result": {
+        "title": "Buttons",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "message.white.cold_3_title",
+                "title": "Buttons",
+                "date": "2019-06-13 10:30:45+0500",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "margin": {
+                            "top": 12
+                        },
+                        "type": "button.welltory",
+                        "text": "button.welltory",
+                        "action": {
+                            "type": "alert",
+                            "title": "Button",
+                            "options": [
+                                {
+                                    "text": "Yes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "margin": {
+                            "top": 12
+                        },
+                        "type": "button.neutral",
+                        "text": "button.neutral",
+                        "action": {
+                            "type": "alert",
+                            "title": "Button",
+                            "options": [
+                                {
+                                    "text": "Yes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "margin": {
+                            "top": 12
+                        },
+                        "type": "button.text",
+                        "text": "button.text",
+                        "action": {
+                            "type": "alert",
+                            "title": "Button",
+                            "options": [
+                                {
+                                    "text": "Yes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "margin": {
+                            "top": 12,
+                            "bottom": 12
+                        },
+                        "type": "button.details",
+                        "text": "button.details",
+                        "action": {
+                            "type": "alert",
+                            "title": "Button",
+                            "options": [
+                                {
+                                    "text": "Yes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "background_color": "#151A22"
+    },
+    "success": true
+}
