@@ -1,0 +1,30 @@
+{
+    "result": {
+        "title": "Document",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "message",
+                "items": [
+                    {
+                        "type": "title.header",
+                        "text": "Привет, сегодня вы в отличной форме!"
+                    },
+                    {
+                        "type": "text.body",
+                        "text": "Скорее сделаем замер начнем день полный созидания"
+                    },
+                    {
+                        "type": "measurement_reminder",
+                        "action": {
+                            "type": "redirect",
+                            "url": "welltory://branch/Measurement/Start"
+                        }
+                    }
+                ]
+            }
+        ],
+        "background_color": "#151A22"
+    },
+    "success": true
+}
