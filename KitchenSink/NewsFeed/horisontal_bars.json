@@ -5,8 +5,6 @@
     "content": [
           {
               "type": "message",
-              "title": "ДОКАЗАНО",
-              "date": "2019-06-13 13:00:00+0500",
               "items": [
                   {
                       "type": "title",
@@ -56,8 +54,6 @@
 
           {
               "type": "message",
-              "title": "ДОКАЗАНО",
-              "date": "2019-06-13 13:00:00+0500",
               "items": [
                     {
                       "type": "title",
