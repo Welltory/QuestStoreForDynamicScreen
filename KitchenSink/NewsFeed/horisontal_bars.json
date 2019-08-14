@@ -9,7 +9,7 @@
               "date": "2019-06-13 13:00:00+0500",
               "items": [
                   {
-                      "type": "text",
+                      "type": "title",
                       "text": "Full width"
                   },
                   {
@@ -56,7 +56,7 @@
               "date": "2019-06-13 13:00:00+0500",
               "items": [
                     {
-                      "type": "text",
+                      "type": "title",
                       "text": "2 bars split"
                     },
                     {
