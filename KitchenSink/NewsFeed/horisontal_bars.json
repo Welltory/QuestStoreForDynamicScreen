@@ -1,0 +1,135 @@
+{
+  "result": {
+    "title": "Hirosontal Bars",
+    "class": "newsfeed",
+    "content": [
+          {
+              "type": "message",
+              "title": "ДОКАЗАНО",
+              "date": "2019-06-13 13:00:00+0500",
+              "items": [
+                  {
+                      "type": "horizontal_bars",
+                      "label": "min",
+                      "title_color": "#66C0C3CD",
+                      "value_color": "#FFFFFF",
+                      "bars": [
+                          {
+                              "title": "PEAK",
+                              "value": 2,
+                              "color": "#FF003F"
+                          },
+                          {
+                              "title": "CARDIO",
+                              "value": 35,
+                              "color": "#EFDD36"
+                          },
+                          {
+                              "title": "FAT_BURN",
+                              "value": 22,
+                              "color": "#A7DB38"
+                          },
+                          {
+                              "title": "AEROBIC",
+                              "value": 12,
+                              "color": "#1957F5"
+                          }
+                      ]
+                  }
+              ]
+          },
+
+
+
+
+
+
+
+
+          {
+              "type": "message",
+              "title": "ДОКАЗАНО",
+              "date": "2019-06-13 13:00:00+0500",
+              "items": [
+
+                  {
+                      "type": "hbox",
+                      "items": [
+                          {
+                              "type": "horizontal_bars",
+                              "label": "min",
+                              "title_color": "#66C0C3CD",
+                              "value_color": "#FFFFFF",
+                              "bars": [
+                                  {
+                                      "title": "PEAK",
+                                      "value": 2,
+                                      "color": "#FF003F"
+                                  },
+                                  {
+                                      "title": "CARDIO",
+                                      "value": 35,
+                                      "color": "#EFDD36"
+                                  },
+                                  {
+                                      "title": "FAT_BURN",
+                                      "value": 22,
+                                      "color": "#A7DB38"
+                                  },
+                                  {
+                                      "title": "AEROBIC",
+                                      "value": 12,
+                                      "color": "#1957F5"
+                                  }
+                              ],
+
+
+                              "width": 134
+
+
+                          },
+
+                          {
+                              "type": "horizontal_bars",
+                              "label": "min",
+                              "title_color": "#66C0C3CD",
+                              "value_color": "#FFFFFF",
+                              "bars": [
+                                  {
+                                      "title": "PEAK",
+                                      "value": 2,
+                                      "color": "#FF003F"
+                                  },
+                                  {
+                                      "title": "CARDIO",
+                                      "value": 35,
+                                      "color": "#EFDD36"
+                                  },
+                                  {
+                                      "title": "FAT_BURN",
+                                      "value": 22,
+                                      "color": "#A7DB38"
+                                  },
+                                  {
+                                      "title": "AEROBIC",
+                                      "value": 12,
+                                      "color": "#1957F5"
+                                  }
+                              ],
+
+
+                              "width": 134
+
+                              
+                          }
+
+                      ]
+                  }
+              ]
+          }
+      ],
+      "background_color": "#151A22"
+  },
+  "success": true
+}
+
