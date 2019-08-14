@@ -9,6 +9,10 @@
               "date": "2019-06-13 13:00:00+0500",
               "items": [
                   {
+                      "type": "text",
+                      "text": "Full width"
+                  },
+                  {
                       "type": "horizontal_bars",
                       "label": "min",
                       "title_color": "#66C0C3CD",
@@ -51,8 +55,11 @@
               "title": "ДОКАЗАНО",
               "date": "2019-06-13 13:00:00+0500",
               "items": [
-
-                  {
+                    {
+                      "type": "text",
+                      "text": "2 bars split"
+                    },
+                    {
                       "type": "hbox",
                       "items": [
                           {
@@ -120,7 +127,7 @@
 
                               "width": 134
 
-                              
+
                           }
 
                       ]
