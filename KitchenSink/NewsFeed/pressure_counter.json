@@ -1,0 +1,21 @@
+{
+    "result": {
+        "title": "Hirosontal Bars",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "message",
+                "items": [
+                    {
+                        "type": "pressure_counter",
+                        "systolic": 120,
+                        "diastolic": 70
+                    }
+                ]
+            }
+        ],
+        "background_color": "#D4151A22"
+    },
+    "success": true
+}
+

@@ -106,6 +106,26 @@
                     "variant": "push",
                     "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/horisontal_bars.json"
                 }
+            },
+
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Pressure counter",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/pressure_counter.json"
+                }
             }
         ]
     },
