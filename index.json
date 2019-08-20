@@ -53,6 +53,25 @@
                 "items": [
                     {
                         "type": "text",
+                        "text": "Padding Margin Spacing",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/padding_margin_spacing.json"
+                }
+            },
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
                         "text": "Alert actions",
                         "height": 80,
                         "margin": {
