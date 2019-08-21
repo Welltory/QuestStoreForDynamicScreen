@@ -81,6 +81,7 @@
                 },
                 {
                   "type": "hbox",
+                  "spacing": 16,
                   "items": [
                     {
                       "type": "horizontal_bars",
