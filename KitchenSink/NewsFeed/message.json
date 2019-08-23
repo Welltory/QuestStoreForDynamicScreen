@@ -1,50 +1,67 @@
 {
     "result": {
-        "title": "NewsFeed Message",
-        "class": "newsfeed",
-        "background_color": "#151A22",
-        "content": [
+      "title": "NewsFeed Message",
+      "class": "newsfeed",
+      "background_color": "#151A22",
+      "content": [
+        {
+          "type": "message.white.cold_3_title",
+          "title": "ТЕСТЫ",
+          "date": "2019-06-13 10:30:45+0500",
+          "contents_gravity": "end",
+          "details_color": "cold_3",
+          "background_image": {
+            "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+            "width": 143,
+            "height": 164,
+            "scale_type": [
+              "left",
+              "bottom"
+            ]
+          },
+          "items": [
             {
-                "type": "message.white.cold_3_title",
-                "title": "ТЕСТЫ",
-                "date": "2019-06-13 10:30:45+0500",
-                "contents_gravity": "end",
-                "items": [
-                    {
-                        "type": "title.text_align_right",
-                        "text": "Не по себе, когда смартфона\nнет рядом?"
-                    },
-                    {
-                        "type": "text.body.text_align_right",
-                        "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
-                    },
-                    {
-                        "type": "button.subhead",
-                        "text": "Пройти тест"
-                    }
-                ],
-                "share_button": {},
-                "like_button": {},
-                "details_button": {}
+              "type": "title.text_align_right",
+              "text": "Не по себе, когда смартфона\nнет рядом?"
             },
             {
-                "type": "message",
-                "contents_gravity": "end",
-                "items": [
-                    {
-                        "type": "title",
-                        "text": "Привет, сегодня вы в отличной форме!"
-                    },
-                    {
-                        "type": "text.body",
-                        "text": "Скорее сделаем замер начнем день полный созидания"
-                    }
-                ],
-                "share_button": {},
-                "like_button": {},
-                "details_button": {}
+              "type": "text.body.text_align_right",
+              "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+            },
+            {
+              "type": "button.text",
+              "text": "Пройти тест",
+              "text_color": "cold_3"
             }
-        ]
+          ],
+          "share_button": {
+            "type": "alert",
+            "title": "Share"
+          },
+          "like_button": {
+            "type": "alert",
+            "title": "Like"
+          },
+          "details_button": {
+            "type": "alert",
+            "title": "Details"
+          }
+        },
+        {
+          "type": "message",
+          "contents_gravity": "end",
+          "items": [
+            {
+              "type": "title",
+              "text": "Привет, сегодня вы в отличной форме!"
+            },
+            {
+              "type": "text.body",
+              "text": "Скорее сделаем замер начнем день полный созидания"
+            }
+          ]
+        }
+      ]
     },
     "success": true
-}
+  }
