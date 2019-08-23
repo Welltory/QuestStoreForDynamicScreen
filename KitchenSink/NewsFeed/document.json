@@ -1,0 +1,70 @@
+{
+    "result": {
+        "title": "Document",
+        "class": "newsfeed",
+        "content": [
+
+
+              {
+                  "type": "message.white",
+                  "items": [
+                      {
+                          "type": "title",
+                          "text": "Just document"
+                      },
+  
+                      {
+                          "type": "document",
+                          "title": "Самое дешевое пиво борется со стрессом лучше чем ты сам",
+                          "subtitle": "6 минут на прочтение",
+                          "icon": {
+                              "uploadcare_id": "4233a674-ccff-43bd-9020-705173e414ef",
+                              "width": 24,
+                              "height": 24
+                          }
+                      }  
+                  ]
+              },
+  
+
+
+              {
+                  "type": "message.white",
+                  "items": [
+                      {
+                          "type": "title",
+                          "text": "Just text document"
+                      },
+                      {
+                          "type": "document.text",
+                          "title": "Самое дешевое пиво борется со стрессом лучше чем ты сам",
+                          "subtitle": "6 минут на прочтение"
+                      }
+                  ]
+              },
+    
+    
+  
+  
+              {
+                  "type": "message.white",
+                  "items": [
+                      {
+                          "type": "title",
+                          "text": "Just video document"
+                      },
+                      {
+                          "type": "document.video",
+                          "title": "Самое дешевое пиво борется со стрессом лучше чем ты сам",
+                          "subtitle": "6 минут на просмотр"
+                      }
+                  ]
+              }
+
+
+    
+          ],
+          "background_color": "#151A22"
+    },
+    "success": true
+}

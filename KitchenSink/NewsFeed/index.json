@@ -165,6 +165,27 @@
                     "variant": "push",
                     "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/label.json"
                 }
+            },
+
+
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "Document",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/document.json"
+                }
             }
         ]
     },
