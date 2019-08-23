@@ -1,8 +1,43 @@
 {
     "result": {
-        "title": "Counter basic",
+        "title": "Counter Basic",
         "class": "newsfeed",
         "content": [
+            {
+                "type": "message.white",
+                "items": [
+                    {
+                        "type": "counter_basic",
+                        "title": "AVG SLEEP",
+                        "text": "7 h 12 min",
+                        "image": {
+                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
+                            "width": 18,
+                            "height": 15
+                        },
+                        "trend": 24,
+                        "trend_type": "positive",
+                        "alignment": "left"
+                    },
+                    {
+                        "type": "counter_basic",
+                        "title": "AVG SLEEP",
+                        "text": "7 h 12 min",
+                        "image": {
+                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
+                            "width": 18,
+                            "height": 15
+                        },
+                        "alignment": "center"
+                    },
+                    {
+                        "type": "counter_basic",
+                        "title": "AVG SLEEP",
+                        "text": "7 h 12 min",
+                        "alignment": "right"
+                    }
+                ]
+            },
             {
                 "type": "message",
                 "items": [
@@ -17,7 +52,7 @@
                         },
                         "trend": 24,
                         "trend_type": "positive",
-                        "alignement": "left"
+                        "alignment": "left"
                     },
                     {
                         "type": "counter_basic",
@@ -28,19 +63,17 @@
                             "width": 18,
                             "height": 15
                         },
-                        "alignement": "center"
+                        "alignment": "center"
                     },
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
                         "text": "7 h 12 min",
-                        "alignement": "right"
+                        "alignment": "right"
                     }
                 ]
             }
-        ],
-        "background_color": "#D4151A22"
+        ]
     },
     "success": true
 }
-
