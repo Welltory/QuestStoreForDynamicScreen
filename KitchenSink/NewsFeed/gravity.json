@@ -1,0 +1,128 @@
+{
+    "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message.white",
+        "title": "Vbox gravity",
+        "margin": {
+          "top": 16
+        },
+        "items": [
+          {
+            "type": "text",
+            "background_color": "yellow",
+            "text": "default gravity"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_4",
+            "text": "start",
+            "gravity": "start"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_3",
+            "text": "end",
+            "gravity": "end"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_1",
+            "text": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "background_color": "yellow",
+            "text": "fill",
+            "gravity": "fill"
+          }
+        ]
+      },
+      {
+        "type": "message.white",
+        "title": "Hbox gravity",
+        "items": [
+          {
+            "type": "hbox",
+            "height": 200,
+            "spacing": 16,
+            "items": [
+              {
+                "type": "text",
+                "background_color": "yellow",
+                "text": "default gravity"
+              },
+              {
+                "type": "text",
+                "background_color": "cold_4",
+                "text": "start",
+                "gravity": "start"
+              },
+              {
+                "type": "text",
+                "background_color": "cold_3",
+                "text": "end",
+                "gravity": "end"
+              },
+              {
+                "type": "text",
+                "background_color": "cold_1",
+                "text": "center",
+                "gravity": "center"
+              },
+              {
+                "type": "text",
+                "background_color": "yellow",
+                "text": "fill",
+                "gravity": "fill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "message.white",
+        "title": "Message contents gravity end",
+        "margin": {
+          "top": 16
+        },
+        "contents_gravity": "end",
+        "items": [
+          {
+            "type": "text",
+            "background_color": "yellow",
+            "text": "default gravity"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_4",
+            "text": "start",
+            "gravity": "start"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_3",
+            "text": "end",
+            "gravity": "end"
+          },
+          {
+            "type": "text",
+            "background_color": "cold_1",
+            "text": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "background_color": "yellow",
+            "text": "fill",
+            "gravity": "fill"
+          }
+        ]
+      }
+    ],
+    "type": "newsfeed",
+    "spacing": 16
+  }
