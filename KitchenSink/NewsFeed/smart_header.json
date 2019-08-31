@@ -6,7 +6,7 @@
             {
                 "type": "message.yellow",
                 "title": "ДОКАЗАНО",
-                "date": "2019-06-13 13:00:00+0500",
+                "date": "2019-06-13T13:00:00+0500",
                 "items": [
                     {
                         "type": "smart_header",
@@ -27,7 +27,7 @@
                 "type": "message.white",
                 "title": "ДОКАЗАНО",
                 "title_color": "workouts_1",
-                "date": "2019-06-13 13:00:00+0500",
+                "date": "2019-06-13T13:00:00+0500",
                 "items": [
                     {
                         "type": "smart_header",

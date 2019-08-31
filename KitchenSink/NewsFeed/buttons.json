@@ -6,7 +6,7 @@
             {
                 "type": "message.white.cold_3_title",
                 "title": "Buttons",
-                "date": "2019-06-13 10:30:45+0500",
+                "date": "2019-06-13T10:30:45+0500",
                 "contents_gravity": "end",
                 "items": [
                     {
