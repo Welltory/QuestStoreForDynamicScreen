@@ -9,6 +9,7 @@
                 "height": 5
             },
 
+            
             {
                 "type": "message.yellow",
                 "title": "ДОКАЗАНО",
@@ -29,6 +30,9 @@
                     }
                 ]
             },
+
+
+
             {
                 "type": "message.white",
                 "title": "ДОКАЗАНО",
@@ -50,6 +54,8 @@
                     }
                 ]
             },
+
+
             {
                 "type": "message.sleep",
                 "title": "ДОКАЗАНО",
@@ -70,6 +76,8 @@
                     }
                 ]
             }
+
+
         ]
     },
     "success": true
