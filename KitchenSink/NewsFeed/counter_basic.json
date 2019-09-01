@@ -2,7 +2,13 @@
     "result": {
         "title": "Counter Basic",
         "class": "newsfeed",
+        "background_color": "#151A22",
         "content": [
+            {
+                "type": "spacer",
+                "height": 5
+            },
+
             {
                 "type": "message.white",
                 "items": [
