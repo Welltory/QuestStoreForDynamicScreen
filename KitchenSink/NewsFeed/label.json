@@ -26,11 +26,11 @@
                     },
                     {
                       "type": "label.sleep.emoji",
-                      "text": "\uD83D\uDE34  Sleep"
+                      "text": "\uD83D\uDE34 Sleep"
                     },
                     {
                       "type": "label.hrv.emoji",
-                      "text": "❤️  HRV"
+                      "text": "❤️ HRV"
                     },
                     {
                       "type": "label.meditation",
