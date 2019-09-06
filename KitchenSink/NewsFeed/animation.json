@@ -1,0 +1,14 @@
+{
+    "result": {
+        "title": "Animation",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "animation",
+                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json"
+            }
+        ],
+        "background_color": "#151A22"
+    },
+    "success": true
+}
