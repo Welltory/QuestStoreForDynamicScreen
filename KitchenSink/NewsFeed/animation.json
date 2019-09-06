@@ -4,8 +4,23 @@
         "class": "newsfeed",
         "content": [
             {
+               "type":"title",
+               "text":"Animation that repeats 2 times"
+            },
+            {
                 "type": "animation",
-                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json"
+                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                "height": 300,
+                "repeat": 2
+            },
+            {
+               "type":"title",
+               "text":"Animation that never stops"
+            },
+            {
+                "type": "animation",
+                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                "height": 300
             }
         ],
         "background_color": "#151A22"
