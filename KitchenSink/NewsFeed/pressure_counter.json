@@ -1,0 +1,28 @@
+{
+    "result": {
+        "title": "Pressure counter",
+        "class": "newsfeed",
+        "background_color": "#151A22",
+        "content": [
+
+            {
+                "type": "spacer",
+                "height": 5
+            },
+            
+            {
+                "type": "message",
+                "title": "Pressure Counter",
+                "items": [
+                    {
+                        "type": "pressure_counter",
+                        "systolic": 120,
+                        "diastolic": 70
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
+

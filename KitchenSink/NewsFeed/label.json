@@ -1,0 +1,92 @@
+{
+    "result": {
+      "class": "newsfeed",
+      "background_color": "#151A22",
+      "content": [
+
+        {
+          "type": "spacer",
+          "height": 5
+        },
+        
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "vbox",
+              "spacing": 11,
+              "items": [
+                {
+                  "type": "hbox",
+                  "spacing": 4,
+                  "items": [
+                    {
+                      "type": "label.workout.capslock",
+                      "text": "Workout Run"
+                    },
+                    {
+                      "type": "label.sleep.emoji",
+                      "text": "\uD83D\uDE34 Sleep"
+                    },
+                    {
+                      "type": "label.hrv.emoji",
+                      "text": "❤️ HRV"
+                    },
+                    {
+                      "type": "label.meditation",
+                      "text": "Meditation"
+                    },
+                    {
+                      "type": "spacer",
+                      "weight": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "hbox",
+                  "spacing": 4,
+                  "items": [
+                    {
+                      "type": "label.activity",
+                      "text": "Activity"
+                    },
+                    {
+                      "type": "label.nutrition",
+                      "text": "Nutrition"
+                    },
+                    {
+                      "type": "label.health",
+                      "text": "Health"
+                    },
+                    {
+                      "type": "spacer",
+                      "weight": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "hbox",
+                  "spacing": 4,
+                  "items": [
+                    {
+                      "type": "label.productivity",
+                      "text": "Productivity"
+                    },
+                    {
+                      "type": "label.weather",
+                      "text": "Weather"
+                    },
+                    {
+                      "type": "spacer",
+                      "weight": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "success": true
+  }
