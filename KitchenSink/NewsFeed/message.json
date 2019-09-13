@@ -4,10 +4,16 @@
     "class": "newsfeed",
     "background_color": "#151A22",
     "content": [
+
+      {
+        "type": "spacer",
+        "height": 5
+      },
+      
       {
         "type": "message.white.cold_3_title",
         "title": "ТЕСТЫ",
-        "date": "2019-06-13 10:30:45+0500",
+        "date": "2019-06-13T10:30:45",
         "contents_gravity": "end",
         "details_color": "cold_3",
         "items": [
@@ -41,7 +47,7 @@
       {
         "type": "message.white.cold_3_title",
         "title": "ТЕСТЫ",
-        "date": "2019-06-13 10:30:45+0500",
+        "date": "2019-06-13T10:30:45",
         "contents_gravity": "end",
         "details_color": "cold_3",
         "background_image": {

@@ -2,7 +2,13 @@
     "result": {
         "title": "Counter Basic",
         "class": "newsfeed",
+        "background_color": "#151A22",
         "content": [
+            {
+                "type": "spacer",
+                "height": 5
+            },
+
             {
                 "type": "message.white",
                 "items": [
@@ -17,7 +23,7 @@
                         },
                         "trend": 24,
                         "trend_type": "positive",
-                        "alignment": "left"
+                        "gravity": "start"
                     },
                     {
                         "type": "counter_basic",
@@ -28,13 +34,13 @@
                             "width": 18,
                             "height": 15
                         },
-                        "alignment": "center"
+                        "gravity": "center"
                     },
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
                         "text": "7 h 12 min",
-                        "alignment": "right"
+                        "gravity": "end"
                     }
                 ]
             },
@@ -52,7 +58,7 @@
                         },
                         "trend": 24,
                         "trend_type": "positive",
-                        "alignment": "left"
+                        "gravity": "start"
                     },
                     {
                         "type": "counter_basic",
@@ -63,13 +69,13 @@
                             "width": 18,
                             "height": 15
                         },
-                        "alignment": "center"
+                        "gravity": "center"
                     },
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
                         "text": "7 h 12 min",
-                        "alignment": "right"
+                        "gravity": "end"
                     }
                 ]
             }

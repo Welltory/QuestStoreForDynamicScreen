@@ -2,9 +2,17 @@
     "result": {
         "title": "Pressure counter",
         "class": "newsfeed",
+        "background_color": "#151A22",
         "content": [
+
+            {
+                "type": "spacer",
+                "height": 5
+            },
+            
             {
                 "type": "message",
+                "title": "Pressure Counter",
                 "items": [
                     {
                         "type": "pressure_counter",
@@ -13,8 +21,7 @@
                     }
                 ]
             }
-        ],
-        "background_color": "#D4151A22"
+        ]
     },
     "success": true
 }

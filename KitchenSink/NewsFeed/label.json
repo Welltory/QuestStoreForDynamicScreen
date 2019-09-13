@@ -1,8 +1,14 @@
 {
     "result": {
-      "background_color": "black",
       "class": "newsfeed",
+      "background_color": "#151A22",
       "content": [
+
+        {
+          "type": "spacer",
+          "height": 5
+        },
+        
         {
           "type": "message.white",
           "items": [
@@ -20,11 +26,11 @@
                     },
                     {
                       "type": "label.sleep.emoji",
-                      "text": "\uD83D\uDE34  Sleep"
+                      "text": "\uD83D\uDE34 Sleep"
                     },
                     {
                       "type": "label.hrv.emoji",
-                      "text": "❤️  HRV"
+                      "text": "❤️ HRV"
                     },
                     {
                       "type": "label.meditation",

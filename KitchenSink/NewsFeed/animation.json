@@ -1,0 +1,42 @@
+{
+    "result": {
+        "title": "Animation",
+        "class": "newsfeed",
+        "content": [
+            {
+               "type":"title",
+               "text":"Animation that repeats 2 times"
+            },
+            {
+                "type": "animation",
+                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                "height": 300,
+                "repeat": 2
+            },
+            {
+               "type":"title",
+               "text":"Animation that never stops"
+            },
+            {
+
+                "type": "dbox",
+                "items": [
+                    {
+                        "type": "animation",
+                        "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                        "height": 300
+                    },
+                    {
+                       "type":"text",
+                       "style": "ns_text_24_light",
+                       "text":"Text in center",
+                       "text_alignment": "center",
+                       "text_color": "#559999"
+                    }
+                ]
+            }
+        ],
+        "background_color": "#151A22"
+    },
+    "success": true
+}
