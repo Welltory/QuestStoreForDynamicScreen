@@ -1,0 +1,70 @@
+{
+    "success": true,
+    "result": {
+        "title": "GIF",
+        "class": "newsfeed",
+        "background_color": "#151A22",
+        "content": [
+            {
+                "type": "spacer",
+                "height": 10
+            },
+            {
+                "type": "message.white",
+                "title": "Example",
+                "date": "2019-06-13T10:30:45+0500",
+                "items": [
+                    {
+                        "type": "text.body",
+                        "text": "GIF. Uploadcare Direct. Height 30 - <a href=\"https://ucarecdn.com/87da1c32-e72d-4b65-a529-9e7fb8badf96/1klM.gif\">https://ucarecdn.com/87da1c32-e72d-4b65-a529-9e7fb8badf96/1klM.gif</a>"
+                    },
+                    {
+                        "type": "image",
+                        "background_color": "weather",
+                        "height": 30,
+                        "image": {
+                            "url": "https://ucarecdn.com/87da1c32-e72d-4b65-a529-9e7fb8badf96/1klM.gif"
+                        }
+                    },
+                    {
+                        "type": "text.body",
+                        "text": "GIF. Direct URL. Height 200 - <a href=\"https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif\">https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif</a>"
+                    },
+                    {
+                        "type": "image",
+                        "height": 200,
+                        "background_color": "weather",
+                        "image": {
+                            "url": "https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif"
+                        }
+                    },
+                    {
+                        "type": "text.body",
+                        "text": "GIF. Direct URL. Height 200 - <a href=\"https://media.giphy.com/media/69D4FSNqihhKpFcc1a/giphy.gif\">https://media.giphy.com/media/69D4FSNqihhKpFcc1a/giphy.gif</a>"
+                    },
+                    {
+                        "type": "image",
+                        "height": 200,
+                        "background_color": "weather",
+                        "image": {
+                            "url": "https://media.giphy.com/media/69D4FSNqihhKpFcc1a/giphy.gif"
+                        }
+                    },
+                    {
+                        "type": "text.body",
+                        "text": "Image. Uploadcare"
+                    },
+                    {
+                        "type": "image",
+                        "background_color": "weather",
+                        "image": {
+                            "uploadcare_id": "88d666fc-0e7e-46ea-8b4b-53624baaaeed",
+                            "width": 77,
+                            "height": 115
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
