@@ -4,29 +4,24 @@
     "class": "newsfeed",
     "content": [
       {
-        "type": "message",
-        "items": [
-          {
-            "type": "date",
-            "title": "Date 2019-09-18",
-            "date": "2019-09-18 12:03:14"
-          },
-          {
-            "type": "date",
-            "title": "Date 2019-09-16",
-            "date": "2019-09-16 12:03:14"
-          },
-          {
-            "type": "date",
-            "title": "Date 2019-06-16",
-            "date": "2019-06-16 12:03:14"
-          },
-          {
-            "type": "date",
-            "title": "Date 2018-06-16",
-            "date": "2018-06-16 12:03:14"
-          }
-        ]
+        "type": "message.white",
+        "title": "Date 2019-09-19 TODAY",
+        "date": "2019-09-19 12:03:14"
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2019-09-16 CURRENT WEEK",
+        "date": "2019-09-16 12:03:14"
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2019-06-16 CURRENT YEAR",
+        "date": "2019-06-16 12:03:14"
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2018-06-16 OTHER YEAR",
+        "date": "2018-06-16 12:03:14"
       }
     ],
     "background_color": "#D4151A22"
