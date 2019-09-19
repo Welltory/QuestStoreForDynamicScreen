@@ -2,6 +2,7 @@
   "result": {
     "title": "Date format",
     "class": "newsfeed",
+    "background_color": "#151A22",
     "content": [
       {
         "type": "message.white",
