@@ -7,7 +7,26 @@
       {
         "type": "message.white",
         "title": "Date 2019-09-20 TODAY",
-        "date": "2019-09-20 12:03:14"
+        "date": "2019-09-20 12:03:14",
+        "items": []
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2019-09-16 CURRENT WEEK",
+        "date": "2019-09-16 12:03:14",
+        "items": []
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2019-06-16 CURRENT YEAR",
+        "date": "2019-06-16 12:03:14",
+        "items": []
+      },
+      {
+        "type": "message.white",
+        "title": "Date 2018-06-16 OTHER YEAR",
+        "date": "2018-06-16 12:03:14",
+        "items": []
       }
     ],
     "background_color": "#D4151A22"
