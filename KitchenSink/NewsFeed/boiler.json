@@ -1,0 +1,28 @@
+{
+    "success": true,
+    "result": {
+        "title": "Boiler",
+        "class": "newsfeed",
+        "background_color": "#151A22",
+        "content": [
+            {
+                "type": "spacer",
+                "height": 10
+            },
+            {
+                "type": "message.white",
+                "title": "Example",
+                "date": "2019-06-13T10:30:45+0500",
+                "items": [
+                    {
+                        "type": "boiler",
+                        "liquid_level": 30,
+                        "color_state": "yellow",
+                        "boiling_level": 20,
+                        "particle_сonsumption": 3
+                    }
+                ]
+            }
+        ]
+    }
+}
