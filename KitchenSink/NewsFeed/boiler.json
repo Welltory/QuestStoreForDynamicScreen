@@ -18,7 +18,7 @@
                         "type": "boiler",
                         "liquid_level": 30,
                         "color_state": "yellow",
-                        "boiling_level": 20,
+                        "boiling_level": 40,
                         "particle_сonsumption": 3
                     }
                 ]
