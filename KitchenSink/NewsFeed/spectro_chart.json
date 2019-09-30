@@ -46,8 +46,11 @@
                     "en": "Sprectrogram",
                     "ru": "Спектрограмма"
                    },
-                   "type": "area",
-                   "order": 100,
+
+                  "type": "area",
+                  "disable_line": true,
+
+                  "order": 100,
 
                   "min_y": 1.0,
                   "max_y": 100.0,
