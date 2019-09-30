@@ -48,7 +48,7 @@
                    },
 
                   "type": "area",
-                  "disable_line": true,
+                  "line_disabled": true,
 
                   "order": 100,
 
