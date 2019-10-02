@@ -70,11 +70,11 @@
                     {
                         "color": "#ABAEFF",
                         "from": 0.05,
-                        "to": 0.17
+                        "to": 0.15
                     },
                     {
                         "color": "#E9EA91",
-                        "from": 0.17,
+                        "from": 0.15,
                         "to": 1.0
                     }
                   ],
@@ -84,24 +84,48 @@
                       "x_value_raw": 0
                     },
                     {
+                      "y_value": 30,
+                      "x_value_raw": 0.05
+                    },
+                    {
                       "y_value": 40,
                       "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 25,
+                      "x_value_raw": 0.15
                     },
                     {
                       "y_value": 10,
                       "x_value_raw": 0.2
                     },
                     {
+                      "y_value": 30,
+                      "x_value_raw": 0.25
+                    },
+                    {
                       "y_value": 50,
                       "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 0.35
                     },
                     {
                       "y_value": 10,
                       "x_value_raw": 0.4
                     },
                     {
+                      "y_value": 8,
+                      "x_value_raw": 0.45
+                    },
+                    {
                       "y_value": 6,
                       "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 4,
+                      "x_value_raw": 0.55
                     },
                     {
                       "y_value": 3,
