@@ -6,8 +6,8 @@
     "content": [
       {
         "type": "message.white.cold_3_title",
-        "title": "Date 2019-09-24 TODAY",
-        "date": "2019-09-24T10:30:45",
+        "title": "Date 2019-10-04 TODAY",
+        "date": "2019-10-04T10:30:45",
         "items": [
           {
             "type": "title.text_align_right",
@@ -17,8 +17,8 @@
       },
       {
         "type": "message.white.cold_3_title",
-        "title": "Date 2019-09-23 CURRENT WEEK",
-        "date": "2019-09-23T10:30:45",
+        "title": "Date 2019-10-03 CURRENT WEEK",
+        "date": "2019-10-03T10:30:45",
         "items": [
           {
             "type": "title.text_align_right",
