@@ -45,15 +45,18 @@
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
-                   // "line_disabled": true,
-                  // "type_aggr_long_period": "sum"
-                  // "trend_type": "higher_is_better",
                   "y_axis": {
                     "min": 1.0,
                     "max": 100.0,
                     "average": 40.0,
                     "suffix": ""
                   },
+
+                  "line_disabled": true,
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+
                   "line_flow": {
                     "curve_type": "cubic",
                     "dash_type": "basic",
