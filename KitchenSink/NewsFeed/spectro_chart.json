@@ -56,7 +56,6 @@
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
-
                   "line_flow": {
                     "curve_type": "cubic",
                     "dash_type": "basic",
@@ -140,7 +139,378 @@
                     }
                   ]
                 }
-          ]
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Meditation 10 min",
+                "style": "text_header1",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "show_grid_x": false,
+            "show_grid_y": true,
+            "show_label_x": false,
+            "show_label_y": true,
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Meditation",
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 78.0,
+                    "max": 86.0,
+                    "average": 82.0,
+                    "suffix": ""
+                  },
+
+                  "line_disabled": true,
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "gradient",
+                    "color": "#FFFFFF",
+                     "color_ranges": [
+                        {
+                            "color": "#88A3FE",
+                            "from": 78,
+                            "to": 82
+                        },
+                        {
+                            "color": "#FD4100",
+                            "from": 82,
+                            "to": 1000
+                        }
+                      ]
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 86,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 78,
+                      "x_value_raw": 1
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Histogram",
+                "style": "text_header1",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "show_grid_x": false,
+            "show_grid_y": false,
+            "show_label_x": true,
+            "show_label_y": false,
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Histogram",
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "average": 40.0,
+                    "suffix": ""
+                  },
+
+                  "line_disabled": true,
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "basic",
+                    "fill_flow": {
+                      "color": "#FF003F"
+                    }
+                  },
+                  "data": [
+                    {
+                      "y_value": null,
+                      "x_value_raw": 850
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 900
+                    },
+                    {
+                      "y_value": 80,
+                      "x_value_raw": 950
+                    },
+                    {
+                      "y_value": 15,
+                      "x_value_raw": 1000
+                    },
+                    {
+                      "y_value": 5,
+                      "x_value_raw": 1050
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1100
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1150
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1200
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Moving",
+                "style": "text_header1",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "show_grid_x": true,
+            "show_grid_y": false,
+            "show_label_x": true,
+            "show_label_y": false,
+            "legend": {
+              "type": "basic"
+            },
+            "pin": {
+              "type": "max"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Steps",
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 50,
+                  "y_axis": {
+                    "min": 200.0,
+                    "max": 8000.0,
+                    "average": 3000.0,
+                    "suffix": ""
+                  },
+
+                  "line_disabled": true,
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "basic",
+                    "fill_flow": {
+                      "color": "#FF8F2F"
+                    }
+                  },
+                  "data": [
+                    {
+                      "y_value": 2000,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 200,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 7500,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 4000,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 3500,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 3000,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 7000,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 3000,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 2500,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 8000,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 7200,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 7400,
+                      "x_value_raw": 0.55
+                    }
+                  ]
+                },
+                { 
+                  "title": "Sprectrogram",
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 80.0,
+                    "average": 60.0,
+                    "suffix": ""
+                  },
+
+                  "line_disabled": true,
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "basic",
+                    "color": "#FF8F2F"
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 60,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 80,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 50,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 55,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 60,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 65,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 45,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 60,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 65,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 45,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 40,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 45,
+                      "x_value_raw": 0.55
+                    }
+                  ]
+                }
+            ]
           }
         ]
       }
