@@ -57,7 +57,6 @@
                     "suffix": ""
                   },
 
-                  "line_disabled": true,
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
@@ -197,7 +196,6 @@
                     "suffix": ""
                   },
 
-                  "line_disabled": true,
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
@@ -286,7 +284,6 @@
                     "suffix": ""
                   },
 
-                  "line_disabled": true,
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
@@ -391,7 +388,6 @@
                     "suffix": ""
                   },
 
-                  "line_disabled": true,
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
@@ -466,7 +462,6 @@
                     "suffix": ""
                   },
 
-                  "line_disabled": true,
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
@@ -531,7 +526,373 @@
                   ]
                 }
             ]
-          }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "text",
+                "text": "Workout",
+                "style": "text_header1",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": true,
+              "position_x": "top"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Workout",
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 112.0,
+                    "max": 170.0,
+                    "average": 150.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "gradient",
+                    "color": "#FF00FF",
+                    "color_ranges": [
+                      {
+                          "color": "#FF023F",
+                          "from": 0.0,
+                          "to": 115.65608
+                      },
+                      {
+                          "color": "#EFDD36",
+                          "from": 115.65608,
+                          "to": 130.10405
+                      },
+                      {
+                          "color": "#A7DB37",
+                          "from": 130.10405,
+                          "to": 145.55203
+                      },
+                      {
+                          "color": "#1957F6",
+                          "from": 145.55203,
+                          "to": 1000.0
+                      }
+                    ]
+                  },
+                  "line_flow": {
+                    "curve_type": "linear",
+                    "dash_type": "basic",
+                    "interval_type": "basic",
+                  },
+                  "data": [
+                    {
+                      "y_value": 117,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 127,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 116,
+                      "x_value_raw": 0.55
+                    },
+                    {
+                      "y_value": 112,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 148,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 151,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 150,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 122,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 123,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 142,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 129,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 132,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 128,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 141,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 129,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 154,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 149,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 1.0
+                    }
+                  ]
+                }
+            ]
+          },
         ]
       }
     ]
