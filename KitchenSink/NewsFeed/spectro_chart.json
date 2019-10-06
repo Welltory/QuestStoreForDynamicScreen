@@ -56,11 +56,7 @@
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
-                  "line_flow": {
-                    "curve_type": "cubic",
-                    "dash_type": "basic",
-                    "interval_type": "basic",
-                    "fill_flow": {
+                  "fill_flow": {
                       "type": "combined",
                       "direction": "horizontal",
                       "color": "#7bccc2",
@@ -82,7 +78,11 @@
                         }
                       ],
                       "gap_between_ranges": true
-                    }
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic",
                   },
                   "data": [
                     {
@@ -275,12 +275,12 @@
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
+                  "fill_flow": {
+                      "color": "#FF003F"
+                  },
                   "bar_flow": {
                     "stack_type": "solid",
-                    "interval_type": "basic",
-                    "fill_flow": {
-                      "color": "#FF003F"
-                    }
+                    "interval_type": "basic"
                   },
                   "data": [
                     {
@@ -375,12 +375,12 @@
                   "type_aggr_long_period": "sum",
                   "trend_type": "higher_is_better",
 
+                  "fill_flow": {
+                      "color": "#FF8F2F"
+                  },
                   "bar_flow": {
                     "stack_type": "solid",
-                    "interval_type": "basic",
-                    "fill_flow": {
-                      "color": "#FF8F2F"
-                    }
+                    "interval_type": "basic"
                   },
                   "data": [
                     {
