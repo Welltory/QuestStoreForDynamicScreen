@@ -31,10 +31,15 @@
             },
             "height": 250,
             "type": "chart",
-            "show_grid_x": false,
-            "show_grid_y": false,
-            "show_label_x": true,
-            "show_label_y": false,
+            "grid_flow": {
+              "show_x": false,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
             "theme": {
               "type": "black"
             },
@@ -166,10 +171,15 @@
             },
             "height": 250,
             "type": "chart",
-            "show_grid_x": false,
-            "show_grid_y": true,
-            "show_label_x": false,
-            "show_label_y": true,
+            "grid_flow": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label_flow": {
+              "show_x": false,
+              "show_y": true,
+              "position_x": "bottom"
+            },
             "theme": {
               "type": "black"
             },
@@ -250,10 +260,15 @@
             },
             "height": 250,
             "type": "chart",
-            "show_grid_x": false,
-            "show_grid_y": false,
-            "show_label_x": true,
-            "show_label_y": false,
+            "grid_flow": {
+              "show_x": false,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
             "theme": {
               "type": "black"
             },
@@ -344,10 +359,15 @@
             },
             "height": 250,
             "type": "chart",
-            "show_grid_x": true,
-            "show_grid_y": false,
-            "show_label_x": true,
-            "show_label_y": false,
+            "grid_flow": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
             "legend": {
               "type": "basic"
             },
