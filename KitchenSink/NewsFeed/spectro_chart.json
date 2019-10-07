@@ -2,6 +2,7 @@
   "success": true,
   "result": {
     "title": "Charts",
+    "class": "newsfeed",
     "content": [
       {
         "type": "message",
