@@ -16,10 +16,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Spectrogram",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Spectrogram"
               }
             ]
           },
@@ -155,10 +153,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Meditation 10 min",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Meditation 10 min"                
               }
             ]
           },
@@ -243,10 +239,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Histogram",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Histogram"
               }
             ]
           },
@@ -341,10 +335,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Moving",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Moving"
               }
             ]
           },
@@ -537,10 +529,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Workout",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Workout"
               }
             ]
           },
