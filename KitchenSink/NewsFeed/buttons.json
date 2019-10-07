@@ -1,88 +1,353 @@
 {
     "result": {
-        "title": "Buttons",
-        "class": "newsfeed",
-        "background_color": "#151A22",
-        "content": [
-
+      "title": "Buttons",
+      "class": "newsfeed",
+      "content": [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "message.white",
+          "padding": {},
+          "items": [
             {
-                "type": "spacer",
-                "height": 5
+              "type": "spacer"
             },
-
             {
-                "type": "message.white.cold_3_title",
-                "title": "Buttons",
-                "date": "2019-06-13T10:30:45",
-                "items": [
-                    {
-                        "margin": {
-                            "top": 12
-                        },
-                        "type": "button.welltory",
-                        "text": "button.welltory",
-                        "action": {
-                            "type": "alert",
-                            "title": "Button",
-                            "options": [
-                                {
-                                    "text": "Yes"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "margin": {
-                            "top": 12
-                        },
-                        "type": "button.neutral",
-                        "text": "button.neutral",
-                        "action": {
-                            "type": "alert",
-                            "title": "Button",
-                            "options": [
-                                {
-                                    "text": "Yes"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "margin": {
-                            "top": 12
-                        },
-                        "type": "button.text",
-                        "text": "button.text",
-                        "action": {
-                            "type": "alert",
-                            "title": "Button",
-                            "options": [
-                                {
-                                    "text": "Yes"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "margin": {
-                            "top": 12,
-                            "bottom": 12
-                        },
-                        "type": "button.details",
-                        "text": "button.details",
-                        "action": {
-                            "type": "alert",
-                            "title": "Button",
-                            "options": [
-                                {
-                                    "text": "Yes"
-                                }
-                            ]
-                        }
-                    }
-                ]
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.32_button_welltory",
+              "text": ".32_button_welltory"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.32_button_welltory_white",
+              "text": ".32_button_welltory_white"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.32_button_red",
+              "text": ".32_button_red"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.32_button_blue",
+              "text": ".32_button_blue"
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_welltory_white",
+              "text": ".38_button_welltory_white"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_sleep",
+              "text": ".38_button_sleep"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_activity",
+              "text": ".38_button_activity"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_productivity",
+              "text": ".38_button_productivity"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_workouts",
+              "text": ".38_button_workouts"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_health",
+              "text": ".38_button_health"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_mindfulness",
+              "text": ".38_button_mindfulness"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.38_button_nutrition",
+              "text": ".38_button_nutrition"
+            },
+            {
+              "type": "vbox",
+              "height": 80,
+              "background_color": "ink",
+              "items": [
+                {
+                  "type": "spacer",
+                  "weight": 1
+                },
+                {
+                  "action": {
+                    "type": "alert",
+                    "title": "Button",
+                    "message": "Press button again"
+                  },
+                  "type": "button.38_button_blur",
+                  "text": ".38_button_blur"
+                },
+                {
+                  "type": "spacer",
+                  "weight": 1
+                }
+              ]
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_welltory",
+              "text": ".56_button_welltory"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_welltory_white",
+              "text": ".56_button_welltory_white"
+            },
+            {
+              "type": "vbox",
+              "height": 80,
+              "background_color": "ink",
+              "items": [
+                {
+                  "type": "spacer",
+                  "weight": 1
+                },
+                {
+                  "action": {
+                    "type": "alert",
+                    "title": "Button",
+                    "message": "Press button again"
+                  },
+                  "type": "button.56_button_blur",
+                  "text": ".56_button_blur"
+                },
+                {
+                  "type": "spacer",
+                  "weight": 1
+                }
+              ]
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_red",
+              "text": ".56_button_red"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_white",
+              "text": ".56_button_white"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_google",
+              "text": ".56_button_google"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.56_button_facebook",
+              "text": ".56_button_facebook"
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button",
+              "text": ".text_button"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_sleep_1",
+              "text": ".text_button_sleep_1"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_health",
+              "text": ".text_button_health"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_ink",
+              "text": ".text_button_ink"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_productivity",
+              "text": ".text_button_productivity"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_nutrition",
+              "text": ".text_button_nutrition"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.text_button_workouts",
+              "text": ".text_button_workouts"
+            },
+            {
+              "type": "vbox",
+              "height": 100,
+              "background_color": "ink",
+              "spacing": 16,
+              "items": [
+                {
+                  "type": "spacer",
+                  "weight": 1
+                },
+                {
+                  "action": {
+                    "type": "alert",
+                    "title": "Button",
+                    "message": "Press button again"
+                  },
+                  "type": "button.text_button_white",
+                  "text": ".text_button_white"
+                },
+                {
+                  "action": {
+                    "type": "alert",
+                    "title": "Button",
+                    "message": "Press button again"
+                  },
+                  "type": "button.details_button_white",
+                  "text": ".details_button_white"
+                },
+                {
+                  "type": "spacer",
+                  "weight": 1
+                }
+              ]
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
+              "type": "button.details_button",
+              "text": ".details_button"
+            },
+            {
+              "type": "spacer"
             }
-        ]
+          ]
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      "background_color": "#151A22"
     },
     "success": true
-}
+  }
