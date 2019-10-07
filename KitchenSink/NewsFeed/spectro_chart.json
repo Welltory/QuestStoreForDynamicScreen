@@ -2,9 +2,10 @@
   "success": true,
   "result": {
     "title": "Charts",
+    "class": "newsfeed",
     "content": [
       {
-        "type": "cell",
+        "type": "message",
         "items": [
           {
             "type": "hbox",
@@ -15,10 +16,8 @@
             },
             "items": [
               {
-                "type": "text",
-                "text": "Spectrogram",
-                "style": "text_header1",
-                "weight": 1
+                "type": "title",
+                "text": "Spectrogram"
               }
             ]
           },
@@ -31,88 +30,860 @@
             },
             "height": 250,
             "type": "chart",
-            "show_grid_x": false,
-            "show_grid_y": true,
-            "show_label_x": true,
-            "show_label_y": true,
-            "data": {
-              "title": "Performance Hmm",
-              "data": [
-                {
-                  "type_data_flow": 1,
-                  "type_chart": 4,
-                  "slug": "computer_productivity_productive",
-                  "title": "Продуктивно",
-                  "suffix": "%",
-                  "y_step": 20,
-                  "x_label": null,
-                  "y_label": "",
-                  "y_min": 0.0,
-                  "y_max": 100.0,
+            "grid_flow": {
+              "show_x": false,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Sprectrogram",
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
                   "order": 100,
+                  "y_axis": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "average": 40.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "fill_flow": {
+                      "type": "combined",
+                      "direction": "horizontal",
+                      "color": "#7bccc2",
+                      "color_ranges": [
+                        {
+                            "color": "#F66F74",
+                            "from": 0.0,
+                            "to": 0.05
+                        },
+                        {
+                            "color": "#ABAEFF",
+                            "from": 0.05,
+                            "to": 0.15
+                        },
+                        {
+                            "color": "#E9EA91",
+                            "from": 0.15,
+                            "to": 1.0
+                        }
+                      ],
+                      "gap_between_ranges": true
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic",
+                  },
                   "data": [
                     {
                       "y_value": 20,
-                      "x_value": [
-                        "06.01",
-                        "СБ"
-                      ]
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 0.05
                     },
                     {
                       "y_value": 40,
-                      "x_value": [
-                        "07.01",
-                        "ВС"
-                      ]
+                      "x_value_raw": 0.1
                     },
                     {
-                      "y_value": 60,
-                      "x_value": [
-                        "08.01",
-                        "ПН"
+                      "y_value": 25,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 10,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 50,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 10,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 8,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 6,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 4,
+                      "x_value_raw": 0.55
+                    },
+                    {
+                      "y_value": 3,
+                      "x_value_raw": 0.6
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Meditation 10 min"                
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label_flow": {
+              "show_x": false,
+              "show_y": true,
+              "position_x": "bottom"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Meditation",
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 78.0,
+                    "max": 86.0,
+                    "average": 82.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "gradient",
+                    "color": "#FFFFFF",
+                     "color_ranges": [
+                        {
+                            "color": "#88A3FE",
+                            "from": 78,
+                            "to": 82
+                        },
+                        {
+                            "color": "#FD4100",
+                            "from": 82,
+                            "to": 1000
+                        }
                       ]
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 86,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 78,
+                      "x_value_raw": 1
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Histogram"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": false,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Histogram",
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 1.0,
+                    "max": 100.0,
+                    "average": 40.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "fill_flow": {
+                      "color": "#FF003F"
+                  },
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": null,
+                      "x_value_raw": 850
+                    },
+                    {
+                      "y_value": 30,
+                      "x_value_raw": 900
                     },
                     {
                       "y_value": 80,
-                      "x_value": [
-                        "09.01",
-                        "ВТ"
-                      ]
+                      "x_value_raw": 950
+                    },
+                    {
+                      "y_value": 15,
+                      "x_value_raw": 1000
+                    },
+                    {
+                      "y_value": 5,
+                      "x_value_raw": 1050
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1100
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1150
+                    },
+                    {
+                      "y_value": null,
+                      "x_value_raw": 1200
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Moving"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom"
+            },
+            "legend": {
+              "type": "basic"
+            },
+            "pin": {
+              "type": "max"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Steps",
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 50,
+                  "y_axis": {
+                    "min": 200.0,
+                    "max": 8000.0,
+                    "average": 3000.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "fill_flow": {
+                      "color": "#FF8F2F"
+                  },
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 2000,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 200,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 7500,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 4000,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 3500,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 3000,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 7000,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 3000,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 2500,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 8000,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 7200,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 7400,
+                      "x_value_raw": 0.55
+                    }
+                  ]
+                },
+                { 
+                  "title": "Sprectrogram",
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 80.0,
+                    "average": 60.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "basic",
+                    "color": "#FF8F2F"
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 60,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 80,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 50,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 55,
+                      "x_value_raw": 0.15
                     },
                     {
                       "y_value": 60,
-                      "x_value": [
-                        "10.01",
-                        "СР"
-                      ]
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 65,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 45,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 60,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 65,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 45,
+                      "x_value_raw": 0.45
                     },
                     {
                       "y_value": 40,
-                      "x_value": [
-                        "11.01",
-                        "ЧТ"
-                      ]
+                      "x_value_raw": 0.5
                     },
                     {
-                      "y_value": 20,
-                      "x_value": [
-                        "12.01",
-                        "ПТ"
-                      ]
+                      "y_value": 45,
+                      "x_value_raw": 0.55
                     }
-                  ],
-                  "main_color": "#7bccc2",
-                  "color_indication": false,
-                  "fill": true,
-                  "fill_opacity": 100,
-                  "max_by_all_data_flow": false,
-                  "norm": null,
-                  "average_value": 99.0,
-                  "diff_from_norm": null
+                  ]
                 }
-              ]
-            }
-          }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Workout"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label_flow": {
+              "show_x": true,
+              "show_y": true,
+              "position_x": "top"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "title": "Workout",
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 112.0,
+                    "max": 170.0,
+                    "average": 150.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "type": "gradient",
+                    "color": "#FF00FF",
+                    "color_ranges": [
+                      {
+                          "color": "#FF023F",
+                          "from": 0.0,
+                          "to": 115.65608
+                      },
+                      {
+                          "color": "#EFDD36",
+                          "from": 115.65608,
+                          "to": 130.10405
+                      },
+                      {
+                          "color": "#A7DB37",
+                          "from": 130.10405,
+                          "to": 145.55203
+                      },
+                      {
+                          "color": "#1957F6",
+                          "from": 145.55203,
+                          "to": 1000.0
+                      }
+                    ]
+                  },
+                  "line_flow": {
+                    "curve_type": "linear",
+                    "dash_type": "basic",
+                    "interval_type": "basic",
+                  },
+                  "data": [
+                    {
+                      "y_value": 117,
+                      "x_value_raw": 0
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value_raw": 0.05
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.1
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.15
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.2
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.25
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.3
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.35
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.4
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.45
+                    },
+                    {
+                      "y_value": 127,
+                      "x_value_raw": 0.5
+                    },
+                    {
+                      "y_value": 116,
+                      "x_value_raw": 0.55
+                    },
+                    {
+                      "y_value": 112,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 148,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 151,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 150,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 122,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 123,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 142,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 129,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 132,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 128,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 141,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 129,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 154,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 149,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value_raw": 0.6
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value_raw": 1.0
+                    }
+                  ]
+                }
+            ]
+          },
         ]
       }
     ]
