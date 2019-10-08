@@ -82,7 +82,7 @@
                   "line_flow": {
                     "curve_type": "cubic",
                     "dash_type": "basic",
-                    "interval_type": "basic",
+                    "interval_type": "basic"
                   },
                   "data": [
                     {
@@ -594,7 +594,7 @@
                   "line_flow": {
                     "curve_type": "linear",
                     "dash_type": "basic",
-                    "interval_type": "basic",
+                    "interval_type": "basic"
                   },
                   "data": [
                     {
@@ -876,7 +876,7 @@
                   ]
                 }
             ]
-          },
+          }
         ]
       }
     ]
