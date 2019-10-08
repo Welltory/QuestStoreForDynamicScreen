@@ -44,7 +44,7 @@
             },
             "flows": [
                 { 
-                  "title": ["Sprectrogram"],
+                  "titles": ["Spectrogram"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
@@ -60,7 +60,7 @@
                   "trend_type": "higher_is_better",
 
                   "fill_flows": [{
-                      "title": "Sprectrogram",
+                      "title": "Spectrogram",
                       "direction": "horizontal",
                       "color_ranges": [
                         {
@@ -178,7 +178,7 @@
             },
             "flows": [
                 { 
-                  "title": ["Meditation"],
+                  "titles": ["Meditation"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
@@ -263,7 +263,7 @@
             },
             "flows": [
                 { 
-                  "title": ["Histogram"],
+                  "titles": ["Histogram"],
                   "flow_type": "primary",
                   "chart_type": "bar",
                   "show_circles": false,
@@ -366,7 +366,7 @@
             },
             "flows": [
                 { 
-                  "title": ["Steps"],
+                  "titles": ["Steps"],
                   "flow_type": "primary",
                   "chart_type": "bar",
                   "show_circles": false,
@@ -441,7 +441,7 @@
                   ]
                 },
                 { 
-                  "title": "HR",
+                  "titles": ["HR"],
                   "flow_type": "secondary",
                   "chart_type": "line",
                   "show_circles": true,
@@ -554,7 +554,7 @@
             },
             "flows": [
                 { 
-                  "title": ["Workout"],
+                  "titles": ["Workout"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
