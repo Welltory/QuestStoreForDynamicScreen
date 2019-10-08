@@ -194,6 +194,7 @@
                   "trend_type": "higher_is_better",
 
                   "stroke_flow": {
+                    "title": "Meditation",
                     "direction": "horizontal",
                      "color_ranges": [
                         {
@@ -457,6 +458,7 @@
                   "trend_type": "higher_is_better",
 
                   "stroke_flow": {
+                    "title": "HR",
                     "color": "#FF8F2F"
                   },
                   "line_flow": {
@@ -570,6 +572,7 @@
                   "trend_type": "higher_is_better",
 
                   "stroke_flow": {
+                    "title": "Workout",
                     "direction": "vertical",
                     "color_ranges": [
                       {
