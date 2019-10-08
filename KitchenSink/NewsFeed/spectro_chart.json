@@ -459,7 +459,7 @@
 
                   "stroke_flow": {
                     "title": "HR",
-                    "color": "#FF8F2F"
+                    "color": "#FF4201"
                   },
                   "line_flow": {
                     "curve_type": "cubic",
