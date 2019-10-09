@@ -1,0 +1,11 @@
+{
+  "result": {
+    "title": "Palette",
+    "content": [
+        {
+            "type": "palette"
+        }
+    ]
+  },
+  "success": true
+}
