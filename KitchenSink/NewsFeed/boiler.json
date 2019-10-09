@@ -1,0 +1,108 @@
+{
+    "result": {
+      "title": "Boiler",
+      "class": "newsfeed",
+      "spacing": 16,
+      "content": [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 0;\n Color: green;\n Boiling: 0;\nConsumption: 0"
+            },
+            {
+              "type": "boiler",
+              "liquid_level": 0,
+              "color_state": "green",
+              "width": 300,
+              "height": 300,
+              "boiling_level": 0,
+              "particle_consumption": 0,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 30;\n Color: yellow;\n Boiling: 50;\nConsumption: 4"
+            },
+            {
+              "type": "boiler",
+              "liquid_level": 30,
+              "color_state": "yellow",
+              "width": 300,
+              "height": 300,
+              "boiling_level": 50,
+              "particle_consumption": 4,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 50;\n Color: yellow;\n Boiling: 50;\nConsumption: -6"
+            },
+            {
+              "type": "boiler",
+              "liquid_level": 50,
+              "color_state": "red",
+              "width": 300,
+              "height": 300,
+              "boiling_level": 70,
+              "particle_consumption": -6,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 70;\n Color: yellow;\n Boiling: 100;\nConsumption: -9"
+            },
+            {
+              "type": "boiler",
+              "liquid_level": 70,
+              "color_state": "yellow",
+              "width": 300,
+              "height": 300,
+              "boiling_level": 100,
+              "particle_consumption": -9,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 100;\n Color: green;\n Boiling: 100;\nConsumption: 9"
+            },
+            {
+              "type": "boiler",
+              "liquid_level": 100,
+              "color_state": "green",
+              "width": 300,
+              "height": 300,
+              "boiling_level": 100,
+              "particle_consumption": 9,
+              "gravity": "center"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true
+  }

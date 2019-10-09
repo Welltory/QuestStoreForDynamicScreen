@@ -1,0 +1,54 @@
+{
+  "result": {
+    "title": "Date format",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message.white.cold_3_title",
+        "title": "Date 2019-10-04 TODAY",
+        "date": "2019-10-04T10:30:45",
+        "items": [
+          {
+            "type": "title.text_align_right",
+            "text": "Не по себе, когда смартфона\nнет рядом?"
+          }
+        ]
+      },
+      {
+        "type": "message.white.cold_3_title",
+        "title": "Date 2019-10-03 CURRENT WEEK",
+        "date": "2019-10-03T10:30:45",
+        "items": [
+          {
+            "type": "title.text_align_right",
+            "text": "Не по себе, когда смартфона\nнет рядом?"
+          }
+        ]
+      },
+      {
+        "type": "message.white.cold_3_title",
+        "title": "Date 2019-06-16 CURRENT YEAR",
+        "date": "2019-06-20T10:30:45",
+        "items": [
+          {
+            "type": "title.text_align_right",
+            "text": "Не по себе, когда смартфона\nнет рядом?"
+          }
+        ]
+      },
+      {
+        "type": "message.white.cold_3_title",
+        "title": "Date 2018-06-16 OTHER YEAR",
+        "date": "2018-06-20T10:30:45",
+        "items": [
+          {
+            "type": "title.text_align_right",
+            "text": "Не по себе, когда смартфона\nнет рядом?"
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}

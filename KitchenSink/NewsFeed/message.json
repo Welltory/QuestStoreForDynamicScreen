@@ -27,6 +27,7 @@
           },
           {
             "type": "button.text",
+            "gravity": "end",
             "text": "Пройти тест",
             "text_color": "cold_3"
           }
@@ -71,6 +72,7 @@
           {
             "type": "button.text",
             "text": "Пройти тест",
+            "gravity": "end",
             "text_color": "cold_3"
           }
         ]

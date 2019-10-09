@@ -1,248 +1,324 @@
 {
-    "result": {
-        "content": [
-            {
-                "type": "text",
-                "text": "NewsFeed",
-                "style": "text_title",
-                "margin": {
-                    "top": 40,
-                    "bottom": 20
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Message",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/message.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Button",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/buttons.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Smart Headers",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/smart_header.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Measurement Reminder",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/measurement_reminder.json"
-                }
-            },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "NewsFeed",
+        "style": "text_title",
+        "margin": {
+          "top": 40,
+          "bottom": 20
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Message",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/message.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Button",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/buttons.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Smart Headers",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/smart_header.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Measurement Reminder",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/measurement_reminder.json"
+        }
+      },
 
 
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Hirosontal Bars",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/horisontal_bars.json"
-                }
-            },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Hirosontal Bars",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/horisontal_bars.json"
+        }
+      },
 
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Pressure counter",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/pressure_counter.json"
-                }
-            },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Pressure counter",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/pressure_counter.json"
+        }
+      },
 
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Counter basic",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/counter_basic.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Label",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/label.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Document",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/document.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Details Param",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/details_param.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Gravity",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/gravity.json"
-                }
-            },
-			{
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Animation",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/animation.json"
-				}
-			}
-        ]
-    },
-    "success": true
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Counter basic",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/counter_basic.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Label",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/label.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Document",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/document.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Details Param",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/details_param.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Gravity",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/gravity.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Animation",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/animation.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Gif",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/gif.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Date format",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/date_format.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Boiler",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/boiler.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Chart Spectro",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/spectro_chart.json"
+        }
+      }
+    ]
+  },
+  "success": true
 }
