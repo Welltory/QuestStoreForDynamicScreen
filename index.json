@@ -423,7 +423,7 @@
                 "action": {
                     "type": "open",
                     "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/palette.json"
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/palette.json"
                 }
             }
         ]
