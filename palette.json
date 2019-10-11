@@ -1,0 +1,12 @@
+{
+  "result": {
+    "title": "Palette",
+    "background_color": "#999999",
+    "content": [
+        {
+            "type": "palette"
+        }
+    ]
+  },
+  "success": true
+}
