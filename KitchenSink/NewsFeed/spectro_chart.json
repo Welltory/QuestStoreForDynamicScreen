@@ -879,7 +879,121 @@
                   ]
                 }
             ]
-          }
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Test"                
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid_flow": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label_flow": {
+              "show_x": false,
+              "show_y": true,
+              "position_x": "bottom"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "flows": [
+                { 
+                  "titles": ["Test 1"],
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 78.0,
+                    "max": 86.0,
+                    "average": 82.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "title": "Test 1",
+                    "direction": "horizontal",
+                     "color": "#88A3FE",
+                     "gradient_type": "faded",
+                  },
+                  "line_flow": {
+                    "curve_type": "cubic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_double": 86,
+                      "x_date": "2019-10-08T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_double": 78,
+                      "x_date": "2019-10-08T12:12:01.1440844Z"
+                    }
+                  ]
+                },
+                { 
+                  "titles": ["Test 2"],
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 78.0,
+                    "max": 86.0,
+                    "average": 82.0,
+                    "suffix": ""
+                  },
+
+                  "type_aggr_long_period": "sum",
+                  "trend_type": "higher_is_better",
+
+                  "stroke_flow": {
+                    "title": "Test 2",
+                    "direction": "vertical",
+                     "color": "#88A3FE",
+                     "gradient_type": "faded",
+                  },
+                  "line_flow": {
+                    "curve_type": "linear",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_double": 78,
+                      "x_date": "2019-10-08T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_double": 86,
+                      "x_date": "2019-10-08T12:12:01.1440844Z"
+                    }
+                  ]
+                }
+            ]
+          },
         ]
       }
     ]
