@@ -951,6 +951,10 @@
                     {
                       "y_double": 78,
                       "x_date": "2019-10-08T12:12:01.1440844Z"
+                    },
+                    {
+                      "y_double": 86,
+                      "x_date": "2019-10-08T12:22:01.1440844Z"
                     }
                   ]
                 },
@@ -977,7 +981,7 @@
                      "gradient_type": "faded",
                   },
                   "line_flow": {
-                    "curve_type": "linear",
+                    "curve_type": "linear",s
                     "dash_type": "basic",
                     "interval_type": "basic"
                   },
@@ -989,6 +993,10 @@
                     {
                       "y_double": 86,
                       "x_date": "2019-10-08T12:12:01.1440844Z"
+                    },
+                    {
+                      "y_double": 78,
+                      "x_date": "2019-10-08T12:22:01.1440844Z"
                     }
                   ]
                 }
