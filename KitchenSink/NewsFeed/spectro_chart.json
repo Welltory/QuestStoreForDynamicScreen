@@ -936,7 +936,7 @@
                     "title": "Test 1",
                     "direction": "horizontal",
                      "color": "#88A3FE",
-                     "gradient_type": "faded",
+                     "gradient_type": "faded"
                   },
                   "line_flow": {
                     "curve_type": "cubic",
@@ -978,7 +978,7 @@
                     "title": "Test 2",
                     "direction": "vertical",
                      "color": "#88A3FE",
-                     "gradient_type": "faded",
+                     "gradient_type": "faded"
                   },
                   "line_flow": {
                     "curve_type": "linear",
@@ -1001,7 +1001,7 @@
                   ]
                 }
             ]
-          },
+          }
         ]
       }
     ]
