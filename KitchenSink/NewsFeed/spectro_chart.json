@@ -981,7 +981,7 @@
                      "gradient_type": "faded",
                   },
                   "line_flow": {
-                    "curve_type": "linear",s
+                    "curve_type": "linear",
                     "dash_type": "basic",
                     "interval_type": "basic"
                   },
