@@ -1023,7 +1023,7 @@
               "right": 20,
               "bottom": 15
             },
-            "height": 250,
+            "height": 600,
             "type": "chart",
             "grid_flow": {
               "show_x": false,
@@ -1058,7 +1058,7 @@
                   "trend_type": "higher_is_better",
 
                   "stroke_flow": {
-                    "title": "Workout",
+                    "title": "Basic",
                     "color": "#1957F6"
                   },
                   "line_flow": {
@@ -1362,7 +1362,7 @@
                   "trend_type": "higher_is_better",
 
                   "stroke_flow": {
-                    "title": "Workout",
+                    "title": "Interpolated",
                     "color": "#EFDD36"
                   },
                   "line_flow": {
