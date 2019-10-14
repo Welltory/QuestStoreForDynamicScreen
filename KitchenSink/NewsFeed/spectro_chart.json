@@ -1023,7 +1023,7 @@
               "right": 20,
               "bottom": 15
             },
-            "height": 600,
+            "height": 250,
             "type": "chart",
             "grid_flow": {
               "show_x": false,
