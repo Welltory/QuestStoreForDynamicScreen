@@ -79,6 +79,7 @@
       },
       {
         "type": "message",
+        "id": "message_1",
         "contents_gravity": "end",
         "items": [
           {
@@ -89,7 +90,15 @@
             "type": "text.body",
             "text": "Скорее сделаем замер начнем день полный созидания"
           }
-        ]
+        ],
+        "share_button": {},
+        "like_button": {},
+        "details_button": {
+          "type": "open",
+          "variant": "transition",
+          "transition_id": "message_1_message_body",
+          "url": "https://s-nf-msg-generator.welltory.com/api/v1/debug/200/message/?as_detail=true"
+        }
       }
     ]
   },
