@@ -37,7 +37,8 @@
             "label_flow": {
               "show_x": true,
               "show_y": false,
-              "position_x": "bottom"
+              "position_x": "bottom",
+              "format_x": "float"
             },
             "theme": {
               "type": "black"
@@ -163,8 +164,7 @@
             },
             "label_flow": {
               "show_x": false,
-              "show_y": true,
-              "position_x": "bottom"
+              "show_y": true
             },
             "theme": {
               "type": "black"
@@ -243,7 +243,8 @@
             "label_flow": {
               "show_x": true,
               "show_y": false,
-              "position_x": "bottom"
+              "position_x": "bottom",
+              "format_x": "int"
             },
             "theme": {
               "type": "black"
@@ -333,7 +334,8 @@
             "label_flow": {
               "show_x": true,
               "show_y": false,
-              "position_x": "bottom"
+              "position_x": "bottom",
+              "format_x": "day"
             },
             "legend": {
               "type": "basic"
@@ -514,7 +516,9 @@
             "label_flow": {
               "show_x": true,
               "show_y": true,
-              "position_x": "top"
+              "position_x": "top",
+              "arrangement_x": "edges",
+              "format_x": "time"
             },
             "theme": {
               "type": "black"
@@ -867,8 +871,7 @@
             },
             "label_flow": {
               "show_x": false,
-              "show_y": true,
-              "position_x": "bottom"
+              "show_y": true
             },
             "theme": {
               "type": "black"
@@ -975,8 +978,7 @@
             },
             "label_flow": {
               "show_x": false,
-              "show_y": true,
-              "position_x": "top"
+              "show_y": true
             },
             "legend": {
               "type": "basic"
