@@ -44,21 +44,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Spectrogram"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 1.0,
-                    "max": 100.0,
-                    "average": 40.0,
-                    "suffix": ""
+                    "max": 100.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "fill_flows": [{
                       "title": "Spectrogram",
                       "direction": "horizontal",
@@ -178,21 +171,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Meditation"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 78.0,
-                    "max": 86.0,
-                    "average": 82.0,
-                    "suffix": ""
+                    "max": 86.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Meditation",
                     "direction": "horizontal",
@@ -264,21 +250,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Histogram"],
                   "flow_type": "primary",
                   "chart_type": "bar",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 1.0,
-                    "max": 100.0,
-                    "average": 40.0,
-                    "suffix": ""
+                    "max": 100.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "fill_flows": [{
                       "title": "Histogram",
                       "color": "#FF003F"
@@ -367,21 +346,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Steps"],
                   "flow_type": "primary",
                   "chart_type": "bar",
                   "show_circles": false,
                   "order": 50,
                   "y_axis": {
                     "min": 200.0,
-                    "max": 8000.0,
-                    "average": 3000.0,
-                    "suffix": ""
+                    "max": 8000.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "fill_flows": [{
                       "title": "Steps",
                       "color": "#FF8F2F"
@@ -442,21 +414,14 @@
                   ]
                 },
                 { 
-                  "titles": ["HR"],
                   "flow_type": "secondary",
                   "chart_type": "line",
                   "show_circles": true,
                   "order": 100,
                   "y_axis": {
                     "min": 40.0,
-                    "max": 80.0,
-                    "average": 60.0,
-                    "suffix": ""
+                    "max": 80.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "HR",
                     "color": "#FF4201"
@@ -556,21 +521,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Workout"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 112.0,
-                    "max": 154.0,
-                    "average": 140.0,
-                    "suffix": ""
+                    "max": 154.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Workout",
                     "direction": "vertical",
@@ -917,21 +875,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Test 1"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 78.0,
-                    "max": 86.0,
-                    "average": 82.0,
-                    "suffix": ""
+                    "max": 86.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Test 1",
                     "direction": "horizontal",
@@ -959,21 +910,14 @@
                   ]
                 },
                 { 
-                  "titles": ["Test 2"],
                   "flow_type": "secondary",
                   "chart_type": "line",
                   "show_circles": true,
                   "order": 100,
                   "y_axis": {
                     "min": 78.0,
-                    "max": 86.0,
-                    "average": 82.0,
-                    "suffix": ""
+                    "max": 86.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Test 2",
                     "direction": "vertical",
@@ -1042,21 +986,14 @@
             },
             "flows": [
                 { 
-                  "titles": ["Basic"],
                   "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 112.0,
-                    "max": 154.0,
-                    "average": 140.0,
-                    "suffix": ""
+                    "max": 154.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Basic",
                     "color": "#1957F6"
@@ -1346,21 +1283,14 @@
                   ]
                 },
                 { 
-                  "titles": ["Interpolated"],
                   "flow_type": "secondary",
                   "chart_type": "line",
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
                     "min": 112.0,
-                    "max": 154.0,
-                    "average": 140.0,
-                    "suffix": ""
+                    "max": 154.0
                   },
-
-                  "type_aggr_long_period": "sum",
-                  "trend_type": "higher_is_better",
-
                   "stroke_flow": {
                     "title": "Interpolated",
                     "color": "#EFDD36"
