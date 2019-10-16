@@ -1840,15 +1840,15 @@
                   "fill_flows": [
                     {
                       "title": "Бананы",
-                      "color": "#FF003F"
+                      "color": "#FC6265"
                     },
                     {
                       "title": "Кокосы",
-                      "color": "#FF003F"
+                      "color": "#2058F0"
                     },
                     {
                       "title": "Апельсиновый рай",
-                      "color": "#FF003F"
+                      "color": "#66EF89"
                     }
                   ],
                   "bar_flow": {
@@ -1994,7 +1994,7 @@
                   },
                   "fill_flows": [{
                       "title": "Время",
-                      "color": "#FF003F"
+                      "color": "#B366EF"
                   }],
                   "bar_flow": {
                     "stack_type": "solid",
