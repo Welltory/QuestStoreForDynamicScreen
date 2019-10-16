@@ -1600,6 +1600,486 @@
                   ]
                 }
             ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Traffic + Area"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "format_x": "day"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "pin": {
+              "show_type": "show"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 120.0
+                  },
+                  "fill_flows": [{
+                      "title": "Traffic",
+                      "direction": "vertical",
+                      "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 50
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 100
+                        }
+                      ]
+                  }],
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": null,
+                      "x_date": "2019-10-08T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 30,
+                      "x_date": "2019-10-09T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 80,
+                      "x_date": "2019-10-10T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 15,
+                      "x_date": "2019-10-11T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 5,
+                      "x_date": "2019-10-12T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": null,
+                      "x_date": "2019-10-13T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 120,
+                      "x_date": "2019-10-14T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": null,
+                      "x_date": "2019-10-15T12:02:00.1440844Z"
+                    }
+                  ]
+                },
+                { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 80.0
+                  },
+                  "stroke_flow": {
+                    "title": "Area",
+                    "color": "#5C7BD4"
+                  },
+                  "fill_flows": [
+                    {
+                      "title": "Area",
+                      "color": "#5C7BD4",
+                      "direction": "vertical",
+                      "gradient_type": "faded"
+                    }
+                  ],
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-08T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_value": 80,
+                      "x_date": "2019-10-09T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-10-10T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 55,
+                      "x_date": "2019-10-11T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-12T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 65,
+                      "x_date": "2019-10-13T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-14T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-15T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 65,
+                      "x_date": "2019-10-16T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-17T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 40,
+                      "x_date": "2019-10-18T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-19T12:02:01.1440844Z"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Stacked bars"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "legend": {
+              "type": "basic"
+            },
+            "pin": {
+              "show_type": "show"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 110.0
+                  },
+                  "fill_flows": [
+                    {
+                      "title": "Бананы",
+                      "color": "#FF003F"
+                    },
+                    {
+                      "title": "Кокосы",
+                      "color": "#FF003F"
+                    },
+                    {
+                      "title": "Апельсиновый рай",
+                      "color": "#FF003F"
+                    }
+                  ],
+                  "bar_flow": {
+                    "stack_type": "stacked",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 50
+                        }
+                      ],
+                      "x_date": "2019-10-08T12:02:00.1440844Z"
+                    },
+                    {
+                      "x_date": "2019-10-09T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 60
+                        },
+                        {
+                           "title": "Кокосы",
+                           "value": 20
+                        }
+                      ],
+                      "x_date": "2019-10-10T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 20
+                        },
+                        {
+                           "title": "Кокосы",
+                           "value": 40
+                        }
+                      ],
+                      "x_date": "2019-10-11T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 20
+                        },
+                        {
+                           "title": "Кокосы",
+                           "value": 40
+                        },
+                        {
+                           "title": "Апельсиновый рай",
+                           "value": 50
+                        }
+                      ],
+                      "x_date": "2019-10-12T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 80
+                        }
+                      ],
+                      "x_date": "2019-10-13T12:02:00.1440844Z"
+                    },
+                    {
+                      "x_date": "2019-10-14T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Бананы",
+                           "value": 60
+                        },
+                        {
+                           "title": "Апельсиновый рай",
+                           "value": 25
+                        }
+                      ],
+                      "x_date": "2019-10-15T12:02:00.1440844Z"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Interval bars"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "theme": {
+              "type": "black"
+            },
+            "legend": {
+              "type": "basic"
+            },
+            "pin": {
+              "show_type": "show"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 80.0
+                  },
+                  "fill_flows": [{
+                      "title": "Время",
+                      "color": "#FF003F"
+                  }],
+                  "bar_flow": {
+                    "stack_type": "solid",
+                    "interval_type": "interval"
+                  },
+                  "data": [
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 50,
+                           "to": 70
+                        }
+                      ],
+                      "x_date": "2019-10-08T12:02:00.1440844Z"
+                    },
+                    {
+                      "x_date": "2019-10-09T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 10,
+                           "to": 30
+                        },
+                        {
+                           "title": "Время",
+                           "from": 50,
+                           "to": 70
+                        }
+                      ],
+                      "x_date": "2019-10-10T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 5,
+                           "to": 55
+                        }
+                      ],
+                      "x_date": "2019-10-11T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 40,
+                           "to": 70
+                        }
+                      ],
+                      "x_date": "2019-10-12T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 60,
+                           "to": 70
+                        }
+                      ],
+                      "x_date": "2019-10-13T12:02:00.1440844Z"
+                    },
+                    {
+                      "x_date": "2019-10-14T12:02:00.1440844Z"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "title": "Время",
+                           "from": 15,
+                           "to": 30
+                        },
+                        {
+                           "title": "Время",
+                           "from": 35,
+                           "to": 80
+                        }
+                      ],
+                      "x_date": "2019-10-15T12:02:00.1440844Z"
+                    }
+                  ]
+                }
+            ]
           }
         ]
       }
