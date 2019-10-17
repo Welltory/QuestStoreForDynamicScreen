@@ -43,9 +43,6 @@
             "pin": {
               "show_type": "hide"
             },
-            "theme": {
-              "type": "black"
-            },
             "flows": [
                 { 
                   "flow_type": "primary",
@@ -172,9 +169,6 @@
             "pin": {
               "show_type": "hide"
             },
-            "theme": {
-              "type": "black"
-            },
             "flows": [
                 { 
                   "flow_type": "primary",
@@ -251,9 +245,6 @@
               "show_y": false,
               "position_x": "bottom",
               "format_x": "int"
-            },
-            "theme": {
-              "type": "black"
             },
             "pin": {
               "show_type": "show"
@@ -351,9 +342,6 @@
             },
             "pin": {
               "show_type": "hide"
-            },
-            "theme": {
-              "type": "black"
             },
             "flows": [
                 { 
@@ -531,9 +519,6 @@
             },
             "pin": {
               "show_type": "hide"
-            },
-            "theme": {
-              "type": "black"
             },
             "flows": [
                 { 
@@ -888,9 +873,6 @@
             "pin": {
               "show_type": "hide"
             },
-            "theme": {
-              "type": "black"
-            },
             "flows": [
                 { 
                   "flow_type": "primary",
@@ -1000,9 +982,6 @@
             },
             "pin": {
               "show_type": "hide"
-            },
-            "theme": {
-              "type": "black"
             },
             "flows": [
                 { 
@@ -1633,9 +1612,6 @@
               "show_y": false,
               "format_x": "day"
             },
-            "theme": {
-              "type": "black"
-            },
             "pin": {
               "show_type": "show"
             },
@@ -1818,9 +1794,6 @@
               "position_x": "bottom",
               "format_x": "day"
             },
-            "theme": {
-              "type": "black"
-            },
             "legend": {
               "type": "basic"
             },
@@ -1972,9 +1945,6 @@
               "show_y": false,
               "position_x": "bottom",
               "format_x": "day"
-            },
-            "theme": {
-              "type": "black"
             },
             "legend": {
               "type": "basic"
