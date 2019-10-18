@@ -1729,6 +1729,10 @@
                     "min": 40.0,
                     "max": 80.0
                   },
+                  "norms": {
+                    "color": "#5C7BD4",
+                    "value": 55
+                  },
                   "stroke_flow": {
                     "title": "Area",
                     "color": "#5C7BD4"
