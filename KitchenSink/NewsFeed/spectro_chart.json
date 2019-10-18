@@ -1590,7 +1590,7 @@
             "items": [
               {
                 "type": "title",
-                "text": "Traffic + Area"
+                "text": "Traffic"
               }
             ]
           },
@@ -1681,9 +1681,47 @@
                       "x_date": "2019-10-15T12:02:00.1440844Z"
                     }
                   ]
-                },
+                }
+            ]
+          },
+          {
+            "type": "hbox",
+            "margin": {
+              "top": 20,
+              "left": 20,
+              "right": 20
+            },
+            "items": [
+              {
+                "type": "title",
+                "text": "Area"
+              }
+            ]
+          },
+          {
+            "margin": {
+              "top": 17,
+              "left": 20,
+              "right": 20,
+              "bottom": 15
+            },
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "format_x": "day"
+            },
+            "pin": {
+              "show_type": "show"
+            },
+            "flows": [
                 { 
-                  "flow_type": "secondary",
+                  "flow_type": "primary",
                   "chart_type": "line",
                   "show_circles": true,
                   "order": 100,
