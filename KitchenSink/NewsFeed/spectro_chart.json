@@ -38,7 +38,8 @@
               "show_x": true,
               "show_y": false,
               "position_x": "bottom",
-              "format_x": "decimal"
+              "format_x": "decimal",
+              "arrangement_x": "sparse"
             },
             "pin": {
               "show_type": "hide"
