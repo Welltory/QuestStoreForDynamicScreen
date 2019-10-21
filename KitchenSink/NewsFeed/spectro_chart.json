@@ -182,7 +182,7 @@
                   },
                   "stroke_flow": {
                     "title": "Meditation",
-                    "direction": "horizontal",
+                    "direction": "vertical",
                      "color_ranges": [
                         {
                             "color": "#88A3FE",
