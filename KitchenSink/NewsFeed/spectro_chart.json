@@ -42,7 +42,7 @@
               "arrangement_x": "sparse"
             },
             "pin": {
-              "show_type": "hide"
+              "show_type": "disabled"
             },
             "flows": [
                 { 
