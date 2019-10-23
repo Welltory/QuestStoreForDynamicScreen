@@ -38,7 +38,8 @@
               "show_x": true,
               "show_y": false,
               "position_x": "bottom",
-              "format_x": "decimal",
+              "format_x": "value",
+              "precision_x": 1,
               "arrangement_x": "sparse"
             },
             "pin": {
@@ -56,6 +57,7 @@
                   },
                   "fill_flows": [{
                       "title": "Spectrogram",
+                      "id": "testId",
                       "direction": "horizontal",
                       "color_ranges": [
                         {
@@ -168,7 +170,7 @@
               "show_y": true
             },
             "pin": {
-              "show_type": "hide"
+              "show_type": "disabled"
             },
             "flows": [
                 { 
@@ -245,7 +247,7 @@
               "show_x": true,
               "show_y": false,
               "position_x": "bottom",
-              "format_x": "int"
+              "format_x": "value"
             },
             "pin": {
               "show_type": "show"
@@ -262,6 +264,7 @@
                   },
                   "fill_flows": [{
                       "title": "Histogram",
+                      "id": "testId",
                       "color": "#FF003F"
                   }],
                   "bar_flow": {
@@ -354,8 +357,13 @@
                     "min": 200.0,
                     "max": 8000.0
                   },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "suffix": "steps"
+                  },
                   "fill_flows": [{
                       "title": "Steps",
+                      "id": "testId",
                       "color": "#FF8F2F"
                   }],
                   "bar_flow": {
@@ -421,6 +429,10 @@
                   "y_axis": {
                     "min": 40.0,
                     "max": 80.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "suffix": "bpm"
                   },
                   "stroke_flow": {
                     "title": "HR",
@@ -530,6 +542,9 @@
                   "y_axis": {
                     "min": 112.0,
                     "max": 154.0
+                  },
+                  "entry_info": {
+                    "format_type": "value"
                   },
                   "stroke_flow": {
                     "title": "Workout",
@@ -883,6 +898,9 @@
                   "y_axis": {
                     "min": 78.0,
                     "max": 86.0
+                  },
+                  "entry_info": {
+                    "format_type": "duration"
                   },
                   "stroke_flow": {
                     "title": "Test 1",
@@ -1291,6 +1309,10 @@
                     "min": 112.0,
                     "max": 154.0
                   },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "precision": 3
+                  },
                   "stroke_flow": {
                     "title": "Interpolated",
                     "color": "#EFDD36"
@@ -1628,6 +1650,7 @@
                   },
                   "fill_flows": [{
                       "title": "Traffic",
+                      "id": "testId",
                       "direction": "vertical",
                       "color_ranges": [
                         {
@@ -1741,6 +1764,7 @@
                   "fill_flows": [
                     {
                       "title": "Area",
+                      "id": "testId",
                       "color": "#5C7BD4",
                       "direction": "vertical",
                       "gradient_type": "faded"
@@ -1856,14 +1880,17 @@
                   "fill_flows": [
                     {
                       "title": "Бананы",
+                      "id": "testId 1",
                       "color": "#FC6265"
                     },
                     {
                       "title": "Кокосы",
+                      "id": "testId 2",
                       "color": "#2058F0"
                     },
                     {
                       "title": "Апельсиновый рай",
+                      "id": "testId 3",
                       "color": "#66EF89"
                     }
                   ],
@@ -1875,7 +1902,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 50
                         }
                       ],
@@ -1887,11 +1914,11 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 60
                         },
                         {
-                           "title": "Кокосы",
+                           "fill_id": "testId 2",
                            "value": 20
                         }
                       ],
@@ -1900,11 +1927,11 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 20
                         },
                         {
-                           "title": "Кокосы",
+                           "fill_id": "testId 2",
                            "value": 40
                         }
                       ],
@@ -1913,15 +1940,15 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 20
                         },
                         {
-                           "title": "Кокосы",
+                           "fill_id": "testId 2",
                            "value": 40
                         },
                         {
-                           "title": "Апельсиновый рай",
+                           "fill_id": "testId 3",
                            "value": 50
                         }
                       ],
@@ -1930,7 +1957,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 80
                         }
                       ],
@@ -1942,11 +1969,11 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Бананы",
+                           "fill_id": "testId 1",
                            "value": 60
                         },
                         {
-                           "title": "Апельсиновый рай",
+                           "fill_id": "testId 3",
                            "value": 25
                         }
                       ],
@@ -2005,8 +2032,12 @@
                     "min": 0.0,
                     "max": 80.0
                   },
+                  "entry_info": {
+                    "format_type": "time"
+                  },
                   "fill_flows": [{
                       "title": "Время",
+                      "id": "testId",
                       "color": "#B366EF"
                   }],
                   "bar_flow": {
@@ -2017,7 +2048,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 50,
                            "to": 70
                         }
@@ -2030,12 +2061,12 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 10,
                            "to": 30
                         },
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 50,
                            "to": 70
                         }
@@ -2045,7 +2076,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 5,
                            "to": 55
                         }
@@ -2055,7 +2086,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 40,
                            "to": 70
                         }
@@ -2065,7 +2096,7 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 60,
                            "to": 70
                         }
@@ -2078,12 +2109,12 @@
                     {
                       "y_ranges": [
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 15,
                            "to": 30
                         },
                         {
-                           "title": "Время",
+                           "fill_id": "testId",
                            "from": 35,
                            "to": 80
                         }
