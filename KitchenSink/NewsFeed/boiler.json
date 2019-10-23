@@ -2,7 +2,7 @@
     "result": {
       "title": "Boiler",
       "class": "newsfeed",
-      "spacing": 16,
+      "spacing": 0,
       "content": [
         {
           "type": "spacer"
