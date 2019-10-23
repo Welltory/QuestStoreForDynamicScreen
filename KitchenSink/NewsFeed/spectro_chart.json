@@ -39,8 +39,10 @@
               "show_y": false,
               "position_x": "bottom",
               "format_x": "value",
-              "precision_x": 1,
-              "arrangement_x": "sparse"
+              "precision_x": 1
+            },
+            "arrangement": {
+              "type_x": "sparse"
             },
             "pin": {
               "show_type": "disabled"
@@ -526,9 +528,11 @@
             "label": {
               "show_x": true,
               "show_y": true,
-              "position_x": "top",
-              "arrangement_x": "edges",
+              "position_x": "top",            
               "format_x": "time"
+            },
+            "arrangement": {
+              "type_x": "edges"
             },
             "pin": {
               "show_type": "hide"
