@@ -2151,7 +2151,8 @@
                     "max": 86.0
                   },
                   "stroke_flow": {
-                    "title": "Stroke flow"
+                    "title": "Stroke flow",
+                    "color": "#F66F74"
                   },
                   "line_flow": {
                   },
