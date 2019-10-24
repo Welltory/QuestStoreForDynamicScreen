@@ -2128,6 +2128,45 @@
                   ]
                 }
             ]
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "title",
+                "text": "Test min JSON"  
+              }
+            ]
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",                  
+                  "order": 100,
+                  "y_axis": {
+                    "min": 78.0,
+                    "max": 86.0
+                  },
+                  "stroke_flow": {
+                    "title": "Stroke flow"
+                  },
+                  "line_flow": {
+                  },
+                  "data": [
+                    {
+                      "y_value": 86,
+                      "x_date": "2019-10-08T12:02:01.1440844Z"
+                    },
+                    {
+                      "y_value": 78,
+                      "x_date": "2019-10-08T12:12:01.1440844Z"
+                    }
+                  ]
+                }
+            ]
           }
         ]
       }
