@@ -2034,7 +2034,7 @@
                   "order": 100,
                   "y_axis": {
                     "min": 0.0,
-                    "max": 80.0
+                    "max": 90.0
                   },
                   "entry_info": {
                     "format_type": "time"
@@ -2092,7 +2092,7 @@
                         {
                            "fill_id": "testId",
                            "from": 40,
-                           "to": 70
+                           "to": 90
                         }
                       ],
                       "x_date": "2019-10-12T12:02:00.1440844Z"
