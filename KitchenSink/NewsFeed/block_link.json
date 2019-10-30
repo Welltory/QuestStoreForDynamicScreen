@@ -25,6 +25,28 @@
               }
             }
           ]
+        },
+        {
+          "type": "message",
+          "title": "Date 2019-10-04 TODAY",
+          "date": "2019-10-04T10:30:45",
+          "items": [
+            {
+              "type": "block_link",
+              "text": "How we learned this",
+              "text_style": "cold_3",
+              "image": {
+                "uploadcare_id": "c083ef2c-526c-4a24-a8f0-dd32dfbecf5a",
+                "width": 6,
+                "height": 12
+              },
+              "action": {
+                "type": "open",
+                "variant": "push",
+                "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/message.json"
+              }
+            }
+          ]
         }
     ]
   }
