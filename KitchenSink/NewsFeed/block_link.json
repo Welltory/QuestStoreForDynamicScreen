@@ -35,6 +35,7 @@
               "type": "block_link",
               "text": "How we learned this",
               "text_style": "cold_3",
+              "height": 48,
               "image": {
                 "uploadcare_id": "c083ef2c-526c-4a24-a8f0-dd32dfbecf5a",
                 "width": 6,
