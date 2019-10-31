@@ -304,7 +304,7 @@
         "items": [
           {
             "type": "text",
-            "text": "Chart Spectro",
+            "text": "Charts",
             "height": 80,
             "margin": {
               "left": 20,
@@ -316,6 +316,44 @@
           "type": "open",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/spectro_chart.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Charts white",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/white_chart.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Block link",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/block_link.json"
         }
       }
     ]

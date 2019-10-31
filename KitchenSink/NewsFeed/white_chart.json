@@ -5,7 +5,7 @@
     "class": "newsfeed",
     "content": [
       {
-        "type": "message",
+        "type": "message.white",
         "items": [
           {
             "type": "hbox",
