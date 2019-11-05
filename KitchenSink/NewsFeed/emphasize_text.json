@@ -1,0 +1,32 @@
+{
+  "result": {
+    "title": "NewsFeed Emphasize",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "spacer",
+        "height": 5
+      },
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "title",
+            "text": "Привет, сегодня <em color= '#FFBF00'>вы</em> в отличной форме!"
+          },
+          {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>OK</em>"
+          },
+          {
+            "type": "text.body",
+            "text": "Скорее сделаем замер <em color= '#FA1A4B'>начнем день</em> полный созидания"
+          }
+        ],
+        "share_button": {},
+        "like_button": {}
+      }
+    ]
+  },
+  "success": true
+}
