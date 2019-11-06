@@ -19,22 +19,22 @@
             "text": "<em color= '#FFBF00'>OK</em>"
           },
           {
-            "type": "title",
+            "type": "title.text_align_сenter",
             "text": "<em color= '#FFBF00'>OK</em>",
             "text_alignment": "center"
           },
           {
-            "type": "title",
+            "type": "title.text_align_right",
             "text": "<em color= '#FFBF00'>OK</em>",
             "text_alignment": "right"
           },
           {
-            "type": "title",
+            "type": "title.text_align_сenter",
             "text": "<em color= '#FFBF00'>NOPE</em>",
             "text_alignment": "center"
           },
           {
-            "type": "title",
+            "type": "title.text_align_right",
             "text": "<em color= '#FFBF00'>NOPE</em>",
             "text_alignment": "right"
           },
