@@ -19,6 +19,26 @@
             "text": "<em color= '#FFBF00'>OK</em>"
           },
           {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>OK</em>",
+            "text_alignment": "center"
+          },
+          {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>OK</em>",
+            "text_alignment": "right"
+          },
+          {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>NOPE</em>",
+            "text_alignment": "center"
+          },
+          {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>NOPE</em>",
+            "text_alignment": "right"
+          },
+          {
             "type": "text.body",
             "text": "Скорее сделаем замер <em color= '#FA1A4B'>начнем день</em> полный созидания"
           }
