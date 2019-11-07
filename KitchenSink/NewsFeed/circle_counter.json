@@ -1,0 +1,59 @@
+{
+    "result": {
+      "title": "Circle Counter",
+      "content": [
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "text.body",
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 11,\n            \"progress\": 5\n          }"
+            },
+            {
+              "type": "circle_counter",
+              "total": 11,
+              "progress": 5
+            },
+            {
+              "type": "text.body",
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"garmin_2\"\n          }"
+            },
+            {
+              "type": "circle_counter",
+              "total": 25,
+              "progress": 10,
+              "track_color": "meditation_2",
+              "progress_color": "garmin_2"
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "text.body",
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 11,\n            \"progress\": 5\n          }"
+            },
+            {
+              "type": "circle_counter",
+              "total": 11,
+              "progress": 5
+            },
+            {
+              "type": "text.body",
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"garmin_2\"\n          }"
+            },
+            {
+              "type": "circle_counter",
+              "total": 25,
+              "progress": 10,
+              "track_color": "meditation_2",
+              "progress_color": "garmin_2"
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
