@@ -1,5 +1,8 @@
 {
   "result": {
+    "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "background_color": "#FFFFFF",
     "content": [
       {
         "type": "text",
