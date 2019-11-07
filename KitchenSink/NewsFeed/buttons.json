@@ -274,6 +274,15 @@
                 "title": "Button",
                 "message": "Press button again"
               },
+              "type": "button.text_button_sleep_2",
+              "text": ".text_button_sleep_2"
+            },
+            {
+              "action": {
+                "type": "alert",
+                "title": "Button",
+                "message": "Press button again"
+              },
               "type": "button.text_button_productivity",
               "text": ".text_button_productivity"
             },

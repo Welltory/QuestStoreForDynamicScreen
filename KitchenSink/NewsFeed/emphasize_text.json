@@ -1,0 +1,52 @@
+{
+  "result": {
+    "title": "NewsFeed Emphasize",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "spacer",
+        "height": 5
+      },
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "title",
+            "text": "Привет, сегодня <em color= '#FFBF00'>вы</em> в отличной форме!"
+          },
+          {
+            "type": "title",
+            "text": "<em color= '#FFBF00'>OK</em>"
+          },
+          {
+            "type": "title.text_align_сenter",
+            "text": "<em color= '#FFBF00'>OK</em>",
+            "text_alignment": "center"
+          },
+          {
+            "type": "title.text_align_right",
+            "text": "<em color= '#FFBF00'>OK</em>",
+            "text_alignment": "right"
+          },
+          {
+            "type": "title.text_align_сenter",
+            "text": "<em color= '#FFBF00'>HOPE</em>",
+            "text_alignment": "center"
+          },
+          {
+            "type": "title.text_align_right",
+            "text": "<em color= '#FFBF00'>NOPE</em>",
+            "text_alignment": "right"
+          },
+          {
+            "type": "text.body",
+            "text": "Скорее сделаем замер <em color= '#FA1A4B'>начнем день</em> полный созидания"
+          }
+        ],
+        "share_button": {},
+        "like_button": {}
+      }
+    ]
+  },
+  "success": true
+}
