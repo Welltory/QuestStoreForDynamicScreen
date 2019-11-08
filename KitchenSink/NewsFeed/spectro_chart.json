@@ -9,11 +9,6 @@
         "items": [
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -22,12 +17,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -142,11 +131,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -155,12 +139,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -220,11 +198,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -233,12 +206,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -312,11 +279,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -325,12 +287,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -500,11 +456,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -513,12 +464,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -861,11 +806,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -874,12 +814,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -971,11 +905,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -984,12 +913,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1609,11 +1532,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -1622,12 +1540,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1714,11 +1626,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -1727,12 +1634,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1834,11 +1735,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -1847,12 +1743,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1989,11 +1879,6 @@
           },
           {
             "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
             "items": [
               {
                 "type": "title",
@@ -2002,12 +1887,6 @@
             ]
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
