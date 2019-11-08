@@ -8,13 +8,8 @@
         "type": "message",
         "items": [
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Spectrogram"
-              }
-            ]
+            "type": "title",
+            "text": "Spectrogram"
           },
           {
             "height": 250,
@@ -130,13 +125,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Meditation 10 min"  
-              }
-            ]
+            "type": "title",
+            "text": "Meditation 10 min"  
           },
           {
             "height": 250,
@@ -197,13 +187,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Histogram"
-              }
-            ]
+            "type": "title",
+            "text": "Histogram"
           },
           {
             "height": 250,
@@ -278,13 +263,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Moving"
-              }
-            ]
+            "type": "title",
+            "text": "Moving"
           },
           {
             "height": 250,
@@ -455,13 +435,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Workout"
-              }
-            ]
+            "type": "title",
+            "text": "Workout"
           },
           {
             "height": 250,
@@ -805,13 +780,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Test"                
-              }
-            ]
+            "type": "title",
+            "text": "Test"                
           },
           {
             "height": 250,
@@ -904,13 +874,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Interpolation"
-              }
-            ]
+            "type": "title",
+            "text": "Interpolation"
           },
           {
             "height": 250,
@@ -1531,13 +1496,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Traffic"
-              }
-            ]
+            "type": "title",
+            "text": "Traffic"
           },
           {
             "height": 250,
@@ -1625,13 +1585,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Area"
-              }
-            ]
+            "type": "title",
+            "text": "Area"
           },
           {
             "height": 250,
@@ -1734,13 +1689,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Stacked bars"
-              }
-            ]
+            "type": "title",
+            "text": "Stacked bars"
           },
           {
             "height": 250,
@@ -1878,13 +1828,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Interval bars"
-              }
-            ]
+            "type": "title",
+            "text": "Interval bars"
           },
           {
             "height": 250,
@@ -2009,13 +1954,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Test min JSON"  
-              }
-            ]
+            "type": "title",
+            "text": "Test min JSON"  
           },
           {
             "height": 250,
