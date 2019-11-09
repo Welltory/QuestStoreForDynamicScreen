@@ -1596,7 +1596,7 @@
                   },
                   "stroke_flow": {
                     "title": "Line",
-                    "color": "#FFFF00"
+                    "color": "#FFBF00"
                   },
                   "line_flow": {
                     "curve_type": "quadratic",
