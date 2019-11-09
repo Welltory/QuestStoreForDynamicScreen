@@ -8,26 +8,10 @@
         "type": "message",
         "items": [
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Spectrogram"
-              }
-            ]
+            "type": "title",
+            "text": "Spectrogram"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -141,26 +125,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Meditation 10 min"  
-              }
-            ]
+            "type": "title",
+            "text": "Meditation 10 min"  
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -219,26 +187,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Histogram"
-              }
-            ]
+            "type": "title",
+            "text": "Histogram"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -311,26 +263,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Moving"
-              }
-            ]
+            "type": "title",
+            "text": "Moving"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -499,26 +435,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Workout"
-              }
-            ]
+            "type": "title",
+            "text": "Workout"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -860,26 +780,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Test"                
-              }
-            ]
+            "type": "title",
+            "text": "Test"                
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -970,26 +874,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Interpolation"
-              }
-            ]
+            "type": "title",
+            "text": "Interpolation"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1608,26 +1496,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Traffic"
-              }
-            ]
+            "type": "title",
+            "text": "Traffic"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1782,26 +1654,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Area"
-              }
-            ]
+            "type": "title",
+            "text": "Area"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -1902,26 +1758,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Stacked bars"
-              }
-            ]
+            "type": "title",
+            "text": "Stacked bars"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -2057,26 +1897,10 @@
             ]
           },
           {
-            "type": "hbox",
-            "margin": {
-              "top": 20,
-              "left": 20,
-              "right": 20
-            },
-            "items": [
-              {
-                "type": "title",
-                "text": "Interval bars"
-              }
-            ]
+            "type": "title",
+            "text": "Interval bars"
           },
           {
-            "margin": {
-              "top": 17,
-              "left": 20,
-              "right": 20,
-              "bottom": 15
-            },
             "height": 250,
             "type": "chart",
             "grid": {
@@ -2199,13 +2023,8 @@
             ]
           },
           {
-            "type": "hbox",
-            "items": [
-              {
-                "type": "title",
-                "text": "Test min JSON"  
-              }
-            ]
+            "type": "title",
+            "text": "Test min JSON"  
           },
           {
             "height": 250,

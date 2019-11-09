@@ -1,5 +1,8 @@
 {
   "result": {
+    "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "background_color": "#FFFFFF",
     "content": [
       {
         "type": "text",
@@ -373,6 +376,25 @@
           "type": "open",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/emphasize_text.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Circle counter",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/circle_counter.json"
         }
       }
     ]
