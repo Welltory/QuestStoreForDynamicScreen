@@ -809,8 +809,8 @@
                   "show_circles": true,
                   "order": 100,
                   "y_axis": {
-                    "min": 112.0,
-                    "max": 154.0
+                    "min": 100.0,
+                    "max": 160.0
                   },
                   "entry_info": {
                     "format_type": "value"
@@ -1005,7 +1005,7 @@
                       "x_date": "2019-10-08T12:02:01.1440844Z"
                     },
                     {
-                      "y_value": 154,
+                      "y_value": 160,
                       "x_date": "2019-10-08T12:02:01.1440844Z"
                     },
                     {
