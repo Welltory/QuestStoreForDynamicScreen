@@ -1511,6 +1511,9 @@
               "show_y": false,
               "format_x": "day"
             },
+            "legend": {
+              "type": "basic"
+            },
             "pin": {
               "show_type": "show"
             },
