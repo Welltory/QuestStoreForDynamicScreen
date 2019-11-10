@@ -7,7 +7,7 @@
       {
         "type": "message.white.cold_3_title",
         "title": "Date 2019-11-07 TODAY",
-        "date": "2019-11-07T10:30:45",
+        "date": "2019-11-07T4:30:45",
         "items": [
           {
             "type": "title.text_align_right",
@@ -29,18 +29,7 @@
       {
         "type": "message.white.cold_3_title",
         "title": "Date 2019-06-16 CURRENT YEAR",
-        "date": "2019-06-20T10:30:45",
-        "items": [
-          {
-            "type": "title.text_align_right",
-            "text": "Не по себе, когда смартфона\nнет рядом?"
-          }
-        ]
-      },
-      {
-        "type": "message.white.cold_3_title",
-        "title": "Date 2018-06-16 OTHER YEAR",
-        "date": "2018-06-20T10:30:45",
+        "date": "2019-06-20T23:30:45",
         "items": [
           {
             "type": "title.text_align_right",
