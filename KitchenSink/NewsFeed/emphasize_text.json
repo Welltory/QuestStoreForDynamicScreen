@@ -41,6 +41,14 @@
           {
             "type": "text.body",
             "text": "Скорее сделаем замер <em color= '#FA1A4B'>начнем день</em> полный созидания"
+          },
+          {
+            "type": "title",
+            "text": "Давление вполне себе <em color='yellow'>OK</em> остальное не оч"
+          },
+          {
+            "type": "title",
+            "text": "Давление <em color='yellow'>OK</em><br/>остальное не оч"
           }
         ],
         "share_button": {},
