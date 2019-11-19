@@ -2274,6 +2274,145 @@
                 }
             ]
           },
+            {
+            "type": "title",
+            "text": "Stacked gradient bars"
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 115.0
+                  },
+                  "fill_flows": [
+                    {
+                      "title": "Симпатика",
+                      "id": "testId 1",
+                      "color": "#FF6060"
+                    },
+                    {
+                      "title": "Парасимпатика",
+                      "id": "testId 2",
+                      "color": "#89A3FE"
+                    }
+                  ],
+                  "bar_flow": {
+                    "stack_type": "smooth",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 40
+                        }
+                      ],
+                      "x_date": "2019-10-30T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 20
+                        }
+                      ],
+                      "x_date": "2019-11-04T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 80
+                        }
+                      ],
+                      "x_date": "2019-11-06T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 40
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 60
+                        }
+                      ],
+                      "x_date": "2019-11-06T22:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 50
+                        }
+                      ],
+                      "x_date": "2019-11-12T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 60
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 55
+                        }
+                      ],
+                      "x_date": "2019-11-13T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 58
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 52
+                        }
+                      ],
+                      "x_date": "2019-11-19T12:02:00+0000"
+                    }
+                  ]
+                }
+            ]
+          },
           {
             "type": "title",
             "text": "Test min JSON"  
