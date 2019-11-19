@@ -9,7 +9,107 @@
         "type": "spacer",
         "height": 5
       },
-      
+      {
+        "type": "message",
+        "title": "Результат замера",
+        "date": "2019-11-10T03:15:45",
+
+        "items": [
+          {
+            "type": "dbox",
+            "margin": {
+              "left": -16,
+              "right": -16
+            },
+            "items": [
+              {
+                "type": "boiler",
+                "liquid_level": 70,
+                "color_state": "yellow",
+                "boiling_level": 100,
+                "particle_consumption": -9,
+                "gravity": "center"
+              },
+              {
+                "type": "hbox",
+                "margin": {
+                  "left": 16,
+                  "bottom": 16,
+                  "right": 16
+                },
+                "contents_gravity": "end",
+                "items": [
+                  {
+                    "type": "vbox",
+                    "weight": 1,
+                    "items": [
+                      {
+                        "type": "text.welcome_header_white",
+                        "text": "32%"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "Productivity"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "<em color=\"yellow\">OK</em>"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "vbox",
+                    "weight": 1,
+                    "items": [
+                      {
+                        "type": "text.welcome_header_white",
+                        "text": "12%"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "Energy"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "<em color=\"red\">Dragging</em>"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "vbox",
+                    "weight": 1,
+                    "items": [
+                      {
+                        "type": "text.welcome_header_white",
+                        "text": "92%"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "Stress"
+                      },
+                      {
+                        "type": "text.body",
+                        "text": "<em color=\"red\">Exhausting</em>"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "title.basic_title",
+            "text": "Результат диагностики"
+          },
+          {
+            "type": "text.body",
+            "text": "Take a break for a few minutes. Go for a walk to grab a snack, or chat with a coworker. Stick to simple, straightforward tasks for now."
+          }
+        ],
+        "like_button": {},
+        "share_button": {}
+      },
+
       {
         "type": "message.white.cold_3_title",
         "title": "ТЕСТЫ",
