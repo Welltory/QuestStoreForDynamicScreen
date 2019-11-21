@@ -1,0 +1,214 @@
+{
+  "result": {
+  "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+
+    {
+      "type": "spacer",
+      "height": 5
+    },
+
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-21T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "gravity": "end",
+          "text": "Пройти тест",
+          "text_color": "cold_3"
+        }
+      ],
+      "share_button": {
+        "type": "alert",
+        "title": "Share"
+      },
+      "like_button": {
+        "type": "alert",
+        "title": "Like"
+      },
+      "details_button": {
+        "type": "alert",
+        "title": "Details"
+      }
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-21T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "gravity": "end",
+          "text": "Пройти тест",
+          "text_color": "cold_3"
+        }
+      ],
+      "share_button": {
+        "type": "alert",
+        "title": "Share"
+      },
+      "like_button": {
+        "type": "alert",
+        "title": "Like"
+      },
+      "details_button": {
+        "type": "alert",
+        "title": "Details"
+      }
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-20T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "background_image": {
+        "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+        "width": 143,
+        "height": 164,
+        "scale_type": [
+          "left",
+          "bottom"
+        ]
+      },
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "text": "Пройти тест",
+          "gravity": "end",
+          "text_color": "cold_3"
+        }
+      ]
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-20T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "background_image": {
+        "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+        "width": 143,
+        "height": 164,
+        "scale_type": [
+          "left",
+          "bottom"
+        ]
+      },
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "text": "Пройти тест",
+          "gravity": "end",
+          "text_color": "cold_3"
+        }
+      ]
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-20T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "background_image": {
+        "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+        "width": 143,
+        "height": 164,
+        "scale_type": [
+          "left",
+          "bottom"
+        ]
+      },
+      "items": [
+      {
+      "type": "title.text_align_right",
+      "text": "Не по себе, когда смартфона\nнет рядом?"
+      },
+      {
+      "type": "text.body.text_align_right",
+      "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+      },
+      {
+      "type": "button.text",
+      "text": "Пройти тест",
+      "gravity": "end",
+      "text_color": "cold_3"
+      }
+      ]
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2019-11-14T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "background_image": {
+        "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+        "width": 143,
+        "height": 164,
+        "scale_type": [
+          "left",
+          "bottom"
+        ]
+      },
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "text": "Пройти тест",
+          "gravity": "end",
+          "text_color": "cold_3"
+        }
+      ]
+    }
+  ]
+},
+  "success": true
+}
