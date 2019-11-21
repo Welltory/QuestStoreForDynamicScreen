@@ -207,6 +207,38 @@
           "text_color": "cold_3"
         }
       ]
+    },
+    {
+      "type": "message.white.cold_3_title",
+      "title": "ТЕСТЫ",
+      "date": "2018-11-14T10:30:45",
+      "contents_gravity": "end",
+      "details_color": "cold_3",
+      "background_image": {
+        "uploadcare_id": "d5855b89-07ab-4d73-b278-1238cabf9bd2",
+        "width": 143,
+        "height": 164,
+        "scale_type": [
+          "left",
+          "bottom"
+        ]
+      },
+      "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "text": "Пройти тест",
+          "gravity": "end",
+          "text_color": "cold_3"
+        }
+      ]
     }
   ]
 },
