@@ -165,7 +165,6 @@
                             "value": 86
                         }
                       ],
-                     "gradient_type": "faded",
                      "gradient_change_type": "smooth"
                   },
                   "line_flow": {
@@ -280,7 +279,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "hide"
@@ -1154,7 +1153,7 @@
               "show_y": true
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "hide"
@@ -1777,7 +1776,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "show"
@@ -2027,7 +2026,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "show"
@@ -2041,6 +2040,10 @@
                   "y_axis": {
                     "min": 0.0,
                     "max": 110.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "suffix": "steps"
                   },
                   "fill_flows": [
                     {
@@ -2166,7 +2169,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "show"
@@ -2408,6 +2411,248 @@
                         }
                       ],
                       "x_date": "2019-11-19T12:02:00+0000"
+                    }
+                  ]
+                }
+            ]
+          },
+           {
+            "type": "title",
+            "text": "Merged charts"  
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "legend": {
+              "position": "right"
+            },
+            "pin": {
+              "show_type": "hide"
+            },
+            "show_star": true,
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 100.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Стресс",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Стресс",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 25
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 55
+                        },
+                        {
+                          "color": "#FF003F",
+                          "value": 65
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 18,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 30,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 75,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 78,
+                      "x_date": "2019-11-25T12:12:01+0000"
+                    }
+                  ]
+                },
+                 { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 100.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Прод.",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Продуктивность",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 40
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 38,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 65,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 90,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 35,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 27,
+                      "x_date": "2019-11-25T12:12:01+0000"
+                    }
+                  ]
+                },
+                 { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 100.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Энергия",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Энергия",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 40
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 75,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 85,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 40,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 15,
+                      "x_date": "2019-11-25T12:12:01+0000"
                     }
                   ]
                 }
