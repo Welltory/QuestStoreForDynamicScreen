@@ -1,0 +1,114 @@
+{
+    "result": {
+      "title": "Timeline",
+      "content": [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            }
+          ]
+        },
+        {
+          "type": "time_event",
+          "text": "Your checked into Sportlife",
+          "date": "2019-06-13T10:30:45+05:00"
+        },
+        {
+          "type": "time_tag",
+          "text": "Walking for 15 min",
+          "tag_color": "warm_1",
+          "date": "2019-06-13T10:35:45+05:00"
+        },
+        {
+          "type": "time_event",
+          "text": "You left your house You left your house You left your",
+          "date": "2019-06-13T10:49:45+05:00"
+        },
+        {
+          "type": "message",
+          "date": "2019-06-13T10:49:45+05:00",
+          "title": "Dark",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            },
+            {
+              "type": "text.body",
+              "text": "Darkness my old friend\nI've come to talk with you again "
+            }
+          ]
+        },
+        {
+          "type": "time_event",
+          "text": "You left your house You left your house You left your",
+          "date": "2019-06-13T10:49:45+05:00"
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "title": "Dark",
+          "date": "2019-06-13T10:49:45+05:00",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            },
+            {
+              "type": "text.body",
+              "text": "Darkness my old friend\nI've come to talk with you again "
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            }
+          ]
+        },
+        {
+          "type": "time_tag",
+          "text": "Sleep",
+          "tag_color": "sleep_1",
+          "date": "2019-06-13T10:35:45+05:00"
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello"
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
