@@ -24,6 +24,21 @@
               "progress": 10,
               "track_color": "meditation_2",
               "progress_color": "garmin_2"
+            },
+            {
+              "type": "circle_counter",
+              "total": 100,
+              "progress": 88
+            },
+            {
+              "type": "circle_counter",
+              "total": 1,
+              "progress": 1
+            },
+            {
+              "type": "circle_counter",
+              "total": 1,
+              "progress": 0
             }
           ]
         },
