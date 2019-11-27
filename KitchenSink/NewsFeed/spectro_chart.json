@@ -2447,8 +2447,8 @@
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
-                    "min": 0.0,
-                    "max": 100.0
+                    "min": 18.0,
+                    "max": 78.0
                   },
                   "entry_info": {
                     "format_type": "value",            
@@ -2524,8 +2524,8 @@
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
-                    "min": 0.0,
-                    "max": 100.0
+                    "min": 27.0,
+                    "max": 90.0
                   },
                   "entry_info": {
                     "format_type": "value",            
@@ -2593,8 +2593,8 @@
                   "show_circles": false,
                   "order": 100,
                   "y_axis": {
-                    "min": 0.0,
-                    "max": 100.0
+                    "min": 15.0,
+                    "max": 85.0
                   },
                   "entry_info": {
                     "format_type": "value",            
