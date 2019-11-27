@@ -2421,7 +2421,7 @@
             "text": "Merged charts"  
           },
           {
-            "height": 250,
+            "height": 300,
             "type": "chart",
             "grid": {
               "show_x": true,
