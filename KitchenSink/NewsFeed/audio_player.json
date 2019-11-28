@@ -1,0 +1,79 @@
+{
+    "result": {
+      "title": "Audio Player",
+      "content": [
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Hello darkness my old friend\nI've come to talk with you again"
+            }
+          ],
+          "footer": {
+            "type": "audio_player",
+            "title": "Hello darkness my old friend\nI've come to talk with you again",
+            "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+          }
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Download sample audio or test audio for your testing purpose. ... designers, developers to download sample videos but even mp3 sound file for demo/test use"
+            }
+          ],
+          "footer": {
+            "type": "audio_player",
+            "title": "Download sample audio",
+            "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+          }
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Here are some algorithmic random music examples in MP3 format. All examples have been created by letting SoundHelix remote-control a MIDI software synthesizer in real-time with SoundHelix' built-in MIDI sequencer, while recording this with Audacity and converting the result to MP3 format using the Lame MP3 Encoder. Note that all songs with the same record date have been created with an identical SoundHelix XML file using different random seeds"
+            }
+          ],
+          "footer": {
+            "type": "audio_player",
+            "title": "Here are some algorithmic",
+            "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+          }
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "When clicking on the item in the recyclerView it wont open the activity or call the OnClickListener, after clicking"
+            }
+          ],
+          "footer": {
+            "type": "audio_player",
+            "title": "Edit for adapter",
+            "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+          }
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "title",
+              "text": "Well I find it to be the best approach, because when your item is more complicated, and you need to show/hide something or define if something"
+            }
+          ],
+          "footer": {
+            "type": "audio_player",
+            "title": "Avoid setting onClick listeners in ViewHolder constructors.",
+            "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+          }
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
