@@ -2437,7 +2437,8 @@
               "position": "right"
             },
             "pin": {
-              "show_type": "hide"
+              "show_type": "hide",
+              "sort_type": "decrease"
             },
             "show_star": true,
             "flows": [
