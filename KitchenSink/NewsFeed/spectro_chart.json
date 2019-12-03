@@ -2470,7 +2470,8 @@
                         },
                         {
                           "color": "#03CB34",
-                          "value": 25
+                          "value": 25,
+                          "best_range": true
                         },
                         {
                           "color": "#FFBF00",
@@ -2547,7 +2548,8 @@
                         },
                         {
                           "color": "#03CB34",
-                          "value": 40
+                          "value": 40,
+                          "best_range": true
                         }
                       ],
                      "gradient_change_type": "smooth"
@@ -2616,7 +2618,8 @@
                         },
                         {
                           "color": "#03CB34",
-                          "value": 40
+                          "value": 40,
+                          "best_range": true
                         }
                       ],
                      "gradient_change_type": "smooth"
