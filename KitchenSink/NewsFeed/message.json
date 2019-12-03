@@ -11,9 +11,12 @@
       },
       {
         "type": "message",
+        "date": "2019-11-27T04:55:11",
+        "id": "17d7da1c-10d2-11ea-92b9-0242ac170002",
         "title": "Результат замера",
-        "date": "2019-11-10T03:15:45",
-
+        "draw_title_over_content": true,
+        "title_style": "body_grey_6_40",
+        "time_style": "body_grey_6_40",
         "items": [
           {
             "type": "dbox",
@@ -24,90 +27,132 @@
             "items": [
               {
                 "type": "boiler",
-                "liquid_level": 70,
-                "color_state": "yellow",
-                "boiling_level": 100,
-                "particle_consumption": -9,
+                "height": 490,
+                "liquid_level": 25,
+                "boiling_level": 51,
+                "color_state": "red",
+                "particle_consumption": 1,
                 "gravity": "center"
               },
               {
                 "type": "hbox",
-                "margin": {
-                  "left": 16,
-                  "bottom": 16,
-                  "right": 16
-                },
                 "contents_gravity": "end",
+                "id": "17d7da1c-10d2-11ea-92b9-0242ac170002_table1",
                 "items": [
                   {
-                    "type": "vbox",
-                    "weight": 1,
+                    "type": "hbox",
+                    "id": "17d7da1c-10d2-11ea-92b9-0242ac170002_table",
+                    "margin": {
+                      "left": 16,
+                      "bottom": 16,
+                      "right": 16
+                    },
+                    "spacing": 16,
                     "items": [
                       {
-                        "type": "text.welcome_header_white",
-                        "text": "32%"
+                        "type": "vbox",
+                        "weight": 1,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "97%"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "Продуктивность"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>Легкий</em>"
+                          }
+                        ]
                       },
                       {
-                        "type": "text.body",
-                        "text": "Productivity"
+                        "type": "vbox",
+                        "weight": 1,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "82%"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "Энергия"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>Много</em>"
+                          }
+                        ]
                       },
                       {
-                        "type": "text.body",
-                        "text": "<em color=\"yellow\">OK</em>"
+                        "type": "vbox",
+                        "weight": 1,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "51%"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "Стресс"
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>Рабочий</em>"
+                          }
+                        ]
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "hbox",
+                "contents_gravity": "start",
+                "margin": {
+                  "left": 16,
+                  "right": 16,
+                  "top": 50
+                },
+                "items": [
                   {
-                    "type": "vbox",
-                    "weight": 1,
-                    "items": [
-                      {
-                        "type": "text.welcome_header_white",
-                        "text": "12%"
-                      },
-                      {
-                        "type": "text.body",
-                        "text": "Energy"
-                      },
-                      {
-                        "type": "text.body",
-                        "text": "<em color=\"red\">Dragging</em>"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "vbox",
-                    "weight": 1,
-                    "items": [
-                      {
-                        "type": "text.welcome_header_white",
-                        "text": "92%"
-                      },
-                      {
-                        "type": "text.body",
-                        "text": "Stress"
-                      },
-                      {
-                        "type": "text.body",
-                        "text": "<em color=\"red\">Exhausting</em>"
-                      }
-                    ]
+                    "type": "title.section_title_white",
+                    "text": "Бесконечность не предел!"
                   }
                 ]
               }
             ]
           },
           {
-            "type": "title.basic_title",
+            "type": "title.basic_title_white",
             "text": "Результат диагностики"
           },
           {
-            "type": "text.body",
-            "text": "Take a break for a few minutes. Go for a walk to grab a snack, or chat with a coworker. Stick to simple, straightforward tasks for now."
+            "type": "text.body_white",
+            "text": "Это значит есть напряжение, с которым вы хорошо справляетесь. Your productivity is really high too."
           }
         ],
+        "share_button": {},
         "like_button": {},
-        "share_button": {}
+        "details": "Подробнее",
+        "details_color": "white",
+        "details_button": {
+          "type": "open",
+          "variant": "transition",
+          "transition_id": "17d7da1c-10d2-11ea-92b9-0242ac170002_table",
+          "analytics_event": {
+            "name": "Message_Opened",
+            "params": {
+              "user_id": 141387,
+              "message_slug": "02.02_message",
+              "operation_id": "17d7da1c-10d2-11ea-92b9-0242ac170002",
+              "timestamp": 1574830511000,
+              "category": "debug"
+            }
+          },
+          "url": "https://gitlab.welltory.com/snippets/31/raw/"
+        }
       },
 
       {

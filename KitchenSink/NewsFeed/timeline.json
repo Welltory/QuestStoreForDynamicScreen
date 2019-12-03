@@ -30,7 +30,7 @@
         },
         {
           "type": "time_tag",
-          "text": "Walking for 15 min",
+          "text": "walking for 15 min",
           "tag_color": "warm_1",
           "date": "2019-06-13T10:35:45+05:00"
         },
@@ -94,7 +94,7 @@
         },
         {
           "type": "time_tag",
-          "text": "Sleep",
+          "text": "sleep",
           "tag_color": "sleep_1",
           "date": "2019-06-13T10:35:45+05:00"
         },

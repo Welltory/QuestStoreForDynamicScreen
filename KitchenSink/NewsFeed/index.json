@@ -471,7 +471,7 @@
         "action": {
           "type": "open",
           "variant": "push",
-          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/date_delimiter.json"
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/audio_player.json"
         }
       }
     ]
