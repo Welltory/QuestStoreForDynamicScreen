@@ -32,21 +32,6 @@
           "description": "Состояние довольно стабильное, но очень расслабленное. Вы восстанавливаетесь."
         },
         {
-          "type": "message.white",
-          "items": [
-            {
-              "type": "details_param",
-              "value": "1234",
-              "weight": 3,
-              "color": "red",
-              "title": "Mean RR",
-              "detail": "Перенапряжение, норма 601-1160 мс",
-              "expandable_description": "Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats. It is measured by the variation in the beat-to-beat interval",
-              "description": "Кажется вы заболеваете или перетрудились"
-            }
-          ]
-        },
-        {
           "type": "vbox",
           "items": [
             {
