@@ -473,6 +473,25 @@
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/audio_player.json"
         }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Basic Progress Bar",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/basic_progress_bar.json"
+        }
       }
     ]
   },
