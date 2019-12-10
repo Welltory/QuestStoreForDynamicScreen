@@ -9,7 +9,7 @@
         "items": [
           {
             "type": "title",
-            "text": "Meditation 10 min"  
+            "text": "Meditation"  
           },
           {
             "height": 250,
@@ -24,6 +24,9 @@
             },
             "pin": {
               "show_type": "disabled"
+            },
+            "legend": {
+              "position": "right"
             },
             "flows": [
                 { 
@@ -45,6 +48,10 @@
                         },
                         {
                             "color": "#FD4100",
+                            "value": 55
+                        },
+                        {
+                            "color": "#88A3FE",
                             "value": 60
                         }
                       ],
