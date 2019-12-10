@@ -82,6 +82,158 @@
                   ]
                 }
             ]
+          },
+          {
+            "type": "title",
+            "text": "Meditation 2"  
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": true
+            },
+            "label": {
+              "show_x": true,
+              "show_y": true
+            },
+            "pin": {
+              "show_type": "disabled"
+            },
+            "legend": {
+              "position": "right"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 60.0
+                  },
+                  "stroke_flow": {
+                    "title": "Meditation 2",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                            "color": "#88A3FE",
+                            "value": 40
+                        },
+                        {
+                            "color": "#FD4100",
+                            "value": 55
+                        },
+                        {
+                            "color": "#88A3FE",
+                            "value": 60
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 55,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 40,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "title",
+            "text": "Meditation 3"  
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": true
+            },
+            "label": {
+              "show_x": true,
+              "show_y": true
+            },
+            "pin": {
+              "show_type": "disabled"
+            },
+            "legend": {
+              "position": "right"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 44.0,
+                    "max": 64.0
+                  },
+                  "stroke_flow": {
+                    "title": "Meditation 3",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                            "color": "#88A3FE",
+                            "value": 44
+                        },
+                        {
+                            "color": "#FD4100",
+                            "value": 59
+                        },
+                        {
+                            "color": "#88A3FE",
+                            "value": 64
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 59,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 64,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 44,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 49,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    }
+                  ]
+                }
+            ]
           }
         ]
       }
