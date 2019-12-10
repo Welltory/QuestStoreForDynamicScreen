@@ -19,6 +19,12 @@
               "type": "basic_progress_bar",
               "progress": 0.22,
               "color": "red"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.67,
+              "text": "67% научности",
+              "color": "protein"
             }
           ]
         },
@@ -39,6 +45,12 @@
               "type": "basic_progress_bar",
               "progress": 0.22,
               "color": "red"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.67,
+              "text": "67% научности",
+              "color": "protein"
             }
           ]
         }
