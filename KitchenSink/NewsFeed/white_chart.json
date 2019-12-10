@@ -165,7 +165,6 @@
                             "value": 86
                         }
                       ],
-                     "gradient_type": "faded",
                      "gradient_change_type": "smooth"
                   },
                   "line_flow": {
@@ -280,7 +279,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "hide"
@@ -480,15 +479,15 @@
                       },
                       {
                           "color": "#EFDD36",
-                          "value": 115.65608
+                          "value": 115.0
                       },
                       {
                           "color": "#A7DB37",
-                          "value": 130.10405
+                          "value": 130.0
                       },
                       {
                           "color": "#1957F6",
-                          "value": 145.55203
+                          "value": 145.0
                       }
                     ],
                     "gradient_change_type": "cutting"
@@ -781,6 +780,271 @@
           },
           {
             "type": "title",
+            "text": "Workout 2"
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label": {
+              "show_x": true,
+              "show_y": true,
+              "position_x": "top",            
+              "format_x": "time"
+            },
+            "arrangement": {
+              "type_x": "edges"
+            },
+            "pin": {
+              "show_type": "hide"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 100.0,
+                    "max": 160.0
+                  },
+                  "entry_info": {
+                    "format_type": "value"
+                  },
+                  "stroke_flow": {
+                    "title": "Workout",
+                    "direction": "vertical",
+                    "color_ranges": [
+                      {
+                          "color": "#FF023F",
+                          "value": 0.0
+                      },
+                      {
+                          "color": "#EFDD36",
+                          "value": 115.0
+                      },
+                      {
+                          "color": "#A7DB37",
+                          "value": 130.0
+                      },
+                      {
+                          "color": "#1957F6",
+                          "value": 145.0
+                      }
+                    ],
+                    "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 117,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 116,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 112,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 138,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 131,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 148,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 147,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 134,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 137,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 144,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 138,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 151,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 143,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 139,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 150,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 139,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 122,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 123,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 143,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 137,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 142,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 137,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 134,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 140,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 140,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 144,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 140,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 139,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 141,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 147,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 136,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 160,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 149,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 140,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 139,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 135,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 100,
+                      "x_date": "2019-10-08T12:30:01+0000"
+                    },
+                    {
+                      "y_value": 134,
+                      "x_date": "2019-10-08T12:31:01+0000"
+                    },
+                    {
+                      "y_value": 144,
+                      "x_date": "2019-10-08T12:32:01+0000"
+                    }
+                  ]
+                }
+            ]
+          },
+          {
+            "type": "title",
             "text": "Test"                
           },
           {
@@ -889,7 +1153,7 @@
               "show_y": true
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "hide"
@@ -1511,6 +1775,9 @@
               "show_y": false,
               "format_x": "day"
             },
+            "legend": {
+              "position": "bottom"
+            },
             "pin": {
               "show_type": "show"
             },
@@ -1579,6 +1846,59 @@
                     {
                       "y_value": null,
                       "x_date": "2019-10-15T12:02:00+0000"
+                    }
+                  ]
+                },
+                { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 80.0
+                  },
+                  "stroke_flow": {
+                    "title": "Line",
+                    "color": "#FFBF00"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-08T12:02:00+0000"
+                    },
+                    {
+                      "y_value": 80,
+                      "x_date": "2019-10-09T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-10-10T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 55,
+                      "x_date": "2019-10-11T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-12T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 65,
+                      "x_date": "2019-10-13T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-14T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-15T12:02:01+0000"
                     }
                   ]
                 }
@@ -1706,7 +2026,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "show"
@@ -1720,6 +2040,10 @@
                   "y_axis": {
                     "min": 0.0,
                     "max": 110.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "suffix": "steps"
                   },
                   "fill_flows": [
                     {
@@ -1845,7 +2169,7 @@
               "format_x": "day"
             },
             "legend": {
-              "type": "basic"
+              "position": "bottom"
             },
             "pin": {
               "show_type": "show"
@@ -1948,6 +2272,391 @@
                         }
                       ],
                       "x_date": "2019-10-15T12:02:00+0000"
+                    }
+                  ]
+                }
+            ]
+          },
+            {
+            "type": "title",
+            "text": "Stacked gradient bars"
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "bar",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 0.0,
+                    "max": 115.0
+                  },
+                  "fill_flows": [
+                    {
+                      "title": "Симпатика",
+                      "id": "testId 1",
+                      "color": "#FF6060"
+                    },
+                    {
+                      "title": "Парасимпатика",
+                      "id": "testId 2",
+                      "color": "#89A3FE"
+                    }
+                  ],
+                  "bar_flow": {
+                    "stack_type": "smooth",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 40
+                        }
+                      ],
+                      "x_date": "2019-10-30T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 20
+                        }
+                      ],
+                      "x_date": "2019-11-04T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 80
+                        }
+                      ],
+                      "x_date": "2019-11-06T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 40
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 60
+                        }
+                      ],
+                      "x_date": "2019-11-06T22:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 20
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 50
+                        }
+                      ],
+                      "x_date": "2019-11-12T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 60
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 55
+                        }
+                      ],
+                      "x_date": "2019-11-13T12:02:00+0000"
+                    },
+                    {
+                      "y_ranges": [
+                        {
+                           "fill_id": "testId 1",
+                           "value": 58
+                        },
+                        {
+                           "fill_id": "testId 2",
+                           "value": 52
+                        }
+                      ],
+                      "x_date": "2019-11-19T12:02:00+0000"
+                    }
+                  ]
+                }
+            ]
+          },
+           {
+            "type": "title",
+            "text": "Merged charts"  
+          },
+          {
+            "height": 300,
+            "type": "chart",
+            "grid": {
+              "show_x": true,
+              "show_y": false
+            },
+            "label": {
+              "show_x": true,
+              "show_y": false,
+              "position_x": "bottom",
+              "format_x": "day"
+            },
+            "legend": {
+              "position": "right"
+            },
+            "pin": {
+              "show_type": "hide",
+              "sort_type": "decrease"
+            },
+            "show_star": true,
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 18.0,
+                    "max": 78.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Стресс",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Стресс",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 25,
+                          "best_range": true
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 55
+                        },
+                        {
+                          "color": "#FF003F",
+                          "value": 65
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 18,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 30,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 75,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 78,
+                      "x_date": "2019-11-25T12:12:01+0000"
+                    }
+                  ]
+                },
+                 { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 27.0,
+                    "max": 90.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Прод.",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Продуктивность",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 40,
+                          "best_range": true
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 38,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 65,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 90,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 35,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 27,
+                      "x_date": "2019-11-25T12:12:01+0000"
+                    }
+                  ]
+                },
+                 { 
+                  "flow_type": "secondary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 15.0,
+                    "max": 85.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",            
+                    "prefix": "Энергия",
+                    "suffix": "%"
+                  },
+                  "stroke_flow": {
+                    "title": "Энергия",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                          "color": "#FF003F",
+                          "value": 0
+                        },
+                        {
+                          "color": "#FFBF00",
+                          "value": 20
+                        },
+                        {
+                          "color": "#03CB34",
+                          "value": 40,
+                          "best_range": true
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 70,
+                      "x_date": "2019-10-30T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 75,
+                      "x_date": "2019-11-04T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 85,
+                      "x_date": "2019-11-05T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 50,
+                      "x_date": "2019-11-07T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-11-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 40,
+                      "x_date": "2019-11-10T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 15,
+                      "x_date": "2019-11-25T12:12:01+0000"
                     }
                   ]
                 }
