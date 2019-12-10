@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "result": {
+    "title": "Charts",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "title",
+            "text": "Meditation 10 min"  
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label": {
+              "show_x": false,
+              "show_y": true
+            },
+            "pin": {
+              "show_type": "disabled"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": true,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 40.0,
+                    "max": 60.0
+                  },
+                  "stroke_flow": {
+                    "title": "Meditation",
+                    "direction": "vertical",
+                     "color_ranges": [
+                        {
+                            "color": "#88A3FE",
+                            "value": 40
+                        },
+                        {
+                            "color": "#FD4100",
+                            "value": 60
+                        }
+                      ],
+                     "gradient_change_type": "smooth"
+                  },
+                  "line_flow": {
+                    "curve_type": "quadratic",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 55,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 60,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    },
+                    {
+                      "y_value": 40,
+                      "x_date": "2019-10-08T12:02:01+0000"
+                    },
+                    {
+                      "y_value": 45,
+                      "x_date": "2019-10-08T12:12:01+0000"
+                    }
+                  ]
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
