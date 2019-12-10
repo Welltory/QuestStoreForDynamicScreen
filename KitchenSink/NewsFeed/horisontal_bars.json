@@ -18,22 +18,22 @@
                       "value_color": "#FFFFFF",
                       "bars": [
                           {
-                              "title": "PEAK",
+                              "title": "Peak",
                               "value": 2,
                               "color": "#FF003F"
                           },
                           {
-                              "title": "CARDIO",
+                              "title": "Cardio",
                               "value": 35,
                               "color": "#EFDD36"
                           },
                           {
-                              "title": "FAT_BURN",
+                              "title": "Fat burn",
                               "value": 22,
                               "color": "#A7DB38"
                           },
                           {
-                              "title": "AEROBIC",
+                              "title": "Aerobic",
                               "value": 12,
                               "color": "#1957F5"
                           }
@@ -72,22 +72,22 @@
                               "value_color": "#FFFFFF",
                               "bars": [
                                   {
-                                      "title": "PEAK",
+                                      "title": "Peak",
                                       "value": 2,
                                       "color": "#FF003F"
                                   },
                                   {
-                                      "title": "CARDIO",
+                                      "title": "Cardio",
                                       "value": 35,
                                       "color": "#EFDD36"
                                   },
                                   {
-                                      "title": "FAT_BURN",
+                                      "title": "Fat burn",
                                       "value": 22,
                                       "color": "#A7DB38"
                                   },
                                   {
-                                      "title": "AEROBIC",
+                                      "title": "Aerobic",
                                       "value": 12,
                                       "color": "#1957F5"
                                   }
@@ -104,22 +104,22 @@
                               "value_color": "#FFFFFF",
                               "bars": [
                                   {
-                                      "title": "PEAK",
+                                      "title": "Peak",
                                       "value": 2,
                                       "color": "#FF003F"
                                   },
                                   {
-                                      "title": "CARDIO",
+                                      "title": "Cardio",
                                       "value": 35,
                                       "color": "#EFDD36"
                                   },
                                   {
-                                      "title": "FAT_BURN",
+                                      "title": "Fat burn",
                                       "value": 22,
                                       "color": "#A7DB38"
                                   },
                                   {
-                                      "title": "AEROBIC",
+                                      "title": "Aerobic",
                                       "value": 12,
                                       "color": "#1957F5"
                                   }
