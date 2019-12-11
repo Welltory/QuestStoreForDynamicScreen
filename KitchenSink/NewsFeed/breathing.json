@@ -1,0 +1,38 @@
+{
+    "result": {
+        "title": "Breathing",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "spacer"
+            },
+            {
+                "type": "message.white",
+                "padding": {
+                },
+                "items": [
+                    {
+                        "type": "spacer"
+                    },
+                    {
+                        "action": {
+                            "type": "open",
+                            "variant": "replace",
+                            "local_controller": "breath_practice"
+                        },
+                        "type": "button.32_button_welltory",
+                        "text": "Start breathing"
+                    },
+                    {
+                        "type": "spacer"
+                    }
+                ]
+            },
+            {
+                "type": "spacer"
+            }
+        ],
+        "background_color": "#151A22"
+    },
+    "success": true
+}
