@@ -17,7 +17,7 @@
                     {
                         "action": {
                             "type": "open",
-                            "variant": "replace",
+                            "variant": "modal",
                             "local_controller": "breath_practice"
                         },
                         "type": "button.32_button_welltory",
