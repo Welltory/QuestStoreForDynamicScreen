@@ -63,7 +63,7 @@
                 "items": [
                     {
                         "type": "smart_header",
-                        "text": "Не хотите \uD83C\uDF1A\n набрать вес –\n<em color='meditation_2'>спите дольше</em>"
+                        "text": "Не хотите \nнабрать\n\uD83C\uDF1A вес –\n<em color='meditation_2'>спите дольше</em>"
                     },
                     {
                         "type": "text.body.text_align_center",
