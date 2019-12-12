@@ -1,0 +1,61 @@
+{
+    "result": {
+      "title": "Basic Progress Bar",
+      "content": [
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.84,
+              "color": "green"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.51,
+              "color": "yellow"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.22,
+              "color": "red"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.67,
+              "text": "67% научности",
+              "color": "protein"
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.84,
+              "color": "green"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.51,
+              "color": "yellow"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.22,
+              "color": "red"
+            },
+            {
+              "type": "basic_progress_bar",
+              "progress": 0.67,
+              "text": "67% научности",
+              "color": "protein"
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
