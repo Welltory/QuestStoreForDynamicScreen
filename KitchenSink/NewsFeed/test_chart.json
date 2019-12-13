@@ -234,6 +234,252 @@
                   ]
                 }
             ]
+          },
+          {
+            "type": "title",
+            "text": "Test"  
+          },
+          {
+            "height": 300,
+            "type": "chart",
+            "grid": {
+                "show_x": true,
+                "show_y": false
+            },
+            "label": {
+                "show_x": true,
+                "show_y": false,
+                "position_x": "bottom",
+                "format_x": "time"
+            },
+            "legend": {
+                "position": "right"
+            },
+            "pin": {
+                "show_type": "show",
+                "sort_type": "decrease"
+            },
+            "show_star": true,
+            "flows": [
+                {
+                    "flow_type": "primary",
+                    "chart_type": "line",
+                    "show_circles": false,
+                    "order": 100,
+                    "y_axis": {
+                        "min": 0.0,
+                        "max": 100.0
+                    },
+                    "entry_info": {
+                        "format_type": "value",
+                        "prefix": "Стресс",
+                        "suffix": "%"
+                    },
+                    "stroke_flow": {
+                        "title": "Стресс",
+                        "direction": "vertical",
+                        "color_ranges": [
+                            {
+                                "color": "#FF003F",
+                                "value": 0
+                            },
+                            {
+                                "color": "#FFBF00",
+                                "value": 20
+                            },
+                            {
+                                "color": "#03CB34",
+                                "value": 25,
+                                "best_range": true
+                            },
+                            {
+                                "color": "#FFBF00",
+                                "value": 55
+                            },
+                            {
+                                "color": "#FF003F",
+                                "value": 65
+                            }
+                        ],
+                        "gradient_change_type": "smooth"
+                    },
+                    "line_flow": {
+                        "curve_type": "quadratic",
+                        "dash_type": "basic",
+                        "interval_type": "basic"
+                    },
+                    "data": [
+                        {
+                            "y_value": 53,
+                            "x_date": "2019-12-07T06:07:18+0000"
+                        },
+                        {
+                            "y_value": 52,
+                            "x_date": "2019-12-08T06:55:33+0000"
+                        },
+                        {
+                            "y_value": 33,
+                            "x_date": "2019-12-09T07:04:33+0000"
+                        },
+                        {
+                            "y_value": 47,
+                            "x_date": "2019-12-09T07:07:09+0000"
+                        },
+                        {
+                            "y_value": 52,
+                            "x_date": "2019-12-09T07:10:53+0000"
+                        },
+                        {
+                            "y_value": 47,
+                            "x_date": "2019-12-09T07:13:54+0000"
+                        },
+                        {
+                            "y_value": 53,
+                            "x_date": "2019-12-09T09:22:24+0000"
+                        }
+                    ]
+                },
+                {
+                    "flow_type": "secondary",
+                    "chart_type": "line",
+                    "show_circles": false,
+                    "order": 100,
+                    "y_axis": {
+                        "min": 0.0,
+                        "max": 100.0
+                    },
+                    "entry_info": {
+                        "format_type": "value",
+                        "prefix": "Прод.",
+                        "suffix": "%"
+                    },
+                    "stroke_flow": {
+                        "title": "Продуктивность",
+                        "direction": "vertical",
+                        "color_ranges": [
+                            {
+                                "color": "#FF003F",
+                                "value": 0
+                            },
+                            {
+                                "color": "#FFBF00",
+                                "value": 20
+                            },
+                            {
+                                "color": "#03CB34",
+                                "value": 40,
+                                "best_range": true
+                            }
+                        ],
+                        "gradient_change_type": "smooth"
+                    },
+                    "line_flow": {
+                        "curve_type": "quadratic",
+                        "dash_type": "basic",
+                        "interval_type": "basic"
+                    },
+                    "data": [
+                        {
+                            "y_value": 99,
+                            "x_date": "2019-12-07T06:07:18+0000"
+                        },
+                        {
+                            "y_value": 95,
+                            "x_date": "2019-12-08T06:55:33+0000"
+                        },
+                        {
+                            "y_value": 92,
+                            "x_date": "2019-12-09T07:04:33+0000"
+                        },
+                        {
+                            "y_value": 68,
+                            "x_date": "2019-12-09T07:07:09+0000"
+                        },
+                        {
+                            "y_value": 97,
+                            "x_date": "2019-12-09T07:10:53+0000"
+                        },
+                        {
+                            "y_value": 97,
+                            "x_date": "2019-12-09T07:13:54+0000"
+                        },
+                        {
+                            "y_value": 100,
+                            "x_date": "2019-12-09T09:22:24+0000"
+                        }
+                    ]
+                },
+                {
+                    "flow_type": "secondary",
+                    "chart_type": "line",
+                    "show_circles": false,
+                    "order": 100,
+                    "y_axis": {
+                        "min": 0.0,
+                        "max": 100.0
+                    },
+                    "entry_info": {
+                        "format_type": "value",
+                        "prefix": "Энергия",
+                        "suffix": "%"
+                    },
+                    "stroke_flow": {
+                        "title": "Энергия",
+                        "direction": "vertical",
+                        "color_ranges": [
+                            {
+                                "color": "#FF003F",
+                                "value": 0
+                            },
+                            {
+                                "color": "#FFBF00",
+                                "value": 20
+                            },
+                            {
+                                "color": "#03CB34",
+                                "value": 40,
+                                "best_range": true
+                            }
+                        ],
+                        "gradient_change_type": "smooth"
+                    },
+                    "line_flow": {
+                        "curve_type": "quadratic",
+                        "dash_type": "basic",
+                        "interval_type": "basic"
+                    },
+                    "data": [
+                        {
+                            "y_value": 84,
+                            "x_date": "2019-12-07T06:07:18+0000"
+                        },
+                        {
+                            "y_value": 51,
+                            "x_date": "2019-12-08T06:55:33+0000"
+                        },
+                        {
+                            "y_value": 96,
+                            "x_date": "2019-12-09T07:04:33+0000"
+                        },
+                        {
+                            "y_value": 76,
+                            "x_date": "2019-12-09T07:07:09+0000"
+                        },
+                        {
+                            "y_value": 78,
+                            "x_date": "2019-12-09T07:10:53+0000"
+                        },
+                        {
+                            "y_value": 84,
+                            "x_date": "2019-12-09T07:13:54+0000"
+                        },
+                        {
+                            "y_value": 81,
+                            "x_date": "2019-12-09T09:22:24+0000"
+                        }
+                    ]
+                }
+            ]
           }
         ]
       }
