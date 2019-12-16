@@ -327,6 +327,25 @@
         "items": [
           {
             "type": "text",
+            "text": "Boiler heights",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/boiler_2.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
             "text": "Charts",
             "height": 80,
             "margin": {

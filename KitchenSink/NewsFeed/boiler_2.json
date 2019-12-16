@@ -1,0 +1,67 @@
+{
+    "result": {
+      "title": "Boiler",
+      "class": "newsfeed",
+      "spacing": 0,
+      "content": [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 50;\n Color: green;\n Boiling: 0;\nConsumption: 0"
+            },
+            {
+              "height": 250,
+              "type": "boiler",
+              "liquid_level": 50,
+              "color_state": "green",
+              "boiling_level": 0,
+              "particle_consumption": 0,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 50;\n Color: yellow;\n Boiling: 30;\nConsumption: 4"
+            },
+            {
+              "height": 350,
+              "type": "boiler",
+              "liquid_level": 50,
+              "color_state": "yellow",
+              "boiling_level": 30,
+              "particle_consumption": 4,
+              "gravity": "center"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
+              "text": "Liquid: 50;\n Color: yellow;\n Boiling: 50;\nConsumption: -6"
+            },
+            {
+              "height": 450,
+              "type": "boiler",
+              "liquid_level": 50,
+              "color_state": "red",
+              "boiling_level": 50,
+              "particle_consumption": -6,
+              "gravity": "center"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true
+  }
