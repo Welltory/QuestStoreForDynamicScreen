@@ -55,6 +55,9 @@
                         },
                         "type": "button.32_button_welltory",
                         "text": "Start coherent"
+                    },
+                    {
+                        "type": "spacer"
                     }
                 ]
             },
