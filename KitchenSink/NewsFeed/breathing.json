@@ -18,13 +18,43 @@
                         "action": {
                             "type": "open",
                             "variant": "modal",
-                            "local_controller": "breath_practice"
+                            "local_controller": "breath_practice",
+                            "info": {
+                                "breath_type": "karate"
+                            }
                         },
                         "type": "button.32_button_welltory",
-                        "text": "Start breathing"
+                        "text": "Start karate"
                     },
                     {
                         "type": "spacer"
+                    },
+                    {
+                        "action": {
+                            "type": "open",
+                            "variant": "modal",
+                            "local_controller": "breath_practice",
+                            "info": {
+                                "breath_type": "long_exhale"
+                            }
+                        },
+                        "type": "button.32_button_welltory",
+                        "text": "Start long"
+                    },
+                    {
+                        "type": "spacer"
+                    },
+                    {
+                        "action": {
+                            "type": "open",
+                            "variant": "modal",
+                            "local_controller": "breath_practice",
+                            "info": {
+                                "breath_type": "coherent"
+                            }
+                        },
+                        "type": "button.32_button_welltory",
+                        "text": "Start coherent"
                     }
                 ]
             },
