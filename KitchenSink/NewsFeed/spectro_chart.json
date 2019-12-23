@@ -2694,6 +2694,348 @@
                   ]
                 }
             ]
+          },
+          {
+            "type": "title",
+            "text": "Sleep"
+          },
+          {
+            "height": 250,
+            "type": "chart",
+            "grid": {
+              "show_x": false,
+              "show_y": true
+            },
+            "label": {
+              "show_x": true,
+              "show_y": true,
+              "position_x": "top",            
+              "format_x": "time"
+            },
+            "arrangement": {
+              "type_x": "edges"
+            },
+            "pin": {
+              "show_type": "hide"
+            },
+            "flows": [
+                { 
+                  "flow_type": "primary",
+                  "chart_type": "line",
+                  "show_circles": false,
+                  "order": 100,
+                  "y_axis": {
+                    "min": 112.0,
+                    "max": 154.0
+                  },
+                  "entry_info": {
+                    "format_type": "value",
+                    "suffix": "bpm"
+                  },
+                  "stroke_flow": {
+                    "title": "Workout",
+                    "direction": "horizontal",
+                    "color_ranges": [
+                      {
+                          "color": "#FF023F",
+                          "value": 0.0
+                      }
+                      {
+                          "color": "#A7DB37",
+                          "value": 130.0
+                      },
+                      {
+                          "color": "#1957F6",
+                          "value": 145.0
+                      }
+                    ],
+                    "gradient_change_type": "cutting"
+                  },
+                  "line_flow": {
+                    "curve_type": "linear",
+                    "dash_type": "basic",
+                    "interval_type": "basic"
+                  },
+                  "data": [
+                    {
+                      "y_value": 117,
+                      "x_value": 1
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value": 2
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 3
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 4
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value": 5
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value": 6
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 7
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 8
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 9
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value": 10
+                    },
+                    {
+                      "y_value": 127,
+                      "x_value": 11
+                    },
+                    {
+                      "y_value": 116,
+                      "x_value": 12
+                    },
+                    {
+                      "y_value": 112,
+                      "x_value": 13
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value": 14
+                    },
+                    {
+                      "y_value": 131,
+                      "x_value": 15
+                    },
+                    {
+                      "y_value": 148,
+                      "x_value": 16
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 17
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value": 18
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 19
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value": 20
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 21
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 22
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 23
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value": 24
+                    },
+                    {
+                      "y_value": 138,
+                      "x_value": 25
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 26
+                    },
+                    {
+                      "y_value": 151,
+                      "x_value": 27
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 28
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value": 29
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value": 30
+                    },
+                    {
+                      "y_value": 150,
+                      "x_value": 31
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value": 32
+                    },
+                    {
+                      "y_value": 122,
+                      "x_value": 33
+                    },
+                    {
+                      "y_value": 123,
+                      "x_value": 34
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 35
+                    },
+                    {
+                      "y_value": 126,
+                      "x_value": 36
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 37
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value": 38
+                    },
+                    {
+                      "y_value": 133,
+                      "x_value": 39
+                    },
+                    {
+                      "y_value": 143,
+                      "x_value": 40
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 41
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value": 42
+                    },
+                    {
+                      "y_value": 142,
+                      "x_value": 43
+                    },
+                    {
+                      "y_value": 129,
+                      "x_value": 44
+                    },
+                    {
+                      "y_value": 137,
+                      "x_value": 45
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 46
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value": 47
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 48
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 49
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 50
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 51
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 52
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 53
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 54
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 55
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 56
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 57
+                    },
+                    {
+                      "y_value": null,
+                      "x_value": 58
+                    },
+                    {
+                      "y_value": 147,
+                      "x_value": 59
+                    },
+                    {
+                      "y_value": 136,
+                      "x_value": 60
+                    },
+                    {
+                      "y_value": 154,
+                      "x_value": 61
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 62
+                    },
+                    {
+                      "y_value": 149,
+                      "x_value": 63
+                    },
+                    {
+                      "y_value": 140,
+                      "x_value": 64
+                    },
+                    {
+                      "y_value": 139,
+                      "x_value": 65
+                    },
+                    {
+                      "y_value": 135,
+                      "x_value": 66
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 67
+                    },
+                    {
+                      "y_value": 134,
+                      "x_value": 68
+                    },
+                    {
+                      "y_value": 144,
+                      "x_value": 69
+                    }
+                  ]
+                }
+            ]
           }
         ]
       }
