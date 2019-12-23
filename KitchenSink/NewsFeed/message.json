@@ -51,15 +51,18 @@
                     "items": [
                       {
                         "type": "vbox",
-                        "weight": 1,
                         "items": [
                           {
                             "type": "text.welcome_header_white",
-                            "text": "97%"
+                            "text": "32%"
                           },
                           {
                             "type": "text.body",
-                            "text": "Продуктивность"
+                            "width": 122,
+                            "text": "Продуктивность",
+                            "max_lines": 1,
+                            "height": 21,
+                            "ellipsize": true
                           },
                           {
                             "type": "text.body",
@@ -73,7 +76,7 @@
                         "items": [
                           {
                             "type": "text.welcome_header_white",
-                            "text": "82%"
+                            "text": "25%"
                           },
                           {
                             "type": "text.body",
