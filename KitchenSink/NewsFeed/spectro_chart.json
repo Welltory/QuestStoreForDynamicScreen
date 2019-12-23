@@ -2733,20 +2733,28 @@
                     "suffix": "bpm"
                   },
                   "stroke_flow": {
-                    "title": "Workout",
+                    "title": "Sleep",
                     "direction": "horizontal",
                     "color_ranges": [
                       {
-                          "color": "#FF023F",
-                          "value": 0.0
-                      }
-                      {
-                          "color": "#A7DB37",
-                          "value": 130.0
+                          "color": "#89A3FF",
+                          "value": 0
                       },
                       {
-                          "color": "#1957F6",
-                          "value": 145.0
+                          "color": "#8AA4FF",
+                          "value": 10
+                      },
+                      {
+                          "color": "#89A3FF",
+                          "value": 30
+                      },
+                      {
+                          "color": "#8AA4FF",
+                          "value": 35
+                      },
+                      {
+                          "color": "#89A3FF",
+                          "value": 60
                       }
                     ],
                     "gradient_change_type": "cutting"
