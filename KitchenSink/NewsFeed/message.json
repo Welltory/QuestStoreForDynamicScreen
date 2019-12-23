@@ -13,7 +13,7 @@
         "type": "message",
         "date": "2019-11-27T04:55:11",
         "id": "17d7da1c-10d2-11ea-92b9-0242ac170002",
-        "title": "Результат замера",
+        "title": "результат замера",
         "draw_title_over_content": true,
         "title_style": "body_grey_6_40",
         "time_style": "body_grey_6_40",
@@ -116,7 +116,7 @@
                 "margin": {
                   "left": 16,
                   "right": 16,
-                  "top": 50
+                  "top": 20
                 },
                 "items": [
                   {
