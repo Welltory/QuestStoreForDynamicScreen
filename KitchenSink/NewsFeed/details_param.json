@@ -1,6 +1,7 @@
 {
     "result": {
       "title": "Details Param",
+      "class": "newsfeed",
       "content": [
         {
           "type": "details_param",
