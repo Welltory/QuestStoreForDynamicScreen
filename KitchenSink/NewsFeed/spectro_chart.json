@@ -448,7 +448,8 @@
               "show_x": true,
               "show_y": false,
               "position_x": "bottom",
-              "format_x": "day"
+              "format_x": "day",
+              "selected_day_x": "mon"
             },
             "legend": {
               "position": "bottom"
