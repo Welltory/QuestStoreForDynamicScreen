@@ -21,6 +21,13 @@
                 },
                 {
                   "type": "details_param",
+                  "value": "--",
+                  "title": "Когерентность",
+                  "detail": "Неопределена",
+                  "state": "blocked"
+                },
+                {
+                  "type": "details_param",
                   "value": "3.6",
                   "color": "red",
                   "title": "Mean RR",
