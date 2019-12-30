@@ -27,7 +27,6 @@
             "items": [
               {
                 "type": "boiler",
-                "height": 490,
                 "liquid_level": 25,
                 "boiling_level": 51,
                 "color_state": "red",
