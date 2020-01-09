@@ -246,6 +246,130 @@
           "transition_id": "message_1_message_body",
           "url": "https://s-nf-msg-generator.welltory.com/api/v1/debug/200/message/?as_detail=true"
         }
+      },
+      {
+        "date": "2020-01-07T06:16:05",
+        "like_button": {},
+        "title_style": "newsfeed_title_white",
+        "details": "See what's off",
+        "id": "1836d554-3128-11ea-8259-a2c448683325",
+        "details_color": "white",
+        "title": "Histogram",
+        "type": "message",
+        "details_button": {
+          "variant": "transition",
+          "transition_id": "1836d554-3128-11ea-8259-a2c448683325_message_body",
+          "type": "open",
+          "analytics_event": {
+            "name": "Message_Opened",
+            "params": {
+              "rule_id": 2.0,
+              "has_detail": true,
+              "message_slug": "raw_measurement",
+              "user_id": 145783.0,
+              "channel": "ch_data_145783",
+              "operation_id": "1836d554-3128-11ea-8259-a2c448683325",
+              "category": "data",
+              "timestamp": 1.578377765E12
+            }
+          },
+          "url": "https://s-nf-msg-generator.welltory.com/api/v1/debug/200/message/?as_detail=true"
+        },
+        "items": [
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "spacing": 5.0,
+                "weight": 34.0,
+                "type": "vbox",
+                "items": [
+                  {
+                    "text": "Metrics",
+                    "type": "text.body_white"
+                  },
+                  {
+                    "gravity": "begin",
+                    "text": "\u003cem color\u003d\u0027red\u0027\u003e3/8 normal\u003c/em\u003e",
+                    "type": "text.body"
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 30.0
+                  },
+                  {
+                    "text": "HRV",
+                    "type": "text.body_white"
+                  },
+                  {
+                    "text": "30 ms",
+                    "type": "text.section_title_white"
+                  }
+                ]
+              },
+              {
+                "pin": {
+                  "show_type": "hide"
+                },
+                "flows": [
+                  {
+                    "flow_type": "primary",
+                    "chart_type": "bar",
+                    "data": [
+                      {
+                        "y_value": 44.0,
+                        "x_value": 750.0
+                      },
+                      {
+                        "y_value": 47.0,
+                        "x_value": 800.0
+                      },
+                      {
+                        "y_value": 8.0,
+                        "x_value": 850.0
+                      },
+                      {
+                        "y_value": 1.0,
+                        "x_value": 900.0
+                      }
+                    ],
+                    "y_axis": {
+                      "min": 1.0,
+                      "max": 100.0
+                    },
+                    "bar_flow": {
+                      "stack_type": "solid",
+                      "interval_type": "basic"
+                    },
+                    "fill_flows": [
+                      {
+                        "color": "red",
+                        "id": "rr_histogram_1836d554-3128-11ea-8259-a2c448683325",
+                        "title": "Histogram"
+                      }
+                    ],
+                    "show_circles": false,
+                    "order": 100.0
+                  }
+                ],
+                "grid": {
+                  "show_y": false,
+                  "show_x": true
+                },
+                "weight": 64.0,
+                "label": {
+                  "format_x": "value",
+                  "position_x": "bottom",
+                  "show_y": false,
+                  "show_x": true
+                },
+                "type": "chart",
+                "height": 135.0
+              }
+            ]
+          }
+        ],
+        "share_button": {}
       }
     ]
   },
