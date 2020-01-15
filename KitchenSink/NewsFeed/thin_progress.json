@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "result": {
+    "title": "Thin progress",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+            "margin": {
+              "top": 20
+            },
+            "type": "thin_progress",
+            "value": 0.85,
+            "left_label": "Correlation 85%"
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "progress_color": "yellow",
+            "type": "thin_progress",
+            "value": 0.3,
+            "left_label": "Correlation 30%"
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "progress_color": "red",
+            "type": "thin_progress",
+            "value": 0.1,
+            "left_label": "Correlation 10%"
+          }
+        ]
+      },
+      {
+        "type": "message.white",
+        "items": [
+          {
+            "margin": {
+              "top": 20
+            },
+            "type": "thin_progress",
+            "value": 0.85,
+            "left_label": "Correlation 85%"
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "progress_color": "yellow",
+            "type": "thin_progress",
+            "value": 0.3,
+            "left_label": "Correlation 30%"
+          },
+          {
+            "margin": {
+              "top": 20
+            },
+            "progress_color": "red",
+            "type": "thin_progress",
+            "value": 0.1,
+            "left_label": "Correlation 10%"
+          }
+        ]
+      }
+    ]
+  }
+}
