@@ -19,7 +19,10 @@
                         "image": {
                             "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
                             "width": 12,
-                            "height": 10
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "start"
                     },
@@ -30,7 +33,10 @@
                         "image": {
                             "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
                             "width": 12,
-                            "height": 10
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "center"
                     },
@@ -54,7 +60,10 @@
                         "image": {
                             "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
                             "width": 12,
-                            "height": 10
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "start"
                     },
@@ -67,7 +76,10 @@
                         "image": {
                             "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
                             "width": 12,
-                            "height": 10
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "center"
                     },
