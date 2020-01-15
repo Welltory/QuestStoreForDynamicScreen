@@ -1,0 +1,55 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+        {
+          "type": "message",
+          "title": "Date 2019-10-04 TODAY",
+          "date": "2019-10-04T10:30:45",
+          "items": [
+            {
+
+              "type": "dbox",
+              "items": [
+                {
+                  "type": "animation",
+                  "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                  "height": 300
+                },
+                {
+                  "type":"text",
+                  "style": "ns_text_24_light",
+                  "text":"Text in center",
+                  "text_alignment": "center",
+                  "text_color": "#559999"
+                }
+              ]
+            },
+            {
+              "type": "spacer",
+              "height": 30
+            },
+            {
+
+              "type": "dbox",
+              "items": [
+                {
+                  "type": "animation",
+                  "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/Animation/data.json",
+                  "height": 300
+                },
+                {
+                  "type":"text",
+                  "style": "ns_text_24_light",
+                  "text":"Text in center",
+                  "text_color": "#559999"
+                }
+              ]
+            }
+          ]
+        }
+    ]
+  }
+}
