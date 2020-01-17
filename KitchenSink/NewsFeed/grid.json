@@ -7,7 +7,7 @@
           "items": [
             {
               "type": "grid",
-              "columns": [1, "0.5%", "50px"],
+              "columns_count": 3,
               "items": [
                 {
                   "type": "vbox",
@@ -55,7 +55,7 @@
             },
             {
               "type": "grid",
-              "columns": [1, 1, 1],
+              "columns_count": 3,
               "items": [
                 {
                   "type": "vbox",
