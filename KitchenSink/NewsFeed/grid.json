@@ -8,6 +8,7 @@
             {
               "type": "grid",
               "columns_count": 3,
+              "row_gap": 24,
               "items": [
                 {
                   "type": "vbox",
