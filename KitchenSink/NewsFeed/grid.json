@@ -50,6 +50,34 @@
                       "text": "70"
                     }
                   ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
                 }
               ]
             },
