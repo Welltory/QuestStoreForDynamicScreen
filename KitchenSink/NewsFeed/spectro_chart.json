@@ -3454,7 +3454,7 @@
                       ]
                   },
                   {
-                      "flow_type": "primary",
+                      "flow_type": "secondary",
                       "chart_type": "line",
                       "show_circles": false,
                       "order": 100,
