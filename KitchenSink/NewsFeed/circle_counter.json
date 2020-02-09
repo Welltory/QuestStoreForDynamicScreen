@@ -16,14 +16,14 @@
             },
             {
               "type": "text.body",
-              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"garmin_2\"\n          }"
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"stress\"\n          }"
             },
             {
               "type": "circle_counter",
               "total": 25,
               "progress": 10,
               "track_color": "meditation_2",
-              "progress_color": "garmin_2"
+              "progress_color": "stress"
             },
             {
               "type": "circle_counter",
@@ -56,14 +56,14 @@
             },
             {
               "type": "text.body",
-              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"garmin_2\"\n          }"
+              "text": "{\n            \"type\": \"circle_counter\",\n            \"total\": 25,\n            \"progress\": 10,\n            \"track_color\": \"meditation_2\",\n            \"progress_color\": \"stress\"\n          }"
             },
             {
               "type": "circle_counter",
               "total": 25,
               "progress": 10,
               "track_color": "meditation_2",
-              "progress_color": "garmin_2"
+              "progress_color": "stress"
             }
           ]
         }

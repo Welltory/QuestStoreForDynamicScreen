@@ -8,8 +8,6 @@
                 "type": "spacer",
                 "height": 5
             },
-
-            
             {
                 "type": "message.yellow",
                 "title": "ДОКАЗАНО",
@@ -30,9 +28,6 @@
                     }
                 ]
             },
-
-
-
             {
                 "type": "message.white",
                 "title": "ДОКАЗАНО",
@@ -54,14 +49,13 @@
                     }
                 ]
             },
-
-
             {
                 "type": "message.sleep",
-                "title": "ДОКАЗАНО",
                 "date": "2019-06-13 13:00:00+0500",
+                "title": "Доказано",
                 "items": [
                     {
+                        "id": "smart_header_id",
                         "type": "smart_header",
                         "text": "Не хотите \nнабрать\n\uD83C\uDF1A вес –\n<em color='meditation_2'>спите дольше</em>"
                     },
@@ -70,14 +64,165 @@
                         "text": "Ученые в University of Chicago доказали, что люди, которые спят меньше 7-8 часов в день, обычно набирают 2-3 лишних килограмма за год. Так происходит из-за избытка гормона лептина, который вырабатывается при недосыпе и вызывает чувство голода."
                     },
                     {
-                        "type": "button.text",
-                        "text": "Исследование",
-                        "text_color": "cold_3"
+                        "type": "button.38_button_blur",
+                        "text": "Ещё",
+                        "action": {
+                            "type": "open",
+                            "variant": "transition",
+                            "transition_id": "smart_header_id",
+                            "page": {
+                                "class": "newsfeed",
+                                "background_color": "sleep_2",
+                                "content": [
+                                    {
+                                        "type": "text.body_white",
+                                        "margin": {
+                                            "left": 16,
+                                            "right": 16
+                                        },
+                                        "text": "Очень вам сочувствуем. Эмоциональный стресс, алкоголь и перелеты запросто могут спровоцировать приступ паники. Давайте переключимся с эмоций на физические ощущения. Будем действовать в три этапа.\n\nЧто чувствуют ваши стопы? Назовите три прилагательных, которые описывают эти ощущения. Им жарко или нет? Поверхность под ними шершавая или гладкая?\n\nПотрогайте свою одежду или ближайшую к вам ткань. Опишите ее пятью словами. Это хлопок или синтетика? Она мягкая или колется?\n\nВспомните свою любимую игрушку из детства. Опишите каждую ее десятью словами. Что это было? Из какого материала? Как ощущалось в руках? Очень вам сочувствуем. Эмоциональный стресс, алкоголь и перелеты запросто могут спровоцировать приступ паники. Давайте переключимся с эмоций на физические ощущения. Будем действовать в три этапа.\n\nЧто чувствуют ваши стопы? Назовите три прилагательных, которые описывают эти ощущения. Им жарко или нет? Поверхность под ними шершавая или гладкая?\n\nПотрогайте свою одежду или ближайшую к вам ткань. Опишите ее пятью словами. Это хлопок или синтетика? Она мягкая или колется?\n\nВспомните свою любимую игрушку из детства. Опишите каждую ее десятью словами. Что это было? Из какого материала? Как ощущалось в руках?"
+                                    },
+                                    {
+                                        "type": "hbox",
+                                        "height": 24,
+                                        "margin": {
+                                            "left": 16,
+                                            "right": 16
+                                        },
+                                        "items": [
+                                            {
+                                                "type": "image",
+                                                "image": {
+                                                    "uploadcare_id": "e0a0ca5a-0c13-47bc-91c4-ee56ed3523db",
+                                                    "width": 24,
+                                                    "height": 24
+                                                },
+                                                "action": {
+                                                    "type": "alert",
+                                                    "title": "TODO: Не готово",
+                                                    "message": "TODO: Здесь будет обработка like",
+                                                    "analytics_event": {
+                                                        "name": "Message_Shared",
+                                                        "params": {
+                                                            "user_id": 141387,
+                                                            "message_slug": "365_facts",
+                                                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                                                            "timestamp": 1526860800000,
+                                                            "category": "debug"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "image",
+                                                "margin": {
+                                                    "left": 24
+                                                },
+                                                "image": {
+                                                    "uploadcare_id": "cdb89c23-c27b-43e9-a355-a24ebbe4467a",
+                                                    "width": 24,
+                                                    "height": 24
+                                                },
+                                                "action": {
+                                                    "type": "alert",
+                                                    "title": "TODO: Не готово",
+                                                    "message": "TODO: Здесь будет обработка share",
+                                                    "analytics_event": {
+                                                        "name": "Message_Loved",
+                                                        "params": {
+                                                            "user_id": 141387,
+                                                            "message_slug": "365_facts",
+                                                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                                                            "timestamp": 1526860800000,
+                                                            "category": "debug"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "spacer",
+                                                "weight": 1
+                                            },
+                                            {
+                                                "type": "button",
+                                                "text": "Исследование",
+                                                "action": {
+                                                    "type": "redirect",
+                                                    "url": "https://www.ncbi.nlm.nih.gov/pubmed/18155678",
+                                                    "analytics_event": {
+                                                        "name": "Message_Opened",
+                                                        "params": {
+                                                            "user_id": 141387,
+                                                            "message_slug": "365_facts",
+                                                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                                                            "timestamp": 1526860800000,
+                                                            "category": "debug"
+                                                        }
+                                                    }
+                                                },
+                                                "all_caps": false,
+                                                "height": 22,
+                                                "text_color": "white_2_30",
+                                                "font_name": "Steinbeck-Regular",
+                                                "text_size": 13,
+                                                "line_height": 18,
+                                                "letter_spacing": 0.05,
+                                                "gravity": "center"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
                     }
-                ]
+                ],
+                "details": "Исследование",
+                "details_color": "productivity_1",
+                "details_button": {
+                    "type": "redirect",
+                    "url": "https://www.ncbi.nlm.nih.gov/pubmed/18155678",
+                    "analytics_event": {
+                        "name": "Message_Opened",
+                        "params": {
+                            "user_id": 141387,
+                            "message_slug": "365_facts",
+                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                            "timestamp": 1526860800000,
+                            "category": "debug"
+                        }
+                    }
+                },
+                "share_button": {
+                    "type": "alert",
+                    "title": "TODO: Не готово",
+                    "message": "TODO: Здесь будет обработка share",
+                    "analytics_event": {
+                        "name": "Message_Loved",
+                        "params": {
+                            "user_id": 141387,
+                            "message_slug": "365_facts",
+                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                            "timestamp": 1526860800000,
+                            "category": "debug"
+                        }
+                    }
+                },
+                "like_button": {
+                    "type": "alert",
+                    "title": "TODO: Не готово",
+                    "message": "TODO: Здесь будет обработка like",
+                    "analytics_event": {
+                        "name": "Message_Shared",
+                        "params": {
+                            "user_id": 141387,
+                            "message_slug": "365_facts",
+                            "operation_id": "335e9b96-481c-11ea-926f-0242ac170003",
+                            "timestamp": 1526860800000,
+                            "category": "debug"
+                        }
+                    }
+                }
             }
-
-
         ]
     },
     "success": true

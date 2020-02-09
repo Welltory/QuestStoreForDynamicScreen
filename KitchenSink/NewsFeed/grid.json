@@ -1,0 +1,138 @@
+{
+    "result": {
+      "title": "Basic Progress Bar",
+      "content": [
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "grid",
+              "columns_count": 3,
+              "items": [
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Duration"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "6 h 45 min"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Disrapted times"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns_count": 3,
+              "items": [
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Duration"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "6 h 45 min"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Disrapted times"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "vbox",
+                  "weight": 1,
+                  "items": [
+                    {
+                      "type": "text.caption_grey_6_40",
+                      "text": "Average HR"
+                    },
+                    {
+                      "type": "text.subhead_white",
+                      "text": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }

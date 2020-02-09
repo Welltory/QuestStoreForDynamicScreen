@@ -17,12 +17,13 @@
                         "title": "AVG SLEEP",
                         "text": "7 h 12 min",
                         "image": {
-                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
-                            "width": 18,
-                            "height": 15
+                            "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
+                            "width": 12,
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
-                        "trend": 24,
-                        "trend_type": "positive",
                         "gravity": "start"
                     },
                     {
@@ -30,9 +31,12 @@
                         "title": "AVG SLEEP",
                         "text": "7 h 12 min",
                         "image": {
-                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
-                            "width": 18,
-                            "height": 15
+                            "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
+                            "width": 12,
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "center"
                     },
@@ -50,31 +54,41 @@
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
+                        "title_style": "body_white",
                         "text": "7 h 12 min",
+                        "text_style": "newsfeed_title_white",
                         "image": {
-                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
-                            "width": 18,
-                            "height": 15
+                            "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
+                            "width": 12,
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
-                        "trend": 24,
-                        "trend_type": "positive",
                         "gravity": "start"
                     },
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
+                        "title_style": "body_white",
                         "text": "7 h 12 min",
+                        "text_style": "newsfeed_title_white",
                         "image": {
-                            "uploadcare_id": "0327c361-c2ee-4f0f-8552-7c9edd05a82d",
-                            "width": 18,
-                            "height": 15
+                            "uploadcare_id": "c77205ed-bc16-46de-b678-b4e75b73d296",
+                            "width": 12,
+                            "height": 10,
+                            "margin": {
+                                "top": 2
+                            }
                         },
                         "gravity": "center"
                     },
                     {
                         "type": "counter_basic",
                         "title": "AVG SLEEP",
+                        "title_style": "body_white",
                         "text": "7 h 12 min",
+                        "text_style": "newsfeed_title_white",
                         "gravity": "end"
                     }
                 ]
