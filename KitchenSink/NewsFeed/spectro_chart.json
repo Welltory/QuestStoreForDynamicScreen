@@ -3409,6 +3409,76 @@
                   ]
                 }
             ]
+          },
+          {
+              "height": 250,
+              "type": "chart",
+              "grid": {
+                  "show_x": false,
+                  "show_y": true
+              },
+              "label": {
+                  "show_x": false,
+                  "show_y": true
+              },
+              "pin": {
+                  "show_type": "hide",
+                  "additional_info": {
+                    "format_type": "date"
+                  }
+              },
+              "flows": [
+                  {
+                      "flow_type": "primary",
+                      "chart_type": "line",
+                      "show_circles": false,
+                      "order": 100,
+                      "stroke_flow": {
+                          "title": "Meditation",
+                          "color": "awake"
+                      },
+                      "line_flow": {
+                          "curve_type": "quadratic",
+                          "dash_type": "basic",
+                          "interval_type": "basic"
+                      },
+                      "data": [
+                          {
+                              "y_value": 150,
+                              "x_date": "2019-11-12T09:00:00 +0000"
+                          },
+                          {
+                              "y_value": 151,
+                              "x_date": "2019-11-12T09:15:00 +0000"
+                          }
+                      ]
+                  },
+                  {
+                      "flow_type": "primary",
+                      "chart_type": "line",
+                      "show_circles": false,
+                      "order": 100,
+                      "stroke_flow": {
+                          "title": "Meditation",
+                          "color": "brand"
+                      },
+                      "line_flow": {
+                          "curve_type": "quadratic",
+                          "dash_type": "basic",
+                          "interval_type": "basic"
+                      },
+                      "data": [
+                          {
+                              "y_value": 150,
+                              "x_date": "2019-11-12T09:00:00 +0000"
+                          },
+                          {
+                              "y_value": 150,
+                              "x_date": "2019-11-12T09:15:00 +0000"
+                          }
+                      ]
+                  }
+              ]
           }
         ]
       }
