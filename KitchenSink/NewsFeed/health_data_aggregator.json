@@ -1,0 +1,24 @@
+{
+    "result": {
+        "title": "NewsFeed Emphasize",
+        "class": "newsfeed",
+        "content": [
+            {
+                "type": "spacer",
+                "height": 5
+            },
+    		{
+    			"type": "health_data_aggregator",
+    			"source_id": "apple_health",
+    			"text_connect": "Connect Apple Health",
+    			"text_disconnect": "Disconnet Apple Health"
+            },
+    		{
+    			"type": "health_data_aggregator",
+    			"source_id": "withings",
+    			"text_connect": "Connect Withings",
+    			"text_disconnect": "Disconnet Withings"
+    		}
+        ]
+    }
+}
