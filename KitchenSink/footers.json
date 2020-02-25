@@ -25,7 +25,7 @@
                             {
                                 "type": "text",
                                 "text": "Footer text",
-                                "style": "text_title",
+                                "style": "basic_title",
                                 "margin": {
                                     "top": 40,
                                     "bottom": 20
@@ -60,7 +60,7 @@
                             {
                                 "type": "text",
                                 "text": "Footer text",
-                                "style": "text_title",
+                                "style": "basic_title",
                                 "margin": {
                                     "top": 40,
                                     "bottom": 20

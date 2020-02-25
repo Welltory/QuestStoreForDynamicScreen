@@ -4,7 +4,7 @@
       {
         "type": "text",
         "text": "Input Text",
-        "style": "text_title",
+        "style": "basic_title",
         "margin": {
           "top": 40,
           "bottom": 20

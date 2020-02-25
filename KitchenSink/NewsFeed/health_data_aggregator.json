@@ -11,13 +11,17 @@
     			"type": "health_data_aggregator",
     			"source_id": "apple_health",
     			"text_connect": "Connect Apple Health",
-    			"text_disconnect": "Disconnet Apple Health"
+    			"text_connecting": "Connecting Apple Health",
+    			"text_disconnect": "Disconnet Apple Health",
+    			"text_disconnecting": "Disconneting Apple Health"
             },
     		{
     			"type": "health_data_aggregator",
     			"source_id": "withings",
     			"text_connect": "Connect Withings",
-    			"text_disconnect": "Disconnet Withings"
+    			"text_connecting": "Connecting Withings",
+    			"text_disconnect": "Disconnet Withings",
+    			"text_disconnecting": "Disconneting Apple Health"
     		}
         ]
     }
