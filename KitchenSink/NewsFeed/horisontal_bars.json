@@ -25,7 +25,8 @@
                 {
                   "title": "Cardio",
                   "value": 35,
-                  "color": "#EFDD36"
+                  "color": "#EFDD36",
+                  "value_text": "35, Wow! Looks pretty good!"
                 },
                 {
                   "title": "Fat burn",
