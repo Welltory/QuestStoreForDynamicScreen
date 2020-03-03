@@ -36,7 +36,7 @@
                 "contents_gravity": "end",
                 "items": [
                   {
-                    "type": "bpbox",
+                    "type": "hbox",
                     "id": "1ca0ab3e-5c18-11ea-80ea-85c210a35b46_table",
                     "margin": {
                       "left": 16,
