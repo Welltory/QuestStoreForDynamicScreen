@@ -143,8 +143,8 @@
                                 }
                             },
                             {
-                                "text": "text_title",
-                                "style": "text_title",
+                                "text": "basic_title",
+                                "style": "basic_title",
                                 "type": "text",
                                 "margin": {
                                     "left": 12,

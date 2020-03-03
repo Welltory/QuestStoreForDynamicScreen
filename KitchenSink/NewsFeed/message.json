@@ -27,6 +27,14 @@
             "items": [
               {
                 "type": "boiler",
+                "onboarding": {
+                  "id": "boiler",
+                  "target_id": "boiler_details",
+                  "idle_time": 2000,
+                  "priority": 1,
+                  "text": "Подробнее о вашем состоянии и параметрах в “Details”",
+                  "text_position": "left"
+                },
                 "liquid_level": 25,
                 "boiling_level": 51,
                 "color_state": "red",
@@ -140,6 +148,9 @@
         "details": "Подробнее",
         "details_color": "white",
         "details_button": {
+          "onboarding": {
+            "id": "boiler_details"
+          },
           "type": "open",
           "variant": "transition",
           "transition_id": "17d7da1c-10d2-11ea-92b9-0242ac170002_table",
@@ -249,6 +260,14 @@
       },
       {
         "date": "2020-01-07T06:16:05",
+        "onboarding":{
+          "id":"histogram",
+          "target_id": "histogram_details",
+          "idle_time": 2000,
+          "text": "Подробнее о вашем состоянии и параметрах в “Details”",
+          "priority": 2,
+          "text_position": "left"
+        },
         "like_button": {},
         "title_style": "newsfeed_title_white",
         "details": "See what's off",
@@ -257,6 +276,9 @@
         "title": "Histogram",
         "type": "message",
         "details_button": {
+          "onboarding":{
+            "id":"histogram_details"
+          },
           "variant": "transition",
           "transition_id": "1836d554-3128-11ea-8259-a2c448683325_message_body",
           "type": "open",
@@ -370,6 +392,11 @@
           }
         ],
         "share_button": {}
+      },
+      {
+        "type": "spacer",
+        "id": "spacer",
+        "height": 200
       }
     ]
   },

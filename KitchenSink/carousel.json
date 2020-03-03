@@ -57,7 +57,7 @@
                 ],
                 "content": [
                   {
-                    "style": "text_title",
+                    "style": "basic_title",
                     "text": "OnboardingFree (no user)",
                     "type": "text",
                     "margin": {
@@ -279,7 +279,7 @@
                       "top": 7,
                       "bottom": 0
                     },
-                    "style": "text_title",
+                    "style": "basic_title",
                     "text": "Make yourself happier in 2 weeks",
                     "type": "text"
                   },
@@ -440,7 +440,7 @@
                       "top": 7,
                       "bottom": 0
                     },
-                    "style": "text_title",
+                    "style": "basic_title",
                     "text": "Make yourself happier in 2 weeks",
                     "type": "text"
                   },
