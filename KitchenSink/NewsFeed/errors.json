@@ -1,52 +1,54 @@
 {
-    "class": "newsfeed",
-    "content": [
-        {
-            "id": 123
-        },
-        {
-            "type": "hbox",
-            "height": 30,
-            "items": [
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                }       
-            ]
-        },
-        {
-            "type": "hbox",
-            "items": [
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                }       
-            ]
-        },
-        {
-            "type": "hbox",
-            "height": 200,
-            "items": [
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                },
-                {
-                    "id": 123
-                }       
-            ]
-        }
-    ]
+    "result": {
+        "class": "newsfeed",
+        "content": [
+            {
+                "id": 123
+            },
+            {
+                "type": "hbox",
+                "height": 30,
+                "items": [
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    }
+                ]
+            },
+            {
+                "type": "hbox",
+                "items": [
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    }
+                ]
+            },
+            {
+                "type": "hbox",
+                "height": 200,
+                "items": [
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    },
+                    {
+                        "id": 123
+                    }
+                ]
+            }
+        ]
+    }
 }

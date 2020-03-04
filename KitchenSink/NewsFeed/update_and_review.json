@@ -1,58 +1,60 @@
 {
-    "class": "newsfeed",
-    "title": "NewsFeed Message",
-    "background_color": "#151A22",
-    "content": [
-        {
-            "type": "vbox",
-            "items": [
-                {
-                    "id": "text1",
-                    "type": "text.newsfeed_title",
-                    "text_color": "#ffffff",
-                    "text_alignment": "center",
-                    "text": "Нравиться узнавать о себе новое?"
-                },
-                {
-                    "id": "button1",
-                    "type": "button.32_button_welltory",
-                    "text": "да, еще как",
-                    "action": {
-                        "type": "update",
-                        "update": {
-                            "text1": {
-                                "id": "text1",
-                                "type": "text.newsfeed_title",
-                                "text_color": "#ffffff",
-                                "text_alignment": "center",
-                                "text": "Расскажи нам что тебе понравилось"
-                            },
-                            "button1": {
-                                "id": "button1",
-                                "type": "button.32_button_welltory",
-                                "text": "оценить приложение",
-                                "action": {
-                                    "type": "review"
+    "result": {
+        "class": "newsfeed",
+        "title": "NewsFeed Message",
+        "background_color": "#151A22",
+        "content": [
+            {
+                "type": "vbox",
+                "items": [
+                    {
+                        "id": "text1",
+                        "type": "text.newsfeed_title",
+                        "text_color": "#ffffff",
+                        "text_alignment": "center",
+                        "text": "Нравиться узнавать о себе новое?"
+                    },
+                    {
+                        "id": "button1",
+                        "type": "button.32_button_welltory",
+                        "text": "да, еще как",
+                        "action": {
+                            "type": "update",
+                            "update": {
+                                "text1": {
+                                    "id": "text1",
+                                    "type": "text.newsfeed_title",
+                                    "text_color": "#ffffff",
+                                    "text_alignment": "center",
+                                    "text": "Расскажи нам что тебе понравилось"
+                                },
+                                "button1": {
+                                    "id": "button1",
+                                    "type": "button.32_button_welltory",
+                                    "text": "оценить приложение",
+                                    "action": {
+                                        "type": "review"
+                                    }
                                 }
                             }
                         }
                     }
-                }
-            ],
-            "spacing": 16,
-            "margin": {
-                "top":16,
-                "left": 16,
-                "right": 16,
-                "bottom": 16
-            },
-            "padding": {
-                "top":16,
-                "left": 16,
-                "right": 16,
-                "bottom": 16
-            },
-            "background_color": "meditation"
-        }
-    ]
+                ],
+                "spacing": 16,
+                "margin": {
+                    "top": 16,
+                    "left": 16,
+                    "right": 16,
+                    "bottom": 16
+                },
+                "padding": {
+                    "top": 16,
+                    "left": 16,
+                    "right": 16,
+                    "bottom": 16
+                },
+                "background_color": "meditation"
+            }
+        ]
+    }
 }
