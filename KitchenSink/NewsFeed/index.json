@@ -679,7 +679,7 @@
         "action": {
           "type": "open",
           "variant": "push",
-          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/brsmall.json"
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/text_tags.json"
         }
       }
     ]
