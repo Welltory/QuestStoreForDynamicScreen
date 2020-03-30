@@ -1,0 +1,156 @@
+{
+  "result": {
+    "title": "Basic Progress Bar",
+    "content": [
+      {
+        "type": "message",
+        "date": "2020-03-02T08:00:59",
+        "id": "1ca0ab3e-5c18-11ea-80ea-85c210a35b46",
+        "title": "measurement result",
+        "title_style": "body_grey_6_40",
+        "decorator": {},
+        "time_style": "body_grey_6_40",
+        "spacing": 0,
+        "items": [
+          {
+            "type": "dbox",
+            "margin": {
+              "top": 8,
+              "left": -16,
+              "right": -16,
+              "bottom": 30
+            },
+            "items": [
+              {
+                "type": "boiler",
+                "liquid_level": 90,
+                "boiling_level": 48,
+                "color_state": "green",
+                "particle_consumption": 1,
+                "gravity": "center"
+              },
+              {
+                "type": "hbox",
+                "ratio": 100,
+                "id": "1ca0ab3e-5c18-11ea-80ea-85c210a35b46_table1",
+                "contents_gravity": "end",
+                "items": [
+                  {
+                    "type": "hbox",
+                    "id": "1ca0ab3e-5c18-11ea-80ea-85c210a35b46_table",
+                    "margin": {
+                      "left": 16,
+                      "bottom": 16,
+                      "right": 16
+                    },
+                    "items": [
+                      {
+                        "type": "bpbox",
+                        "specialItemWidth": 116,
+                        "marginWidth": 32,
+                        "paramsCount": 3,
+                        "isSpecialItem": true,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "69%"
+                          },
+                          {
+                            "type": "text.body_white",
+                            "text": "Productivity",
+                            "margin": {
+                              "bottom": 4
+                            }
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>Not bad</em>"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bpbox",
+                        "specialItemWidth": 116,
+                        "marginWidth": 32,
+                        "paramsCount": 3,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "90%"
+                          },
+                          {
+                            "type": "text.body_white",
+                            "text": "Energy",
+                            "margin": {
+                              "bottom": 4
+                            }
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>High</em>"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bpbox",
+                        "specialItemWidth": 116,
+                        "marginWidth": 32,
+                        "paramsCount": 3,
+                        "items": [
+                          {
+                            "type": "text.welcome_header_white",
+                            "text": "48%"
+                          },
+                          {
+                            "type": "text.body_white",
+                            "text": "Stress",
+                            "margin": {
+                              "bottom": 4
+                            }
+                          },
+                          {
+                            "type": "text.body",
+                            "text": "<em color='green'>Normal</em>"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "hbox",
+                "contents_gravity": "start",
+                "margin": {
+                  "left": 16,
+                  "right": 16,
+                  "top": 16
+                },
+                "items": [
+                  {
+                    "type": "title.section_title_white",
+                    "text": "Tread lightly, you’re on thin ice"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "title.basic_title_white",
+            "text": "Key insights",
+            "margin": {
+              "bottom": 10
+            }
+          },
+          {
+            "type": "text.body_white",
+            "text": "Your heart rate variability is high and your heart rate is normal.<br/><br/>This means you’re under a healthy amount of stress that’s helping you stay alert. You have enough energy . You’re using and recovering energy at about the same rate. Your productivity looks alright."
+          }
+        ],
+        "draw_title_over_content": true
+      }
+    ],
+    "class": "newsfeed"
+  },
+  "success": true
+}
