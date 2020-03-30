@@ -12,8 +12,8 @@
               "top": 20
             },
             "type": "thin_progress",
-            "value": 0.85,
-            "left_label": "Correlation 85%"
+            "value": 1.85,
+            "left_label": "Correlation 185%"
           },
           {
             "margin": {
