@@ -668,7 +668,7 @@
         "items": [
           {
             "type": "text",
-            "text": "br, br_small",
+            "text": "br, br_small, Action destination_color",
             "height": 80,
             "margin": {
               "left": 20,
@@ -678,6 +678,7 @@
         ],
         "action": {
           "type": "open",
+          "destination_color": "#FF33FF33",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/text_tags.json"
         }
