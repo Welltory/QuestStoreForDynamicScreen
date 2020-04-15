@@ -48,6 +48,25 @@
                         "id": 123
                     }
                 ]
+            },
+            {
+                "type": "text.section_title_white",
+                "text": "Image with broken url"
+            },
+            {
+                "image": {
+                  "height": 32,
+                  "url": "https://ucarecdn.com/d9-d2117fbd13cb/",
+                  "width": 32,
+                  "uploadcare_id": "-9dd9-d2117fbd13cb"
+                },
+                "type": "image",
+                "margin": {
+                  "left": 18,
+                  "top": 18,
+                  "right": 10,
+                  "bottom": 0
+                }
             }
         ]
     }
