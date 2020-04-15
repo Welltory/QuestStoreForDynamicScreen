@@ -27,7 +27,31 @@
                     "top": 24,
                     "bottom": 12
                 }
-            }   
+            },
+            {
+                "type": "text",
+                "text": "1) String \"& &amp;amp; &amp;lt; <\" converted to \"& &amp; &lt; <\"",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text.capslock_title",
+                "text": "2) All caps shouldn't break anything: \"& &amp;amp; &amp;lt; <\" converted to \"& &amp; &lt; <\"",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            },
+            {
+                "type": "text.capslock_title",
+                "text": "3) HTML escaping shouldn't break anything: \"&amp;Eacute; É\" = \"&Eacute; É\"",
+                "margin": {
+                    "top": 24,
+                    "bottom": 12
+                }
+            }
         ]
     }
 }
