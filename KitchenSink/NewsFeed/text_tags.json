@@ -23,7 +23,7 @@
       {
         "type": "spacer",
         "background_color": "white",
-        "height":1
+        "height": 1
       },
       {
         "type": "text.subhead_white",
@@ -42,6 +42,33 @@
           "bottom": 16
         },
         "text": "Правительство РФ приняло решение ограничить доступ иностранцев в страну в связи с пандемией коронавируса.<br/><br/>Въезд гражданам других государств будет закрыт с 18 марта по 1 мая.<br/><br/>Ограничения не будут касаться дипломатов, членов экипажей самолетов, судов и поездов, а также транзитных авиапассажиров и иностранцев, которые имеют разрешение на проживание в России. Частные лица смогут приехать в РФ только на похороны близких родственников."
+      },
+      {
+        "type": "text.subhead_white",
+        "text": "URLS",
+        "margin": {
+          "top": 16,
+          "left": 16,
+          "right": 16
+        }
+      },
+      {
+        "margin": {
+          "top": 16,
+          "left": 16,
+          "right": 16
+        },
+        "type": "text.body_white",
+        "text": "Open google in webview <a href=\"https://google.com\">here</a>."
+      },
+      {
+        "margin": {
+          "left": 16,
+          "right": 16,
+          "bottom": 20
+        },
+        "type": "text.body_white",
+        "text": "Open google in external browser <a href=\"https://google.com?welltory-external=1\">here</a>."
       }
     ],
     "class": "newsfeed"
