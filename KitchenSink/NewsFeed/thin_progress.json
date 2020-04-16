@@ -70,7 +70,7 @@
         "type": "message",
         "items": [
           {
-            "type": "text.basic_title",
+            "type": "text.basic_title_white",
             "text": "Start: true"
           },
           {
