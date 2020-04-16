@@ -1,8 +1,46 @@
 {
   "result": {
     "background_color": "black",
-    "title": "Background Image",
+    "title": "Images",
     "content": [
+      {
+        "type": "hbox",
+        "items": [
+          {
+            "margin": {
+              "top": 10,
+              "right": 10,
+              "left": 10,
+              "bottom": 10
+            },
+            "type": "image",
+            "weight": 1,
+            "height": 200,
+            "image": {
+              "uploadcare_id": "88d666fc-0e7e-46ea-8b4b-53624baaaeed",
+              "width": 77,
+              "height": 115
+            }
+          },
+          {
+            "margin": {
+              "top": 10,
+              "right": 10,
+              "left": 10,
+              "bottom": 10
+            },
+            "type": "image",
+            "weight": 1,
+            "height": 200,
+            "image": {
+              "uploadcare_id": "88d666fc-0e7e-46ea-8b4b-53624baaaeed",
+              "width": 77,
+              "height": 115,
+              "filters": ["grayscale"]
+            }
+          }
+        ]
+      },
       {
         "type": "hbox",
         "items": [
@@ -25,7 +63,8 @@
             "background_image": {
               "uploadcare_id": "88d666fc-0e7e-46ea-8b4b-53624baaaeed",
               "width": 77,
-              "height": 115
+              "height": 115,
+              "filters": ["grayscale"]
             }
           },
           {
