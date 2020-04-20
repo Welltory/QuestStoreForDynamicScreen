@@ -592,7 +592,7 @@
         "items": [
           {
             "type": "text",
-            "text": "Health data aggregator",
+            "text": "Data source connector",
             "height": 80,
             "margin": {
               "left": 20,
@@ -603,7 +603,7 @@
         "action": {
           "type": "open",
           "variant": "push",
-          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/health_data_aggregator.json"
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/data_source_connector.json"
         }
       },
       {
