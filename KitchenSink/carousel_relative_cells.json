@@ -1,0 +1,1640 @@
+{
+  "content" : [
+    {
+      "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+      "share_button" : {
+        "locale" : "en_us",
+        "analytics_event" : {
+          "name" : "Message_Shared",
+          "params" : {
+            "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+            "category" : "data",
+            "environment_id" : 2,
+            "sub_type" : "local",
+            "message_code" : "02.05",
+            "channel" : "ch_data_149997",
+            "timestamp" : 1587978068000,
+            "user_id" : 149997,
+            "button" : "",
+            "title" : "Your heartbeat",
+            "has_detail" : false,
+            "message_slug" : "02.05_local_measurement",
+            "type" : "measurement",
+            "rule_id" : 21,
+            "operation_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+            "message_id" : 607
+          }
+        },
+        "message_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+        "type" : "share",
+        "text" : ""
+      },
+      "bordered" : true,
+      "padding" : {
+        "bottom" : 0
+      },
+      "time_style" : ".body_grey_6_40",
+      "title_style" : "newsfeed_title_brand",
+      "decorator" : {
+
+      },
+      "path" : "newsfeed",
+      "like_button" : {
+        "tap_animation" : {
+          "name" : "like_animation.json",
+          "width" : 55,
+          "height" : 55
+        },
+        "analytics_event" : {
+          "name" : "Message_Loved",
+          "params" : {
+            "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+            "category" : "data",
+            "environment_id" : 2,
+            "message_code" : "02.05",
+            "sub_type" : "local",
+            "channel" : "ch_data_149997",
+            "timestamp" : 1587978068000,
+            "user_id" : 149997,
+            "button" : "",
+            "title" : "Your heartbeat",
+            "has_detail" : false,
+            "message_slug" : "02.05_local_measurement",
+            "type" : "measurement",
+            "rule_id" : 21,
+            "operation_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+            "message_id" : 607
+          }
+        }
+      },
+      "title" : "Your heartbeat",
+      "date" : "2020-04-27T09:01:08",
+      "type" : "vbox",
+      "details_style" : ".details_button_white",
+      "items" : [
+        {
+          "path" : "newsfeed",
+          "background_color" : "white_3_15",
+          "type" : "spacer",
+          "height" : 1,
+          "margin" : {
+            "right" : -16,
+            "bottom" : 20,
+            "left" : -16
+          }
+        },
+        {
+          "path" : "newsfeed",
+          "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5_message_body",
+          "items" : [
+            {
+              "path" : "newsfeed vbox",
+              "padding" : {
+                "left" : 0,
+                "top" : 0,
+                "right" : 0,
+                "bottom" : 8
+              },
+              "type" : "hbox",
+              "items" : [
+                {
+                  "path" : "newsfeed vbox hbox",
+                  "items" : [
+                    {
+                      "font_name" : "Steinbeck-Regular",
+                      "text_alignment" : "left",
+                      "text_size" : 27,
+                      "gravity" : "start",
+                      "letter_spacing" : 0.02,
+                      "line_height" : 32,
+                      "text" : "Your heartbeat",
+                      "path" : "newsfeed vbox hbox vbox",
+                      "type" : "text",
+                      "text_color" : "brand"
+                    }
+                  ],
+                  "type" : "vbox",
+                  "weight" : 1
+                },
+                {
+                  "share_info" : {
+                    "is_hidden" : true
+                  },
+                  "text_alignment" : "right",
+                  "path" : "newsfeed vbox hbox",
+                  "type" : "text",
+                  "margin" : {
+                    "top" : 6,
+                    "left" : 4
+                  },
+                  "gravity" : "start",
+                  "text" : "14:01",
+                  "text_size" : 15,
+                  "line_height" : 20,
+                  "letter_spacing" : 0.01,
+                  "font_name" : "Steinbeck-Regular",
+                  "text_color" : "grey_6_40"
+                }
+              ]
+            },
+            {
+              "path" : "newsfeed vbox",
+              "items" : [
+                {
+                  "type" : "hbox",
+                  "items" : [
+                    {
+                      "path" : "newsfeed vbox vbox hbox",
+                      "items" : [
+                        {
+                          "type" : "spacer",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "weight" : 1
+                        },
+                        {
+                          "margin" : {
+                            "bottom" : 2
+                          },
+                          "text_size" : 15,
+                          "font_name" : "Steinbeck-Regular",
+                          "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5_heartrate#title",
+                          "letter_spacing" : 0.01,
+                          "line_height" : 20,
+                          "text" : "Heart rate",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "type" : "text",
+                          "text_color" : "white"
+                        },
+                        {
+                          "font_name" : "Steinbeck-Regular",
+                          "text_size" : 27,
+                          "line_height" : 32,
+                          "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5_heartrate#value",
+                          "letter_spacing" : 0.02,
+                          "text" : "63",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "type" : "text",
+                          "text_color" : "white"
+                        },
+                        {
+                          "type" : "spacer",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "height" : 32
+                        },
+                        {
+                          "margin" : {
+                            "bottom" : 2
+                          },
+                          "text_size" : 15,
+                          "font_name" : "Steinbeck-Regular",
+                          "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5_heartbeats#title",
+                          "letter_spacing" : 0.01,
+                          "line_height" : 20,
+                          "text" : "Total beats",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "type" : "text",
+                          "text_color" : "white"
+                        },
+                        {
+                          "font_name" : "Steinbeck-Regular",
+                          "text_size" : 27,
+                          "line_height" : 32,
+                          "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5_heartbeats#value",
+                          "letter_spacing" : 0.02,
+                          "text" : "300 bpm",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "type" : "text",
+                          "text_color" : "white"
+                        },
+                        {
+                          "type" : "spacer",
+                          "path" : "newsfeed vbox vbox hbox vbox",
+                          "weight" : 1
+                        }
+                      ],
+                      "type" : "vbox",
+                      "width" : 110,
+                      "height" : 160
+                    },
+                    {
+                      "width" : 8,
+                      "type" : "spacer",
+                      "path" : "newsfeed vbox vbox hbox"
+                    },
+                    {
+                      "weight" : 1,
+                      "height" : 160,
+                      "theme" : {
+                        "type" : "black"
+                      },
+                      "grid" : {
+                        "show_y" : true,
+                        "show_x" : false
+                      },
+                      "label" : {
+                        "locale" : "en_us",
+                        "position_x" : "bottom",
+                        "show_x" : false,
+                        "show_y" : true
+                      },
+                      "arrangement" : {
+                        "type_x" : "edges"
+                      },
+                      "flows" : [
+                        {
+                          "order" : 100,
+                          "data" : [
+                            {
+                              "x_value" : 0,
+                              "y_value" : 1059
+                            },
+                            {
+                              "x_value" : 1,
+                              "y_value" : 1064
+                            },
+                            {
+                              "y_value" : 180,
+                              "x_value" : 2
+                            },
+                            {
+                              "x_value" : 3,
+                              "y_value" : 982
+                            },
+                            {
+                              "y_value" : 1123,
+                              "x_value" : 4
+                            },
+                            {
+                              "y_value" : 938,
+                              "x_value" : 5
+                            },
+                            {
+                              "x_value" : 6,
+                              "y_value" : 992
+                            },
+                            {
+                              "x_value" : 7,
+                              "y_value" : 1122
+                            },
+                            {
+                              "x_value" : 8,
+                              "y_value" : 992
+                            },
+                            {
+                              "y_value" : 900,
+                              "x_value" : 9
+                            },
+                            {
+                              "x_value" : 10,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 11,
+                              "y_value" : 1120
+                            },
+                            {
+                              "y_value" : 1036,
+                              "x_value" : 12
+                            },
+                            {
+                              "y_value" : 915,
+                              "x_value" : 13
+                            },
+                            {
+                              "y_value" : 1022,
+                              "x_value" : 14
+                            },
+                            {
+                              "x_value" : 15,
+                              "y_value" : 945
+                            },
+                            {
+                              "y_value" : 882,
+                              "x_value" : 16
+                            },
+                            {
+                              "x_value" : 17,
+                              "y_value" : 934
+                            },
+                            {
+                              "y_value" : 1060,
+                              "x_value" : 18
+                            },
+                            {
+                              "y_value" : 924,
+                              "x_value" : 19
+                            },
+                            {
+                              "y_value" : 854,
+                              "x_value" : 20
+                            },
+                            {
+                              "x_value" : 21,
+                              "y_value" : 928
+                            },
+                            {
+                              "y_value" : 827,
+                              "x_value" : 22
+                            },
+                            {
+                              "y_value" : 891,
+                              "x_value" : 23
+                            },
+                            {
+                              "x_value" : 24,
+                              "y_value" : 887
+                            },
+                            {
+                              "x_value" : 25,
+                              "y_value" : 856
+                            },
+                            {
+                              "x_value" : 26,
+                              "y_value" : 875
+                            },
+                            {
+                              "x_value" : 27,
+                              "y_value" : 879
+                            },
+                            {
+                              "x_value" : 28,
+                              "y_value" : 879
+                            },
+                            {
+                              "y_value" : 963,
+                              "x_value" : 29
+                            },
+                            {
+                              "x_value" : 30,
+                              "y_value" : 1016
+                            },
+                            {
+                              "y_value" : 890,
+                              "x_value" : 31
+                            },
+                            {
+                              "x_value" : 32,
+                              "y_value" : 971
+                            },
+                            {
+                              "y_value" : 1056,
+                              "x_value" : 33
+                            },
+                            {
+                              "y_value" : 916,
+                              "x_value" : 34
+                            },
+                            {
+                              "y_value" : 887,
+                              "x_value" : 35
+                            },
+                            {
+                              "x_value" : 36,
+                              "y_value" : 1033
+                            },
+                            {
+                              "y_value" : 1134,
+                              "x_value" : 37
+                            },
+                            {
+                              "y_value" : 940,
+                              "x_value" : 38
+                            },
+                            {
+                              "y_value" : 909,
+                              "x_value" : 39
+                            },
+                            {
+                              "y_value" : 1041,
+                              "x_value" : 40
+                            },
+                            {
+                              "y_value" : 1138,
+                              "x_value" : 41
+                            },
+                            {
+                              "x_value" : 42,
+                              "y_value" : 940
+                            },
+                            {
+                              "y_value" : 922,
+                              "x_value" : 43
+                            },
+                            {
+                              "x_value" : 44,
+                              "y_value" : 1038
+                            },
+                            {
+                              "x_value" : 45,
+                              "y_value" : 1076
+                            },
+                            {
+                              "x_value" : 46,
+                              "y_value" : 940
+                            },
+                            {
+                              "y_value" : 952,
+                              "x_value" : 47
+                            },
+                            {
+                              "y_value" : 1116,
+                              "x_value" : 48
+                            },
+                            {
+                              "x_value" : 49,
+                              "y_value" : 1129
+                            },
+                            {
+                              "y_value" : 991,
+                              "x_value" : 50
+                            },
+                            {
+                              "x_value" : 51,
+                              "y_value" : 1110
+                            },
+                            {
+                              "x_value" : 52,
+                              "y_value" : 1138
+                            },
+                            {
+                              "y_value" : 942,
+                              "x_value" : 53
+                            },
+                            {
+                              "x_value" : 54,
+                              "y_value" : 984
+                            },
+                            {
+                              "y_value" : 1127,
+                              "x_value" : 55
+                            },
+                            {
+                              "x_value" : 56,
+                              "y_value" : 1096
+                            },
+                            {
+                              "y_value" : 954,
+                              "x_value" : 57
+                            },
+                            {
+                              "x_value" : 58,
+                              "y_value" : 1101
+                            },
+                            {
+                              "y_value" : 1243,
+                              "x_value" : 59
+                            },
+                            {
+                              "y_value" : 1035,
+                              "x_value" : 60
+                            },
+                            {
+                              "x_value" : 61,
+                              "y_value" : 962
+                            },
+                            {
+                              "y_value" : 1084,
+                              "x_value" : 62
+                            },
+                            {
+                              "x_value" : 63,
+                              "y_value" : 1128
+                            },
+                            {
+                              "x_value" : 64,
+                              "y_value" : 987
+                            },
+                            {
+                              "x_value" : 65,
+                              "y_value" : 967
+                            },
+                            {
+                              "x_value" : 66,
+                              "y_value" : 1077
+                            },
+                            {
+                              "x_value" : 67,
+                              "y_value" : 1063
+                            },
+                            {
+                              "x_value" : 68,
+                              "y_value" : 917
+                            },
+                            {
+                              "y_value" : 948,
+                              "x_value" : 69
+                            },
+                            {
+                              "x_value" : 70,
+                              "y_value" : 1062
+                            },
+                            {
+                              "y_value" : 1027,
+                              "x_value" : 71
+                            },
+                            {
+                              "x_value" : 72,
+                              "y_value" : 894
+                            },
+                            {
+                              "y_value" : 965,
+                              "x_value" : 73
+                            },
+                            {
+                              "y_value" : 1063,
+                              "x_value" : 74
+                            },
+                            {
+                              "y_value" : 1013,
+                              "x_value" : 75
+                            },
+                            {
+                              "x_value" : 76,
+                              "y_value" : 922
+                            },
+                            {
+                              "x_value" : 77,
+                              "y_value" : 998
+                            },
+                            {
+                              "y_value" : 1044,
+                              "x_value" : 78
+                            },
+                            {
+                              "y_value" : 894,
+                              "x_value" : 79
+                            },
+                            {
+                              "x_value" : 80,
+                              "y_value" : 937
+                            },
+                            {
+                              "x_value" : 81,
+                              "y_value" : 1054
+                            },
+                            {
+                              "x_value" : 82,
+                              "y_value" : 861
+                            },
+                            {
+                              "y_value" : 888,
+                              "x_value" : 83
+                            },
+                            {
+                              "x_value" : 84,
+                              "y_value" : 966
+                            },
+                            {
+                              "x_value" : 85,
+                              "y_value" : 925
+                            },
+                            {
+                              "y_value" : 888,
+                              "x_value" : 86
+                            },
+                            {
+                              "y_value" : 945,
+                              "x_value" : 87
+                            },
+                            {
+                              "y_value" : 1018,
+                              "x_value" : 88
+                            },
+                            {
+                              "y_value" : 888,
+                              "x_value" : 89
+                            },
+                            {
+                              "x_value" : 90,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 91,
+                              "y_value" : 1119
+                            },
+                            {
+                              "y_value" : 903,
+                              "x_value" : 92
+                            },
+                            {
+                              "x_value" : 93,
+                              "y_value" : 906
+                            },
+                            {
+                              "y_value" : 892,
+                              "x_value" : 94
+                            },
+                            {
+                              "y_value" : 875,
+                              "x_value" : 95
+                            },
+                            {
+                              "x_value" : 96,
+                              "y_value" : 812
+                            },
+                            {
+                              "x_value" : 97,
+                              "y_value" : 792
+                            },
+                            {
+                              "x_value" : 98,
+                              "y_value" : 786
+                            },
+                            {
+                              "x_value" : 99,
+                              "y_value" : 803
+                            },
+                            {
+                              "y_value" : 889,
+                              "x_value" : 100
+                            },
+                            {
+                              "y_value" : 858,
+                              "x_value" : 101
+                            },
+                            {
+                              "x_value" : 102,
+                              "y_value" : 935
+                            },
+                            {
+                              "x_value" : 103,
+                              "y_value" : 1010
+                            },
+                            {
+                              "y_value" : 1020,
+                              "x_value" : 104
+                            },
+                            {
+                              "x_value" : 105,
+                              "y_value" : 900
+                            },
+                            {
+                              "y_value" : 927,
+                              "x_value" : 106
+                            },
+                            {
+                              "x_value" : 107,
+                              "y_value" : 1021
+                            },
+                            {
+                              "x_value" : 108,
+                              "y_value" : 1069
+                            },
+                            {
+                              "y_value" : 928,
+                              "x_value" : 109
+                            },
+                            {
+                              "x_value" : 110,
+                              "y_value" : 917
+                            },
+                            {
+                              "y_value" : 1026,
+                              "x_value" : 111
+                            },
+                            {
+                              "x_value" : 112,
+                              "y_value" : 1133
+                            },
+                            {
+                              "x_value" : 113,
+                              "y_value" : 990
+                            },
+                            {
+                              "y_value" : 917,
+                              "x_value" : 114
+                            },
+                            {
+                              "x_value" : 115,
+                              "y_value" : 982
+                            },
+                            {
+                              "x_value" : 116,
+                              "y_value" : 1114
+                            },
+                            {
+                              "y_value" : 1001,
+                              "x_value" : 117
+                            },
+                            {
+                              "x_value" : 118,
+                              "y_value" : 889
+                            },
+                            {
+                              "y_value" : 1004,
+                              "x_value" : 119
+                            },
+                            {
+                              "y_value" : 1115,
+                              "x_value" : 120
+                            },
+                            {
+                              "y_value" : 1181,
+                              "x_value" : 121
+                            },
+                            {
+                              "x_value" : 122,
+                              "y_value" : 977
+                            },
+                            {
+                              "x_value" : 123,
+                              "y_value" : 1024
+                            },
+                            {
+                              "x_value" : 124,
+                              "y_value" : 1110
+                            },
+                            {
+                              "y_value" : 979,
+                              "x_value" : 125
+                            },
+                            {
+                              "x_value" : 126,
+                              "y_value" : 956
+                            },
+                            {
+                              "y_value" : 1075,
+                              "x_value" : 127
+                            },
+                            {
+                              "y_value" : 1149,
+                              "x_value" : 128
+                            },
+                            {
+                              "x_value" : 129,
+                              "y_value" : 990
+                            },
+                            {
+                              "y_value" : 1018,
+                              "x_value" : 130
+                            },
+                            {
+                              "x_value" : 131,
+                              "y_value" : 1124
+                            },
+                            {
+                              "x_value" : 132,
+                              "y_value" : 1004
+                            },
+                            {
+                              "y_value" : 950,
+                              "x_value" : 133
+                            },
+                            {
+                              "x_value" : 134,
+                              "y_value" : 1041
+                            },
+                            {
+                              "x_value" : 135,
+                              "y_value" : 1125
+                            },
+                            {
+                              "x_value" : 136,
+                              "y_value" : 942
+                            },
+                            {
+                              "x_value" : 137,
+                              "y_value" : 973
+                            },
+                            {
+                              "y_value" : 1001,
+                              "x_value" : 138
+                            },
+                            {
+                              "x_value" : 139,
+                              "y_value" : 960
+                            },
+                            {
+                              "y_value" : 1101,
+                              "x_value" : 140
+                            },
+                            {
+                              "y_value" : 1062,
+                              "x_value" : 141
+                            },
+                            {
+                              "x_value" : 142,
+                              "y_value" : 927
+                            },
+                            {
+                              "y_value" : 916,
+                              "x_value" : 143
+                            },
+                            {
+                              "x_value" : 144,
+                              "y_value" : 994
+                            },
+                            {
+                              "y_value" : 1038,
+                              "x_value" : 145
+                            },
+                            {
+                              "x_value" : 146,
+                              "y_value" : 928
+                            },
+                            {
+                              "x_value" : 147,
+                              "y_value" : 921
+                            },
+                            {
+                              "x_value" : 148,
+                              "y_value" : 1062
+                            },
+                            {
+                              "x_value" : 149,
+                              "y_value" : 1086
+                            },
+                            {
+                              "x_value" : 150,
+                              "y_value" : 984
+                            },
+                            {
+                              "x_value" : 151,
+                              "y_value" : 962
+                            },
+                            {
+                              "y_value" : 1078,
+                              "x_value" : 152
+                            },
+                            {
+                              "y_value" : 1142,
+                              "x_value" : 153
+                            },
+                            {
+                              "y_value" : 1000,
+                              "x_value" : 154
+                            },
+                            {
+                              "y_value" : 968,
+                              "x_value" : 155
+                            },
+                            {
+                              "y_value" : 1067,
+                              "x_value" : 156
+                            },
+                            {
+                              "x_value" : 157,
+                              "y_value" : 1091
+                            },
+                            {
+                              "y_value" : 950,
+                              "x_value" : 158
+                            },
+                            {
+                              "x_value" : 159,
+                              "y_value" : 954
+                            },
+                            {
+                              "y_value" : 1068,
+                              "x_value" : 160
+                            },
+                            {
+                              "y_value" : 1068,
+                              "x_value" : 161
+                            },
+                            {
+                              "x_value" : 162,
+                              "y_value" : 918
+                            },
+                            {
+                              "y_value" : 1118,
+                              "x_value" : 163
+                            },
+                            {
+                              "x_value" : 164,
+                              "y_value" : 1048
+                            },
+                            {
+                              "y_value" : 938,
+                              "x_value" : 165
+                            },
+                            {
+                              "x_value" : 166,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 167,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 168,
+                              "y_value" : 918
+                            },
+                            {
+                              "y_value" : 897,
+                              "x_value" : 169
+                            },
+                            {
+                              "y_value" : 1018,
+                              "x_value" : 170
+                            },
+                            {
+                              "y_value" : 1064,
+                              "x_value" : 171
+                            },
+                            {
+                              "x_value" : 172,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 173,
+                              "y_value" : 984
+                            },
+                            {
+                              "x_value" : 174,
+                              "y_value" : 1043
+                            },
+                            {
+                              "y_value" : 935,
+                              "x_value" : 175
+                            },
+                            {
+                              "x_value" : 176,
+                              "y_value" : 906
+                            },
+                            {
+                              "x_value" : 177,
+                              "y_value" : 986
+                            },
+                            {
+                              "x_value" : 178,
+                              "y_value" : 1091
+                            },
+                            {
+                              "x_value" : 179,
+                              "y_value" : 893
+                            },
+                            {
+                              "y_value" : 942,
+                              "x_value" : 180
+                            },
+                            {
+                              "x_value" : 181,
+                              "y_value" : 1012
+                            },
+                            {
+                              "y_value" : 906,
+                              "x_value" : 182
+                            },
+                            {
+                              "x_value" : 183,
+                              "y_value" : 823
+                            },
+                            {
+                              "x_value" : 184,
+                              "y_value" : 875
+                            },
+                            {
+                              "x_value" : 185,
+                              "y_value" : 805
+                            },
+                            {
+                              "y_value" : 871,
+                              "x_value" : 186
+                            },
+                            {
+                              "x_value" : 187,
+                              "y_value" : 968
+                            },
+                            {
+                              "x_value" : 188,
+                              "y_value" : 919
+                            },
+                            {
+                              "y_value" : 918,
+                              "x_value" : 189
+                            },
+                            {
+                              "x_value" : 190,
+                              "y_value" : 903
+                            },
+                            {
+                              "y_value" : 997,
+                              "x_value" : 191
+                            },
+                            {
+                              "y_value" : 987,
+                              "x_value" : 192
+                            },
+                            {
+                              "y_value" : 921,
+                              "x_value" : 193
+                            },
+                            {
+                              "y_value" : 933,
+                              "x_value" : 194
+                            },
+                            {
+                              "y_value" : 1030,
+                              "x_value" : 195
+                            },
+                            {
+                              "x_value" : 196,
+                              "y_value" : 986
+                            },
+                            {
+                              "x_value" : 197,
+                              "y_value" : 954
+                            },
+                            {
+                              "x_value" : 198,
+                              "y_value" : 1073
+                            },
+                            {
+                              "x_value" : 199,
+                              "y_value" : 912
+                            },
+                            {
+                              "x_value" : 200,
+                              "y_value" : 988
+                            },
+                            {
+                              "x_value" : 201,
+                              "y_value" : 1124
+                            },
+                            {
+                              "y_value" : 1124,
+                              "x_value" : 202
+                            },
+                            {
+                              "y_value" : 988,
+                              "x_value" : 203
+                            },
+                            {
+                              "x_value" : 204,
+                              "y_value" : 923
+                            },
+                            {
+                              "y_value" : 1059,
+                              "x_value" : 205
+                            },
+                            {
+                              "y_value" : 1064,
+                              "x_value" : 206
+                            },
+                            {
+                              "y_value" : 180,
+                              "x_value" : 207
+                            },
+                            {
+                              "x_value" : 208,
+                              "y_value" : 982
+                            },
+                            {
+                              "x_value" : 209,
+                              "y_value" : 1123
+                            },
+                            {
+                              "x_value" : 210,
+                              "y_value" : 1161
+                            },
+                            {
+                              "x_value" : 211,
+                              "y_value" : 938
+                            },
+                            {
+                              "x_value" : 212,
+                              "y_value" : 992
+                            },
+                            {
+                              "x_value" : 213,
+                              "y_value" : 1122
+                            },
+                            {
+                              "y_value" : 992,
+                              "x_value" : 214
+                            },
+                            {
+                              "x_value" : 215,
+                              "y_value" : 900
+                            },
+                            {
+                              "x_value" : 216,
+                              "y_value" : 969
+                            },
+                            {
+                              "x_value" : 217,
+                              "y_value" : 1120
+                            },
+                            {
+                              "x_value" : 218,
+                              "y_value" : 1036
+                            },
+                            {
+                              "x_value" : 219,
+                              "y_value" : 915
+                            },
+                            {
+                              "y_value" : 1022,
+                              "x_value" : 220
+                            },
+                            {
+                              "x_value" : 221,
+                              "y_value" : 1069
+                            },
+                            {
+                              "x_value" : 222,
+                              "y_value" : 945
+                            },
+                            {
+                              "y_value" : 882,
+                              "x_value" : 223
+                            },
+                            {
+                              "y_value" : 934,
+                              "x_value" : 224
+                            },
+                            {
+                              "y_value" : 924,
+                              "x_value" : 225
+                            },
+                            {
+                              "y_value" : 854,
+                              "x_value" : 226
+                            },
+                            {
+                              "x_value" : 227,
+                              "y_value" : 906
+                            },
+                            {
+                              "y_value" : 928,
+                              "x_value" : 228
+                            },
+                            {
+                              "y_value" : 827,
+                              "x_value" : 229
+                            },
+                            {
+                              "x_value" : 230,
+                              "y_value" : 891
+                            },
+                            {
+                              "x_value" : 231,
+                              "y_value" : 887
+                            },
+                            {
+                              "x_value" : 232,
+                              "y_value" : 856
+                            },
+                            {
+                              "y_value" : 875,
+                              "x_value" : 233
+                            },
+                            {
+                              "y_value" : 879,
+                              "x_value" : 234
+                            },
+                            {
+                              "y_value" : 879,
+                              "x_value" : 235
+                            },
+                            {
+                              "y_value" : 963,
+                              "x_value" : 236
+                            },
+                            {
+                              "y_value" : 1016,
+                              "x_value" : 237
+                            },
+                            {
+                              "x_value" : 238,
+                              "y_value" : 890
+                            },
+                            {
+                              "x_value" : 239,
+                              "y_value" : 889
+                            },
+                            {
+                              "y_value" : 971,
+                              "x_value" : 240
+                            },
+                            {
+                              "y_value" : 1056,
+                              "x_value" : 241
+                            },
+                            {
+                              "x_value" : 242,
+                              "y_value" : 916
+                            },
+                            {
+                              "y_value" : 887,
+                              "x_value" : 243
+                            },
+                            {
+                              "y_value" : 1033,
+                              "x_value" : 244
+                            },
+                            {
+                              "x_value" : 245,
+                              "y_value" : 1134
+                            },
+                            {
+                              "x_value" : 246,
+                              "y_value" : 940
+                            },
+                            {
+                              "y_value" : 909,
+                              "x_value" : 247
+                            },
+                            {
+                              "x_value" : 248,
+                              "y_value" : 1041
+                            },
+                            {
+                              "y_value" : 1138,
+                              "x_value" : 249
+                            },
+                            {
+                              "y_value" : 940,
+                              "x_value" : 250
+                            },
+                            {
+                              "x_value" : 251,
+                              "y_value" : 922
+                            },
+                            {
+                              "x_value" : 252,
+                              "y_value" : 1038
+                            },
+                            {
+                              "y_value" : 1076,
+                              "x_value" : 253
+                            },
+                            {
+                              "y_value" : 940,
+                              "x_value" : 254
+                            },
+                            {
+                              "y_value" : 952,
+                              "x_value" : 255
+                            },
+                            {
+                              "y_value" : 1002,
+                              "x_value" : 256
+                            },
+                            {
+                              "y_value" : 1116,
+                              "x_value" : 257
+                            },
+                            {
+                              "y_value" : 1129,
+                              "x_value" : 258
+                            },
+                            {
+                              "y_value" : 991,
+                              "x_value" : 259
+                            },
+                            {
+                              "y_value" : 1110,
+                              "x_value" : 260
+                            },
+                            {
+                              "y_value" : 1138,
+                              "x_value" : 261
+                            },
+                            {
+                              "y_value" : 942,
+                              "x_value" : 262
+                            },
+                            {
+                              "y_value" : 984,
+                              "x_value" : 263
+                            },
+                            {
+                              "y_value" : 1127,
+                              "x_value" : 264
+                            },
+                            {
+                              "x_value" : 265,
+                              "y_value" : 1096
+                            },
+                            {
+                              "y_value" : 954,
+                              "x_value" : 266
+                            },
+                            {
+                              "y_value" : 1101,
+                              "x_value" : 267
+                            },
+                            {
+                              "x_value" : 268,
+                              "y_value" : 1243
+                            },
+                            {
+                              "x_value" : 269,
+                              "y_value" : 1035
+                            },
+                            {
+                              "x_value" : 270,
+                              "y_value" : 962
+                            },
+                            {
+                              "x_value" : 271,
+                              "y_value" : 1084
+                            },
+                            {
+                              "x_value" : 272,
+                              "y_value" : 1128
+                            },
+                            {
+                              "x_value" : 273,
+                              "y_value" : 987
+                            },
+                            {
+                              "x_value" : 274,
+                              "y_value" : 967
+                            },
+                            {
+                              "x_value" : 275,
+                              "y_value" : 1077
+                            },
+                            {
+                              "y_value" : 1063,
+                              "x_value" : 276
+                            },
+                            {
+                              "y_value" : 917,
+                              "x_value" : 277
+                            },
+                            {
+                              "y_value" : 948,
+                              "x_value" : 278
+                            },
+                            {
+                              "y_value" : 1062,
+                              "x_value" : 279
+                            },
+                            {
+                              "x_value" : 280,
+                              "y_value" : 1027
+                            },
+                            {
+                              "x_value" : 281,
+                              "y_value" : 894
+                            },
+                            {
+                              "y_value" : 965,
+                              "x_value" : 282
+                            },
+                            {
+                              "y_value" : 1063,
+                              "x_value" : 283
+                            },
+                            {
+                              "x_value" : 284,
+                              "y_value" : 1013
+                            },
+                            {
+                              "y_value" : 922,
+                              "x_value" : 285
+                            },
+                            {
+                              "y_value" : 998,
+                              "x_value" : 286
+                            },
+                            {
+                              "y_value" : 1044,
+                              "x_value" : 287
+                            },
+                            {
+                              "y_value" : 894,
+                              "x_value" : 288
+                            },
+                            {
+                              "y_value" : 937,
+                              "x_value" : 289
+                            },
+                            {
+                              "x_value" : 290,
+                              "y_value" : 1054
+                            },
+                            {
+                              "y_value" : 988,
+                              "x_value" : 291
+                            },
+                            {
+                              "x_value" : 292,
+                              "y_value" : 861
+                            },
+                            {
+                              "x_value" : 293,
+                              "y_value" : 888
+                            },
+                            {
+                              "x_value" : 294,
+                              "y_value" : 966
+                            },
+                            {
+                              "x_value" : 295,
+                              "y_value" : 1080
+                            },
+                            {
+                              "x_value" : 296,
+                              "y_value" : 925
+                            },
+                            {
+                              "y_value" : 888,
+                              "x_value" : 297
+                            },
+                            {
+                              "y_value" : 945,
+                              "x_value" : 298
+                            },
+                            {
+                              "x_value" : 299,
+                              "y_value" : 1018
+                            }
+                          ],
+                          "flow_type" : "primary",
+                          "line_flow" : {
+                            "curve_type" : "linear",
+                            "interval_type" : "basic",
+                            "dash_type" : "basic"
+                          },
+                          "show_circles" : false,
+                          "entry_info" : {
+                            "format_type" : "value"
+                          },
+                          "chart_type" : "line",
+                          "stroke_flow" : {
+                            "color" : "brand",
+                            "title" : "Measurement",
+                            "gradient_change_type" : "cutting",
+                            "direction" : "vertical"
+                          }
+                        }
+                      ],
+                      "type" : "chart",
+                      "path" : "newsfeed vbox vbox hbox"
+                    }
+                  ],
+                  "path" : "newsfeed vbox vbox"
+                }
+              ],
+              "type" : "vbox",
+              "margin" : {
+                "right" : 0,
+                "left" : 0
+              },
+              "spacing" : 0
+            }
+          ],
+          "type" : "vbox"
+        },
+        {
+          "items" : [
+            {
+              "path" : "newsfeed hbox",
+              "type" : "image",
+              "image" : {
+                "width" : 24,
+                "height" : 24,
+                "uploadcare_id" : "d9209430-983b-495f-b4b4-9914fa226a39"
+              },
+              "action" : {
+                "tap_animation" : {
+                  "name" : "like_animation.json",
+                  "width" : 55,
+                  "height" : 55
+                },
+                "analytics_event" : {
+                  "name" : "Message_Loved",
+                  "params" : {
+                    "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+                    "category" : "data",
+                    "environment_id" : 2,
+                    "message_code" : "02.05",
+                    "sub_type" : "local",
+                    "channel" : "ch_data_149997",
+                    "timestamp" : 1587978068000,
+                    "user_id" : 149997,
+                    "button" : "",
+                    "title" : "Your heartbeat",
+                    "has_detail" : false,
+                    "message_slug" : "02.05_local_measurement",
+                    "type" : "measurement",
+                    "rule_id" : 21,
+                    "operation_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+                    "message_id" : 607
+                  }
+                }
+              }
+            },
+            {
+              "action" : {
+                "locale" : "en_us",
+                "analytics_event" : {
+                  "name" : "Message_Shared",
+                  "params" : {
+                    "id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+                    "category" : "data",
+                    "environment_id" : 2,
+                    "sub_type" : "local",
+                    "message_code" : "02.05",
+                    "channel" : "ch_data_149997",
+                    "timestamp" : 1587978068000,
+                    "user_id" : 149997,
+                    "button" : "",
+                    "title" : "Your heartbeat",
+                    "has_detail" : false,
+                    "message_slug" : "02.05_local_measurement",
+                    "type" : "measurement",
+                    "rule_id" : 21,
+                    "operation_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+                    "message_id" : 607
+                  }
+                },
+                "message_id" : "134ae7be-8865-11ea-9d33-c430f23a3ea5",
+                "type" : "share",
+                "text" : ""
+              },
+              "path" : "newsfeed hbox",
+              "type" : "image",
+              "margin" : {
+                "left" : 24
+              },
+              "image" : {
+                "width" : 24,
+                "height" : 24,
+                "uploadcare_id" : "a5c3c048-390f-4451-9718-7d057b72b1dc"
+              }
+            }
+          ],
+          "path" : "newsfeed",
+          "share_info" : {
+            "is_hidden" : true
+          },
+          "type" : "hbox",
+          "margin" : {
+            "top" : 8,
+            "right" : 0,
+            "left" : 0
+          },
+          "height" : 24
+        },
+        {
+          "path" : "newsfeed",
+          "items" : [
+            {
+              "type" : "spacer",
+              "path" : "newsfeed hbox",
+              "weight" : 1
+            },
+            {
+              "path" : "newsfeed hbox",
+              "image" : {
+                "uploadcare_id" : "849c1028-4161-42fb-8f68-b80e11bc8780",
+                "width" : 13,
+                "url" : "https:\/\/ucarecdn.com\/849c1028-4161-42fb-8f68-b80e11bc8780\/",
+                "height" : 16
+              },
+              "margin" : {
+                "top" : -6,
+                "right" : 4
+              },
+              "type" : "image"
+            },
+            {
+              "line_height" : 16,
+              "text_color" : "white_2_30",
+              "text_size" : 12,
+              "text" : "Apple Watch measurement",
+              "path" : "newsfeed hbox",
+              "type" : "text",
+              "font_name" : "Steinbeck-Regular"
+            }
+          ],
+          "type" : "hbox",
+          "margin" : {
+            "top" : -16
+          }
+        },
+        {
+          "margin" : {
+            "top" : 20,
+            "right" : -16,
+            "left" : -16
+          },
+          "path" : "newsfeed",
+          "background_color" : "white_3_15",
+          "type" : "spacer",
+          "height" : 1,
+          "share_info" : {
+            "is_hidden" : true
+          }
+        }
+      ],
+      "margin" : {
+        "right" : 16,
+        "left" : 16
+      },
+      "spacing" : 0
+    }
+  ],
+  "title" : "Newsfeed",
+  "class" : "newsfeed",
+  "background_color" : "ink",
+  "spacing" : 16,
+  "path" : "newsfeed",
+  "type" : "newsfeed"
+}
