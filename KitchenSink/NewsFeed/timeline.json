@@ -62,6 +62,14 @@
           {
             "text": "sex",
             "tag_color": "sex"
+          },
+          {
+            "text": "white",
+            "tag_color": "white"
+          },
+          {
+            "text": "ink",
+            "tag_color": "ink"
           }
         ]
       },

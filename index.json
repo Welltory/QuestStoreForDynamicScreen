@@ -34,7 +34,7 @@
                 "items": [
                     {
                         "type": "text",
-                        "text": "Background Image",
+                        "text": "Image",
                         "height": 80,
                         "margin": {
                             "left": 20,

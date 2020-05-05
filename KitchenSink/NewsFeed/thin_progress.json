@@ -65,6 +65,45 @@
             "left_label": "Correlation 10%"
           }
         ]
+      },
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "text.basic_title_white",
+            "text": "Start: true"
+          },
+          {
+            "type": "thin_progress",
+            "start": true,
+            "value": 0.25,
+            "left_label": "Correlation 25%"
+          },
+          {
+            "type": "thin_progress",
+            "start": true,
+            "value": 0.5,
+            "left_label": "Correlation 50%"
+          },
+          {
+            "type": "thin_progress",
+            "start": true,
+            "value": 0.85,
+            "left_label": "Correlation 85%"
+          },
+          {
+            "type": "thin_progress",
+            "start": true,
+            "value": 1,
+            "left_label": "Correlation 100%"
+          },
+          {
+            "type": "thin_progress",
+            "start": true,
+            "value": 1.85,
+            "left_label": "Correlation 185%"
+          }
+        ]
       }
     ]
   }

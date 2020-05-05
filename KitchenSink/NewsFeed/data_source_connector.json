@@ -8,7 +8,7 @@
                 "height": 5
             },
     		{
-    			"type": "health_data_aggregator",
+    			"type": "data_source_connector",
     			"source_id": "apple_health",
     			"text_connect": "Connect Apple Health",
     			"text_connecting": "Connecting Apple Health",
@@ -16,7 +16,7 @@
     			"text_disconnecting": "Disconneting Apple Health"
             },
     		{
-    			"type": "health_data_aggregator",
+    			"type": "data_source_connector",
     			"source_id": "withings",
     			"text_connect": "Connect Withings",
     			"text_connecting": "Connecting Withings",
