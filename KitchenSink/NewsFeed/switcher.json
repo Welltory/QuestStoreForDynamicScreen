@@ -1,5 +1,9 @@
 {
-  "content": [
+  "result": {
+    "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "background_color": "ink",
+    "content": [
     {
         "type": "spacer",
         "height": 8
@@ -231,10 +235,6 @@
       "spacing": 0
     }
   ],
-  "title": "Newsfeed",
-  "class": "newsfeed",
-  "background_color": "ink",
-  "spacing": 16,
-  "path": "newsfeed",
-  "type": "newsfeed"
+  },
+  "success": true
 }
