@@ -124,6 +124,11 @@
           "type": "vbox",
           "action": {
             "type": "notification"
+          },
+          "states": {
+            "pressed": {
+              "background_color": "stress"
+            }
           }
         }
       ],
@@ -239,12 +244,7 @@
         "height": 8
     },
     {
-      "background_color": "fon_1",
-      "time_style": ".body_grey_9",
-      "title_style": ".newsfeed_title_ink",
       "path": "newsfeed",
-      "title": "fact sheets:\nYou plugged in a sleep tracker!",
-      "details_style": ".details_button_white",
       "margin": {
         "right": 16,
         "left": 16
@@ -253,107 +253,11 @@
       "type": "vbox",
       "items": [
         {
-          "type": "vbox",
-          "items": [
-            {
-              "path": "newsfeed vbox",
-              "padding": {
-                "left": 16,
-                "top": 16,
-                "right": 16,
-                "bottom": 8
-              },
-              "type": "hbox",
-              "items": [
-                {
-                  "path": "newsfeed vbox hbox",
-                  "items": [
-                    {
-                      "font_name": "Steinbeck-Regular",
-                      "text_alignment": "left",
-                      "text_size": 27,
-                      "gravity": "start",
-                      "letter_spacing": 0.02,
-                      "line_height": 32,
-                      "text": "fact sheets:\nYou plugged in a sleep tracker!",
-                      "path": "newsfeed vbox hbox vbox",
-                      "type": "text",
-                      "text_color": "ink"
-                    }
-                  ],
-                  "type": "vbox",
-                  "weight": 1
-                },
-                {
-                  "share_info": {
-                    "is_hidden": true
-                  },
-                  "text_alignment": "right",
-                  "path": "newsfeed vbox hbox",
-                  "type": "text",
-                  "margin": {
-                    "top": 6,
-                    "left": 4
-                  },
-                  "gravity": "start",
-                  "text": "17:32",
-                  "text_size": 15,
-                  "line_height": 20,
-                  "letter_spacing": 0.01,
-                  "font_name": "Steinbeck-Regular",
-                  "text_color": "grey_9"
-                }
-              ]
-            },
-            {
-              "margin": {
-                "right": 16,
-                "left": 16
-              },
-              "path": "newsfeed vbox",
-              "items": [
-                {
-                  "margin": {
-                    "left": 40
-                  },
-                  "text_size": 15,
-                  "font_name": "Steinbeck-Regular",
-                  "line_height": 20,
-                  "letter_spacing": 0.01,
-                  "text": "Good work. Learn more about why we need sleep and how to find your perfect schedule.",
-                  "path": "newsfeed vbox vbox",
-                  "type": "text",
-                  "text_color": "dark_grey"
-                }
-              ],
-              "type": "vbox",
-              "contents_gravity": "end",
-              "spacing": 0
-            }
-          ],
-          "path": "newsfeed",
-          "margin": {
-            "bottom": 24
-          }
-        },
-        {
-          "path": "newsfeed",
-          "items": [
-            {
-              "path": "newsfeed vbox",
-              "background_color": "grey_6_40",
-              "type": "spacer",
-              "height": 1
-            },
-            {
-              "type": "switcher",
-              "title": "Hello, how are you?",
-              "title_color": "white",
-              "background_color": "white_3_15",
-              "height": 55
-            }
-          ],
-          "type": "vbox",
+          "type": "switcher",
+          "title": "Hello, how are you?",
+          "title_color": "white",
+          "background_color": "white_3_15",
+          "height": 55,
           "action": {
             "type": "notification"
           }
