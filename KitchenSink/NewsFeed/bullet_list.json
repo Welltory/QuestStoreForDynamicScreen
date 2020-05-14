@@ -1,0 +1,196 @@
+{
+    "result": {
+      "title": "Bullet List",
+      "class": "newsfeed",
+      "content": [
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "bullet_list",
+              "items": [
+                {
+                  "text": "Медитируешь",
+                  "icon": "981f6dce-0fec-427e-9e75-eb86174d35cc",
+                  "glow_color": "awake"
+                },
+                {
+                  "text": "Нет проблем со сном",
+                  "icon": "f497aa3b-b06f-403e-8e83-12c6bbc7a46a",
+                  "glow_color": "cold_4"
+                },
+                {
+                  "text": "Ходишь мало",
+                  "icon": "d8294bdc-5c9f-4961-bde9-501c49e5b315",
+                  "glow_color": "warm_1"
+                },
+                {
+                  "text": "Тренируешься",
+                  "icon": "fa9cd94c-8f90-4e07-8006-a960df40e074",
+                  "glow_color": "green"
+                },
+                {
+                  "text": "Следишь за давлением",
+                  "icon": "6d50e8a2-6731-4518-a3c8-6c25a4bb5a56",
+                  "glow_color": "stress"
+                },
+                {
+                  "text": "Наблюдаешь за весом",
+                  "icon": "aa7fe809-5a02-4a99-988c-847963e6da30",
+                  "glow_color": "warm_2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "bullet_list",
+              "items": [
+                {
+                  "text": "Ходишь мало",
+                  "icon": "d8294bdc-5c9f-4961-bde9-501c49e5b315",
+                  "glow_color": "warm_1"
+                },
+                {
+                  "text": "Тренируешься",
+                  "icon": "fa9cd94c-8f90-4e07-8006-a960df40e074",
+                  "glow_color": "green"
+                },
+                {
+                  "text": "Медитируешь",
+                  "icon": "981f6dce-0fec-427e-9e75-eb86174d35cc",
+                  "glow_color": "awake"
+                },
+                {
+                  "text": "Нет проблем со сном",
+                  "icon": "f497aa3b-b06f-403e-8e83-12c6bbc7a46a",
+                  "glow_color": "cold_4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "bullet_list",
+              "items": [
+                {
+                  "text": "Медитируешь",
+                  "icon": "981f6dce-0fec-427e-9e75-eb86174d35cc",
+                  "glow_color": "awake"
+                },
+                {
+                  "text": "Нет проблем со сном",
+                  "icon": "f497aa3b-b06f-403e-8e83-12c6bbc7a46a",
+                  "glow_color": "cold_4"
+                },
+                {
+                  "text": "Ходишь мало",
+                  "icon": "d8294bdc-5c9f-4961-bde9-501c49e5b315",
+                  "glow_color": "warm_1"
+                },
+                {
+                  "text": "Тренируешься",
+                  "icon": "fa9cd94c-8f90-4e07-8006-a960df40e074",
+                  "glow_color": "green"
+                },
+                {
+                  "text": "Следишь за давлением",
+                  "icon": "6d50e8a2-6731-4518-a3c8-6c25a4bb5a56",
+                  "glow_color": "stress"
+                },
+                {
+                  "text": "Наблюдаешь за весом",
+                  "icon": "aa7fe809-5a02-4a99-988c-847963e6da30",
+                  "glow_color": "warm_2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message.white",
+          "items": [
+            {
+              "type": "bullet_list",
+              "items": [
+                {
+                  "text": "Медитируешь",
+                  "icon": "981f6dce-0fec-427e-9e75-eb86174d35cc",
+                  "glow_color": "awake"
+                },
+                {
+                  "text": "Нет проблем со сном",
+                  "icon": "f497aa3b-b06f-403e-8e83-12c6bbc7a46a",
+                  "glow_color": "cold_4"
+                },
+                {
+                  "text": "Ходишь мало",
+                  "icon": "d8294bdc-5c9f-4961-bde9-501c49e5b315",
+                  "glow_color": "warm_1"
+                },
+                {
+                  "text": "Тренируешься",
+                  "icon": "fa9cd94c-8f90-4e07-8006-a960df40e074",
+                  "glow_color": "green"
+                },
+                {
+                  "text": "Следишь за давлением",
+                  "icon": "6d50e8a2-6731-4518-a3c8-6c25a4bb5a56",
+                  "glow_color": "stress"
+                },
+                {
+                  "text": "Наблюдаешь за весом",
+                  "icon": "aa7fe809-5a02-4a99-988c-847963e6da30",
+                  "glow_color": "warm_2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "bullet_list",
+              "items": [
+                {
+                  "text": "Медитируешь",
+                  "icon": "981f6dce-0fec-427e-9e75-eb86174d35cc",
+                  "glow_color": "awake"
+                },
+                {
+                  "text": "Нет проблем со сном",
+                  "icon": "f497aa3b-b06f-403e-8e83-12c6bbc7a46a",
+                  "glow_color": "cold_4"
+                },
+                {
+                  "text": "Ходишь мало",
+                  "icon": "d8294bdc-5c9f-4961-bde9-501c49e5b315",
+                  "glow_color": "warm_1"
+                },
+                {
+                  "text": "Следишь за давлением",
+                  "icon": "6d50e8a2-6731-4518-a3c8-6c25a4bb5a56",
+                  "glow_color": "stress"
+                },
+                {
+                  "text": "Наблюдаешь за весом",
+                  "icon": "aa7fe809-5a02-4a99-988c-847963e6da30",
+                  "glow_color": "warm_2"
+                }
+              ]
+            }
+          ]
+        }
+  
+      ],
+      "background_color": "#151A22"
+    },
+    "success": true
+  }
