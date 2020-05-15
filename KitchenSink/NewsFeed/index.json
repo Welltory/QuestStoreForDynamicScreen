@@ -5,9 +5,8 @@
     "background_color": "#FFFFFF",
     "content": [
       {
-        "type": "text",
+        "type": "text.basic_title",
         "text": "NewsFeed",
-        "style": "basic_title",
         "margin": {
           "top": 40,
           "bottom": 20
