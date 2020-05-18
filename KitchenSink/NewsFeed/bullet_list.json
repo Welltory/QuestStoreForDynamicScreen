@@ -48,6 +48,7 @@
           "items": [
             {
               "type": "bullet_list",
+              "items_color": "ink",
               "items": [
                 {
                   "text": "Ходишь мало",
@@ -78,6 +79,7 @@
           "items": [
             {
               "type": "bullet_list",
+              "items_color": "ink",
               "items": [
                 {
                   "text": "Медитируешь",
@@ -118,6 +120,7 @@
           "items": [
             {
               "type": "bullet_list",
+              "items_color": "ink",
               "items": [
                 {
                   "text": "Медитируешь",
