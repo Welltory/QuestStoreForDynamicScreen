@@ -600,7 +600,7 @@
       },
       {
         "type": "carousel",
-        "corner_radius": 45,
+        "corner_radius": 0,
         "cell_size": {
           "width": 320,
           "height": 272
