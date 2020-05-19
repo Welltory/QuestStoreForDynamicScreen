@@ -593,6 +593,57 @@
             ]
           }
         ]
+      },
+      {
+        "type": "text",
+        "text": "Corner radius 0"
+      },
+      {
+        "type": "carousel",
+        "corner_radius": 45,
+        "cell_size": {
+          "width": 320,
+          "height": 272
+        },
+        "horisontal_spacing": 16,
+        "items": [
+          {
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "background_color": "ink"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "background_color": "green"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "background_color": "brand"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "type": "vbox",
+                "weight": 1,
+                "background_color": "yellow"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
