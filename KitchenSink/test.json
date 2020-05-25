@@ -9,7 +9,6 @@
       {
         "type": "hbox",
         "height": 62,
-        // contents_gravity: "center",
         "items": [
           {
             "type": "image",
@@ -43,7 +42,6 @@
       {
         "type": "hbox",
         "height": 62,
-        // contents_gravity: "center",
         "items": [
           {
             "type": "image",
@@ -69,6 +67,5 @@
       }
     ]
   },
-
   "success": true
 }
