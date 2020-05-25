@@ -9,44 +9,8 @@
       },
       {
         "type": "hbox",
-        "height": 62,
-        "items": [
-          {
-            "type": "image",
-            "background_color": "cold_1",
-            "width": 52,
-            "margin": {
-              "left": 11,
-              "right": 11,
-              "top": 11,
-              "bottom": 11
-            },
-            "image": {
-              "uploadcare_id": "ada56633-451b-4ee0-acb0-ce3ca351c97a",
-              "width": 30,
-              "height": 30
-            }
-          },
-          {
-            "type": "text.big_title_white",
-            "text": "110",
-            "text_alignment": "left",
-            "padding": {
-              "top": 2
-            },
-            "margin": {
-              "left": 4
-            }
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "height": 25
-      },
-      {
-        "type": "hbox",
         "background_color": "protein",
+        "contents_gravity": "center",
         "height": 62,
         "items": [
           {
@@ -111,7 +75,7 @@
             "text": "110",
             "text_alignment": "left",
             "padding": {
-              "top": 2
+              "top": 4
             },
             "margin": {
               "left": 4
@@ -125,41 +89,13 @@
       },
       {
         "type": "hbox",
+        "background_color": "protein",
+        "contents_gravity": "center",
         "height": 62,
         "items": [
           {
             "type": "image",
             "background_color": "cold_1",
-            "width": 52,
-            "image": {
-              "uploadcare_id": "ada56633-451b-4ee0-acb0-ce3ca351c97a",
-              "width": 30,
-              "height": 30
-            }
-          },
-          {
-            "type": "text.big_title_white",
-            "text": "110",
-            "text_alignment": "left",
-            "padding": {
-              "top": 2
-            },
-            "margin": {
-              "left": 4
-            }
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "height": 25
-      },
-      {
-        "type": "hbox",
-        "height": 62,
-        "items": [
-          {
-            "type": "image",
             "width": 52,
             "image": {
               "uploadcare_id": "ada56633-451b-4ee0-acb0-ce3ca351c97a",
