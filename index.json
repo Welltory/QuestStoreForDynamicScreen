@@ -406,6 +406,26 @@
                     "variant": "push",
                     "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/carousel.json"
                 }
+            },
+
+            {
+                "type": "cell",
+                "items": [
+                    {
+                        "type": "text",
+                        "text": "TEST",
+                        "height": 80,
+                        "margin": {
+                            "left": 20,
+                            "right": 10
+                        }
+                    }
+                ],
+                "action": {
+                    "type": "open",
+                    "variant": "push",
+                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/test.json"
+                }
             }
         ]
     },
