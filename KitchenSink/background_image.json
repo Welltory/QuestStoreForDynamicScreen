@@ -362,6 +362,154 @@
             }
           }
         ]
+      },
+      {
+          "text_size": 30,
+          "text_color": "ink",
+          "line_height": 36,
+          "letter_spacing": 0.02,
+          "link_color": "cold_3",
+          "text": "Dynamic image size example",
+          "path": "undefined carousel undefined vbox vbox",
+          "type": "text",
+          "font_name": "Steinbeck-Regular"
+      },
+      {
+          "background_color": "#C6AE80",
+          "type": "vbox",
+          "path": "undefined carousel undefined",
+          "items": [
+              {
+                  "type": "image",
+                  "image": {
+                      "scale_type": [
+                          "left",
+                          "top",
+                          "right",
+                          "bottom",
+                          "fit"
+                      ],
+                      "uploadcare_id": "ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd",
+                      "url": "https://ucarecdn.com/ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd/",
+                      "width": 312,
+                      "height": 125
+                  }
+              },
+              {
+                  "type": "vbox",
+                  "items": [
+                      {
+                          "margin": {
+                              "top": -16
+                          },
+                          "text_size": 30,
+                          "text_color": "ink",
+                          "line_height": 36,
+                          "letter_spacing": 0.02,
+                          "link_color": "cold_3",
+                          "text": "Which sport are you made for?",
+                          "path": "undefined carousel undefined vbox vbox",
+                          "type": "text",
+                          "font_name": "Steinbeck-Regular"
+                      }
+                  ],
+                  "path": "undefined carousel undefined vbox"
+              }
+          ]
+      },
+      {
+          "background_color": "#C6AE80",
+          "type": "vbox",
+          "padding": {
+              "left": 50,
+              "right": 50
+          },
+          "path": "undefined carousel undefined",
+          "items": [
+              {
+                  "type": "image",
+                  "image": {
+                      "scale_type": [
+                          "left",
+                          "top",
+                          "right",
+                          "bottom",
+                          "fit"
+                      ],
+                      "uploadcare_id": "ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd",
+                      "url": "ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd",
+                      "width": 312,
+                      "height": 125
+                  }
+              },
+              {
+                  "type": "vbox",
+                  "items": [
+                      {
+                          "margin": {
+                              "top": -16
+                          },
+                          "text_size": 30,
+                          "text_color": "ink",
+                          "line_height": 36,
+                          "letter_spacing": 0.02,
+                          "link_color": "cold_3",
+                          "text": "Which sport are you made for?",
+                          "path": "undefined carousel undefined vbox vbox",
+                          "type": "text",
+                          "font_name": "Steinbeck-Regular"
+                      }
+                  ],
+                  "path": "undefined carousel undefined vbox"
+              }
+          ]
+      },
+      {
+          "background_color": "#C6AE80",
+          "type": "vbox",
+          "padding": {
+              "left": 100,
+              "right": 100
+          },
+          "path": "undefined carousel undefined",
+          "items": [
+              {
+                  "type": "image",
+                  "image": {
+                      "scale_type": [
+                          "left",
+                          "top",
+                          "right",
+                          "bottom",
+                          "fit"
+                      ],
+                      "uploadcare_id": "ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd",
+                      "url": "ac5a2204-ecfd-4898-b1fd-0e6f6c7abbdd",
+                      "width": 312,
+                      "height": 125
+                  }
+              },
+              {
+                  "type": "vbox",
+                  "items": [
+                      {
+                          "margin": {
+                              "top": -16
+                          },
+                          "text_size": 30,
+                          "text_color": "ink",
+                          "line_height": 36,
+                          "letter_spacing": 0.02,
+                          "link_color": "cold_3",
+                          "text": "Which sport are you made for?",
+                          "path": "undefined carousel undefined vbox vbox",
+                          "type": "text",
+                          "font_name": "Steinbeck-Regular"
+                      }
+                  ],
+                  "path": "undefined carousel undefined vbox"
+              }
+          ]
       }
     ]
   },
