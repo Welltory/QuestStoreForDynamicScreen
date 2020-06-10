@@ -33,7 +33,12 @@
                                     "type": "button.32_button_welltory",
                                     "text": "оценить приложение",
                                     "action": {
-                                        "type": "review"
+                                        "type": "review",
+                                        "tap_animation": {
+                                            "name": "review_animation.json",
+                                            "width": 300,
+                                            "height": 400
+                                        }
                                     }
                                 }
                             }
@@ -54,6 +59,23 @@
                     "bottom": 16
                 },
                 "background_color": "meditation"
+            },
+            {
+                "type": "message",
+                "items": [
+                    {
+                        "type": "button.32_button_welltory",
+                        "text": "оценить приложение",
+                        "action": {
+                            "type": "review",
+                            "tap_animation": {
+                                "name": "review_animation.json",
+                                "width": 300,
+                                "height": 400
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

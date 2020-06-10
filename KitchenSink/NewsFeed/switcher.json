@@ -1,0 +1,43 @@
+{
+  "result": {
+    "title": "NewsFeed Message",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "title",
+            "text": "Default switcher"
+          },
+          {
+            "type": "switcher",
+            "content_type": "notification",
+            "title": "Default switcher",
+            "height": 55
+          }
+        ]
+      },
+      {
+        "type": "message.white",
+        "items": [
+          {
+            "type": "title",
+            "text": "Default switcher"
+          },
+          {
+            "type": "switcher",
+            "content_type": "notification",
+            "title": "Default switcher",
+            "states": {
+              "pressed": {
+                "background_color": "grey_6_40"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}

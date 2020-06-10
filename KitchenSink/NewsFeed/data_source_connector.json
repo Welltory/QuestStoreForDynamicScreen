@@ -21,8 +21,24 @@
     			"text_connect": "Connect Withings",
     			"text_connecting": "Connecting Withings",
     			"text_disconnect": "Disconnet Withings",
-    			"text_disconnecting": "Disconneting Apple Health"
-    		}
+    			"text_disconnecting": "Disconneting Withings"
+			},
+			{
+				"type": "data_source_connector",
+				"source_id": "samsung-health",
+				"text_connect": "Connect Samsung Health",
+				"text_connecting": "Connecting Samsung Health",
+				"text_disconnect": "Disconnet Samsung Health",
+				"text_disconnecting": "Disconneting Samsung Health"
+			},
+			{
+				"type": "data_source_connector",
+				"source_id": "google-local",
+				"text_connect": "Connect Google Fit",
+				"text_connecting": "Connecting Google Fit",
+				"text_disconnect": "Disconnet Google Fit",
+				"text_disconnecting": "Disconneting Google Fit"
+			}
         ]
     }
 }
