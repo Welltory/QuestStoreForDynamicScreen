@@ -1,27 +1,39 @@
 {
-    "result": {
-        "title": "NewsFeed Emphasize",
-        "class": "newsfeed",
-        "content": [
-            {
-                "type": "spacer",
-                "height": 5
-            },
-    		{
-    			"type": "data_source_connector",
-    			"source_id": "apple_health",
-    			"text_connect": "Connect Apple Health",
-    			"text_connecting": "Connecting Apple Health",
-    			"text_disconnect": "Disconnet Apple Health",
-    			"text_disconnecting": "Disconneting Apple Health"
-            },
-    		{
-    			"type": "data_source_connector",
-    			"source_id": "withings",
-    			"text_connect": "Connect Withings",
-    			"text_connecting": "Connecting Withings",
-    			"text_disconnect": "Disconnet Withings",
-    			"text_disconnecting": "Disconneting Withings"
+	"result": {
+		"title": "NewsFeed Emphasize",
+		"class": "newsfeed",
+		"content": [
+			{
+				"type": "spacer",
+				"height": 5
+			},
+			{
+				"type": "data_source_connector",
+				"source_id": "apple_health",
+				"text_connect": "Connect Apple Health",
+				"text_connecting": "Connecting Apple Health",
+				"text_disconnect": "Disconnet Apple Health",
+				"text_disconnecting": "Disconneting Apple Health",
+				"analytics_event": {
+					"name": "KitchenSinkTestDataSourceConnectorEvent",
+					"params": {
+						"source": "apple_health"
+					}
+				}
+			},
+			{
+				"type": "data_source_connector",
+				"source_id": "withings",
+				"text_connect": "Connect Withings",
+				"text_connecting": "Connecting Withings",
+				"text_disconnect": "Disconnet Withings",
+				"text_disconnecting": "Disconneting Withings",
+				"analytics_event": {
+					"name": "KitchenSinkTestDataSourceConnectorEvent",
+					"params": {
+						"source": "withings"
+					}
+				}
 			},
 			{
 				"type": "data_source_connector",
@@ -37,8 +49,14 @@
 				"text_connect": "Connect Google Fit",
 				"text_connecting": "Connecting Google Fit",
 				"text_disconnect": "Disconnet Google Fit",
-				"text_disconnecting": "Disconneting Google Fit"
+				"text_disconnecting": "Disconneting Google Fit",
+				"analytics_event": {
+					"name": "KitchenSinkTestDataSourceConnectorEvent",
+					"params": {
+						"source": "google-local"
+					}
+				}
 			}
-        ]
-    }
+		]
+	}
 }

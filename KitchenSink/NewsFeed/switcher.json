@@ -29,6 +29,12 @@
             "type": "switcher",
             "content_type": "notification",
             "title": "Default switcher",
+            "analytics_event": {
+              "name": "KitchenSinkTestSwitchEvent",
+              "params": {
+                "test1": "yes"
+              }
+            },
             "states": {
               "pressed": {
                 "background_color": "grey_6_40"
