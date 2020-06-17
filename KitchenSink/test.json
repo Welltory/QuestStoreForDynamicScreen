@@ -171,7 +171,9 @@
                           "scale_type": [
                             "left",
                             "top",
-                            "right"
+                            "right",
+                            "bottom",
+                            "fit"
                           ]
                         }
                       },
