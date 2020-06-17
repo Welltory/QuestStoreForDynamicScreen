@@ -155,7 +155,7 @@
                 "background_color": "#EDDBCD",
                 "items": [
                   {
-                    "type": "hbox",
+                    "type": "vbox",
                     "margin": {
                       "left": -16,
                       "right": -16
