@@ -111,6 +111,10 @@
         ]
       },
       {
+        "type": "spacer",
+        "height": 24
+      },
+      {
         "type": "carousel",
         "cell_size": {
           "height": 437,
