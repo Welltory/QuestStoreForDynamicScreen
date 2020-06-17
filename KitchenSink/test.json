@@ -178,6 +178,9 @@
                       {
                         "type": "spacer",
                         "height": 63,
+                        "margin": {
+                          "top": -63
+                        },
                         "background_gradient": {
                           "type": "linear",
                           "angle": 0,
