@@ -136,7 +136,6 @@
             "items": [
               {
                 "type": "vbox",
-                "width": 312,
                 "height": 437,
                 "margin": {
                   "top": 0,
@@ -153,7 +152,6 @@
                 "items": [
                   {
                     "type": "hbox",
-                    "width": 312,
                     "margin": {
                       "left": -16,
                       "right": -16
@@ -175,7 +173,6 @@
                       },
                       {
                         "type": "spacer",
-                        "width": 312,
                         "height": 63,
                         "background_gradient": {
                           "type": "linear",
