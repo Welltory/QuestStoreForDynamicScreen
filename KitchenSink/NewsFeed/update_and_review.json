@@ -34,6 +34,7 @@
                                     "text": "оценить приложение",
                                     "action": {
                                         "type": "review",
+                                        "state_key": "super_name",
                                         "tap_animation": {
                                             "name": "review_animation.json",
                                             "width": 300,
@@ -68,6 +69,7 @@
                         "text": "оценить приложение",
                         "action": {
                             "type": "review",
+                            "state_key": "super_name_2",
                             "tap_animation": {
                                 "name": "review_animation.json",
                                 "width": 300,
