@@ -1,73 +1,71 @@
 {
     "result": {
-        "title": "Placeholders",
-        "content": [
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "Text in dynamic strings allows to use placeholders as part of text.",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 24,
-                    "bottom": 12
-                }
-            },
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "Placeholders is an expressions inside special character sequence:",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 24,
-                    "bottom": 12
-                }
-            },
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "\\\\(expression)",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 24,
-                    "bottom": 12
-                }
-            },
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "Expression adress some information accessible in local evironment. Like app version, application name or product price.",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 24,
-                    "bottom": 12
-                }
-            },
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "Expression: StoreKit.product[84].text_total_price<br/>Result: \\(StoreKit.product[84].text_total_price)",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 8,
-                    "bottom": 8
-                }
-            },
-            {
-                "type": "text",
-                "style": "ns_text_16_bold_left",
-                "text": "Expression: StoreKit.product[is_trial=true].text_total_price<br/>Result: \\(StoreKit.product[is_trial=true].text_total_price)",
-                "margin": {
-                    "left": 8,
-                    "right": 8,
-                    "top": 8,
-                    "bottom": 8
-                }
-            }
-        ]
+      "title": "Placeholders",
+      "content": [
+        {
+          "type": "text.subhead",
+          "text": "Expression for gift with slug: StoreKit.product[slug==\"welltorygift\"].text_total_price<br/>Result: \\(StoreKit.product[slug==\"welltorygift\"].text_total_price)",
+          "margin": {
+            "left": 8,
+            "right": 8,
+            "top": 8,
+            "bottom": 8
+          }
+        },
+        {
+          "type": "text.subhead_red",
+          "text": "Expression for lifetime total price: StoreKit.product[70].text_total_price<br/>Result: \\(StoreKit.product[70].text_total_price)",
+          "margin": {
+            "left": 8,
+            "right": 8,
+            "top": 8,
+            "bottom": 8
+          }
+        },
+        {
+          "type": "text.subhead",
+          "text": "Expression for monthly price for annual: StoreKit.product[85].text_fraction_price<br/>Result: \\(StoreKit.product[85].text_fraction_price)",
+          "margin": {
+            "left": 8,
+            "right": 8,
+            "top": 8,
+            "bottom": 8
+          }
+        },
+        {
+          "type": "text.subhead",
+          "text": "Expression for month price: StoreKit.product[73].text_total_price<br/>Result: \\(StoreKit.product[73].text_total_price)",
+          "margin": {
+            "left": 8,
+            "right": 8,
+            "top": 8,
+            "bottom": 8
+          }
+        },
+        {
+          "type": "text.subhead",
+          "text": "Your personal therapist for only <s>\\(StoreKit.product[73].text_total_price)</s> \\(StoreKit.product[85].text_fraction_price) per month",
+          "text_gradient": {
+            "type": "linear",
+            "angle": 90,
+            "points": [
+              {
+                "position": 0,
+                "color": "#89A3FF"
+              },
+              {
+                "position": 1,
+                "color": "#FF8567"
+              }
+            ]
+          },
+          "margin": {
+            "left": 8,
+            "right": 8,
+            "top": 8,
+            "bottom": 8
+          }
+        }
+      ]
     }
-}
+  }
