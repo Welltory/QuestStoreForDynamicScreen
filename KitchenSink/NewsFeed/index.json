@@ -16,7 +16,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.newsfeed_title_red",
             "text": "Message",
             "height": 80,
             "margin": {
