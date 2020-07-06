@@ -1,0 +1,96 @@
+{
+  "result": {
+    "title": "NewsFeed Emphasize",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "spacer",
+        "height": 5
+      },
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "text.body_dark_grey",
+             "text": "Press me. Yes Press me. Yes",
+    
+              "text_gradient": {
+                "type": "linear",
+                "angle": 90,
+                "points": [
+                  {
+                    "position": 0,
+                    "color": "#89A3FF"
+                  },
+                  {
+                    "position": 1,
+                    "color": "#FF8567"
+                  }
+                ]
+              }
+          },
+          {
+            "type": "spacer",
+            "height": 5
+          },
+          {
+            "type": "text.body_dark_grey",
+             "text": "Press me. Yes Press me. Yes",
+
+            "text_alignment": "center",
+              "text_gradient": {
+                "type": "linear",
+                "angle": 90,
+                "points": [
+                  {
+                    "position": 0,
+                    "color": "#89A3FF"
+                  },
+                  {
+                    "position": 1,
+                    "color": "#FF8567"
+                  }
+                ]
+              }
+          },
+          {
+            "type": "spacer",
+            "height": 5
+          },
+          {
+            "type": "hbox",
+            "gravity": "center",
+            "items": [
+              {
+                "type": "text.body_dark_grey",
+                "text": "Press me. Yes Press me. Yes",
+
+                "text_gradient": {
+                  "type": "linear",
+                  "angle": 90,
+                  "points": [
+                    {
+                      "position": 0,
+                      "color": "#89A3FF"
+                    },
+                    {
+                      "position": 1,
+                      "color": "#FF8567"
+                    }
+                  ]
+                }
+             }   
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 5
+          }             
+        ],
+        "share_button": {},
+        "like_button": {}
+      }
+    ]
+  },
+  "success": true
+}
