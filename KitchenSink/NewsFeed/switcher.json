@@ -42,6 +42,28 @@
             }
           }
         ]
+      },
+      {
+        "type": "message.white",
+        "items": [
+          {
+            "type": "title",
+            "text": "Notification action"
+          },
+          {
+            "text": "Open Notifications",
+            "type": "text.welcome_header",
+            "height":50,
+            "action": {
+              "type":"notification"
+            },
+            "states": {
+              "pressed": {
+                "background_color": "grey_6_40"
+              }
+            }
+          }
+        ]
       }
     ]
   },
