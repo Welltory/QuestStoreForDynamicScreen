@@ -1,29 +1,32 @@
 {
     "result": {
+        "title": "NewsFeed Message",
+        "class": "newsfeed",
+        "background_color": "ink",
         "title": "Margin between messages and tags",
         "content": [
             {
-                "type": "message",
+                "type": "message.white",
                 "title": "Message 1",
                 "date": "2019-06-13T10:30:45",
                 "id": "message_1",
                 "contents_gravity": "end",
                 "items": [
                     {
-                        "type": "title",
+                        "type": "text.red",
                         "text": "Привет, сегодня вы в отличной форме!"
                     }
                 ]
             },
             {
-                "type": "message",
+                "type": "message.white",
                 "title": "Message 2",
                 "date": "2019-06-13T10:30:45",
                 "id": "message_2",
                 "contents_gravity": "end",
                 "items": [
                     {
-                        "type": "title",
+                        "type": "text.red",
                         "text": "Привет, сегодня вы в отличной форме!"
                     }
                 ]
@@ -56,14 +59,14 @@
                 ]
             },
             {
-                "type": "message",
+                "type": "message.white",
                 "title": "Message 3",
                 "date": "2019-06-13T10:30:45",
                 "id": "message_3",
                 "contents_gravity": "end",
                 "items": [
                     {
-                        "type": "title",
+                        "type": "text.red",
                         "text": "Привет, сегодня вы в отличной форме!"
                     }
                 ]
