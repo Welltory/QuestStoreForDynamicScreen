@@ -1,0 +1,74 @@
+{
+    "result": {
+        "title": "Margin between messages and tags",
+        "content": [
+            {
+                "type": "message",
+                "title": "Message 1",
+                "date": "2019-06-13T10:30:45",
+                "id": "message_1",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "type": "title",
+                        "text": "Привет, сегодня вы в отличной форме!"
+                    }
+                ]
+            },
+            {
+                "type": "message",
+                "title": "Message 2",
+                "date": "2019-06-13T10:30:45",
+                "id": "message_2",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "type": "title",
+                        "text": "Привет, сегодня вы в отличной форме!"
+                    }
+                ]
+            },
+            {
+                "type": "time_tag",
+                "date": "2019-06-13T10:30:45",
+                "text": "Time tag 1",
+                "tag_color": "red"
+            },
+            {
+                "type": "time_tag",
+                "date": "2019-06-13T10:30:45",
+                "text": "Time tag 2",
+                "tag_color": "ink"
+            },
+            {
+                "type": "time_event",
+                "date": "2019-06-13T10:30:45",
+                "text": "Time event 1"
+            },
+            {
+                "type": "time_tag_group",
+                "date": "2019-06-13 10:30:45+0500",
+                "items": [
+                    {
+                        "text": "test1",
+                        "tag_color": "ink"
+                    }
+                ]
+            },
+            {
+                "type": "message",
+                "title": "Message 3",
+                "date": "2019-06-13T10:30:45",
+                "id": "message_3",
+                "contents_gravity": "end",
+                "items": [
+                    {
+                        "type": "title",
+                        "text": "Привет, сегодня вы в отличной форме!"
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
