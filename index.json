@@ -426,7 +426,7 @@
                     "variant": "push",
                     "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/margin_between_messages.json"
                 }
-            }
+            },
 
             {
                 "type": "cell",
