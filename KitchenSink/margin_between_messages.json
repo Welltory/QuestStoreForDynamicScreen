@@ -41,7 +41,7 @@
                 "type": "time_tag",
                 "date": "2019-06-13T10:30:45",
                 "text": "Time tag 2",
-                "tag_color": "ink"
+                "tag_color": "white"
             },
             {
                 "type": "time_event",
@@ -53,8 +53,16 @@
                 "date": "2019-06-13 10:30:45+0500",
                 "items": [
                     {
-                        "text": "test1",
-                        "tag_color": "ink"
+                        "text": "time_tag group 1",
+                        "tag_color": "cold_3"
+                    },
+                    {
+                        "text": "time_tag group 2",
+                        "tag_color": "red"
+                    },
+                    {
+                        "text": "time_tag group 3",
+                        "tag_color": "cold_3"
                     }
                 ]
             },
