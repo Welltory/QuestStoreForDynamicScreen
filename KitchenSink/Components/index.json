@@ -39,7 +39,7 @@
         "items": [
           {
             "type": "text.capslock_title_red",
-            "text": "colors",
+            "text": "hbox",
             "padding": {
               "left": 16,
               "right": 16
