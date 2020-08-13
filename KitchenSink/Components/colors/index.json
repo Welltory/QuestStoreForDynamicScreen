@@ -1,0 +1,23 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+
+            "type": "colors",
+            "url": "https://raw.githubusercontent.com/Welltory/cards/develop/res/values/style_colors.xml?token=AAWBNRHVJ3Z243BZRBUD7KC7HYXOU"
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          }
+        ]
+      }
+    ]
+  }
+}

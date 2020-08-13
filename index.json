@@ -1,453 +1,470 @@
 {
-    "result": {
-        "content": [
-            {
-                "type": "text",
-                "text": "Dynamic screen Kitchen Sink",
-                "style": "text_title",
-                "margin": {
-                    "top": 40,
-                    "bottom": 20
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Newsfeed",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/index.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Image",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/background_image.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Padding Margin Spacing",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/padding_margin_spacing.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Alert actions",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "alert",
-                    "title": "Title here",
-                    "message": "Message here",
-                    "options": [
-                        {
-                            "text": "Default",
-                            "ios_type": "default",
-                            "android_type": "positive"
-                        },
-                        {
-                            "text": "Destructive",
-                            "ios_type": "destructive",
-                            "android_type": "negative"
-                        },
-                        {
-                            "text": "Cancel",
-                            "ios_type": "cancel",
-                            "android_type": "neutral"
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Small circle progress",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/small_circle_progress.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Input text",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/input_text.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Progress",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/progress.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Unsupported components alternative",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/alt.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Fuck programs styles",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        },
-                        "action": {
-                            "type": "open",
-                            "variant": "push",
-                            "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/FuckPrograms.json"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "New today screen styles",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        },
-                        "action": {
-                            "type": "open",
-                            "variant": "push",
-                            "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewTodayStyleExample.json"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Styles",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/styles.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Actions",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/actions.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Page background color",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/page_background_color.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Footers",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/footers.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Horisontal Bars",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/horisontal_bars.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Text markup",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/text_markup.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Placeholders",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/placeholders.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Smart Headers",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/smart_headers.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Palette",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/palette.json"
-                }
-            },
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Carousel",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/carousel.json"
-                }
-            },
-
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "Test margin between messages and tags",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/margin_between_messages.json"
-                }
-            },
-
-            {
-                "type": "cell",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "TEST",
-                        "height": 80,
-                        "margin": {
-                            "left": 20,
-                            "right": 10
-                        }
-                    }
-                ],
-                "action": {
-                    "type": "open",
-                    "variant": "push",
-                    "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/test.json"
-                }
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Dynamic screen Kitchen Sink",
+        "style": "text_title",
+        "margin": {
+          "top": 40,
+          "bottom": 20
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Newsfeed",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
             }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/index.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Image",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/background_image.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Padding Margin Spacing",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/padding_margin_spacing.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Alert actions",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "alert",
+          "title": "Title here",
+          "message": "Message here",
+          "options": [
+            {
+              "text": "Default",
+              "ios_type": "default",
+              "android_type": "positive"
+            },
+            {
+              "text": "Destructive",
+              "ios_type": "destructive",
+              "android_type": "negative"
+            },
+            {
+              "text": "Cancel",
+              "ios_type": "cancel",
+              "android_type": "neutral"
+            }
+          ]
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Small circle progress",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/small_circle_progress.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Input text",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/input_text.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Progress",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/progress.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Unsupported components alternative",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/alt.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Fuck programs styles",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            },
+            "action": {
+              "type": "open",
+              "variant": "push",
+              "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/FuckPrograms.json"
+            }
+          }
         ]
-    },
-    "success": true
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "New today screen styles",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            },
+            "action": {
+              "type": "open",
+              "variant": "push",
+              "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/NewTodayStyleExample.json"
+            }
+          }
+        ]
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Styles",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/styles.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Actions",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/actions.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Page background color",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/page_background_color.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Footers",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/footers.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Horisontal Bars",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/horisontal_bars.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Text markup",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/text_markup.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Placeholders",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/placeholders.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Smart Headers",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/smart_headers.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Palette",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/palette.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Carousel",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/carousel.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Test margin between messages and tags",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/margin_between_messages.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "TEST",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/test.json"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text.basic_title_red",
+            "text": "Components",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/index.json"
+        }
+      }
+    ]
+  },
+  "success": true
 }

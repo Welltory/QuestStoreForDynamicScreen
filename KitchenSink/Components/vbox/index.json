@@ -1,0 +1,106 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+
+            "type": "vbox",
+            "contents_gravity": "center",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "VBOX",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "vbox",
+            "contents_gravity": "center",
+            "background_color": "red",
+            "margin": {
+              "top": 16,
+              "left": 16,
+              "right": 16,
+              "bottom": 16
+            },
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "VBOX margins 16",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "vbox",
+            "contents_gravity": "center",
+            "background_color": "red",
+            "padding": {
+              "top": 16,
+              "left": 16,
+              "right": 16,
+              "bottom": 16
+            },
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "VBOX padding 16",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "vbox",
+            "contents_gravity": "center",
+            "background_color": "red",
+            "margin": {
+              "top": 16,
+              "left": 16,
+              "right": 16,
+              "bottom": 16
+            },
+            "padding": {
+              "top": 16,
+              "left": 16,
+              "right": 16,
+              "bottom": 16
+            },
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "VBOX margin padding 16",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          }
+        ]
+      }
+    ]
+  }
+}
