@@ -16,28 +16,6 @@
         "type": "vbox",
         "items": [
           {
-            "type": "text.capslock_title_re",
-            "text": "colors",
-            "padding": {
-              "left": 16,
-              "right": 16
-            },
-            "margin": {
-              "left": 16,
-              "right": 16
-            }
-          }
-        ],
-        "action": {
-          "type": "open",
-          "variant": "push",
-          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/colors/index.json"
-        }
-      },
-      {
-        "type": "vbox",
-        "items": [
-          {
             "type": "text.capslock_title_red",
             "text": "vbox",
             "padding": {
@@ -54,6 +32,28 @@
           "type": "open",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/vbox/index.json"
+        }
+      },
+      {
+        "type": "hbox",
+        "items": [
+          {
+            "type": "text.capslock_title_re",
+            "text": "colors",
+            "padding": {
+              "left": 16,
+              "right": 16
+            },
+            "margin": {
+              "left": 16,
+              "right": 16
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/hbox/index.json"
         }
       }
     ]
