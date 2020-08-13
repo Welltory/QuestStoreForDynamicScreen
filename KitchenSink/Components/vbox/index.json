@@ -125,40 +125,6 @@
           {
 
             "type": "vbox",
-            "ratio": 100,
-            "background_color": "red",
-            "items": [
-              {
-                "type": "text.basic_title_white",
-                "text": "vbox ratio 100",
-                "text_alignment": "center"
-              }
-            ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
-          },
-          {
-
-            "type": "vbox",
-            "weight": 1,
-            "background_color": "red",
-            "items": [
-              {
-                "type": "text.basic_title_white",
-                "text": "vbox weight 1",
-                "text_alignment": "center"
-              }
-            ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
-          },
-          {
-
-            "type": "vbox",
             "width": 100,
             "background_color": "red",
             "items": [

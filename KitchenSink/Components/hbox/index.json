@@ -15,7 +15,7 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "HBOX",
+                "text": "hbox",
                 "text_alignment": "center"
               }
             ]
@@ -38,7 +38,7 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "HBOX margins 16",
+                "text": "hbox margins 16",
                 "text_alignment": "center"
               }
             ]
@@ -61,7 +61,7 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "HBOX padding 16",
+                "text": "hbox padding 16",
                 "text_alignment": "center"
               }
             ]
@@ -90,7 +90,84 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "HBOX margin padding 16",
+                "text": "hbox margin padding 16",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "hbox",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "hbox",
+                "contents_gravity": "center",
+                "background_color": "yellow",
+                "items": [
+                  {
+                    "type": "text.basic_title_white",
+                    "text": "hbox in other hbox(parent-red, child-yellow)",
+                    "text_alignment": "center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "hbox",
+            "width": 100,
+            "contents_gravity": "center",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "hbox width 100",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "hbox",
+            "weight": 1,
+            "contents_gravity": "center",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "hbox weight 1",
+                "text_alignment": "center"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 16
+          },
+          {
+
+            "type": "hbox",
+            "ratio": 100,
+            "contents_gravity": "center",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "hbox ratio 100",
                 "text_alignment": "center"
               }
             ]
