@@ -1,0 +1,68 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message",
+        "items": [
+          {
+            "type": "text.body_white",
+            "text": "Body white text. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          },
+          {
+            "type": "text.body_white",
+            "max_size": 1,
+            "text": "Body white text. Max size: 1. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          },
+          {
+            "type": "text.body_white",
+            "max_size": 1,
+            "ellipsize": true,
+            "text": "Body white text. Max size = 1. Ellipsize = true. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          },
+          {
+            "type": "text.body_white",
+            "max_size": 1,
+            "auto_size": true,
+            "text": "Body white text. Max size = 1. Ellipsize = true. It is a long established fact."
+          },
+          {
+            "type": "text.body",
+            "text": "Body text. Gradient. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "text_gradient": {
+              "type": "linear",
+              "angle": 0,
+              "points": [
+                {
+                  "position": 0,
+                  "color": "#FFFF8567"
+                },
+                {
+                  "position": 1,
+                  "color": "#FFEFDD36"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text.body_white",
+            "text_alignment": "center",
+            "text": "Body white text. Text alignment = center. It is a long established fact."
+          },
+          {
+            "type": "text.body_white",
+            "text_alignment": "right",
+            "text": "Body white text. Text alignment = right. It is a long established fact."
+          },
+          {
+            "type": "text.body_white",
+            "all_caps": true,
+            "text": "Body white text. All caps = true. It is a long established fact."
+          }
+        ]
+      }
+    ]
+  }
+}

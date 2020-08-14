@@ -3,6 +3,7 @@
     "title": "NewsFeed Message",
     "class": "newsfeed",
     "background_color": "#FFFFFF",
+    "spacing": 16,
     "content": [
       {
         "type": "text.basic_title",
@@ -14,18 +15,20 @@
       },
       {
         "type": "vbox",
+        "padding": {
+          "left": 16,
+          "right": 16
+        },
+        "margin": {
+          "left": 16,
+          "right": 16
+        },
+        "background_color": "ink",
         "items": [
           {
             "type": "text.capslock_title_red",
-            "text": "vbox",
-            "padding": {
-              "left": 16,
-              "right": 16
-            },
-            "margin": {
-              "left": 16,
-              "right": 16
-            }
+            "text": "vbox"
+
           }
         ],
         "action": {
@@ -36,24 +39,48 @@
       },
       {
         "type": "hbox",
+        "padding": {
+          "left": 16,
+          "right": 16
+        },
+        "margin": {
+          "left": 16,
+          "right": 16
+        },
+        "background_color": "ink",
         "items": [
           {
             "type": "text.capslock_title_red",
-            "text": "hbox",
-            "padding": {
-              "left": 16,
-              "right": 16
-            },
-            "margin": {
-              "left": 16,
-              "right": 16
-            }
+            "text": "hbox"
           }
         ],
         "action": {
           "type": "open",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/hbox/index.json"
+        }
+      },
+      {
+        "type": "hbox",
+        "padding": {
+          "left": 16,
+          "right": 16
+        },
+        "margin": {
+          "left": 16,
+          "right": 16
+        },
+        "background_color": "ink",
+        "items": [
+          {
+            "type": "text.capslock_title_red",
+            "text": "text"
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/text/index.json"
         }
       }
     ]
