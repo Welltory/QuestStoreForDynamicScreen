@@ -71,11 +71,11 @@
                       "points": [
                         {
                           "position": 0,
-                          "color": "#FF7E6BC7"
+                          "color": "#007E6BC7"
                         },
                         {
                           "position": 1,
-                          "color": "#007E6BC7"
+                          "color": "#FF7E6BC7"
                         }
                       ]
                     }
@@ -93,11 +93,11 @@
               },
               {
                 "type": "image",
-                "filters": ["grayscale"],
                 "image": {
                   "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
                   "width": 346,
-                  "height": 429
+                  "height": 429,
+                  "filters": ["grayscale"]
                 }
               }
             ]
