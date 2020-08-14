@@ -24,7 +24,7 @@
           },
           {
             "type": "spacer",
-            "height": 1,
+            "height": 2,
             "background_color": "grey_6"
           },
           {
@@ -34,10 +34,20 @@
             "text": "Body white text. Max size = 1. Ellipsize = true. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body_white",
             "max_size": 1,
             "auto_size": true,
             "text": "Body white text. Max size = 1. Ellipsize = true. It is a long established fact."
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
           },
           {
             "type": "text.body",
@@ -58,9 +68,19 @@
             }
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body_white",
             "text_alignment": "center",
             "text": "Body white text. Text alignment = center. It is a long established fact."
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
           },
           {
             "type": "text.body_white",
@@ -68,21 +88,46 @@
             "text": "Body white text. Text alignment = right. It is a long established fact."
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body_white",
             "all_caps": true,
             "text": "Body white text. All caps = true. It is a long established fact."
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
           },
           {
             "type": "text.body",
             "text": "<a href='https://welltory.com' color='red'>Body white text. Link. Color = red</a>"
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body",
             "text": "<em color='red'>Body white text. EM. Color = red</em>"
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body",
             "text": "Body white text. EM. Color = red. It is a <em color='red'>long established</em> fact."
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
           },
           {
             "type": "hbox",
@@ -104,8 +149,18 @@
             ]
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body_white",
             "text": "<s>Body white text. S. It is a long established fact.</s>"
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
           },
           {
             "type": "text.body_white",

@@ -1,0 +1,109 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message",
+        "spacing": 16,
+        "items": [
+          {
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "Image"
+              },
+              {
+                "type": "image",
+                "image": {
+                  "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
+                  "width": 346,
+                  "height": 429
+                }
+              }
+            ]
+          },
+          {
+            "type": "vbox",
+            "background_image": {
+              "url": "https://ucarecdn.com/3954b75b-6625-4422-8485-20e14e0cb95b/",
+              "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
+              "width": 346,
+              "height": 429,
+              "scale_type": ["top", "left", "right", "bottom", "fit"]
+            },
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "Background image. Scale type. top/left/right/bottom/fit"
+              }
+            ]
+          },
+          {
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "Image. Spacer with background gradient in bottom(height=100,margin-top=-100)"
+              },
+              {
+                "type": "vbox",
+                "items": [
+                  {
+                    "type": "image",
+                    "image": {
+                      "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
+                      "width": 346,
+                      "height": 429
+                    }
+                  },
+                  {
+                    "type": "spacer",
+                    "height": 100,
+                    "margin": {
+                      "top": -100
+                    },
+                    "background_gradient": {
+                      "type": "linear",
+                      "angle": 0,
+                      "points": [
+                        {
+                          "position": 0,
+                          "color": "#FF7E6BC7"
+                        },
+                        {
+                          "position": 1,
+                          "color": "#007E6BC7"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "Image. Filters = grayscale"
+              },
+              {
+                "type": "image",
+                "filters": ["grayscale"],
+                "image": {
+                  "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
+                  "width": 346,
+                  "height": 429
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
