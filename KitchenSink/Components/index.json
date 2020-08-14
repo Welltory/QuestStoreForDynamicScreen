@@ -10,12 +10,16 @@
         "text": "NewsFeed Components",
         "margin": {
           "top": 16,
+          "left": 16,
+          "right": 16,
           "bottom": 16
         }
       },
       {
         "type": "vbox",
         "padding": {
+          "top": 16,
+          "bottom": 16,
           "left": 16,
           "right": 16
         },
@@ -38,8 +42,10 @@
         }
       },
       {
-        "type": "hbox",
+        "type": "vbox",
         "padding": {
+          "top": 16,
+          "bottom": 16,
           "left": 16,
           "right": 16
         },
@@ -61,8 +67,10 @@
         }
       },
       {
-        "type": "hbox",
+        "type": "vbox",
         "padding": {
+          "top": 16,
+          "bottom": 16,
           "left": 16,
           "right": 16
         },
@@ -81,6 +89,31 @@
           "type": "open",
           "variant": "push",
           "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/text/index.json"
+        }
+      },
+      {
+        "type": "vbox",
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "left": 16,
+          "right": 16
+        },
+        "margin": {
+          "left": 16,
+          "right": 16
+        },
+        "background_color": "ink",
+        "items": [
+          {
+            "type": "text.capslock_title_red",
+            "text": "image"
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/lazarev/QuestStoreForDynamicScreen/master/KitchenSink/Components/image/index.json"
         }
       }
     ]
