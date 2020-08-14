@@ -6,6 +6,7 @@
     "content": [
       {
         "type": "message",
+        "spacing": 16,
         "items": [
           {
 
@@ -19,10 +20,6 @@
                 "text_alignment": "center"
               }
             ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
           },
           {
 
@@ -44,10 +41,6 @@
             ]
           },
           {
-            "type": "spacer",
-            "height": 16
-          },
-          {
 
             "type": "hbox",
             "contents_gravity": "center",
@@ -65,10 +58,6 @@
                 "text_alignment": "center"
               }
             ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
           },
           {
 
@@ -96,10 +85,6 @@
             ]
           },
           {
-            "type": "spacer",
-            "height": 16
-          },
-          {
 
             "type": "hbox",
             "background_color": "red",
@@ -119,10 +104,6 @@
             ]
           },
           {
-            "type": "spacer",
-            "height": 16
-          },
-          {
 
             "type": "hbox",
             "width": 100,
@@ -132,42 +113,6 @@
               {
                 "type": "text.basic_title_white",
                 "text": "hbox width 100",
-                "text_alignment": "center"
-              }
-            ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
-          },
-          {
-
-            "type": "hbox",
-            "weight": 1,
-            "contents_gravity": "center",
-            "background_color": "red",
-            "items": [
-              {
-                "type": "text.basic_title_white",
-                "text": "hbox weight 1",
-                "text_alignment": "center"
-              }
-            ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
-          },
-          {
-
-            "type": "hbox",
-            "ratio": 100,
-            "contents_gravity": "center",
-            "background_color": "red",
-            "items": [
-              {
-                "type": "text.basic_title_white",
-                "text": "hbox ratio 100",
                 "text_alignment": "center"
               }
             ]

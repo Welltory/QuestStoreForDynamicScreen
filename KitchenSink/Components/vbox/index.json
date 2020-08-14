@@ -6,6 +6,7 @@
     "content": [
       {
         "type": "message",
+        "spacing": 16,
         "items": [
           {
 
@@ -19,10 +20,6 @@
                 "text_alignment": "center"
               }
             ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
           },
           {
 
@@ -44,10 +41,6 @@
             ]
           },
           {
-            "type": "spacer",
-            "height": 16
-          },
-          {
 
             "type": "vbox",
             "contents_gravity": "center",
@@ -65,10 +58,6 @@
                 "text_alignment": "center"
               }
             ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
           },
           {
 
@@ -96,10 +85,6 @@
             ]
           },
           {
-            "type": "spacer",
-            "height": 16
-          },
-          {
 
             "type": "vbox",
             "background_color": "red",
@@ -117,10 +102,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "spacer",
-            "height": 16
           },
           {
 

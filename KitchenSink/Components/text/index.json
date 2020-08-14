@@ -6,15 +6,26 @@
     "content": [
       {
         "type": "message",
+        "spacing": 8,
         "items": [
           {
             "type": "text.body_white",
             "text": "Body white text. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
           },
           {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
             "type": "text.body_white",
             "max_size": 1,
             "text": "Body white text. Max size: 1. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          },
+          {
+            "type": "spacer",
+            "height": 1,
+            "background_color": "grey_6"
           },
           {
             "type": "text.body_white",
