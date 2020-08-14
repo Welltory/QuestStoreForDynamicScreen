@@ -60,6 +60,45 @@
             "type": "text.body_white",
             "all_caps": true,
             "text": "Body white text. All caps = true. It is a long established fact."
+          },
+          {
+            "type": "text.body",
+            "text": "<a href='https://welltory.com' color='red'>Body white text. Link. Color = red</a>"
+          },
+          {
+            "type": "text.body",
+            "text": "<em color='red'>Body white text. EM. Color = red</em>"
+          },
+          {
+            "type": "text.body",
+            "text": "Body white text. EM. Color = red. It is a <em color='red'>long established</em> fact."
+          },
+          {
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text.body_white",
+                "weight": 1,
+                "text": "Body white text. BR BR. It is a long established fact that a reader will be <br/><br/>distracted by the readable content of a page when looking at its layout."
+              },
+              {
+                "type": "spacer",
+                "width": 16
+              },
+              {
+                "type": "text.body_white",
+                "weight": 1,
+                "text": "Body white text. BR BR_SMALL. It is a long established fact that a reader will be <br/><br_small/>distracted by the readable content of a page when looking at its layout."
+              }
+            ]
+          },
+          {
+            "type": "text.body_white",
+            "text": "<s>Body white text. S. It is a long established fact.</s>"
+          },
+          {
+            "type": "text.body_white",
+            "text": "Body white text. Font. Color = red. It is a <font color='red'>long established</font> fact."
           }
         ]
       }
