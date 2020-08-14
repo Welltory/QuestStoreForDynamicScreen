@@ -27,6 +27,7 @@
           },
           {
             "type": "vbox",
+            "height": 440,
             "background_image": {
               "url": "https://ucarecdn.com/3954b75b-6625-4422-8485-20e14e0cb95b/",
               "uploadcare_id": "3954b75b-6625-4422-8485-20e14e0cb95b",
@@ -37,7 +38,7 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "Background image. Scale type. top/left/right/bottom/fit"
+                "text": "Vbox. Height = 440. Background image. Scale type. top/left/right/bottom/fit"
               }
             ]
           },
