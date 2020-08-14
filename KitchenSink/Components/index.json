@@ -30,7 +30,7 @@
         "background_color": "ink",
         "items": [
           {
-            "type": "text.capslock_title_red",
+            "type": "text.capslock_title_white",
             "text": "vbox"
 
           }
@@ -56,7 +56,7 @@
         "background_color": "ink",
         "items": [
           {
-            "type": "text.capslock_title_red",
+            "type": "text.capslock_title_white",
             "text": "hbox"
           }
         ],
@@ -81,7 +81,7 @@
         "background_color": "ink",
         "items": [
           {
-            "type": "text.capslock_title_red",
+            "type": "text.capslock_title_white",
             "text": "text"
           }
         ],
@@ -106,7 +106,7 @@
         "background_color": "ink",
         "items": [
           {
-            "type": "text.capslock_title_red",
+            "type": "text.capslock_title_white",
             "text": "image"
           }
         ],
