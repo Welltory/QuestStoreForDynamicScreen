@@ -166,6 +166,58 @@
           {
             "type": "text.body_white",
             "text": "Body white text. Font. Color = red. It is a <font color='red'>long established</font> fact."
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text",
+                "text": "Text #1. Spacer with weight = 1. Text #2"
+              },
+              {
+                "type": "hbox",
+                "items": [
+                  {
+                    "type": "text",
+                    "border": {
+                      "width": 1,
+                      "color": "white"
+                    },
+                    "text": "Text #1."
+                  },
+                  {
+                    "type": "spacer",
+                    "weight": 1
+                  },
+                  {
+                    "type": "text",
+                    "border": {
+                      "width": 1,
+                      "color": "white"
+                    },
+                    "text": "Text #2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
+            "type": "text",
+            "border": {
+              "width": 1,
+              "color": "white"
+            },
+            "text": "Check text width."
           }
         ]
       }

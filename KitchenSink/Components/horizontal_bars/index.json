@@ -1,0 +1,88 @@
+{
+  "result": {
+    "title": "Block link",
+    "class": "newsfeed",
+    "background_color": "#151A22",
+    "content": [
+      {
+        "type": "message",
+        "spacing": 16,
+        "items": [
+          {
+            "type": "text.basic_title_white",
+            "text": "Horizontal bars - basic"
+          },
+          {
+            "type": "horizontal_bars",
+            "label": "min",
+            "title_color": "#66C0C3CD",
+            "value_color": "#FFFFFF",
+            "bars": [
+              {
+                "title": "Peak",
+                "value": 0,
+                "color": "#FF003F"
+              },
+              {
+                "title": "Cardio",
+                "value": 35,
+                "color": "#EFDD36"
+              },
+              {
+                "title": "Fat burn",
+                "value": 70,
+                "color": "#A7DB38"
+              },
+              {
+                "title": "Aerobic",
+                "value": 100,
+                "color": "#1957F5"
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
+            "type": "text.basic_title_white",
+            "text": "Horizontal bars - with value_text"
+          },
+          {
+            "type": "horizontal_bars",
+            "label": "min",
+            "title_color": "#66C0C3CD",
+            "value_color": "#FFFFFF",
+            "bars": [
+              {
+                "title": "Peak",
+                "value": 0,
+                "color": "#FF003F",
+                "value_text": "0, Wow! Looks pretty good!"
+              },
+              {
+                "title": "Cardio",
+                "value": 35,
+                "color": "#EFDD36",
+                "value_text": "35, Wow! Looks pretty good!"
+              },
+              {
+                "title": "Fat burn",
+                "value": 70,
+                "color": "#A7DB38",
+                "value_text": "70, Wow! Looks pretty good!"
+              },
+              {
+                "title": "Aerobic",
+                "value": 100,
+                "color": "#1957F5",
+                "value_text": "100, Wow! Looks pretty good!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
