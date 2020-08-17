@@ -123,7 +123,7 @@
             "items": [
               {
                 "type": "text.basic_title_white",
-                "text": "hbox with children. hbox #1 with weight = 1. hbox #2 with width = 100 and margin-left = 16",
+                "text": "vbox with children. height = 200. vbox #1 with weight = 1. vbox #2 with weight = 1",
                 "text_alignment": "center"
               },
               {
@@ -164,6 +164,54 @@
               }
             ]
           },
+          {
+
+            "type": "vbox",
+            "background_color": "red",
+            "items": [
+              {
+                "type": "text.basic_title_white",
+                "text": "vbox with children. height = 200. vbox #1 with weight = 1. vbox #2 with height = 50",
+                "text_alignment": "center"
+              },
+              {
+                "type": "vbox",
+                "height": 200,
+                "padding": {
+                  "left": 16,
+                  "right": 16,
+                  "top": 16,
+                  "bottom": 16
+                },
+                "items": [
+                  {
+                    "type": "vbox",
+                    "weight": 1,
+                    "background_color": "yellow",
+                    "items": [
+                      {
+                        "type": "text.basic_title_white",
+                        "text": "vbox #1. weight = 1",
+                        "text_alignment": "center"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "vbox",
+                    "height": 50,
+                    "background_color": "cold_3",
+                    "items": [
+                      {
+                        "type": "text.basic_title_white",
+                        "text": "vbox #2. weight = 1",
+                        "text_alignment": "center"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
           {
             "type": "spacer",
             "height": 16
