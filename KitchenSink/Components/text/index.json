@@ -19,8 +19,8 @@
           },
           {
             "type": "text.body_white",
-            "max_size": 1,
-            "text": "Body white text. Max size: 1. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            "max_lines": 1,
+            "text": "Body white text. Max lines: 1. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
           },
           {
             "type": "spacer",
@@ -42,7 +42,7 @@
             "type": "text.body_white",
             "max_lines": 1,
             "auto_size": true,
-            "text": "Body white text. Max lines = 1. Ellipsize = true. It is a long established fact."
+            "text": "Body white text. Max lines = 1. Auto size = true. It is a long established fact."
           },
           {
             "type": "spacer",
