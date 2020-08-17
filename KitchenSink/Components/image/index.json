@@ -72,11 +72,11 @@
                       "points": [
                         {
                           "position": 0,
-                          "color": "#007E6BC7"
+                          "color": "#FF7E6BC7"
                         },
                         {
                           "position": 1,
-                          "color": "#FF7E6BC7"
+                          "color": "#007E6BC7"
                         }
                       ]
                     }
