@@ -104,7 +104,7 @@
           },
           {
             "type": "text.body",
-            "text": "<a href='https://welltory.com' color='red'>Body white text. Link. Color = red</a>"
+            "text": "<a href='https://welltory.com' color='red'>Body white text. A tag. Link. Color = red</a>"
           },
           {
             "type": "spacer",
@@ -113,7 +113,7 @@
           },
           {
             "type": "text.body",
-            "text": "<em color='red'>Body white text. EM. Color = red</em>"
+            "text": "<em color='red'>Body white text. EM tag. Color = red</em>"
           },
           {
             "type": "spacer",
@@ -122,7 +122,7 @@
           },
           {
             "type": "text.body",
-            "text": "Body white text. EM. Color = red. It is a <em color='red'>long established</em> fact."
+            "text": "Body white text. EM tag. Color = red. It is a <em color='red'>long established</em> fact."
           },
           {
             "type": "spacer",
@@ -165,7 +165,7 @@
           },
           {
             "type": "text.body_white",
-            "text": "Body white text. Font. Color = red. It is a <font color='red'>long established</font> fact."
+            "text": "Body white text. Font tag. Color = red. It is a <font color='red'>long established</font> fact."
           },
           {
             "type": "spacer",
