@@ -177,13 +177,13 @@
             "items": [
               {
                 "type": "text",
-                "text": "Text #1. Spacer with weight = 1. Text #2"
+                "text": "Texts in hbox. Text #1. Spacer with weight = 1. Text #2"
               },
               {
                 "type": "hbox",
                 "items": [
                   {
-                    "type": "text",
+                    "type": "text.body_white",
                     "border": {
                       "width": 1,
                       "color": "white"
@@ -195,7 +195,7 @@
                     "weight": 1
                   },
                   {
-                    "type": "text",
+                    "type": "text.body_white",
                     "border": {
                       "width": 1,
                       "color": "white"
@@ -212,12 +212,35 @@
             "background_color": "grey_6"
           },
           {
-            "type": "text",
-            "border": {
-              "width": 1,
-              "color": "white"
-            },
-            "text": "Check text width."
+            "type": "hbox",
+            "items": [
+              {
+                "type": "text.body_white",
+                "border": {
+                  "width": 1,
+                  "color": "white"
+                },
+                "text": "Check text width in hbox."
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "height": 2,
+            "background_color": "grey_6"
+          },
+          {
+            "type": "vbox",
+            "items": [
+              {
+                "type": "text.body_white",
+                "border": {
+                  "width": 1,
+                  "color": "white"
+                },
+                "text": "Check text width in vbox."
+              }
+            ]
           }
         ]
       }
