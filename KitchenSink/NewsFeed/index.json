@@ -54,7 +54,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Smart Headers",
             "height": 80,
             "margin": {
@@ -73,7 +73,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Measurement Reminder",
             "height": 80,
             "margin": {
@@ -94,7 +94,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Hirosontal Bars",
             "height": 80,
             "margin": {
@@ -114,7 +114,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Pressure counter",
             "height": 80,
             "margin": {
@@ -134,7 +134,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Counter basic",
             "height": 80,
             "margin": {
@@ -153,7 +153,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Label",
             "height": 80,
             "margin": {
@@ -172,7 +172,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Document",
             "height": 80,
             "margin": {
@@ -191,7 +191,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Details Param",
             "height": 80,
             "margin": {
@@ -210,7 +210,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Gravity",
             "height": 80,
             "margin": {
@@ -229,7 +229,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Animation",
             "height": 80,
             "margin": {
@@ -248,7 +248,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Gif",
             "height": 80,
             "margin": {
@@ -267,7 +267,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Date format",
             "height": 80,
             "margin": {
@@ -286,7 +286,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Boiler",
             "height": 80,
             "margin": {
@@ -305,7 +305,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Boiler heights",
             "height": 80,
             "margin": {
@@ -324,7 +324,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Charts",
             "height": 80,
             "margin": {
@@ -343,7 +343,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Charts white",
             "height": 80,
             "margin": {
@@ -362,7 +362,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Chart test",
             "height": 80,
             "margin": {
@@ -381,7 +381,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Block link",
             "height": 80,
             "margin": {
@@ -400,7 +400,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Emphasize text",
             "height": 80,
             "margin": {
@@ -419,7 +419,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Circle counter",
             "height": 80,
             "margin": {
@@ -438,7 +438,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Timeline",
             "height": 80,
             "margin": {
@@ -457,7 +457,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Date delimiter",
             "height": 80,
             "margin": {
@@ -476,7 +476,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Audio Player",
             "height": 80,
             "margin": {
@@ -495,7 +495,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Basic Progress Bar",
             "height": 80,
             "margin": {
@@ -514,7 +514,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Breathing practices",
             "height": 80,
             "margin": {
@@ -533,7 +533,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "DBox",
             "height": 80,
             "margin": {
@@ -552,7 +552,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Thin progress",
             "height": 80,
             "margin": {
@@ -571,7 +571,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Grid",
             "height": 80,
             "margin": {
@@ -590,7 +590,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Data source connector",
             "height": 80,
             "margin": {
@@ -609,7 +609,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Update and review actions",
             "height": 80,
             "margin": {
@@ -628,7 +628,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Component errors",
             "height": 80,
             "margin": {
@@ -647,7 +647,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Boiler params box",
             "height": 80,
             "margin": {
@@ -666,7 +666,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "br, br_small, Action destination_color",
             "height": 80,
             "margin": {
@@ -686,7 +686,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "switcher",
             "height": 80,
             "margin": {
@@ -705,7 +705,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Bullet List",
             "height": 80,
             "margin": {
@@ -724,7 +724,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Text gradient",
             "height": 80,
             "margin": {
@@ -743,7 +743,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Date",
             "height": 80,
             "margin": {
