@@ -1,8 +1,11 @@
 {
   "result": {
+    "title": "NewsFeed KitchenSink",
+    "class": "newsfeed",
+    "background_color": "#FFFFFF",
     "content": [
       {
-        "type": "text",
+        "type": "text.basic_title_ink",
         "text": "Dynamic screen Kitchen Sink",
         "style": "text_title",
         "margin": {
@@ -14,7 +17,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Newsfeed",
             "height": 80,
             "margin": {
@@ -33,7 +36,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Image",
             "height": 80,
             "margin": {
@@ -52,7 +55,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Padding Margin Spacing",
             "height": 80,
             "margin": {
@@ -71,7 +74,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Alert actions",
             "height": 80,
             "margin": {
@@ -107,7 +110,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Small circle progress",
             "height": 80,
             "margin": {
@@ -126,7 +129,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Input text",
             "height": 80,
             "margin": {
@@ -145,7 +148,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Progress",
             "height": 80,
             "margin": {
@@ -164,7 +167,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Unsupported components alternative",
             "height": 80,
             "margin": {
@@ -183,7 +186,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Fuck programs styles",
             "height": 80,
             "margin": {
@@ -202,7 +205,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "New today screen styles",
             "height": 80,
             "margin": {
@@ -221,7 +224,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Styles",
             "height": 80,
             "margin": {
@@ -240,7 +243,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Actions",
             "height": 80,
             "margin": {
@@ -259,7 +262,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Page background color",
             "height": 80,
             "margin": {
@@ -278,7 +281,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Footers",
             "height": 80,
             "margin": {
@@ -297,7 +300,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Horisontal Bars",
             "height": 80,
             "margin": {
@@ -316,7 +319,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Text markup",
             "height": 80,
             "margin": {
@@ -335,7 +338,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Placeholders",
             "height": 80,
             "margin": {
@@ -354,7 +357,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Smart Headers",
             "height": 80,
             "margin": {
@@ -373,7 +376,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Palette",
             "height": 80,
             "margin": {
@@ -392,7 +395,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Carousel",
             "height": 80,
             "margin": {
@@ -411,7 +414,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Test margin between messages and tags",
             "height": 80,
             "margin": {
@@ -430,7 +433,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "TEST",
             "height": 80,
             "margin": {
