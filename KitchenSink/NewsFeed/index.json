@@ -35,7 +35,7 @@
         "type": "cell",
         "items": [
           {
-            "type": "text",
+            "type": "text.basic_title_ink",
             "text": "Button",
             "height": 80,
             "margin": {
