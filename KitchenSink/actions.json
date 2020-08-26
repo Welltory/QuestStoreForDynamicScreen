@@ -113,6 +113,25 @@
             ]
           }
         }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "Open web view url",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type" :"open",
+          "variant": "push",
+          "web_view_url": "https://help.welltory.com/articles/3878886"
+        }
       }
     ]
   }
