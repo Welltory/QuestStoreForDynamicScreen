@@ -2,6 +2,8 @@
   "result": {
     "title": "NewsFeed Message",
     "class": "newsfeed",
+    "help_path": "https://github.com/Welltory/QuestStoreForDynamicScreen/blob/master/index.json",
+    "share_url": "https://github.com/Welltory/QuestStoreForDynamicScreen/blob/master/KitchenSink/NewsFeed/index.json",
     "background_color": "#FFFFFF",
     "content": [
       {
