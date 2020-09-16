@@ -8,6 +8,9 @@
         "items": [
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
@@ -37,6 +40,9 @@
           },
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
@@ -81,6 +87,9 @@
         "items": [
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
@@ -110,6 +119,9 @@
           },
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
@@ -148,11 +160,14 @@
         "items": [
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "&ordm;",
+                "text": "&deg;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -177,11 +192,14 @@
           },
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "&ordm;",
+                "text": "&deg;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -215,6 +233,9 @@
         "items": [
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
@@ -244,6 +265,9 @@
           },
           {
             "type": "hbox",
+            "margin": {
+              "bottom": 8
+            },
             "contents_gravity": "start",
             "items": [
               {
