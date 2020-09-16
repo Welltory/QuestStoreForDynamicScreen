@@ -3,6 +3,7 @@
     "title": "NewsFeed Message",
     "class": "newsfeed",
     "background_color": "#151A22",
+    "share_url": "https://github.com/Welltory/QuestStoreForDynamicScreen/blob/master/KitchenSink/NewsFeed/message.json",
     "content": [
 
       {

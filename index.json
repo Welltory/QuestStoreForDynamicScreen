@@ -2,6 +2,7 @@
   "result": {
     "title": "NewsFeed KitchenSink",
     "class": "newsfeed",
+    "help_path": "https://github.com/Welltory/QuestStoreForDynamicScreen/blob/master/index.json",
     "background_color": "#FFFFFF",
     "content": [
       {
