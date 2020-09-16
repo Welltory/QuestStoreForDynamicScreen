@@ -8,10 +8,11 @@
         "items": [
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -36,10 +37,11 @@
           },
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -63,6 +65,9 @@
             "path": "newsfeed"
           }
         ],
+        "margin": {
+          "bottom": 24
+        },
         "path": "newsfeed",
         "text_color": "red",
         "font_name": "Steinbeck-Regular",
@@ -77,10 +82,11 @@
         "items": [
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -105,10 +111,11 @@
           },
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -132,6 +139,9 @@
             "path": "newsfeed"
           }
         ],
+        "margin": {
+          "bottom": 24
+        },
         "path": "newsfeed"
       },
       {
@@ -140,10 +150,11 @@
         "items": [
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -168,10 +179,11 @@
           },
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -195,6 +207,9 @@
             "path": "newsfeed"
           }
         ],
+        "margin": {
+          "bottom": 24
+        },
         "path": "newsfeed"
       },
       {
@@ -203,10 +218,11 @@
         "items": [
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -231,10 +247,11 @@
           },
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
-                "text": "U+2B1D",
+                "text": "&#11037;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -258,6 +275,9 @@
             "path": "newsfeed"
           }
         ],
+        "margin": {
+          "bottom": 24
+        },
         "path": "newsfeed"
       },
       {
@@ -266,6 +286,7 @@
         "items": [
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
@@ -294,6 +315,7 @@
           },
           {
             "type": "hbox",
+            "contents_gravity": "start",
             "items": [
               {
                 "type": "text",
