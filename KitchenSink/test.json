@@ -12,7 +12,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -41,7 +41,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -78,7 +78,6 @@
       },
       {
         "type": "vbox",
-        "list_type": "disc",
         "items": [
           {
             "type": "hbox",
@@ -86,7 +85,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -115,7 +114,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -146,7 +145,6 @@
       },
       {
         "type": "vbox",
-        "list_type": "circle",
         "items": [
           {
             "type": "hbox",
@@ -154,7 +152,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&#9702;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -183,7 +181,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&#9702;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -214,7 +212,6 @@
       },
       {
         "type": "vbox",
-        "list_type": "square",
         "items": [
           {
             "type": "hbox",
@@ -222,7 +219,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&#8729;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -251,7 +248,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8259;",
+                "text": "&#8729;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -282,7 +279,6 @@
       },
       {
         "type": "vbox",
-        "list_type": "number",
         "items": [
           {
             "type": "hbox",
