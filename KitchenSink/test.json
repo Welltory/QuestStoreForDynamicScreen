@@ -12,7 +12,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8226;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -41,7 +41,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8226;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -85,7 +85,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8226;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -114,7 +114,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8226;",
+                "text": "&bull;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -152,7 +152,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#9702;",
+                "text": "&ordm;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -181,7 +181,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#9702;",
+                "text": "&ordm;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -219,7 +219,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8729;",
+                "text": "&ndash;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -248,205 +248,7 @@
             "items": [
               {
                 "type": "text",
-                "text": "&#8729;",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "обнаружена чрезмерная усталость и повышенный метаболизм",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          }
-        ],
-        "margin": {
-          "bottom": 24
-        },
-        "path": "newsfeed"
-      },
-      {
-        "type": "vbox",
-        "items": [
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "1",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "высокого пульса не было",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          },
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "2",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "обнаружена чрезмерная усталость и повышенный метаболизм",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          }
-        ],
-        "path": "newsfeed"
-      },
-      {
-        "type": "vbox",
-        "items": [
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "&#8227;",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "высокого пульса не было",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          },
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "&#8227;",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "обнаружена чрезмерная усталость и повышенный метаболизм",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          }
-        ],
-        "margin": {
-          "bottom": 24
-        },
-        "path": "newsfeed"
-      },
-      {
-        "type": "vbox",
-        "items": [
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "&#8259;",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              },
-              {
-                "type": "text",
-                "text": "высокого пульса не было",
-                "path": "newsfeed hbox",
-                "text_color": "white",
-                "font_name": "Steinbeck-Regular",
-                "text_size": 15,
-                "line_height": 20,
-                "letter_spacing": 0.01,
-                "link_color": "cold_3"
-              }
-            ],
-            "path": "newsfeed"
-          },
-          {
-            "type": "hbox",
-            "contents_gravity": "start",
-            "items": [
-              {
-                "type": "text",
-                "text": "&#8259;",
+                "text": "&ndash;",
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
