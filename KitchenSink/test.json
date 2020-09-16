@@ -16,7 +16,9 @@
               {
                 "type": "text",
                 "text": "&bull;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -49,7 +51,9 @@
               {
                 "type": "text",
                 "text": "&bull;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -74,6 +78,8 @@
           }
         ],
         "margin": {
+          "left": 16,
+          "right": 16,
           "bottom": 24
         },
         "path": "newsfeed",
@@ -97,7 +103,9 @@
               {
                 "type": "text",
                 "text": "&bull;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -130,7 +138,9 @@
               {
                 "type": "text",
                 "text": "&bull;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -155,6 +165,8 @@
           }
         ],
         "margin": {
+          "left": 16,
+          "right": 16,
           "bottom": 24
         },
         "path": "newsfeed"
@@ -173,6 +185,7 @@
                 "type": "text",
                 "text": "&deg;",
                 "margin": {
+                  "right": 2,
                   "top": 4
                 },
                 "path": "newsfeed hbox",
@@ -208,6 +221,7 @@
                 "type": "text",
                 "text": "&deg;",
                 "margin": {
+                  "right": 2,
                   "top": 4
                 },
                 "path": "newsfeed hbox",
@@ -234,6 +248,8 @@
           }
         ],
         "margin": {
+          "left": 16,
+          "right": 16,
           "bottom": 24
         },
         "path": "newsfeed"
@@ -251,7 +267,9 @@
               {
                 "type": "text",
                 "text": "&ndash;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -284,7 +302,9 @@
               {
                 "type": "text",
                 "text": "&ndash;",
-                "margin": {},
+                "margin": {
+                  "right": 2
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -309,6 +329,8 @@
           }
         ],
         "margin": {
+          "left": 16,
+          "right": 16,
           "bottom": 24
         },
         "path": "newsfeed"
