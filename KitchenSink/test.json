@@ -340,6 +340,140 @@
           }
         ],
         "path": "newsfeed"
+      },
+      {
+        "type": "vbox",
+        "items": [
+          {
+            "type": "hbox",
+            "contents_gravity": "start",
+            "items": [
+              {
+                "type": "text",
+                "text": "&#8729;",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              },
+              {
+                "type": "text",
+                "text": "высокого пульса не было",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              }
+            ],
+            "path": "newsfeed"
+          },
+          {
+            "type": "hbox",
+            "contents_gravity": "start",
+            "items": [
+              {
+                "type": "text",
+                "text": "&#8729;",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              },
+              {
+                "type": "text",
+                "text": "обнаружена чрезмерная усталость и повышенный метаболизм",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              }
+            ],
+            "path": "newsfeed"
+          }
+        ],
+        "margin": {
+          "bottom": 24
+        },
+        "path": "newsfeed"
+      },
+      {
+        "type": "vbox",
+        "items": [
+          {
+            "type": "hbox",
+            "contents_gravity": "start",
+            "items": [
+              {
+                "type": "text",
+                "text": "&#8259;",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              },
+              {
+                "type": "text",
+                "text": "высокого пульса не было",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              }
+            ],
+            "path": "newsfeed"
+          },
+          {
+            "type": "hbox",
+            "contents_gravity": "start",
+            "items": [
+              {
+                "type": "text",
+                "text": "&#8259;",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              },
+              {
+                "type": "text",
+                "text": "обнаружена чрезмерная усталость и повышенный метаболизм",
+                "path": "newsfeed hbox",
+                "text_color": "white",
+                "font_name": "Steinbeck-Regular",
+                "text_size": 15,
+                "line_height": 20,
+                "letter_spacing": 0.01,
+                "link_color": "cold_3"
+              }
+            ],
+            "path": "newsfeed"
+          }
+        ],
+        "margin": {
+          "bottom": 24
+        },
+        "path": "newsfeed"
       }
     ]
   },
