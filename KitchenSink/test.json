@@ -16,6 +16,7 @@
               {
                 "type": "text",
                 "text": "&bull;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -48,6 +49,7 @@
               {
                 "type": "text",
                 "text": "&bull;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "red",
                 "font_name": "Steinbeck-Regular",
@@ -95,6 +97,7 @@
               {
                 "type": "text",
                 "text": "&bull;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -127,6 +130,7 @@
               {
                 "type": "text",
                 "text": "&bull;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -168,6 +172,9 @@
               {
                 "type": "text",
                 "text": "&deg;",
+                "margin": {
+                  "top": 4
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -200,6 +207,9 @@
               {
                 "type": "text",
                 "text": "&deg;",
+                "margin": {
+                  "top": 4
+                },
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -241,6 +251,7 @@
               {
                 "type": "text",
                 "text": "&ndash;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
@@ -273,6 +284,7 @@
               {
                 "type": "text",
                 "text": "&ndash;",
+                "margin": {},
                 "path": "newsfeed hbox",
                 "text_color": "white",
                 "font_name": "Steinbeck-Regular",
