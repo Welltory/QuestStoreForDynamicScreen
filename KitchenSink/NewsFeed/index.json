@@ -759,6 +759,25 @@
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/date.json"
         }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text.basic_title_ink",
+            "text": "List",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/list.json"
+        }
       }
     ]
   },
