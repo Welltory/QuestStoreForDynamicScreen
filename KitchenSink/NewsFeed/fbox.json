@@ -1,0 +1,154 @@
+{
+    "result": {
+      "title": "Fbox",
+      "content": [
+        {
+          "type": "message",
+          "margin": {
+            "left": 12,
+            "right": 12
+          },
+          "decorator": {
+            "timeline_color": "brand"
+          },
+          "items": [
+            {
+              "type": "fbox",
+              "horizontal_spacing": 10,
+              "vertical_spacing": 10,
+              "items": [
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "вода",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "cold_3"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "работа",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "cold_3"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "секс",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "love"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "тренировки",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "workouts_2"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "стресс",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "red"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "медитация",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "meditation"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "месячные",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "body"
+                },
+                {
+                  "type": "text.subhead_white",
+                  "corner_radius": 16,
+                  "text": "Меня окусил гусь и я зол",
+                  "height": 32,
+                  "padding": {
+                    "left": 12,
+                    "right": 12
+                  },
+                  "background_color": "red"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items":[
+            {
+              "type": "fbox",
+              "items": [
+                {
+                  "type": "text.body_white",
+                  "text": "150 width",
+                  "width": 150,
+                  "background_color": "green"
+                },
+                {
+                  "type": "text.body_white",
+                  "height": 200,
+                  "text": "200 height",
+                  "background_color": "yellow"
+                },
+                {
+                  "type": "text.body_white",
+                  "text": "wrap content",
+                  "background_color": "red"
+                },
+                {
+                  "type": "text.body_white",
+                  "text": "width 250",
+                  "width": 250,
+                  "background_color": "cold_3"
+                },
+                {
+                  "type": "text.body_white",
+                  "text": "wrap content",
+                  "background_color": "body"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
