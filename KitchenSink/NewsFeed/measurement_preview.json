@@ -1,0 +1,53 @@
+{
+    "result": {
+      "title": "Measurement preview",
+      "background_color": "brand",
+      "content": [
+        {
+          "type": "message",
+          "margin": {
+            "left": 0,
+            "right": 0
+          },
+          "items": [
+            {
+              "type": "measurement_preview",
+              "background_color": "brand",
+              "padding": {
+                "left": 16,
+                "right": 16
+              },
+              "storage": {},
+              "answers": {},
+              "rr": {
+                "entryType": "rrData",
+                "timeEnd": "2020-11-25T14:41:43+0500",
+                "is_auto": false,
+                "timeStart": "2020-11-25T14:41:14+0500",
+                "device_model_name": "iPhone10,6",
+                "sourceName": "Camera iPhone X; Wide Angle Camera Simulator",
+                "sourceType": "Camera",
+                "rrData": [1064, 180, 982, 1123, 1161, 938, 992, 1122, 992, 900, 969, 1120, 1036, 915, 1022, 1069, 945, 882, 934, 1060, 924, 854, 906, 928, 827, 891, 887, 856, 875, 879],
+                "location": {
+                  "longitude": 0,
+                  "latitude": 0
+                },
+                "unique_id": "021F3C9F-0DF3-4E7C-9163-12966C7919F5",
+                "device_name": "iPhone X",
+                "sourceGroup": "iOS",
+                "unfilteredRrData": [1059, 1064, 180, 982, 1123, 1161, 938, 992, 20, 1122, 992, 900, 20, 969, 1120, 20, 1036, 915, 1022, 1069, 945, 882, 934, 1060, 924, 854, 906, 928, 827, 891, 887, 856, 875, 879],
+                "duration": 30,
+                "is_sleeping": false
+              },
+              "labels": [],
+              "signal_quality": 78,
+              "pulse": 56,
+              "sdnn": 84
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
