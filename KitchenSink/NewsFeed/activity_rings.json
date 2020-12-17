@@ -1,0 +1,74 @@
+{
+    "result": {
+      "title": "Activity Rings",
+      "content": [
+        {
+          "type": "vbox",
+          "margin": {
+            "top": 16,
+            "left": 16,
+            "right": 16,
+            "bottom": 16
+          },
+          "spacing": 16,
+          "items": [
+            {
+              "type": "activity_rings",
+              "circles": [
+                {
+                  "progress": 0.3,
+                  "progress_color": "red"
+                },
+                {
+                  "progress": 0.7,
+                  "progress_color": "cold_1"
+                }
+              ]
+            },
+            {
+              "type": "activity_rings",
+              "circles": [
+                {
+                  "progress": 0.3,
+                  "progress_color": "red"
+                }
+              ]
+            },
+            {
+              "type": "activity_rings",
+              "circles": [
+                {
+                  "progress": 0.3,
+                  "progress_color": "red"
+                },
+                {
+                  "progress": 0.3,
+                  "progress_color": "yellow"
+                },
+                {
+                  "progress": 0.7,
+                  "progress_color": "cold_1"
+                }
+              ]
+            },
+            {
+              "type": "activity_rings",
+              "circles": [
+                {
+                  "progress": 1
+                },
+                {
+                  "progress": 0.3
+                },
+                {
+                  "progress": 0.7
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "class": "newsfeed"
+    },
+    "success": true
+  }
