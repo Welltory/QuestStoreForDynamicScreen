@@ -9,6 +9,115 @@
           "items": [
             {
               "type": "title",
+              "text": "Horizontal"
+            },
+            {
+              "type": "horizontal_bars",
+              "orientation": "horizontal",
+              "label": "min",
+              "title_color": "#66C0C3CD",
+              "value_color": "#FFFFFF",
+              "bars": [
+                {
+                  "title": "Peak",
+                  "value": 22,
+                  "color": "#FF003F"
+                },
+                {
+                  "title": "Cardio",
+                  "value": 35,
+                  "color": "#EFDD36"
+                },
+                {
+                  "title": "Fat burn",
+                  "value": 22,
+                  "color": "#A7DB38"
+                },
+                {
+                  "title": "Aerobic",
+                  "value": 22,
+                  "color": "#1957F5"
+                }
+              ]
+            },
+            {
+              "type": "spacer",
+              "height": 16
+            },
+            {
+              "type": "horizontal_bars",
+              "orientation": "horizontal",
+              "label": "min",
+              "title_color": "#66C0C3CD",
+              "value_color": "#FFFFFF",
+              "bars": [
+                {
+                  "title": "Peak",
+                  "value": 2,
+                  "color": "#FF003F"
+                },
+                {
+                  "title": "Cardio",
+                  "value": 35,
+                  "color": "#EFDD36"
+                },
+                {
+                  "title": "Fat burn",
+                  "value": 22,
+                  "color": "#A7DB38"
+                },
+                {
+                  "title": "Kinda Aerobic",
+                  "value": 12,
+                  "color": "#1957F5"
+                }
+              ]
+            },
+            {
+              "type": "spacer",
+              "height": 16
+            },
+            {
+              "type": "horizontal_bars",
+              "orientation": "horizontal",
+              "label": "min",
+              "title_color": "#66C0C3CD",
+              "value_color": "#FFFFFF",
+              "bars": [
+                {
+                  "title": "Peak",
+                  "value": 22,
+                  "color": "#FF003F"
+                },
+                {
+                  "title": "Cardio",
+                  "value": 35,
+                  "color": "#EFDD36",
+                  "value_text": "35 is not enough. just do it!"
+                },
+                {
+                  "title": "Fat burn",
+                  "value": 22,
+                  "color": "#A7DB38"
+                },
+                {
+                  "title": "Aerobic",
+                  "value": 12,
+                  "color": "#1957F5"
+                }
+              ]
+            },
+            {
+              "type": "spacer",
+              "height": 30
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "items": [
+            {
+              "type": "title",
               "text": "Full width"
             },
             {
