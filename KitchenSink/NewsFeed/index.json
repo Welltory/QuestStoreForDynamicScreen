@@ -911,6 +911,25 @@
           "variant": "push",
           "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/hint.json"
         }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text.basic_title_ink",
+            "text": "Check new styles",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "open",
+          "variant": "push",
+          "url": "https://raw.githubusercontent.com/Welltory/QuestStoreForDynamicScreen/master/KitchenSink/NewsFeed/new_styles.json"
+        }
       }
     ]
   },
