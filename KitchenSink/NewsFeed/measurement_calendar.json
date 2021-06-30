@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "result": {
+    "title": "Measurement Calendar",
+    "class": "newsfeed",
+    "content": [
+      {
+        "type": "measurement_calendar",
+        "margin": {
+          "left": 16,
+          "right": 16,
+          "top": 16
+        },
+        "days": 50,
+        "items": [
+          {
+            "date": "2021-06-08T19:50:58+0500",
+            "energy": 0,
+            "stress": 0
+          },
+          {
+            "date": "2021-06-25T19:50:58+0500",
+            "energy": 30,
+            "stress": 21
+          },
+          {
+            "date": "2021-06-20T19:50:58+0500",
+            "energy": 40,
+            "stress": 90
+          }
+        ]
+      }
+    ]
+  }
+}
