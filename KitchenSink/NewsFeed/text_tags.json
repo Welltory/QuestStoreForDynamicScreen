@@ -69,6 +69,24 @@
         },
         "type": "text.body_white",
         "text": "Open google in external browser <a href=\"https://google.com?welltory-external=1\">here</a>."
+      },
+      {
+        "margin": {
+          "left": 16,
+          "right": 16,
+          "bottom": 20
+        },
+        "text": "Как вы думаете, можно ли на самом деле <wave>мочить манту?</wave>",
+        "type": "text.subhead_white"
+      },
+      {
+        "margin": {
+          "left": 16,
+          "right": 16,
+          "bottom": 20
+        },
+        "text": "Как вы думаете, можно ли на самом деле <cross>мочить манту?</cross>",
+        "type": "text.subhead_white"
       }
     ],
     "class": "newsfeed"
