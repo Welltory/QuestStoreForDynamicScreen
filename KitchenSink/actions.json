@@ -17,14 +17,14 @@
           }
         ],
         "action": {
-          "type" :"open",
+          "type": "open",
           "variant": "push",
           "page": {
             "title": "PUSH",
             "content": [
               {
                 "type": "cell",
-                "items":[
+                "items": [
                   {
                     "type": "text",
                     "text": "Inner page",
@@ -54,14 +54,14 @@
           }
         ],
         "action": {
-          "type" :"open",
+          "type": "open",
           "variant": "modal",
           "page": {
             "title": "MODAL",
             "content": [
               {
                 "type": "cell",
-                "items":[
+                "items": [
                   {
                     "type": "text",
                     "text": "Inner page",
@@ -91,14 +91,14 @@
           }
         ],
         "action": {
-          "type" :"open",
+          "type": "open",
           "variant": "replace",
           "page": {
             "title": "REPLACE",
             "content": [
               {
                 "type": "cell",
-                "items":[
+                "items": [
                   {
                     "type": "text",
                     "text": "Inner page",
@@ -128,9 +128,62 @@
           }
         ],
         "action": {
-          "type" :"open",
+          "type": "open",
           "variant": "push",
           "web_view_url": "https://help.welltory.com/articles/3878886"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "RequestHealthPermissions: onboarding",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "request_health_permissions",
+          "mode": "onboarding"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "RequestHealthPermissions: enablesync",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "request_health_permissions"
+        }
+      },
+      {
+        "type": "cell",
+        "items": [
+          {
+            "type": "text",
+            "text": "RequestHealthPermissions: save",
+            "height": 80,
+            "margin": {
+              "left": 20,
+              "right": 10
+            }
+          }
+        ],
+        "action": {
+          "type": "request_health_permissions",
+          "mode": "save"
         }
       }
     ]
